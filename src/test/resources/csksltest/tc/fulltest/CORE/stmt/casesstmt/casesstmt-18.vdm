@@ -1,0 +1,30 @@
+module CasesStmtTest
+exports all
+definitions
+
+
+operations
+
+  ErrorAction: char ==> bool
+  ErrorAction(-) ==
+    return true;
+
+  DoAlways: int ==> bool
+  DoAlways(i) ==
+    return i = 0;
+
+Test: () ==> bool
+Test() ==
+    let one = 1,
+        n = nil
+    in
+    cases true:
+    true -> tixe
+         { <NOMEM> |-> return one,
+	   <BUSY>  |-> ErrorAction('a'),
+	   err     |-> return one }
+	 in DoAlways(2),
+    others ->return n
+    end
+
+end CasesStmtTest

@@ -1,0 +1,19 @@
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+module A
+exports all
+definitions
+
+
+operations
+
+
+
+
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+Test : () ==> map char to nat  
+Test () ==
+        (dcl a:map char to nat := {'a' |-> 4};
+         a('b') := 5;
+         return a)
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+end A

@@ -1,0 +1,20 @@
+module SetComprehensionExpr
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let A = "ABC",
+      - = let a:set of nat =
+         { if false 
+           then A
+           else {9,8} | i in set {1} } in a 
+  in skip;
+
+------------------------------------------------------------------------------
+end SetComprehensionExpr

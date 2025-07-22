@@ -1,0 +1,27 @@
+module IotaExprTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let A = "ABC",
+      f = false,
+      s = {8,9},
+      - = iota a in set
+         cases f:
+             true -> A,
+             others -> s
+         end & 
+         cases false:
+             true -> A,
+             others -> s
+         end 
+  in skip;
+
+------------------------------------------------------------------------------
+end IotaExprTest

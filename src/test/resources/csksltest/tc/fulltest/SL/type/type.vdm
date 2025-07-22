@@ -1,0 +1,17 @@
+module TYPE
+exports all
+definitions
+
+
+state St of
+  ast: nat
+end
+
+types
+
+  G = nat
+  inv n == n < ast;
+
+  H = seq1 of (inmap nat to G)
+  
+end TYPE

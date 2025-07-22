@@ -1,0 +1,6 @@
+[3276, 3182]
+--
+Error 3276: Ambiguous definitions inherited by C in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/overload/overload-06.vpp) at line 33:7
+1: fn(bool) in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/overload/overload-06.vpp) at line 9:8
+2: fn(bool) in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/overload/overload-06.vpp) at line 23:8
+Error 3182: Name 'fn(nat)' is not in scope in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/overload/overload-06.vpp) at line 39:3

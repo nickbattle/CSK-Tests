@@ -1,0 +1,30 @@
+[3327, 3327, 3327, 3327, 3203, 3311, 3327, 3327, 3327, 3051, 5008, 5000]
+--
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-51.vdm) at line 36:11
+Actual: bool
+Expected: set of (char)
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-51.vdm) at line 40:19
+Actual: bool
+Expected: set of (char)
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-51.vdm) at line 41:19
+Actual: seq1 of (nat1)
+Expected: set of (char)
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-51.vdm) at line 45:23
+Actual: map (nat1) to (nat1)
+Expected: set of (char)
+Error 3203: Sequence pattern is matched against nat1 in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-51.vdm) at line 46:16
+Error 3311: Pattern cannot match in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-51.vdm) at line 46:19
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-51.vdm) at line 46:26
+Actual: [?]
+Expected: set of (char)
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-51.vdm) at line 47:26
+Actual: (() -> inmap (rat) to (nat))
+Expected: set of (char)
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-51.vdm) at line 50:20
+Actual: [?]
+Expected: set of (char)
+Error 3051: Expression does not match declared type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-51.vdm) at line 33:15
+Declared: set of (char)
+Expression: ((() -> inmap (rat) to (nat)) | [?] | bool | map (nat1) to (nat1) | seq1 of (nat1))
+Warning 5008: s at 32:7 hidden by s in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-51.vdm) at line 46:21
+Warning 5000: Definition 's' not used in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-51.vdm) at line 46:21

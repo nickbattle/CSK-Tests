@@ -1,0 +1,11 @@
+[3066, 3239, 5001, 5001, 5001, 5001, 5001]
+--
+Error 3066: Right hand of and is not bool in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/assignstmt/assignstmt.vpp) at line 20:13
+Error 3239: Incompatible types in assignment in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/assignstmt/assignstmt.vpp) at line 31:5
+Target: A
+Expression: map (?) to (?)
+Warning 5001: Instance variable 'a' is not initialized in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/assignstmt/assignstmt.vpp) at line 14:3
+Warning 5001: Instance variable 'b' is not initialized in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/assignstmt/assignstmt.vpp) at line 15:3
+Warning 5001: Instance variable 'c' is not initialized in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/assignstmt/assignstmt.vpp) at line 16:3
+Warning 5001: Instance variable 'd' is not initialized in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/assignstmt/assignstmt.vpp) at line 17:3
+Warning 5001: Instance variable 'e' is not initialized in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/assignstmt/assignstmt.vpp) at line 18:3

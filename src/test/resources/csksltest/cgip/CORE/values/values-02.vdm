@@ -1,0 +1,17 @@
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+module A
+exports all
+definitions
+
+
+values
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+  val = { mk_(i,j) | i,j in set {1,2,3,4,5} }
+
+operations 
+
+Test : () ==> set of (nat * nat)  
+Test () ==
+    return val
+
+end A

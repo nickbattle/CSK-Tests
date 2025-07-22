@@ -1,0 +1,16 @@
+module UnaryTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = elems [9,[],{},true]
+  in skip;
+
+------------------------------------------------------------------------------
+end UnaryTest

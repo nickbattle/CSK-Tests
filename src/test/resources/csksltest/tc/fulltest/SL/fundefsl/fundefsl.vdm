@@ -1,0 +1,13 @@
+module FunDefSlTest
+definitions
+
+state St of
+  ast: nat
+end
+
+functions
+  FunDefSl01: nat -> nat
+  FunDefSl01(n) ==
+    n + ast
+
+end FunDefSlTest

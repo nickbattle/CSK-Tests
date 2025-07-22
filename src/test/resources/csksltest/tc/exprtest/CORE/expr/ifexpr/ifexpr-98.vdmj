@@ -1,0 +1,23 @@
+[3327, 3327, 3327, 3059, 3327, 3327, 3327]
+--
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-98.vdm) at line 36:10
+Actual: int
+Expected: (bool | char)
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-98.vdm) at line 42:10
+Actual: ((nat1 * [?]) | rat)
+Expected: (bool | char)
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-98.vdm) at line 44:10
+Actual: inmap (rat) to (nat)
+Expected: (bool | char)
+Error 3059: Too many arguments in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-98.vdm) at line 46:10
+Args: 5
+Params: ()
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-98.vdm) at line 46:10
+Actual: inmap (rat) to (nat)
+Expected: (bool | char)
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-98.vdm) at line 52:10
+Actual: map ((bool | rat)) to (((nat1 * [?]) | rat))
+Expected: (bool | char)
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-98.vdm) at line 56:10
+Actual: (nat1 * bool * A * inmap (rat) to (nat))
+Expected: (bool | char)

@@ -1,0 +1,17 @@
+module UnaryTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let n = nil,
+      - = not n
+  in skip;
+
+------------------------------------------------------------------------------
+end UnaryTest

@@ -1,0 +1,5 @@
+[3324, 3180, 3180]
+--
+Error 3324: Operation A`op1(nat) is not static in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/static/static-05.vpp) at line 43:3
+Error 3180: Inaccessible member A`fn1(nat) of class A in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/static/static-05.vpp) at line 51:10
+Error 3180: Inaccessible member A`i of class A in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/static/static-05.vpp) at line 59:10

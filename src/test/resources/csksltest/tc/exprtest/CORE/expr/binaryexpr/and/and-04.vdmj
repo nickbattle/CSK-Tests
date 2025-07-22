@@ -1,0 +1,4 @@
+[3182, 3066]
+--
+Error 3182: Name 'a' is not in scope in 'BinaryTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/binaryexpr/and/and-04.vdm) at line 13:11
+Error 3066: Right hand of and is not bool in 'BinaryTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/binaryexpr/and/and-04.vdm) at line 13:13

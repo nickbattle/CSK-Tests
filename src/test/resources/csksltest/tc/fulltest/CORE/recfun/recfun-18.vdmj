@@ -1,0 +1,9 @@
+[3327, 3018, 5012]
+--
+Error 3327: Value is not of the right type in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/recfun/recfun-18.vdm) at line 10:12
+Actual: bool
+Expected: nat
+Error 3018: Function returns unexpected type in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/recfun/recfun-18.vdm) at line 9:1
+Actual: bool
+Expected: nat
+Warning 5012: Recursive function has no measure in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/recfun/recfun-18.vdm) at line 13:1

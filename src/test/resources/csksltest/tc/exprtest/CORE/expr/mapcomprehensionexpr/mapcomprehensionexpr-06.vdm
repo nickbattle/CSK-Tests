@@ -1,0 +1,16 @@
+module MapComprehensionExprTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = {p |-> p | mk_(p,-) in set if 7 > 6 then {5,1} else {}}
+  in skip;
+
+------------------------------------------------------------------------------
+end MapComprehensionExprTest

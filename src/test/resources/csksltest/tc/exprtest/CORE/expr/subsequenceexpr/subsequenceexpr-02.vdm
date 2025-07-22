@@ -1,0 +1,19 @@
+module SubSequenceExprTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let n = 7,
+      - = (if 3 < 8
+        then [9,{|->}]
+        else n)(1,...,9)
+  in skip;
+
+------------------------------------------------------------------------------
+end SubSequenceExprTest

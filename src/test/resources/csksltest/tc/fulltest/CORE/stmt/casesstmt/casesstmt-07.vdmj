@@ -1,0 +1,8 @@
+[3328, 3313]
+--
+Error 3328: Statement returns void value in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-07.vdm) at line 12:17
+Actual: (() | nat1)
+Expected: nat
+Error 3313: Operation returns void value in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-07.vdm) at line 8:1
+Actual: (() | nat1)
+Expected: nat

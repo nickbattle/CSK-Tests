@@ -1,0 +1,16 @@
+module MapEnumerationExprTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = {2 |-> 6, 2 |-> true}
+  in skip;
+
+------------------------------------------------------------------------------
+end MapEnumerationExprTest

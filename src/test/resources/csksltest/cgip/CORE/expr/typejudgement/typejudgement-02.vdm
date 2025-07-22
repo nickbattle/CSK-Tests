@@ -1,0 +1,18 @@
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+module A
+exports all
+definitions
+
+
+types
+
+  Even = int
+  inv v == v mod 2 = 0;
+
+operations
+
+Test :() ==> bool
+  Test() ==
+   return is_({77 |-> 6,55|-> 4},map nat to Even)
+
+end A

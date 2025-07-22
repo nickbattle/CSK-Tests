@@ -1,0 +1,9 @@
+[3264, 3205, 3182, 3182]
+--
+Error 3264: At least one bind cannot match set in 'QuantExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/quantexpr/quantexpr-01.vdm) at line 12:34
+Binds: (? * ?)
+Set of: set of (nat1)
+Error 3205: Matching expression is not a product of cardinality 2 in 'QuantExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/quantexpr/quantexpr-01.vdm) at line 12:18
+Actual: nat1
+Error 3182: Name 'a' is not in scope in 'QuantExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/quantexpr/quantexpr-01.vdm) at line 12:47
+Error 3182: Name 'b' is not in scope in 'QuantExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/quantexpr/quantexpr-01.vdm) at line 12:51

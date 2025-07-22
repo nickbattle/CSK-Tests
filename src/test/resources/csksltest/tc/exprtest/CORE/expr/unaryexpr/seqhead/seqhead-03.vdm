@@ -1,0 +1,16 @@
+module UnaryTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = hd []
+  in skip;
+
+------------------------------------------------------------------------------
+end UnaryTest

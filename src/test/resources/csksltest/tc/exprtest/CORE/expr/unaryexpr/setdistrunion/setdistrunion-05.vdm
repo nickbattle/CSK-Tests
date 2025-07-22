@@ -1,0 +1,26 @@
+module UnaryTest
+exports all
+definitions
+
+types
+
+  UnionType :: seq of UnionType;
+
+  EmptyType ::
+  
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = let r1 = f(3)
+         in dunion {cases r:
+                   mk_UnionType(u) -> u,
+                   others -> {r}
+                 end | r in set r1 \ {mk_EmptyType()}}
+  in skip;
+
+------------------------------------------------------------------------------
+end UnaryTest

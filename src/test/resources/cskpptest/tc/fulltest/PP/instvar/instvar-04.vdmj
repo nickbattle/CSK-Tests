@@ -1,0 +1,4 @@
+[3225, 5008]
+--
+Error 3225: Such that clause is not boolean in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar-04.vpp) at line 18:3
+Warning 5008: i1 at 5:8 hidden by i1 in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar-04.vpp) at line 14:7

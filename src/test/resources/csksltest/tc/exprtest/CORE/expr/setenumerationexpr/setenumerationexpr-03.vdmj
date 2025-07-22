@@ -1,0 +1,3 @@
+[3108]
+--
+Error 3108: If expression is not a boolean in 'SetEunumertionTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/setenumerationexpr/setenumerationexpr-03.vdm) at line 13:12

@@ -1,0 +1,16 @@
+module MapComprehensionExprTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = {1 |-> true | a in set {} & 8 > 9}
+  in skip;
+
+------------------------------------------------------------------------------
+end MapComprehensionExprTest

@@ -1,0 +1,17 @@
+module MapInverseExprTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let n = 5,
+      - = inverse n
+  in skip;
+
+------------------------------------------------------------------------------
+end MapInverseExprTest

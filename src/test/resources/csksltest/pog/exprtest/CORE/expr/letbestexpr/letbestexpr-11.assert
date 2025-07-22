@@ -1,0 +1,25 @@
+Test() = 
+{ mk_TEST`ProofObligationPP(
+     "is_((if false then
+\"ABC\"
+else
+{9,8}),set of nat1)",
+     <Subtype>,
+     [  ],
+     mk_POGTP`LocContext(
+        <operations>,
+        mk_AS`Name( [ "LetBeSTExprTest" ], 41943041 ),
+        mk_AS`Name( [ "TestOP" ], 41943052 ) ) ),
+  mk_TEST`ProofObligationPP(
+     "(exists a in set (if false then
+\"ABC\"
+else
+{9,8}) &
+true)",
+     <LetBeStExpr>,
+     [  ],
+     mk_POGTP`LocContext(
+        <operations>,
+        mk_AS`Name( [ "LetBeSTExprTest" ], 41943041 ),
+        mk_AS`Name( [ "TestOP" ], 41943052 ) ) ) }
+

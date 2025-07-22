@@ -1,0 +1,9 @@
+class A
+
+operations
+
+  public Test:() ==> int
+  Test() ==
+    return time
+
+end A

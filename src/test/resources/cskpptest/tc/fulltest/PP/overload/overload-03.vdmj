@@ -1,0 +1,5 @@
+[3008]
+--
+Error 3008: Overloaded members indistinguishable: fn in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/overload/overload-03.vpp) at line 9:1
+fn: (real -> real)
+fn: (nat -> real)

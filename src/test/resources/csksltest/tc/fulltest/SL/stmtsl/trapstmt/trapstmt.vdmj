@@ -1,0 +1,34 @@
+[3241, 3328, 3241, 3327, 3129, 3313, 3328, 3327, 5008, 5008, 5008, 5008, 5000, 5008, 5000, 5000, 5000, 5000, 5000, 5000]
+--
+Error 3241: Body of trap statement does not throw exceptions in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/trapstmt/trapstmt.vdm) at line 18:3
+Error 3328: Statement returns void value in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/trapstmt/trapstmt.vdm) at line 36:5
+Actual: ()
+Expected: (bool | nat)
+Error 3241: Body of trap statement does not throw exceptions in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/trapstmt/trapstmt.vdm) at line 29:3
+Error 3327: Value is not of the right type in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/trapstmt/trapstmt.vdm) at line 30:33
+Actual: nat1
+Expected: bool
+Error 3129: Constructor field 2 is of wrong type in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/trapstmt/trapstmt.vdm) at line 30:33
+Expected: bool
+Actual: nat1
+Error 3313: Operation returns void value in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/trapstmt/trapstmt.vdm) at line 27:3
+Actual: (() | bool | nat)
+Expected: (bool | nat)
+Error 3328: Statement returns void value in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/trapstmt/trapstmt.vdm) at line 54:10
+Actual: ()
+Expected: (bool | nat)
+Error 3327: Value is not of the right type in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/trapstmt/trapstmt.vdm) at line 60:35
+Actual: seq1 of (char)
+Expected: (bool | nat)
+Warning 5008: a at 10:3 hidden by a in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/trapstmt/trapstmt.vdm) at line 18:8
+Warning 5008: a at 18:8 hidden by a in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/trapstmt/trapstmt.vdm) at line 18:19
+Warning 5008: a at 10:3 hidden by a in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/trapstmt/trapstmt.vdm) at line 23:8
+Warning 5008: a at 10:3 hidden by a in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/trapstmt/trapstmt.vdm) at line 29:12
+Warning 5000: Definition 'arg2' not used in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/trapstmt/trapstmt.vdm) at line 47:15
+Warning 5008: b at 57:11 hidden by b in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/trapstmt/trapstmt.vdm) at line 58:10
+Warning 5000: Definition 'l' not used in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/trapstmt/trapstmt.vdm) at line 57:13
+Warning 5000: Definition 'n' not used in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/trapstmt/trapstmt.vdm) at line 57:9
+Warning 5000: Definition 'stid' not used in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/trapstmt/trapstmt.vdm) at line 11:3
+Warning 5000: Definition 'Trap1' not used in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/trapstmt/trapstmt.vdm) at line 16:3
+Warning 5000: Definition 'Trap4' not used in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/trapstmt/trapstmt.vdm) at line 38:3
+Warning 5000: Definition 'Trap6' not used in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/trapstmt/trapstmt.vdm) at line 56:3

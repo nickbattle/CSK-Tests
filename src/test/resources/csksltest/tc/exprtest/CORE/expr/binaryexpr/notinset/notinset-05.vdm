@@ -1,0 +1,17 @@
+module BinaryTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let a = 'a',
+      - = {} not in set a
+  in skip;
+
+------------------------------------------------------------------------------
+end BinaryTest

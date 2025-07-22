@@ -1,0 +1,20 @@
+module A
+exports all
+definitions
+
+
+functions
+
+
+id : nat -> nat
+id(x) == x;
+
+
+foo : nat -> nat
+foo(x) == 
+  def foo = [x | x in set {1,2,3}];
+      foo = foo(2)
+  in foo
+;
+  
+end A

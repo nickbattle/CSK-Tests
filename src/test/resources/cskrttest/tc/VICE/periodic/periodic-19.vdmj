@@ -1,0 +1,4 @@
+[3288, 3289]
+--
+Error 3288: Period argument must be non-zero in 'B' (D:\Cygwin\home\eclipse.git\CSKTests\cskjunit\cskrttest\tc\VICE\periodic\periodic-19.vpp) at line 23:13
+Error 3289: Delay argument must be less than the period in 'B' (D:\Cygwin\home\eclipse.git\CSKTests\cskjunit\cskrttest\tc\VICE\periodic\periodic-19.vpp) at line 23:17

@@ -1,0 +1,4 @@
+[5001, 5001]
+--
+Warning 5001: Instance variable 's' is not initialized in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/periodic/periodic-14.vpp) at line 44:3
+Warning 5001: Instance variable 's' is not initialized in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/periodic/periodic-14.vpp) at line 77:3

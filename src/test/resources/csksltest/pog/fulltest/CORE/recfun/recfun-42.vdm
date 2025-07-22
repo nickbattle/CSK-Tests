@@ -1,0 +1,20 @@
+module A
+exports all
+definitions
+
+
+functions
+
+
+id : nat -> nat
+id(x) == x;
+
+
+foo : nat -> bool
+foo(x) == 
+ if x = 0  then true
+ else pre_foo(x) and foo(x-1)
+pre x <> 1000
+;
+
+end A

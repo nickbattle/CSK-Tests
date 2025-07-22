@@ -1,0 +1,48 @@
+[3182, 3182, 3182, 3136, 3139, 3018, 3032, 3327, 3307, 3327, 3027, 3136, 3328, 3035, 3139, 5000, 5007, 5008, 5007, 5008, 5008, 5008, 5000, 5008, 5008, 5000]
+--
+Error 3182: Name 'OpDefTest`a~' is not in scope in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 34:8
+Error 3182: Name 'OpDefTest`b~' is not in scope in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 46:18
+Error 3182: Name 'OpDefTest`r' is not in scope in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 47:14
+Error 3136: Left and right of '<>' different types in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 51:9
+Left: char
+Right: nat1
+Error 3139: Left hand of + is not numeric in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 52:15
+Actual: char
+Error 3018: Postcondition returns unexpected type in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 58:3
+Actual: nat
+Expected: bool
+Error 3032: State variable a is not this type in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 62:3
+Declared: nat
+ext type: real
+Error 3327: Value is not of the right type in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 68:14
+Actual: nat
+Expected: bool
+Error 3307: Errs clause is not bool -> bool in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 68:14
+Error 3327: Value is not of the right type in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 84:4
+Actual: ([?] | bool)
+Expected: nat
+Error 3027: Operation returns unexpected type in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 82:3
+Actual: ([?] | bool)
+Expected: nat
+Error 3136: Left and right of '<>' different types in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 109:9
+Left: char
+Right: nat1
+Error 3328: Statement returns void value in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 108:4
+Actual: ()
+Expected: char
+Error 3035: Operation returns unexpected type in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 107:3
+Actual: ()
+Expected: char
+Error 3139: Left hand of + is not numeric in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 110:15
+Actual: char
+Warning 5000: Definition 'r' not used in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 25:9
+Warning 5007: Duplicate definition: a in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 49:7
+Warning 5008: a at 4:7 hidden by a in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 49:7
+Warning 5007: Duplicate definition: a in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 4:7
+Warning 5008: a at 4:7 hidden by a in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 83:8
+Warning 5008: a at 4:7 hidden by a in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 94:12
+Warning 5008: b at 5:7 hidden by b in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 94:14
+Warning 5000: Definition 'a' not used in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 94:12
+Warning 5008: a at 4:7 hidden by a in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 99:8
+Warning 5008: a at 4:7 hidden by a in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 107:8
+Warning 5000: Definition 'r' not used in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 107:17

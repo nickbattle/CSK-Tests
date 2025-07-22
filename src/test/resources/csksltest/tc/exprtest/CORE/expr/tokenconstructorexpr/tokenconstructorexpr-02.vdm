@@ -1,0 +1,14 @@
+module TokenTest
+exports all
+definitions
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> bool
+Test() ==
+  return mk_token(8);
+
+------------------------------------------------------------------------------
+end TokenTest

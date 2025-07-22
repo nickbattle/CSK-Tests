@@ -1,0 +1,18 @@
+module SeqEnumerationExprTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = [if true
+         then 6
+         else nil,false,{},[]]
+  in skip;
+
+------------------------------------------------------------------------------
+end SeqEnumerationExprTest

@@ -1,0 +1,16 @@
+module SetRangeExprTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = {0,...,8.9}
+  in skip;
+
+------------------------------------------------------------------------------
+end SetRangeExprTest

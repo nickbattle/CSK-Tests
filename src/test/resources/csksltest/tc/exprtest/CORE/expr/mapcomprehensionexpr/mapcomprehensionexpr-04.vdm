@@ -1,0 +1,16 @@
+module MapComprehensionExprTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = {a |-> b | a in set {<RED>,<GREEN>},b:nat & a > b}
+  in skip;
+
+------------------------------------------------------------------------------
+end MapComprehensionExprTest

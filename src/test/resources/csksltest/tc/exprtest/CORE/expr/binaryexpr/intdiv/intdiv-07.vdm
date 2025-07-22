@@ -1,0 +1,20 @@
+module BinaryTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let A = "ABC",
+      s = {9,8},
+      - = 9 div if false 
+             then A
+             else s
+  in skip;
+
+------------------------------------------------------------------------------
+end BinaryTest

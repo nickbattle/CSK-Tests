@@ -1,0 +1,49 @@
+class A
+
+functions
+
+public
+id : nat -> nat
+id(x) == x;
+
+end A
+
+class AA is subclass of A 
+
+functions
+public static
+aoo : nat -> nat
+aoo(x) == 
+  if x = 0 
+  then 0
+  else BBB`boo(x-1)
+;
+
+end AA
+
+class AAA is subclass of AA
+
+end AAA
+
+class B
+functions
+
+public
+id : nat -> nat
+id(x) == x;
+end B
+
+class BB is subclass of B
+functions
+
+public static
+boo : nat -> nat
+boo(x) == 
+  if x = 0 
+  then 0
+  else AAA`aoo(x-1)
+end BB
+
+class BBB is subclass of BB
+
+end BBB

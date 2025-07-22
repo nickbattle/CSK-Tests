@@ -1,0 +1,9 @@
+[3139, 3182, 5008, 5008, 5008, 5000]
+--
+Error 3139: Left hand of < is not ordered in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-21.vdm) at line 11:14
+Actual: B
+Error 3182: Name 'b' is not in scope in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-21.vdm) at line 20:19
+Warning 5008: a at 20:15 hidden by a in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-21.vdm) at line 22:17
+Warning 5008: a at 20:15 hidden by a in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-21.vdm) at line 23:22
+Warning 5008: a at 20:15 hidden by a in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-21.vdm) at line 26:17
+Warning 5000: Definition 'a' not used in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-21.vdm) at line 26:17

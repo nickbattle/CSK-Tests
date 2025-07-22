@@ -1,0 +1,8 @@
+[3327, 3027]
+--
+Error 3327: Value is not of the right type in 'TokenTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/tokenconstructorexpr/tokenconstructorexpr-02.vdm) at line 11:3
+Actual: token
+Expected: bool
+Error 3027: Operation returns unexpected type in 'TokenTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/tokenconstructorexpr/tokenconstructorexpr-02.vdm) at line 9:1
+Actual: token
+Expected: bool

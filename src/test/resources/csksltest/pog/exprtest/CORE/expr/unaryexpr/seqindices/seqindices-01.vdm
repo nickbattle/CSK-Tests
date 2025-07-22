@@ -1,0 +1,16 @@
+module UnaryTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = inds [8,true,<K>]
+  in skip;
+
+------------------------------------------------------------------------------
+end UnaryTest

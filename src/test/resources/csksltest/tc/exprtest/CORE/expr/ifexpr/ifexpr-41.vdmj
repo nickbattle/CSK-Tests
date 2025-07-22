@@ -1,0 +1,29 @@
+[3327, 3327, 3327, 3327, 3203, 3311, 3327, 3327, 3327, 3051, 5000]
+--
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-41.vdm) at line 35:10
+Actual: bool
+Expected: seq of (char)
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-41.vdm) at line 38:19
+Actual: bool
+Expected: seq of (char)
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-41.vdm) at line 39:19
+Actual: seq1 of (nat1)
+Expected: seq of (char)
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-41.vdm) at line 42:23
+Actual: map (nat1) to (nat1)
+Expected: seq of (char)
+Error 3203: Sequence pattern is matched against nat1 in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-41.vdm) at line 43:16
+Error 3311: Pattern cannot match in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-41.vdm) at line 43:19
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-41.vdm) at line 43:26
+Actual: [?]
+Expected: seq of (char)
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-41.vdm) at line 44:26
+Actual: (() -> inmap (rat) to (nat))
+Expected: seq of (char)
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-41.vdm) at line 46:10
+Actual: [?]
+Expected: seq of (char)
+Error 3051: Expression does not match declared type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-41.vdm) at line 33:14
+Declared: seq of (char)
+Expression: ((() -> inmap (rat) to (nat)) | [?] | bool | map (nat1) to (nat1) | seq1 of (nat1))
+Warning 5000: Definition 's' not used in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-41.vdm) at line 43:21

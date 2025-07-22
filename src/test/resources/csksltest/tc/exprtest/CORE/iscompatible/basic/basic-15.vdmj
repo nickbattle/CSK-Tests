@@ -1,0 +1,5 @@
+[3061]
+--
+Error 3061: Inappropriate type for argument 1 in 'Test' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/iscompatible/basic/basic-15.vdm) at line 66:8
+Expect: F
+Actual: B

@@ -1,0 +1,35 @@
+module NumExpTest
+exports all
+definitions
+
+  functions
+
+  f : nat -> nat
+  f(n) ==
+    n + 1;
+
+  g: nat -> bool
+  g(n) ==
+   n = 9;
+
+  h: nat * nat +> nat
+  h(n1,n2) ==
+    n1 + n2;
+
+  i: () -> nat
+  i() ==
+    8
+    
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let n = 7,
+      - = n comp (if 4 = 8 then n else f)
+  in skip;
+
+------------------------------------------------------------------------------
+end NumExpTest

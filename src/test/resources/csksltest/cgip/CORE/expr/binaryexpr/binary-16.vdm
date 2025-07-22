@@ -1,0 +1,27 @@
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+module A
+exports all
+definitions
+
+
+operations
+
+
+
+
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+Test : () ==> bool  
+Test () ==
+return f(2)
+
+functions
+
+  f: int -> bool | nat
+  f(i) == cases i :
+             1  -> true,
+             2  -> f(1) or false,
+             3  -> 3,
+             others ->  undefined
+          end
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+end A

@@ -1,0 +1,6 @@
+[3006, 3427]
+--
+Error 3006: Overriding definition reduces visibility in 'FctTypeInstExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/exprtest/PP/exprpp/fcttypeinstexpr/fcttypeinstexpr-14.vpp) at line 50:1
+This: f2(@p, @q)
+Super: f2(@p, int)
+Error 3427: Unable to resolve type name 'aaa' in 'FctTypeInstExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/exprtest/PP/exprpp/fcttypeinstexpr/fcttypeinstexpr-14.vpp) at line 63:14

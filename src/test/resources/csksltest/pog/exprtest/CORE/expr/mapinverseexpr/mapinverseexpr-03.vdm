@@ -1,0 +1,18 @@
+module MapInverseExprTest
+exports all
+definitions
+
+
+types
+
+  T = inmap nat to set of bool
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: T ==> nat
+Test(t) ==
+  let x = (inverse t)({true})
+  in return x
+
+------------------------------------------------------------------------------
+end MapInverseExprTest

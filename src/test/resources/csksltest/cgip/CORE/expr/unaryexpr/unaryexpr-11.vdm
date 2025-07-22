@@ -1,0 +1,36 @@
+module A
+imports from C all, from B all
+exports all
+definitions
+operations
+
+Test: () ==> map nat to nat
+Test() ==
+  let tmp = merge {C`Op(i) | i in set {1,...,4}}
+  in
+    return tmp
+
+end A
+
+module B
+exports all
+definitions
+types
+
+MapTp = map nat to nat
+  inv m == card dom m < 7;
+
+end B
+
+module C
+imports from B all
+exports all
+definitions
+operations
+
+Op: nat ==> B`MapTp
+Op(n) ==
+  return {n |-> n};
+
+end C
+

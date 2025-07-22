@@ -1,0 +1,3 @@
+[3302]
+--
+Error 3302: State variable 'ast' cannot be accessed from this context in 'TYPE' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/type/type.vdm) at line 13:16

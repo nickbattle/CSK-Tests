@@ -1,0 +1,12 @@
+[3327, 3327, 3327, 5000]
+--
+Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-19.vdm) at line 22:24
+Actual: nat1
+Expected: bool
+Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-19.vdm) at line 24:20
+Actual: nat1
+Expected: bool
+Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-19.vdm) at line 26:25
+Actual: [?]
+Expected: bool
+Warning 5000: Definition 'err' not used in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-19.vdm) at line 24:8

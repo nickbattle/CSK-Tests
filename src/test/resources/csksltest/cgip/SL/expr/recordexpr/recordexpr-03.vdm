@@ -1,0 +1,20 @@
+module A
+imports from B all
+exports all
+definitions
+
+types REC::
+
+end A
+
+module B
+imports from A all
+exports all
+definitions
+
+functions 
+
+  Execute: () -> bool 
+  Execute () == is_A`REC(mk_A`REC())
+
+end B

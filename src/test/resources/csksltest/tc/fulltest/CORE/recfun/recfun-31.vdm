@@ -1,0 +1,33 @@
+module A
+exports all
+definitions
+
+
+types
+
+
+Tree :: t : nat | Tree * Tree
+
+functions
+
+
+
+
+id : Tree -> nat
+id(x) == 
+  cases x:
+  mk_(x,y) -> 2 + id(x) + id(y),
+  others -> 1
+  end;
+
+
+foo : Tree -> nat
+foo(mk_Tree(x)) ==
+  cases x:
+  mk_(x,y) -> foo(x) + foo(y),
+  others -> x
+  end
+;
+
+
+end A 

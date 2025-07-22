@@ -1,0 +1,11 @@
+[3003, 3002, 3009, 3009, 3009, 3181, 3181, 3181, 5008]
+--
+Error 3003: Undefined superclass: NoClass in 'XX' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/class/class.vpp) at line 96:7
+Error 3002: Circular class hierarchy detected: Circular1 in 'Circular1' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/class/class.vpp) at line 99:7
+Error 3009: Circular class hierarchy detected: Circular2 in 'Circular2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/class/class.vpp) at line 102:7
+Error 3009: Circular class hierarchy detected: Circular3 in 'Circular3' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/class/class.vpp) at line 105:7
+Error 3009: Circular class hierarchy detected: Circular1 in 'Circular1' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/class/class.vpp) at line 99:7
+Error 3181: Cannot access f(B) from a static context in 'TMP' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/class/class.vpp) at line 5:19
+Error 3181: Cannot access f((B * set of (int))) from a static context in 'TMP2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/class/class.vpp) at line 20:12
+Error 3181: Cannot access f((B * set of (int))) from a static context in 'TMP3' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/class/class.vpp) at line 35:12
+Warning 5008: a at 133:6 hidden by a in 'BBB' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/class/class.vpp) at line 135:30

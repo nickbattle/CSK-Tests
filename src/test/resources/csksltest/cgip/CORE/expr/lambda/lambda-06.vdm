@@ -1,0 +1,13 @@
+module A
+exports all
+definitions
+
+
+operations
+
+Test :() ==> nat
+Test() ==
+  return (lambda mk_(b,(6+55)) : (nat * nat) & b + 5)(mk_(0,61))
+
+   
+end A

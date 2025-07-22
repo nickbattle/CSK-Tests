@@ -1,0 +1,17 @@
+module SubSequenceExprTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let t = true,
+      - = [8,{},{8,true},[]](1,...,t)
+  in skip;
+
+------------------------------------------------------------------------------
+end SubSequenceExprTest

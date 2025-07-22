@@ -1,0 +1,4 @@
+[3182, 5001]
+--
+Error 3182: Name 'OldNameTest`a~' is not in scope in 'OldNameTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/exprtest/PP/exprpp/oldname/oldname-01.vpp) at line 13:11
+Warning 5001: Instance variable 'a' is not initialized in 'OldNameTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/exprtest/PP/exprpp/oldname/oldname-01.vpp) at line 4:1

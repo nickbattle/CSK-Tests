@@ -1,0 +1,17 @@
+module CasesStmtTest
+exports all
+definitions
+
+
+operations
+
+Test: () ==> set of nat
+Test() ==
+   (dcl s: set of nat;
+    cases 10:
+     (20)   -> return {},
+     others -> s := {10}
+    end;
+    return s);
+
+end CasesStmtTest

@@ -1,0 +1,6 @@
+[3327, 3159]
+--
+Error 3327: Value is not of the right type in 'SetComprehensionExpr' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/setcomprehensionexpr/setcomprehensionexpr-06.vdm) at line 12:25
+Actual: nat
+Expected: bool
+Error 3159: Predicate is not boolean in 'SetComprehensionExpr' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/setcomprehensionexpr/setcomprehensionexpr-06.vdm) at line 12:25

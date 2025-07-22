@@ -1,0 +1,19 @@
+module LiteralTest
+exports all
+definitions
+
+
+types
+
+  T = nat
+  inv t == t > 6
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> T
+Test() ==
+  let - = ""
+  in return 8;
+
+------------------------------------------------------------------------------
+end LiteralTest

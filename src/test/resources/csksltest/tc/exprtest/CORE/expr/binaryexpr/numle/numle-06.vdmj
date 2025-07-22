@@ -1,0 +1,4 @@
+[3140]
+--
+Error 3140: Right hand of <= is not ordered in 'BinaryTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/binaryexpr/numle/numle-06.vdm) at line 14:12
+Actual: bool

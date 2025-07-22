@@ -1,0 +1,22 @@
+module FctTypeInstExprTest
+exports all
+definitions
+ functions
+f1[@p,@q]: @p * int +> (@q -> bool) -> map int to @p
+f1(a,b) == {b |-> a};
+
+f2:int -> bool
+f2 (a) == a>44
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = f1[int,int](f2)(87)
+  in skip;
+
+------------------------------------------------------------------------------
+end FctTypeInstExprTest

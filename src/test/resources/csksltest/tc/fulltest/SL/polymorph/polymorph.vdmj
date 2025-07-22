@@ -1,0 +1,92 @@
+[3182, 3433, 3184, 3433, 3184, 3353, 3353, 3433, 3433, 3433, 3184, 3433, 3184, 3433, 3353, 3353, 3433, 3433, 3433, 3184, 3433, 3184, 3433, 3353, 3353, 3184, 3433, 3433, 5000, 5000, 5000, 5007, 5007, 5000, 5007, 5007, 5000, 5000, 5000, 5000, 5007, 5007, 5000, 5007, 5007, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000]
+--
+Error 3182: Name 'r' is not in scope in 'POLY2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 120:3
+Error 3433: Parameter type @q not defined in 'POLY2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 104:16
+Error 3184: Exported f function type incorrect in 'POLY2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 104:3
+Exported: (@p -> @q)
+Actual: (@p -> @p)
+Error 3433: Parameter type @r not defined in 'POLY2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 105:11
+Error 3184: Exported ff function type incorrect in 'POLY2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 105:3
+Exported: (@r +> bool)
+Actual: (@q +> bool)
+Error 3353: Exported fff function type parameters incorrect in 'POLY2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 106:3
+Exported: a
+Actual: w
+Error 3353: Exported ffff function type parameters incorrect in 'POLY2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 107:3
+Exported: a, c, q
+Actual: a, c
+Error 3433: Parameter type @a not defined in 'POLY2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 108:10
+Error 3433: Parameter type @c not defined in 'POLY2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 108:16
+Error 3433: Parameter type @q not defined in 'A2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 133:16
+Error 3184: Imported f function type incorrect in 'A2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 133:3
+Imported: (@p -> @q)
+Actual: (@p -> @p)
+Error 3433: Parameter type @r not defined in 'A2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 134:11
+Error 3184: Imported ff function type incorrect in 'A2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 134:3
+Imported: (@r +> bool)
+Actual: (@q +> bool)
+Error 3433: Parameter type @w not defined in 'A2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 135:12
+Error 3353: Imported fff function type parameters incorrect in 'A2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 135:3
+Imported: a
+Actual: w
+Error 3353: Imported ffff function type parameters incorrect in 'A2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 136:3
+Imported: a, c, w
+Actual: a, c
+Error 3433: Parameter type @a not defined in 'A2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 137:10
+Error 3433: Parameter type @c not defined in 'A2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 137:16
+Error 3433: Parameter type @q not defined in 'A2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 140:16
+Error 3184: Imported f function type incorrect in 'A2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 140:3
+Imported: (@p -> @q)
+Actual: (@p -> @p)
+Error 3433: Parameter type @r not defined in 'A2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 141:11
+Error 3184: Imported ff function type incorrect in 'A2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 141:3
+Imported: (@r +> bool)
+Actual: (@q +> bool)
+Error 3433: Parameter type @w not defined in 'A2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 142:12
+Error 3353: Imported fff function type parameters incorrect in 'A2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 142:3
+Imported: a
+Actual: w
+Error 3353: Imported ffff function type parameters incorrect in 'A2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 143:3
+Imported: a, c, w
+Actual: a, b
+Error 3184: Imported ffff function type incorrect in 'A2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 143:3
+Imported: (@a -> @c)
+Actual: (@a -> @b)
+Error 3433: Parameter type @a not defined in 'A2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 144:10
+Error 3433: Parameter type @c not defined in 'A2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 144:16
+Warning 5000: Definition 'r' not used in 'POLY' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 16:14
+Warning 5000: Definition 'a' not used in 'POLY' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 16:8
+Warning 5000: Definition 'a' not used in 'POLY' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 19:9
+Warning 5007: Duplicate definition: a in 'POLY' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 22:7
+Warning 5007: Duplicate definition: a in 'POLY' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 23:6
+Warning 5000: Definition 'a' not used in 'POLY' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 23:6
+Warning 5007: Duplicate definition: a in 'POLY' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 25:8
+Warning 5007: Duplicate definition: a in 'POLY' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 26:7
+Warning 5000: Definition 'a' not used in 'POLY' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 26:7
+Warning 5000: Definition 'r' not used in 'POLYALL' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 47:14
+Warning 5000: Definition 'a' not used in 'POLYALL' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 47:8
+Warning 5000: Definition 'a' not used in 'POLYALL' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 50:9
+Warning 5007: Duplicate definition: a in 'POLYALL' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 53:7
+Warning 5007: Duplicate definition: a in 'POLYALL' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 54:6
+Warning 5000: Definition 'a' not used in 'POLYALL' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 54:6
+Warning 5007: Duplicate definition: a in 'POLYALL' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 56:8
+Warning 5007: Duplicate definition: a in 'POLYALL' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 57:7
+Warning 5000: Definition 'a' not used in 'POLYALL' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 57:7
+Warning 5000: Definition 'ff' not used in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 68:3
+Warning 5000: Definition 'fff' not used in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 69:3
+Warning 5000: Definition 'ffff' not used in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 70:3
+Warning 5000: Definition 'h' not used in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 71:3
+Warning 5000: Definition 'f' not used in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 74:3
+Warning 5000: Definition 'ff' not used in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 75:3
+Warning 5000: Definition 'fff' not used in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 76:3
+Warning 5000: Definition 'ffff' not used in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 77:3
+Warning 5000: Definition 'h' not used in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 78:3
+Warning 5000: Definition 'ff' not used in 'A2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 134:3
+Warning 5000: Definition 'fff' not used in 'A2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 135:3
+Warning 5000: Definition 'ffff' not used in 'A2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 136:3
+Warning 5000: Definition 'fffff' not used in 'A2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 137:3
+Warning 5000: Definition 'f' not used in 'A2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 140:3
+Warning 5000: Definition 'ff' not used in 'A2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 141:3
+Warning 5000: Definition 'fff' not used in 'A2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 142:3
+Warning 5000: Definition 'ffff' not used in 'A2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 143:3
+Warning 5000: Definition 'fffff' not used in 'A2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/polymorph/polymorph.vdm) at line 144:3

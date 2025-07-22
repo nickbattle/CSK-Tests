@@ -1,0 +1,17 @@
+module SubSequenceExprTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let n = 6,
+      - = n(6,...,1)
+  in skip;
+
+------------------------------------------------------------------------------
+end SubSequenceExprTest

@@ -1,0 +1,15 @@
+module UnaryTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test : () ==> set of char  
+Test () ==
+return {'a',-1,+1};
+
+------------------------------------------------------------------------------
+end UnaryTest

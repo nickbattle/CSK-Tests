@@ -1,0 +1,6 @@
+
+for i in *.vdm
+do
+	sed -e "s/^measure.*$/;/" $i >$i.Z
+	mv -f $i.Z $i
+done

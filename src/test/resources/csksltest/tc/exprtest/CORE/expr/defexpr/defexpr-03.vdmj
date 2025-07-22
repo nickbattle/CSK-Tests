@@ -1,0 +1,5 @@
+[3087]
+--
+Error 3087: Left and right of '=' are incompatible types in 'DefExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/defexpr/defexpr-03.vdm) at line 17:37
+Left: seq1 of (char)
+Right: nat1

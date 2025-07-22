@@ -1,0 +1,5 @@
+[3139, 3182]
+--
+Error 3139: Left hand of < is not ordered in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-20.vdm) at line 11:14
+Actual: B
+Error 3182: Name 'b' is not in scope in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-20.vdm) at line 20:19

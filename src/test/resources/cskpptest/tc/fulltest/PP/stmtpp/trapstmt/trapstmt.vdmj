@@ -1,0 +1,32 @@
+[3241, 3328, 3241, 3327, 3129, 3313, 3328, 3327, 5008, 5008, 5008, 5008, 5000, 5008, 5000, 5000, 5001, 5001]
+--
+Error 3241: Body of trap statement does not throw exceptions in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/trapstmt/trapstmt.vpp) at line 15:3
+Error 3328: Statement returns void value in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/trapstmt/trapstmt.vpp) at line 33:5
+Actual: ()
+Expected: (bool | nat)
+Error 3241: Body of trap statement does not throw exceptions in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/trapstmt/trapstmt.vpp) at line 26:3
+Error 3327: Value is not of the right type in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/trapstmt/trapstmt.vpp) at line 27:33
+Actual: nat1
+Expected: bool
+Error 3129: Constructor field 2 is of wrong type in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/trapstmt/trapstmt.vpp) at line 27:33
+Expected: bool
+Actual: nat1
+Error 3313: Operation returns void value in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/trapstmt/trapstmt.vpp) at line 24:3
+Actual: (() | bool | nat)
+Expected: (bool | nat)
+Error 3328: Statement returns void value in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/trapstmt/trapstmt.vpp) at line 51:10
+Actual: ()
+Expected: (bool | nat)
+Error 3327: Value is not of the right type in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/trapstmt/trapstmt.vpp) at line 57:35
+Actual: seq1 of (char)
+Expected: (bool | nat)
+Warning 5008: a at 3:3 hidden by a in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/trapstmt/trapstmt.vpp) at line 15:8
+Warning 5008: a at 15:8 hidden by a in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/trapstmt/trapstmt.vpp) at line 15:19
+Warning 5008: a at 3:3 hidden by a in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/trapstmt/trapstmt.vpp) at line 20:8
+Warning 5008: a at 3:3 hidden by a in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/trapstmt/trapstmt.vpp) at line 26:12
+Warning 5000: Definition 'arg2' not used in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/trapstmt/trapstmt.vpp) at line 44:15
+Warning 5008: b at 54:11 hidden by b in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/trapstmt/trapstmt.vpp) at line 55:10
+Warning 5000: Definition 'l' not used in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/trapstmt/trapstmt.vpp) at line 54:13
+Warning 5000: Definition 'n' not used in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/trapstmt/trapstmt.vpp) at line 54:9
+Warning 5001: Instance variable 'a' is not initialized in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/trapstmt/trapstmt.vpp) at line 3:3
+Warning 5001: Instance variable 'stid' is not initialized in 'TrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/trapstmt/trapstmt.vpp) at line 4:3

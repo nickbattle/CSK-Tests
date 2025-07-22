@@ -1,0 +1,4 @@
+[5000, 5000]
+--
+Warning 5000: Definition 'c' not used in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/type/type-06.vdm) at line 14:15
+Warning 5000: Definition 'x' not used in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/type/type-06.vdm) at line 21:13

@@ -1,0 +1,4 @@
+[3115, 3266]
+--
+Error 3115: Undefined class type: B in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/exprtest/PP/exprpp/isofclassexpr/isofclassexpr-03.vpp) at line 10:11
+Error 3266: Argument is not an object in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/exprtest/PP/exprpp/isofclassexpr/isofclassexpr-03.vpp) at line 10:23

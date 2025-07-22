@@ -1,0 +1,11 @@
+module A
+exports all
+definitions
+
+
+operations
+Test : () ==> seq of char
+Test() ==
+error
+
+end A

@@ -1,0 +1,19 @@
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+module A
+exports all
+definitions
+
+
+operations
+
+
+
+
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+Test : () ==> nat  
+Test () ==
+let a = 3
+in return a
+
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+end A

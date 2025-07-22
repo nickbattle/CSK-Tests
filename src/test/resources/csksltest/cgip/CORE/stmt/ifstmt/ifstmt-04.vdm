@@ -1,0 +1,27 @@
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+module A
+exports all
+definitions
+
+
+operations
+
+
+
+
+
+Test : () ==>set of ( [nat] | <WORLD> | char | seq of char )
+Test() ==
+(dcl s : set of ( [nat] | <WORLD> | char| seq of char ):= {};
+ dcl n : nat :=0;
+
+ if [true, false](2)
+ then return s
+ else s := s union { nil };
+
+ return s;
+)
+ 
+   
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+end A

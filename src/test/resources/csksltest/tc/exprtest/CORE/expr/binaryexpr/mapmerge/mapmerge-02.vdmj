@@ -1,0 +1,4 @@
+[3124]
+--
+Error 3124: Right hand of 'munion' is not a map in 'BinaryTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/binaryexpr/mapmerge/mapmerge-02.vdm) at line 12:22
+Type: set1 of (bool)

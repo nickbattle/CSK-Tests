@@ -1,0 +1,27 @@
+module IsExprTest
+exports all
+definitions
+
+types
+
+  A :: a : nat
+       b : real | bool;
+
+  B::;
+  C = A|B;
+  myt = seq of int;
+
+  D = myt | C
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = is_nat(7)
+  in skip;
+
+------------------------------------------------------------------------------
+end IsExprTest

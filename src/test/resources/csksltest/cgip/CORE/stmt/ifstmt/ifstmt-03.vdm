@@ -1,0 +1,26 @@
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+module A
+exports all
+definitions
+
+
+operations
+
+
+
+
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+Test : () ==> nat  
+Test () ==
+( dcl b : bool := true;
+ if  b 
+ then if not b
+      then return 10
+      else skip
+ else return 20;
+ return 30
+)
+ 
+   
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+end A

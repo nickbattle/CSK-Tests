@@ -1,0 +1,14 @@
+module A
+exports all
+definitions
+
+
+operations
+
+Test : () ==> seq of (nat | bool)
+Test() ==
+( if true 
+  then return [1,2,3];
+  
+  return [4,5,6])
+end A

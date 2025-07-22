@@ -1,0 +1,16 @@
+module IotaExprTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = iota x : nat & x = 3
+  in skip;
+
+------------------------------------------------------------------------------
+end IotaExprTest

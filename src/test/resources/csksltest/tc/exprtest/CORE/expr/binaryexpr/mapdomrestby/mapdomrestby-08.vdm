@@ -1,0 +1,23 @@
+module BinaryTest
+exports all
+definitions
+
+types
+
+  T = map (bool * nat) to (bool * nat)
+    
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - =  (if false 
+         then {8}
+         else {9|->"ABC"})  <-:
+         (if false 
+         then {8}
+         else {9|->"ABC"})  in skip;
+
+------------------------------------------------------------------------------
+end BinaryTest

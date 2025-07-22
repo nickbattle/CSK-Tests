@@ -1,0 +1,20 @@
+new A().Test() = 
+[ mk_ERR`ErrMsg(
+     10,
+     13,
+     9,
+     "Error[380] : Can not refer to non-static class member \"id\" in a static class member",
+     <ERROR> ),
+  mk_ERR`ErrMsg(
+     10,
+     22,
+     1,
+     "Warning[417] : \"goo\" has a measure but it is not recursive",
+     <WARNING> ),
+  mk_ERR`ErrMsg(
+     10,
+     30,
+     9,
+     "Error[391] : Class \"A\" has no static member \"id\"",
+     <ERROR> ) ]
+

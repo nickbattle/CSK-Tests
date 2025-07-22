@@ -1,0 +1,12 @@
+[3182, 3290, 3134, 3134, 3134, 3134]
+--
+Error 3182: Name 'Radio`DecodeTMC' is not in scope in 'RadNavSys' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/extension/extension-01.vpp) at line 32:24
+Error 3290: Argument to setPriority must be an operation in 'RadNavSys' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/extension/extension-01.vpp) at line 32:24
+Error 3134: Class has no constructor with these parameter types in 'World' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/extension/extension-01.vpp) at line 265:40
+Called: VolumeKnob(nat1)
+Error 3134: Class has no constructor with these parameter types in 'World' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/extension/extension-01.vpp) at line 266:41
+Called: TransmitTMC(nat1)
+Error 3134: Class has no constructor with these parameter types in 'World' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/extension/extension-01.vpp) at line 272:43
+Called: InsertAddress(nat1)
+Error 3134: Class has no constructor with these parameter types in 'World' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/extension/extension-01.vpp) at line 273:41
+Called: TransmitTMC(nat1)

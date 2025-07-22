@@ -1,0 +1,24 @@
+module MapComprehensionExprTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let A = "ABC",
+      s = {8,9},
+      - = let m:map int to int =
+         { (if false 
+           then A
+           else s) |->
+	   (if false 
+           then A
+           else s) | i in set {1} } in m 
+  in skip;
+
+------------------------------------------------------------------------------
+end MapComprehensionExprTest

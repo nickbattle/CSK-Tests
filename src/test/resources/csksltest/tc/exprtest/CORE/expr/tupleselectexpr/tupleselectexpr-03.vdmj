@@ -1,0 +1,3 @@
+[3094]
+--
+Error 3094: Field '#1' applied to non-tuple type in 'TupleSelectExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/tupleselectexpr/tupleselectexpr-03.vdm) at line 23:26

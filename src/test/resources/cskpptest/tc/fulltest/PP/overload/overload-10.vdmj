@@ -1,0 +1,11 @@
+[3010, 3327, 3018]
+--
+Error 3010: Name fn((A | bool)) is ambiguous in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/overload/overload-10.vpp) at line 25:6
+1: in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/overload/overload-10.vpp) at line 8:8
+2: in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/overload/overload-10.vpp) at line 12:8
+Error 3327: Value is not of the right type in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/overload/overload-10.vpp) at line 25:6
+Actual: bool
+Expected: real
+Error 3018: Function returns unexpected type in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/overload/overload-10.vpp) at line 22:1
+Actual: bool
+Expected: real

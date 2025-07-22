@@ -1,0 +1,16 @@
+module A
+exports all
+definitions
+
+
+operations
+
+
+Test () res:nat ==
+    return 
+     XF(1,5,2,2);
+
+  XF(a:nat,a:nat,b:nat,b:nat)res:nat ==
+    return a+b
+
+end A

@@ -1,0 +1,4 @@
+[5009, 5000]
+--
+Warning 5009: Empty set used in bind in 'IotaExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/iotaexpr/iotaexpr-01.vdm) at line 12:25
+Warning 5000: Definition 'x' not used in 'IotaExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/iotaexpr/iotaexpr-01.vdm) at line 12:16

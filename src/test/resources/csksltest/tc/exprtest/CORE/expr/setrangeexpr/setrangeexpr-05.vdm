@@ -1,0 +1,20 @@
+module SetRangeExprTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let A = "ABC",
+      - = let a:set of nat =
+         { if false 
+           then A
+           else {9,8},..., 5 } in a 
+  in skip;
+
+------------------------------------------------------------------------------
+end SetRangeExprTest

@@ -1,0 +1,21 @@
+module BinaryTest
+exports all
+definitions
+
+
+types
+  NUM = nat | int
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let t = true,
+      - = 3 + t
+  in skip;
+
+------------------------------------------------------------------------------
+end BinaryTest

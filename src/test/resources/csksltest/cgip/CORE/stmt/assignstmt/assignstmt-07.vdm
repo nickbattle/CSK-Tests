@@ -1,0 +1,28 @@
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+module A
+exports all
+definitions
+
+
+operations
+
+
+
+
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+
+Test : () ==> B  
+Test () ==
+        (dcl  a : B := mk_B(1, '[');
+         a.b := '<';
+         return a)
+
+types
+
+B :: 
+    a : nat
+    b : char
+
+  
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+end A

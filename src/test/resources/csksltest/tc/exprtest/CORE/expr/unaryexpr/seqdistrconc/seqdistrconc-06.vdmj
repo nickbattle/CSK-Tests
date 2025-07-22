@@ -1,0 +1,4 @@
+[3075, 5000]
+--
+Error 3075: Argument of 'conc' is not a seq of seq in 'UnaryTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/unaryexpr/seqdistrconc/seqdistrconc-06.vdm) at line 13:11
+Warning 5000: Definition 't' not used in 'UnaryTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/unaryexpr/seqdistrconc/seqdistrconc-06.vdm) at line 12:7

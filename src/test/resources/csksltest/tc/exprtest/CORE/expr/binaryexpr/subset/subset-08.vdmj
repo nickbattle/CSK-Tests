@@ -1,0 +1,5 @@
+[3335]
+--
+Error 3335: Subset will only be true if the LHS set is empty in 'BinaryTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/binaryexpr/subset/subset-08.vdm) at line 22:14
+Left: Pid_set
+Right: set of (Counter)

@@ -1,0 +1,93 @@
+[3319, 3022, 3139, 3140, 3061, 3054, 3327, 3018, 3022, 3061, 3061, 3327, 3018, 3022, 3061, 3061, 3061, 3061, 3065, 3327, 3018, 3327, 3327, 3061, 3018, 3327, 3327, 3018, 3327, 3327, 5007, 5007, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5012, 5012]
+--
+Error 3319: 'in set' expression is always false in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 27:7
+Element: nat
+Set: set of (bool)
+Error 3022: Too many curried parameters in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 65:3
+Error 3139: Left hand of + is not numeric in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 67:6
+Actual: @Fun
+Error 3140: Right hand of + is not numeric in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 67:6
+Actual: @Fun
+Error 3061: Inappropriate type for argument 1 in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 73:28
+Expect: (nat -> nat)
+Actual: nat1
+Error 3054: Type int cannot be applied in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 73:5
+Error 3327: Value is not of the right type in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 82:20
+Actual: nat1
+Expected: bool
+Error 3018: Precondition returns unexpected type in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 79:3
+Actual: nat1
+Expected: bool
+Error 3022: Too many curried parameters in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 84:3
+Error 3061: Inappropriate type for argument 1 in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 86:9
+Expect: nat
+Actual: FunType
+Error 3061: Inappropriate type for argument 1 in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 86:13
+Expect: nat
+Actual: FunType
+Error 3327: Value is not of the right type in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 86:5
+Actual: bool
+Expected: FunType
+Error 3018: Function returns unexpected type in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 84:3
+Actual: bool
+Expected: FunType
+Error 3022: Too many curried parameters in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 88:3
+Error 3061: Inappropriate type for argument 1 in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 90:16
+Expect: bool
+Actual: FunType1
+Error 3061: Inappropriate type for argument 1 in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 90:19
+Expect: nat
+Actual: FunType1
+Error 3061: Inappropriate type for argument 1 in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 90:23
+Expect: nat
+Actual: FunType1
+Error 3061: Inappropriate type for argument 1 in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 90:27
+Expect: nat
+Actual: FunType1
+Error 3065: Left hand of <=> is not bool in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 90:7
+Error 3327: Value is not of the right type in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 90:7
+Actual: bool
+Expected: FunType1
+Error 3018: Function returns unexpected type in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 88:3
+Actual: bool
+Expected: FunType1
+Error 3327: Value is not of the right type in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 95:27
+Actual: bool
+Expected: nat
+Error 3327: Value is not of the right type in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 95:26
+Actual: set1 of (bool)
+Expected: set of (nat)
+Error 3061: Inappropriate type for argument 1 in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 112:10
+Expect: FunType
+Actual: (nat +> ((nat * nat) -> bool))
+Error 3018: Function returns unexpected type in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 124:3
+Actual: ((Vector * Vector) -> map (nat) to (nat))
+Expected: (Vector * Vector -> Vector)
+Error 3327: Value is not of the right type in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 145:11
+Actual: bool
+Expected: nat
+Error 3327: Value is not of the right type in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 146:25
+Actual: [?]
+Expected: nat
+Error 3018: Function returns unexpected type in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 142:3
+Actual: ([?] | bool)
+Expected: nat
+Error 3327: Value is not of the right type in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 151:23
+Actual: A
+Expected: (bool * seq of (char))
+Error 3327: Value is not of the right type in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 153:32
+Actual: (nat1 * nat1 * nat1)
+Expected: (bool * seq of (char))
+Warning 5007: Duplicate definition: n in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 26:13
+Warning 5007: Duplicate definition: n in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 26:18
+Warning 5000: Definition 'n' not used in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 26:18
+Warning 5000: Definition 'n' not used in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 57:14
+Warning 5000: Definition 'x' not used in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 77:12
+Warning 5000: Definition 'a' not used in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 76:14
+Warning 5000: Definition 'n3' not used in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 109:27
+Warning 5000: Definition 'a' not used in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 115:14
+Warning 5000: Definition 'b' not used in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 115:21
+Warning 5000: Definition 'c' not used in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 115:23
+Warning 5000: Definition 'a' not used in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 152:12
+Warning 5012: Recursive function has no measure in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 114:3
+Warning 5012: Recursive function has no measure in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/fundefsl/fundefsl.vdm) at line 33:3

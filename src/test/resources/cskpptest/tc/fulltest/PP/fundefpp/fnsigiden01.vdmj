@@ -1,0 +1,8 @@
+[3006, 3006]
+--
+Error 3006: Overriding definition reduces visibility in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/fundefpp/fnsigiden01.vpp) at line 21:1
+This: fn1(int)
+Super: fn1(int)
+Error 3006: Overriding definition reduces visibility in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/fundefpp/fnsigiden01.vpp) at line 29:1
+This: fn3(int)
+Super: fn3(int)

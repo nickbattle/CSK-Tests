@@ -1,0 +1,16 @@
+[3327, 3327, 3328, 3313, 5016, 5016]
+--
+Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-16.vdm) at line 14:15
+Actual: bool
+Expected: int
+Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-16.vdm) at line 15:15
+Actual: bool
+Expected: int
+Error 3328: Statement returns void value in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-16.vdm) at line 16:15
+Actual: (return)
+Expected: int
+Error 3313: Operation returns void value in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-16.vdm) at line 8:3
+Actual: (() | bool | nat1)
+Expected: int
+Warning 5016: Some statements will not be reached in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-16.vdm) at line 14:10
+Warning 5016: Some statements will not be reached in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-16.vdm) at line 16:10

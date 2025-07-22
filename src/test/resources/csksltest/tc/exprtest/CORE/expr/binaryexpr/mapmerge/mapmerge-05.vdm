@@ -1,0 +1,19 @@
+module BinaryTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = {5|->true} munion
+         if false 
+         then [true,'a']
+         else {9|->"ABC"} 
+  in skip;
+
+------------------------------------------------------------------------------
+end BinaryTest

@@ -1,0 +1,16 @@
+module UnaryTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = merge {{|->},{7|->9},{true|->nil},{7|->8.2}}
+  in skip;
+
+------------------------------------------------------------------------------
+end UnaryTest

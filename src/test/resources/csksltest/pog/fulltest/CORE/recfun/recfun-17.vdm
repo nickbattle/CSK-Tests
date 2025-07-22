@@ -1,0 +1,20 @@
+module A
+exports all
+definitions
+
+
+functions
+
+
+id : nat * nat -> bool
+id(-,-) == true;
+
+
+foo : nat -> nat
+foo(x) == 
+  if x = 0 
+  then 0 
+  else foo(x-1)
+;
+  
+end A

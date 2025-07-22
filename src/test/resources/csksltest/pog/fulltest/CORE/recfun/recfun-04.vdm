@@ -1,0 +1,28 @@
+module A
+exports all
+definitions
+ 
+
+
+functions
+
+id : nat -> nat 
+id(x) == x;
+
+f : nat -> bool
+f(n) == if n = 0 then true
+           else h(n-1)
+;
+
+h : nat -> bool
+h(n) == if n = 0 then true
+           else g(n-1)
+;
+
+g : nat -> bool
+g(n) == if n = 0 then true
+           else f(n-1)
+;
+
+
+end A

@@ -1,0 +1,3 @@
+Test() = 
+{ "InMapApply" |-> 
+  [ 4 ] }

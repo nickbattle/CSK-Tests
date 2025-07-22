@@ -1,0 +1,26 @@
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+module A
+exports all
+definitions
+
+
+types
+
+  Even = nat
+  inv n == n mod 2 = 0
+
+operations
+
+
+
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+---------------------------------------------------------------------
+----------------- LetExpr         -----------------------------------
+---------------------------------------------------------------------
+Test : () ==> nat   
+Test () ==
+        let a=7 in (
+                dcl a:int := 3;
+                return a) 
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+end A

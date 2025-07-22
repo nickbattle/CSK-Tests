@@ -1,0 +1,12 @@
+module ErrorTest
+exports all
+definitions
+
+
+operations
+
+  ErrorOp: () ==>  ()
+  ErrorOp() ==
+    error;
+
+end ErrorTest

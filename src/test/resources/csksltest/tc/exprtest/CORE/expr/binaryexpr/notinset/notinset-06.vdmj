@@ -1,0 +1,5 @@
+[3320]
+--
+Error 3320: 'not in set' expression is always true in 'BinaryTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/binaryexpr/notinset/notinset-06.vdm) at line 14:16
+Element: bool
+Set: set1 of (nat1)

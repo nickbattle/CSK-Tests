@@ -1,0 +1,16 @@
+module SetComprehensionExpr
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = {s1 | s1 union - in set {{},{1,7}}}
+  in skip;
+
+------------------------------------------------------------------------------
+end SetComprehensionExpr

@@ -1,0 +1,10 @@
+[3327, 3018, 3203, 5000]
+--
+Error 3327: Value is not of the right type in 'TYPE' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/type/type.vdm) at line 18:27
+Actual: rat
+Expected: bool
+Error 3018: Function returns unexpected type in 'TYPE' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/type/type.vdm) at line 18:12
+Actual: rat
+Expected: bool
+Error 3203: Sequence pattern is matched against set of (nat) in 'TYPE' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/type/type.vdm) at line 21:15
+Warning 5000: Definition 's' not used in 'TYPE' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/type/type.vdm) at line 21:7

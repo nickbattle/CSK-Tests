@@ -1,0 +1,26 @@
+module NumExpTest
+exports all
+definitions
+ 
+  functions
+
+  f : nat -> nat
+  f(n) ==
+    n + 1;
+
+  g: nat -> bool
+  g(n) ==
+   n = 9
+    
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = g ** 0
+  in skip;
+
+------------------------------------------------------------------------------
+end NumExpTest

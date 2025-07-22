@@ -1,0 +1,9 @@
+[3285, 5041, 5041, 5041, 5000, 5000, 5000]
+--
+Error 3285: System class can only define a default constructor in 'FighterAircraft' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/fighter/fighter-04.vpp) at line 30:10
+Warning 5041: Add explicit type 'SENSOR_APERATURE : nat1' here in 'GLOBAL' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/fighter/fighter-04.vpp) at line 296:10
+Warning 5041: Add explicit type 'FLARE_APERATURE : nat1' here in 'GLOBAL' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/fighter/fighter-04.vpp) at line 297:10
+Warning 5041: Add explicit type 'DISPENSER_APERATURE : nat1' here in 'GLOBAL' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/fighter/fighter-04.vpp) at line 298:10
+Warning 5000: Definition 'env' not used in 'FighterAircraft' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/fighter/fighter-04.vpp) at line 31:20
+Warning 5000: Definition 'controller' not used in 'World' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/fighter/fighter-04.vpp) at line 61:11
+Warning 5000: Definition 'fname' not used in 'Environment' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/fighter/fighter-04.vpp) at line 355:16

@@ -1,0 +1,26 @@
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+module A
+exports all
+definitions
+
+
+operations
+
+
+
+
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+Test : () ==> map bool to (nat|seq of char)  
+Test () ==
+
+return 
+
+ let m = {false |-> 7} in
+ let ms = if m(false) = 7
+          then {true |->"false"}
+          else nil
+ in ms ++ m
+
+
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+end A

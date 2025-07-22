@@ -1,0 +1,5 @@
+[3091]
+--
+Error 3091: Unknown member fn(nat) of class A in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/overload/overload-09.vpp) at line 26:11
+Possible: fn(A)
+Possible: fn(bool)

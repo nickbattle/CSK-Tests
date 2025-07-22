@@ -1,0 +1,18 @@
+[3327, 3327, 3130, 3327, 3327, 3130]
+--
+Error 3327: Value is not of the right type in 'RecordModifierExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/recordmodifierexpr/recordmodifierexpr-10.vdm) at line 24:27
+Actual: seq1 of (char)
+Expected: nat1
+Error 3327: Value is not of the right type in 'RecordModifierExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/recordmodifierexpr/recordmodifierexpr-10.vdm) at line 25:27
+Actual: set1 of (nat1)
+Expected: nat1
+Error 3130: Modifier for n should be nat1 in 'RecordModifierExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/recordmodifierexpr/recordmodifierexpr-10.vdm) at line 23:22
+Actual: (seq1 of (char) | set1 of (nat1))
+Error 3327: Value is not of the right type in 'RecordModifierExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/recordmodifierexpr/recordmodifierexpr-10.vdm) at line 27:32
+Actual: seq1 of (char)
+Expected: real
+Error 3327: Value is not of the right type in 'RecordModifierExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/recordmodifierexpr/recordmodifierexpr-10.vdm) at line 28:34
+Actual: set1 of (nat1)
+Expected: real
+Error 3130: Modifier for r should be real in 'RecordModifierExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/recordmodifierexpr/recordmodifierexpr-10.vdm) at line 26:22
+Actual: (seq1 of (char) | set1 of (nat1))

@@ -1,0 +1,5 @@
+[3073]
+--
+Error 3073: Parameter of left should equal result of right in function 'comp' in 'NumExpTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/compose/compose-07.vdm) at line 30:44
+Parameter: nat
+Result: bool

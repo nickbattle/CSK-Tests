@@ -1,0 +1,16 @@
+module SetComprehensionExpr
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = {a+b |mk_A(a,b) : A & true}
+  in skip;
+
+------------------------------------------------------------------------------
+end SetComprehensionExpr

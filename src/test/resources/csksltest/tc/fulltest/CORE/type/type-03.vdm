@@ -1,0 +1,11 @@
+module TYPE
+exports all
+definitions
+
+types
+
+  A ::
+   sel : nat
+  inv A == true;
+
+end TYPE

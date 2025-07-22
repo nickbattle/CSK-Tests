@@ -1,0 +1,19 @@
+module UnaryTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let n =0,
+      - = len if 6 > 9
+            then n
+            else []
+  in skip;
+
+------------------------------------------------------------------------------
+end UnaryTest

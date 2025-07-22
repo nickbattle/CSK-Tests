@@ -1,0 +1,8 @@
+[3327, 3327]
+--
+Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-17.vdm) at line 15:24
+Actual: bool
+Expected: int
+Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-17.vdm) at line 17:24
+Actual: bool
+Expected: int

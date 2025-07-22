@@ -1,0 +1,21 @@
+module DefExprTest
+exports all
+definitions
+
+types
+
+  A :: selid : nat
+       sel2 : bool
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = def a in set {7, 8, 2, true} = 7 in a + 8
+  in skip;
+
+------------------------------------------------------------------------------
+end DefExprTest

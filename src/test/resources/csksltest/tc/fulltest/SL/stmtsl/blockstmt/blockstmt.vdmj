@@ -1,0 +1,8 @@
+[3328, 5006, 5006, 5000]
+--
+Error 3328: Statement returns void value in 'BlockStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/blockstmt/blockstmt.vdm) at line 21:6
+Actual: ()
+Expected: nat1
+Warning 5006: Statement will not be reached in 'BlockStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/blockstmt/blockstmt.vdm) at line 20:6
+Warning 5006: Statement will not be reached in 'BlockStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/blockstmt/blockstmt.vdm) at line 21:6
+Warning 5000: Definition 'BlockStmt1' not used in 'BlockStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/blockstmt/blockstmt.vdm) at line 12:3

@@ -1,0 +1,17 @@
+module SetEunumertionTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let n = 5,
+      - = {if n then true else 7.8, {|->}}
+  in skip;
+
+------------------------------------------------------------------------------
+end SetEunumertionTest

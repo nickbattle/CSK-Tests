@@ -1,0 +1,16 @@
+module QuantExprTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = exists1 a:nat & a = 9
+  in skip;
+
+------------------------------------------------------------------------------
+end QuantExprTest

@@ -1,0 +1,13 @@
+module A
+exports all
+definitions
+
+
+operations
+
+Test :() ==> nat
+Test() ==
+  return   (lambda b : nat & b + 5)(0)
+
+   
+end A

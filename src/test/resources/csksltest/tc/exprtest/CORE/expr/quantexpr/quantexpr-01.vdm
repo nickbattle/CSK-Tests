@@ -1,0 +1,16 @@
+module QuantExprTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = forall mk_(a,b) in set {1,...,10} & a > b
+  in skip;
+
+------------------------------------------------------------------------------
+end QuantExprTest

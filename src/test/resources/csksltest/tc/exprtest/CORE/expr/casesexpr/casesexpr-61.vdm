@@ -1,0 +1,56 @@
+module CasesExprTest
+exports all
+definitions
+
+	functions
+
+  f : () -> inmap rat to nat
+  f() ==
+    {2 |-> 5}
+  pre true
+--  post true
+
+types
+
+  A :: a: int
+       b: bool
+
+values
+
+  v1 : A = mk_A(1,true);
+  n : real = 88
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let t = true,
+      mapp = {1|->2},
+      nill = nil,
+      - = let m:map char to int =
+        cases n:
+         1
+	   -> t
+	,
+         4
+           -> if t
+             then t
+             else [8]
+        ,
+         5
+           -> cases 8:
+               5.6 -> mapp,
+               [] ^ s -> nill,
+               others -> f
+             end
+	,
+         others -> nill
+        end
+        in m 
+  in skip;
+
+------------------------------------------------------------------------------
+end CasesExprTest

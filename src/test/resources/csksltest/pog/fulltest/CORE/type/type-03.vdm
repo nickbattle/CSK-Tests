@@ -1,0 +1,14 @@
+module A
+exports all
+definitions
+
+types
+
+  B = inmap nat1 to bool;
+
+  D = set of token
+  inv s1 union s2 == 
+    card s1 >= card s2;
+
+
+end A

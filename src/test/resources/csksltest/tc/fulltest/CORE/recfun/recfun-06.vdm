@@ -1,0 +1,25 @@
+module A
+exports all
+definitions
+ 
+
+
+functions
+
+id : nat -> nat 
+id(x) == x;
+
+end A
+
+module B
+exports all
+definitions
+
+
+functions
+fac : nat -> bool
+fac(n) == if n = 0 then 0 else fac(n-1)
+;
+        
+
+end B

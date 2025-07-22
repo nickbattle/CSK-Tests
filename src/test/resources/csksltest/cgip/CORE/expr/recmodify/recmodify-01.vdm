@@ -1,0 +1,30 @@
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+module A
+exports all
+definitions
+
+types
+AA:: i : nat
+    j : nat;
+
+B:: x : char
+    j : int
+    i : real;
+
+C:: j : nat
+
+operations
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+Test : () ==> seq of nat  
+Test () ==
+( return 
+    
+    let a in set {mk_AA(1,2), mk_B('a',5,7), mk_(1,2)}
+      be st is_AA(a) in
+        let r = mu(a, i |-> 10, j |-> 20) 
+    in
+      [a.i, a.j, r.i, r.j]
+)
+
+
+end A

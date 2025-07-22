@@ -1,0 +1,19 @@
+module SetRangeExprTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let t = true,
+      - = {if 6 <8
+         then 7
+         else t,...,-9}
+  in skip;
+
+------------------------------------------------------------------------------
+end SetRangeExprTest

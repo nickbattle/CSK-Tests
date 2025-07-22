@@ -1,0 +1,33 @@
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+module A
+exports all
+definitions
+
+
+operations
+
+
+
+
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+Test : () ==> nat  
+Test () ==
+return
+ (if false
+  then 10
+  else mk_ABE(10,true)).a
+
+types
+
+ABE ::
+   a  : nat | bool
+   b  : bool | int
+ 
+
+
+
+
+
+
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+end A

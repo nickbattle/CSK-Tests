@@ -1,0 +1,4 @@
+[3133, 5001]
+--
+Error 3133: Class name B not in scope in 'NewExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/exprtest/PP/exprpp/newexpr/newexpr-02.vpp) at line 15:11
+Warning 5001: Instance variable 'c' is not initialized in 'NewExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/exprtest/PP/exprpp/newexpr/newexpr-02.vpp) at line 7:8

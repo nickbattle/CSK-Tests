@@ -1,0 +1,23 @@
+module UnaryTest
+exports all
+definitions
+
+types
+
+  UnionType :: seq of UnionType;
+
+  EmptyType ::
+  
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let t = true,
+      - = dunion t
+  in skip;
+
+------------------------------------------------------------------------------
+end UnaryTest

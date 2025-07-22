@@ -1,0 +1,16 @@
+module CasesStmtTest
+exports all
+definitions
+
+
+operations
+
+Test: nat ==> nat
+Test(a) ==
+    cases a:
+      10 -> return 20,
+      others -> if a < 10
+                then return 10
+    end;
+
+end  CasesStmtTest

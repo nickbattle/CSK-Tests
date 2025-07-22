@@ -1,0 +1,18 @@
+module A
+exports all
+definitions
+
+
+functions
+
+id[@A] : seq of @A -> nat
+id(x) == len x;
+
+foo[@A] : seq of @A -> nat
+foo(x) ==
+  if x = []
+  then 0 
+  else 2 + foo[@A](tl x)
+;
+
+end A

@@ -1,0 +1,16 @@
+module QuantExprTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = forall l1 ^ l2 in set {} & len l1 > len l2
+  in skip;
+
+------------------------------------------------------------------------------
+end QuantExprTest

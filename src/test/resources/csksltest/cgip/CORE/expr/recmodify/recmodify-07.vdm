@@ -1,0 +1,29 @@
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+module A
+exports all
+definitions
+
+
+operations
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+Test : () ==> char 
+Test () ==
+    let a = mk_Abe(3.46, 'a', 25)
+    in  return mu(a, i |-> 'a').i
+
+
+types
+Abe:: real
+      char
+      i : nat | char;
+ReC:: j: seq of char
+      i : rat;
+C:: j : nat
+
+
+functions
+f: nat -> real
+f(n) ==
+  n
+
+end A

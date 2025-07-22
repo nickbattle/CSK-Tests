@@ -1,0 +1,35 @@
+module SeqModifyMapOverrideExprTest
+exports all
+definitions
+
+	types
+
+  MyType :: nt : bool;
+
+   Name ::
+    a: seq of char
+    b: [nat];
+    
+ MyMap = map Name to MyType  
+
+ functions
+  h: Name -> Name
+  h(nm) ==
+   nm
+ 
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = {2 |-> 8} ++ 
+           cases false:
+             true -> "ABC",
+             others -> {9,8}
+           end  
+  in skip;
+
+------------------------------------------------------------------------------
+end SeqModifyMapOverrideExprTest

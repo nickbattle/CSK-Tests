@@ -1,0 +1,14 @@
+[3006, 3006, 3005, 3005]
+--
+Error 3006: Overriding definition reduces visibility in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar-01.vpp) at line 16:9
+This: i1
+Super: i1
+Error 3006: Overriding definition reduces visibility in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar-01.vpp) at line 18:9
+This: i3
+Super: i3
+Error 3005: Overriding a superclass member of a different kind: i1 in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar-01.vpp) at line 27:9
+This: local
+Super: instance variable
+Error 3005: Overriding a superclass member of a different kind: i3 in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar-01.vpp) at line 29:9
+This: local
+Super: instance variable

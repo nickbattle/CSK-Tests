@@ -1,0 +1,19 @@
+module A
+exports all
+definitions
+
+
+operations
+Test :() ==> int
+Test() ==
+  
+        return
+        let f' : nat | (nat -> nat ) = f[nat]
+        in f'(10)
+
+functions
+  f[@elem]: @elem -> @elem
+  f(e) ==
+    e
+
+end A

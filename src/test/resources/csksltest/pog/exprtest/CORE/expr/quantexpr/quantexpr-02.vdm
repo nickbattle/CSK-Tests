@@ -1,0 +1,15 @@
+module QuantExprTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+functions
+
+TestF: () +> bool
+TestF() ==
+  forall l1 ^ l2 in set {} & len l1 > len l2
+
+------------------------------------------------------------------------------
+end QuantExprTest

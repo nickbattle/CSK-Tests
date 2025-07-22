@@ -1,0 +1,9 @@
+[3139, 5000, 5000, 5000, 5000, 5000]
+--
+Error 3139: Left hand of < is not ordered in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-22.vdm) at line 11:14
+Actual: B
+Warning 5000: Definition 'c' not used in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-22.vdm) at line 24:23
+Warning 5000: Definition 'i' not used in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-22.vdm) at line 32:13
+Warning 5000: Definition 'h' not used in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-22.vdm) at line 28:13
+Warning 5000: Definition 'g' not used in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-22.vdm) at line 24:13
+Warning 5000: Definition 'f' not used in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-22.vdm) at line 20:15

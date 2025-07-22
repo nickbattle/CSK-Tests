@@ -1,0 +1,12 @@
+[3327, 3327, 3051, 5000]
+--
+Error 3327: Value is not of the right type in 'SetComprehensionExpr' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/setcomprehensionexpr/setcomprehensionexpr-08.vdm) at line 15:17
+Actual: seq1 of (char)
+Expected: nat
+Error 3327: Value is not of the right type in 'SetComprehensionExpr' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/setcomprehensionexpr/setcomprehensionexpr-08.vdm) at line 16:17
+Actual: set1 of (nat1)
+Expected: nat
+Error 3051: Expression does not match declared type in 'SetComprehensionExpr' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/setcomprehensionexpr/setcomprehensionexpr-08.vdm) at line 13:15
+Declared: set of (nat)
+Expression: set of ((seq1 of (char) | set1 of (nat1)))
+Warning 5000: Definition 'i' not used in 'SetComprehensionExpr' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/setcomprehensionexpr/setcomprehensionexpr-08.vdm) at line 16:25

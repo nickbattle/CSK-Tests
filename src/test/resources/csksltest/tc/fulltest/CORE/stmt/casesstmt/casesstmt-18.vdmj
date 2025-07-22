@@ -1,0 +1,12 @@
+[3327, 3327, 3327, 5000]
+--
+Error 3327: Value is not of the right type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-18.vdm) at line 23:24
+Actual: nat1
+Expected: bool
+Error 3327: Value is not of the right type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-18.vdm) at line 25:20
+Actual: nat1
+Expected: bool
+Error 3327: Value is not of the right type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-18.vdm) at line 27:14
+Actual: [?]
+Expected: bool
+Warning 5000: Definition 'err' not used in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-18.vdm) at line 25:8

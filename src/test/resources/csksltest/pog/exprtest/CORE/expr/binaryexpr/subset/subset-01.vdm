@@ -1,0 +1,16 @@
+module BinaryTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = {3} subset {true,5}
+  in skip;
+
+------------------------------------------------------------------------------
+end BinaryTest

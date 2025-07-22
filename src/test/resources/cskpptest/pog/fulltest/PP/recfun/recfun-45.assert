@@ -1,0 +1,8 @@
+new A().Test() = 
+[ mk_ERR`ErrMsg(
+     10,
+     15,
+     9,
+     "Error[380] : Can not refer to non-static class member \"id\" in a static class member",
+     <ERROR> ) ]
+

@@ -1,0 +1,24 @@
+module LetExprTest
+exports all
+definitions
+
+types
+
+  A :: selid : nat
+       sel2 : bool;
+
+  B :: sel1 : rat
+  inv b == b < 6
+  
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = let mk_B(r) = mk_B(5) in r * r
+  in skip;
+
+------------------------------------------------------------------------------
+end LetExprTest

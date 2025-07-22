@@ -1,0 +1,10 @@
+module IdentStmtTest
+exports all
+definitions
+
+operations
+
+  IdentStmt1() ==
+    skip
+    
+end IdentStmtTest

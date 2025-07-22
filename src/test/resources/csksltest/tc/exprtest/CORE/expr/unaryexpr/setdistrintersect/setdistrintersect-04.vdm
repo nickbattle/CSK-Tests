@@ -1,0 +1,21 @@
+module UnaryTest
+exports all
+definitions
+
+types
+
+  A :: set of nat
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let n = nil,
+      - = dinter n
+  in skip;
+
+------------------------------------------------------------------------------
+end UnaryTest

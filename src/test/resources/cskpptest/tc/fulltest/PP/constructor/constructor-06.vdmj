@@ -1,0 +1,9 @@
+[3326, 3327, 3027]
+--
+Error 3326: Constructor can only return 'self' in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/constructor/constructor-06.vpp) at line 21:3
+Error 3327: Value is not of the right type in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/constructor/constructor-06.vpp) at line 21:3
+Actual: nat
+Expected: A
+Error 3027: Operation returns unexpected type in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/constructor/constructor-06.vpp) at line 18:8
+Actual: nat
+Expected: A

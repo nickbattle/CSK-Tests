@@ -1,0 +1,16 @@
+module UndefinedExprTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = undefined
+  in skip;
+
+------------------------------------------------------------------------------
+end UndefinedExprTest

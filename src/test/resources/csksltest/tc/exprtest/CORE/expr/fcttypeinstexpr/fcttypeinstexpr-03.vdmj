@@ -1,0 +1,14 @@
+[3327, 3018, 3060, 3061]
+--
+Error 3327: Value is not of the right type in 'FctTypeInstExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/fcttypeinstexpr/fcttypeinstexpr-03.vdm) at line 6:12
+Actual: map (int) to (@p)
+Expected: ((@q -> bool) -> map (int) to (@p))
+Error 3018: Function returns unexpected type in 'FctTypeInstExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/fcttypeinstexpr/fcttypeinstexpr-03.vdm) at line 5:1
+Actual: map (int) to (@p)
+Expected: ((@q -> bool) -> map (int) to (@p))
+Error 3060: Too few arguments in 'FctTypeInstExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/fcttypeinstexpr/fcttypeinstexpr-03.vdm) at line 18:11
+Args: f2
+Params: (int, int)
+Error 3061: Inappropriate type for argument 1 in 'FctTypeInstExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/fcttypeinstexpr/fcttypeinstexpr-03.vdm) at line 18:27
+Expect: (int -> bool)
+Actual: nat1

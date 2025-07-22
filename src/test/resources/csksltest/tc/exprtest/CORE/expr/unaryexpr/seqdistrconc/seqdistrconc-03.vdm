@@ -1,0 +1,17 @@
+module UnaryTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let t = true,
+      - = conc t
+  in skip;
+
+------------------------------------------------------------------------------
+end UnaryTest

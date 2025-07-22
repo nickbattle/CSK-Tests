@@ -1,0 +1,21 @@
+module LetBeSTExprTest
+exports all
+definitions
+
+types
+
+  A :: selid : nat
+       sel2 : bool
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = let a in set (7 + 9) in a
+  in skip;
+
+------------------------------------------------------------------------------
+end LetBeSTExprTest

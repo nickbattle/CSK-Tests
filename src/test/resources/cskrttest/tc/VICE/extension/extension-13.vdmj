@@ -1,0 +1,15 @@
+[3294, 3134, 3134, 3134, 3182, 3290, 3209, 3209, 3209, 5000]
+--
+Error 3294: Only one system class permitted in 'RadNavSysEnv' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/extension/extension-13.vpp) at line 41:8
+Error 3134: Class has no constructor with these parameter types in 'RadNavSysEnv' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/extension/extension-13.vpp) at line 45:36
+Called: VolumeKnob(nat1)
+Error 3134: Class has no constructor with these parameter types in 'RadNavSysEnv' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/extension/extension-13.vpp) at line 50:37
+Called: TransmitTMC(nat1)
+Error 3134: Class has no constructor with these parameter types in 'RadNavSysEnv' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/extension/extension-13.vpp) at line 55:39
+Called: InsertAddress(nat1)
+Error 3182: Name 'Radio`DecodeTMC' is not in scope in 'RadNavSys' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/extension/extension-13.vpp) at line 32:24
+Error 3290: Argument to setPriority must be an operation in 'RadNavSys' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/extension/extension-13.vpp) at line 32:24
+Error 3209: Member HandleEvent(nat) is not in scope in 'MMI' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/extension/extension-13.vpp) at line 91:43
+Error 3209: Member HandleEvent(nat) is not in scope in 'MMI' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/extension/extension-13.vpp) at line 92:46
+Error 3209: Member HandleEvent(nat) is not in scope in 'MMI' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/extension/extension-13.vpp) at line 93:44
+Warning 5000: Definition 'dummy' not used in 'World' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/extension/extension-13.vpp) at line 302:11

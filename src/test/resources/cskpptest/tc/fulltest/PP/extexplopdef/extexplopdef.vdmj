@@ -1,0 +1,34 @@
+[3182, 3182, 3327, 3035, 3182, 3182, 3136, 3139, 3018, 3032, 3327, 3307, 5000, 5000, 5000, 5000, 5007, 5008, 5007]
+--
+Error 3182: Name 'OpDefTest`a~' is not in scope in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/extexplopdef/extexplopdef.vpp) at line 31:8
+Error 3182: Name 'OpDefTest`s' is not in scope in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/extexplopdef/extexplopdef.vpp) at line 31:13
+Error 3327: Value is not of the right type in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/extexplopdef/extexplopdef.vpp) at line 34:19
+Actual: bool
+Expected: nat
+Error 3035: Operation returns unexpected type in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/extexplopdef/extexplopdef.vpp) at line 33:3
+Actual: bool
+Expected: nat
+Error 3182: Name 'OpDefTest`b~' is not in scope in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/extexplopdef/extexplopdef.vpp) at line 45:18
+Error 3182: Name 'OpDefTest`r' is not in scope in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/extexplopdef/extexplopdef.vpp) at line 46:14
+Error 3136: Left and right of '<>' different types in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/extexplopdef/extexplopdef.vpp) at line 51:9
+Left: char
+Right: nat1
+Error 3139: Left hand of + is not numeric in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/extexplopdef/extexplopdef.vpp) at line 52:15
+Actual: char
+Error 3018: Postcondition returns unexpected type in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/extexplopdef/extexplopdef.vpp) at line 59:3
+Actual: nat
+Expected: bool
+Error 3032: State variable a is not this type in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/extexplopdef/extexplopdef.vpp) at line 64:3
+Declared: nat
+ext type: real
+Error 3327: Value is not of the right type in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/extexplopdef/extexplopdef.vpp) at line 72:14
+Actual: nat
+Expected: bool
+Error 3307: Errs clause is not bool -> bool in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/extexplopdef/extexplopdef.vpp) at line 72:14
+Warning 5000: Definition 's' not used in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/extexplopdef/extexplopdef.vpp) at line 14:26
+Warning 5000: Definition 's' not used in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/extexplopdef/extexplopdef.vpp) at line 20:26
+Warning 5000: Definition 't' not used in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/extexplopdef/extexplopdef.vpp) at line 20:35
+Warning 5000: Definition 'r' not used in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/extexplopdef/extexplopdef.vpp) at line 27:17
+Warning 5007: Duplicate definition: a in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/extexplopdef/extexplopdef.vpp) at line 48:7
+Warning 5008: a at 3:7 hidden by a in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/extexplopdef/extexplopdef.vpp) at line 48:7
+Warning 5007: Duplicate definition: a in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/extexplopdef/extexplopdef.vpp) at line 3:7

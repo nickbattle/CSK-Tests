@@ -1,0 +1,4 @@
+[3432, 5000]
+--
+Error 3432: Unable to resolve type name 'B`Z' in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules02/modules02.vdm) at line 83:11
+Warning 5000: Definition 'f' not used in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules02/modules02.vdm) at line 40:5

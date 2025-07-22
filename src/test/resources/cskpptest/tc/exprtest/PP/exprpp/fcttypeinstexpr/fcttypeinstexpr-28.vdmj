@@ -1,0 +1,9 @@
+[3182, 3213, 3209, 3091]
+--
+Error 3182: Name 'g()' is not in scope in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/exprtest/PP/exprpp/fcttypeinstexpr/fcttypeinstexpr-28.vpp) at line 9:10
+Possible: g(@A)
+Error 3213: Operation g() is not in scope in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/exprtest/PP/exprpp/fcttypeinstexpr/fcttypeinstexpr-28.vpp) at line 13:3
+Possible: g(@A)
+Error 3209: Member g() is not in scope in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/exprtest/PP/exprpp/fcttypeinstexpr/fcttypeinstexpr-28.vpp) at line 17:7
+Error 3091: Unknown member g() of class A in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/exprtest/PP/exprpp/fcttypeinstexpr/fcttypeinstexpr-28.vpp) at line 21:18
+Possible: g(@A)

@@ -1,0 +1,19 @@
+module OldNameTest
+definitions
+
+state Sigma of
+a : nat
+end
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = a~
+  in skip;
+
+------------------------------------------------------------------------------
+
+end OldNameTest

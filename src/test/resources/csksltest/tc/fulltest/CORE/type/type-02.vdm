@@ -1,0 +1,11 @@
+module TYPE
+exports all
+definitions
+
+types
+
+  A ::
+   sel : nat
+   sel : bool;
+
+end TYPE

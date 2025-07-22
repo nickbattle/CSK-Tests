@@ -1,0 +1,15 @@
+module CasesStmtTest
+exports all
+definitions
+
+
+operations
+
+Test: () ==>  nat | bool
+Test() ==
+    cases 6 - 9:
+      b -> return 8,
+      others -> return true
+    end;
+
+end CasesStmtTest

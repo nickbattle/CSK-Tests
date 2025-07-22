@@ -1,0 +1,20 @@
+[3327, 3327, 3327, 3327, 3327, 3051]
+--
+Error 3327: Value is not of the right type in 'TupleConstructorExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/tupleconstructorexpr/tupleconstructorexpr-04.vdm) at line 15:17
+Actual: seq1 of (char)
+Expected: bool
+Error 3327: Value is not of the right type in 'TupleConstructorExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/tupleconstructorexpr/tupleconstructorexpr-04.vdm) at line 16:17
+Actual: set1 of (nat1)
+Expected: bool
+Error 3327: Value is not of the right type in 'TupleConstructorExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/tupleconstructorexpr/tupleconstructorexpr-04.vdm) at line 18:22
+Actual: seq1 of (char)
+Expected: nat
+Error 3327: Value is not of the right type in 'TupleConstructorExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/tupleconstructorexpr/tupleconstructorexpr-04.vdm) at line 19:24
+Actual: set1 of (nat1)
+Expected: nat
+Error 3327: Value is not of the right type in 'TupleConstructorExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/tupleconstructorexpr/tupleconstructorexpr-04.vdm) at line 13:10
+Actual: ((seq1 of (char) | set1 of (nat1)) * (seq1 of (char) | set1 of (nat1)))
+Expected: (bool * nat)
+Error 3051: Expression does not match declared type in 'TupleConstructorExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/tupleconstructorexpr/tupleconstructorexpr-04.vdm) at line 12:15
+Declared: (bool * nat)
+Expression: ((seq1 of (char) | set1 of (nat1)) * (seq1 of (char) | set1 of (nat1)))

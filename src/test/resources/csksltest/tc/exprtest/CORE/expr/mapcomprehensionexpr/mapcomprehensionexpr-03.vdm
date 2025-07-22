@@ -1,0 +1,16 @@
+module MapComprehensionExprTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = {nil |-> a | a in set 7}
+  in skip;
+
+------------------------------------------------------------------------------
+end MapComprehensionExprTest

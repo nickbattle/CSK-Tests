@@ -1,0 +1,9 @@
+[3001, 3276, 3011]
+--
+Error 3001: Class inherits thread definition from multiple supertypes in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/periodic/periodic-08.vpp) at line 45:7
+Error 3276: Ambiguous definitions inherited by C in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/periodic/periodic-08.vpp) at line 45:7
+1: B`thread() in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/periodic/periodic-08.vpp) at line 23:25
+2: D`thread() in 'D' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/periodic/periodic-08.vpp) at line 41:25
+Error 3011: Name C`thread() is multiply defined in class in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/periodic/periodic-08.vpp) at line 45:7
+1: in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/periodic/periodic-08.vpp) at line 23:25
+2: in 'D' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/periodic/periodic-08.vpp) at line 41:25

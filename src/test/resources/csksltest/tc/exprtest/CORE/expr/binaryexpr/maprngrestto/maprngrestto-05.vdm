@@ -1,0 +1,20 @@
+module BinaryTest
+exports all
+definitions
+
+types
+
+  T = map (bool * nat) to (bool * nat)
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let n = nil,
+      a = "a",
+      - =   n :> a in skip;
+
+------------------------------------------------------------------------------
+end BinaryTest

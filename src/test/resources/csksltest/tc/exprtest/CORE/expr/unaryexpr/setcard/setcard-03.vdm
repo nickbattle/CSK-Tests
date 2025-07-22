@@ -1,0 +1,17 @@
+module UnaryTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let n = 0,
+      - = card n
+  in skip;
+
+------------------------------------------------------------------------------
+end UnaryTest

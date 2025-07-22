@@ -1,0 +1,5 @@
+[3165]
+--
+Error 3165: Left and right of intersect are different types in 'BinaryTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/binaryexpr/setintersect/setintersect-01.vdm) at line 24:15
+Left: set1 of (nat1)
+Right: set1 of (bool)

@@ -1,0 +1,19 @@
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+module A
+exports all
+definitions
+
+
+operations
+
+
+
+
+Test : () ==> set of nat  
+Test () ==
+return 
+    { a| a in set {1,2,3} & a <> 2}
+	
+
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+end A

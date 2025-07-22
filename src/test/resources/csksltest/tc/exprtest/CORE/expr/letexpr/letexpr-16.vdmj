@@ -1,0 +1,13 @@
+[3139, 3327, 3327, 3051]
+--
+Error 3139: Left hand of < is not ordered in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-16.vdm) at line 11:14
+Actual: B
+Error 3327: Value is not of the right type in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-16.vdm) at line 23:27
+Actual: seq1 of (char)
+Expected: nat
+Error 3327: Value is not of the right type in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-16.vdm) at line 24:27
+Actual: set1 of (nat1)
+Expected: nat
+Error 3051: Expression does not match declared type in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-16.vdm) at line 22:15
+Declared: nat
+Expression: (seq1 of (char) | set1 of (nat1))

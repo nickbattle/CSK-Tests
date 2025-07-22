@@ -1,0 +1,21 @@
+module SetEunumertionTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let  A = "ABC",
+     - = let a:set of nat =
+         { cases false:
+             true -> A,
+             others -> {9,8}
+           end } in a 
+  in skip;
+
+------------------------------------------------------------------------------
+end SetEunumertionTest

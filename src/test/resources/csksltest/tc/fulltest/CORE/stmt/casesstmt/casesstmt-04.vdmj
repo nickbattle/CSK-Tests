@@ -1,0 +1,11 @@
+[3206, 3311, 3365, 3205, 3311, 3365, 5000, 5000]
+--
+Error 3206: Matching expression is not a set type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-04.vdm) at line 11:10
+Error 3311: Pattern cannot match in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-04.vdm) at line 11:10
+Error 3365: Void operation cannot use 'return <exp>' in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-04.vdm) at line 11:22
+Error 3205: Matching expression is not a product of cardinality 3 in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-04.vdm) at line 12:7
+Actual: map (nat1) to (char)
+Error 3311: Pattern cannot match in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-04.vdm) at line 12:7
+Error 3365: Void operation cannot use 'return <exp>' in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-04.vdm) at line 12:22
+Warning 5000: Definition 's1' not used in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-04.vdm) at line 11:7
+Warning 5000: Definition 's2' not used in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-04.vdm) at line 11:16

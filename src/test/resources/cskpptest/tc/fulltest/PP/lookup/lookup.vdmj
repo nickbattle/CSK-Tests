@@ -1,0 +1,17 @@
+[3427, 3276, 3182, 3327, 3027, 3180, 3365, 3324, 3180]
+--
+Error 3427: Unable to resolve type name 'TF1' in 'F' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/lookup/lookup.vpp) at line 135:22
+Error 3276: Ambiguous definitions inherited by G in 'G' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/lookup/lookup.vpp) at line 145:7
+1: problematic in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/lookup/lookup.vpp) at line 52:1
+2: problematic in 'F' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/lookup/lookup.vpp) at line 129:1
+Error 3182: Name 'G`vFromPars' is not in scope in 'G' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/lookup/lookup.vpp) at line 179:10
+Error 3327: Value is not of the right type in 'G' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/lookup/lookup.vpp) at line 183:3
+Actual: bool
+Expected: nat
+Error 3027: Operation returns unexpected type in 'G' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/lookup/lookup.vpp) at line 181:1
+Actual: bool
+Expected: nat
+Error 3180: Inaccessible member Different`instDifferent of class Different in 'G' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/lookup/lookup.vpp) at line 201:10
+Error 3365: Void operation cannot use 'return <exp>' in 'G' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/lookup/lookup.vpp) at line 204:3
+Error 3324: Operation Different`mDifferent() is not static in 'G' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/lookup/lookup.vpp) at line 207:3
+Error 3180: Inaccessible member 'Different`instDifferent' of class Different in 'G' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/lookup/lookup.vpp) at line 246:3

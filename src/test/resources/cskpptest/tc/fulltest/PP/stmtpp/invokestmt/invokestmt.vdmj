@@ -1,0 +1,33 @@
+[3213, 3213, 3182, 3209, 5000, 5000, 5000, 5000, 5000, 5008, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5001, 5001, 5001, 5001, 5001]
+--
+Error 3213: Operation InvokeStmt2(nat1, nat1) is not in scope in 'InvokeStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/invokestmt/invokestmt.vpp) at line 71:5
+Possible: InvokeStmt2(nat)
+Error 3213: Operation InvokeStmt2(bool) is not in scope in 'InvokeStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/invokestmt/invokestmt.vpp) at line 75:5
+Possible: InvokeStmt2(nat)
+Error 3182: Name 'd' is not in scope in 'InvokeStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/invokestmt/invokestmt.vpp) at line 91:5
+Error 3209: Member InvokeStmt9() is not in scope in 'InvokeStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/invokestmt/invokestmt.vpp) at line 91:7
+Warning 5000: Definition 'c' not used in 'Pars1' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/invokestmt/invokestmt.vpp) at line 5:22
+Warning 5000: Definition 'dummy' not used in 'Pars1' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/invokestmt/invokestmt.vpp) at line 5:29
+Warning 5000: Definition 'dummy' not used in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/invokestmt/invokestmt.vpp) at line 19:17
+Warning 5000: Definition 'arg' not used in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/invokestmt/invokestmt.vpp) at line 32:15
+Warning 5000: Definition 'dummy' not used in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/invokestmt/invokestmt.vpp) at line 32:26
+Warning 5008: c at 45:3 hidden by c in 'InvokeStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/invokestmt/invokestmt.vpp) at line 52:10
+Warning 5000: Definition 'c' not used in 'InvokeStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/invokestmt/invokestmt.vpp) at line 52:10
+Warning 5000: Definition 'dummy' not used in 'InvokeStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/invokestmt/invokestmt.vpp) at line 51:17
+Warning 5000: Definition 'dummy' not used in 'InvokeStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/invokestmt/invokestmt.vpp) at line 56:23
+Warning 5000: Definition 'dummy' not used in 'InvokeStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/invokestmt/invokestmt.vpp) at line 60:27
+Warning 5000: Definition 'dummy' not used in 'InvokeStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/invokestmt/invokestmt.vpp) at line 66:17
+Warning 5000: Definition 'dummy' not used in 'InvokeStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/invokestmt/invokestmt.vpp) at line 70:17
+Warning 5000: Definition 'dummy' not used in 'InvokeStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/invokestmt/invokestmt.vpp) at line 74:17
+Warning 5000: Definition 'dummy' not used in 'InvokeStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/invokestmt/invokestmt.vpp) at line 78:17
+Warning 5000: Definition 'dummy' not used in 'InvokeStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/invokestmt/invokestmt.vpp) at line 82:17
+Warning 5000: Definition 'dummy' not used in 'InvokeStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/invokestmt/invokestmt.vpp) at line 86:17
+Warning 5000: Definition 'dummy' not used in 'InvokeStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/invokestmt/invokestmt.vpp) at line 90:18
+Warning 5000: Definition 'dummy' not used in 'InvokeStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/invokestmt/invokestmt.vpp) at line 94:18
+Warning 5000: Definition 'b2' not used in 'InvokeStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/invokestmt/invokestmt.vpp) at line 98:16
+Warning 5000: Definition 'dummy' not used in 'InvokeStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/invokestmt/invokestmt.vpp) at line 98:24
+Warning 5001: Instance variable 'mya' is not initialized in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/invokestmt/invokestmt.vpp) at line 28:3
+Warning 5001: Instance variable 'a' is not initialized in 'InvokeStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/invokestmt/invokestmt.vpp) at line 43:3
+Warning 5001: Instance variable 'b' is not initialized in 'InvokeStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/invokestmt/invokestmt.vpp) at line 44:3
+Warning 5001: Instance variable 'c' is not initialized in 'InvokeStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/invokestmt/invokestmt.vpp) at line 45:3
+Warning 5001: Instance variable 'c2' is not initialized in 'InvokeStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/invokestmt/invokestmt.vpp) at line 46:3

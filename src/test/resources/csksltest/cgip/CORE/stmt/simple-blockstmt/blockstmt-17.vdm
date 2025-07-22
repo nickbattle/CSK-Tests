@@ -1,0 +1,13 @@
+module A
+exports all
+definitions
+
+
+operations
+
+Test : () ==> seq of (nat | bool)
+Test() ==
+(dcl a: nat;
+ a := 10;
+ return [1])
+end A

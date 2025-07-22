@@ -1,0 +1,6 @@
+[3327, 5012]
+--
+Error 3327: Value is not of the right type in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/recfun/recfun-06.vdm) at line 21:25
+Actual: nat
+Expected: bool
+Warning 5012: Recursive function has no measure in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/recfun/recfun-06.vdm) at line 20:1

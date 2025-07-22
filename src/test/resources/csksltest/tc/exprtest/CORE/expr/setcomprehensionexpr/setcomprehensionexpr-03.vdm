@@ -1,0 +1,16 @@
+module SetComprehensionExpr
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = {a | a ^ ([8]) in set {1,3,9}}
+  in skip;
+
+------------------------------------------------------------------------------
+end SetComprehensionExpr

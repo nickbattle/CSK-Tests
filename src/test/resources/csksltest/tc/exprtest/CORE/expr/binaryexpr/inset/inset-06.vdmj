@@ -1,0 +1,5 @@
+[3319]
+--
+Error 3319: 'in set' expression is always false in 'BinaryTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/binaryexpr/inset/inset-06.vdm) at line 15:13
+Element: bool
+Set: set1 of (nat1)

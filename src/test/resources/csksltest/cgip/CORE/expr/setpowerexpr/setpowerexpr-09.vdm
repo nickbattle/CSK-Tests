@@ -1,0 +1,18 @@
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+module A
+exports all
+definitions
+
+
+operations
+
+
+
+
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+Test : () ==> set of set of nat  
+Test () ==
+return power { 1,2,3,4,5,6,7,8,9,10 }	-- Reduced for performance reasons!
+
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+end A

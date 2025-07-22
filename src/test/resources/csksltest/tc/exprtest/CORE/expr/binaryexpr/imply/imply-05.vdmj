@@ -1,0 +1,4 @@
+[3065, 3066]
+--
+Error 3065: Left hand of => is not bool in 'BinaryTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/binaryexpr/imply/imply-05.vdm) at line 15:11
+Error 3066: Right hand of => is not bool in 'BinaryTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/binaryexpr/imply/imply-05.vdm) at line 15:11

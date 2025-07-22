@@ -1,0 +1,29 @@
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+module A
+exports all
+definitions
+
+
+operations
+
+
+
+
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+Test : () ==> seq of bool | nat  
+Test () ==
+return [ let a = mk_B()
+         in true,
+         let a : C = mk_D(3,true)
+         in a.b]
+
+
+types
+B :: ;
+C = compose D of
+     a: nat
+     b: bool
+    end
+
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+end A

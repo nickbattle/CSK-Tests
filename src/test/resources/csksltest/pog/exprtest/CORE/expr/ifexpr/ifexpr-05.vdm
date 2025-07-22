@@ -1,0 +1,34 @@
+module IfExprTest
+exports all
+definitions
+
+functions
+
+  f : () -> inmap rat to nat
+  f() ==
+    {2 |-> 5}
+  pre true
+--  post true
+
+types
+
+  A :: a: int
+       b: bool
+
+values
+
+  v1 : A = mk_A(1,true);
+  n : real = 88
+    
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = if true then f() else {|->}
+  in skip;
+
+------------------------------------------------------------------------------
+end IfExprTest

@@ -1,0 +1,20 @@
+[3327, 3327, 3129, 3327, 3327, 3129]
+--
+Error 3327: Value is not of the right type in 'RecordConstructorExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/recordconstructorexpr/recordconstructorexpr-06.vdm) at line 20:20
+Actual: seq1 of (char)
+Expected: nat
+Error 3327: Value is not of the right type in 'RecordConstructorExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/recordconstructorexpr/recordconstructorexpr-06.vdm) at line 21:20
+Actual: set1 of (nat1)
+Expected: nat
+Error 3129: Constructor field 1 is of wrong type in 'RecordConstructorExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/recordconstructorexpr/recordconstructorexpr-06.vdm) at line 19:15
+Expected: nat
+Actual: (seq1 of (char) | set1 of (nat1))
+Error 3327: Value is not of the right type in 'RecordConstructorExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/recordconstructorexpr/recordconstructorexpr-06.vdm) at line 23:25
+Actual: seq1 of (char)
+Expected: real
+Error 3327: Value is not of the right type in 'RecordConstructorExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/recordconstructorexpr/recordconstructorexpr-06.vdm) at line 24:27
+Actual: set1 of (nat1)
+Expected: real
+Error 3129: Constructor field 2 is of wrong type in 'RecordConstructorExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/recordconstructorexpr/recordconstructorexpr-06.vdm) at line 22:15
+Expected: real
+Actual: (seq1 of (char) | set1 of (nat1))

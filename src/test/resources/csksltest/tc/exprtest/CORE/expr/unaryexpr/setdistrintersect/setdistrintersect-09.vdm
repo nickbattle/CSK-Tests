@@ -1,0 +1,24 @@
+module UnaryTest
+exports all
+definitions
+
+types
+
+  A :: set of nat
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let A = "ABC",
+      n = 0,
+      - = dinter if false 
+             then A
+             else n 
+  in skip;
+
+------------------------------------------------------------------------------
+end UnaryTest

@@ -1,0 +1,12 @@
+[3043, 3105, 3044, 3044, 3327, 3046, 3044, 5001]
+--
+Error 3043: mm is not in scope in 'PermStmt4' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskthreads/tc/fulltest/PP/parallel/permissionstmt/permissionstmt.vpp) at line 58:7
+Error 3105: a1 is not an explicit operation in 'PermStmt4' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskthreads/tc/fulltest/PP/parallel/permissionstmt/permissionstmt.vpp) at line 59:25
+Error 3044: Duplicate permission guard found for b1 in 'PermStmt4' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskthreads/tc/fulltest/PP/parallel/permissionstmt/permissionstmt.vpp) at line 60:7
+Error 3044: Duplicate permission guard found for b1 in 'PermStmt4' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskthreads/tc/fulltest/PP/parallel/permissionstmt/permissionstmt.vpp) at line 62:7
+Error 3327: Value is not of the right type in 'PermStmt4' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskthreads/tc/fulltest/PP/parallel/permissionstmt/permissionstmt.vpp) at line 62:27
+Actual: nat1
+Expected: bool
+Error 3046: Guard is not a boolean expression in 'PermStmt4' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskthreads/tc/fulltest/PP/parallel/permissionstmt/permissionstmt.vpp) at line 62:14
+Error 3044: Duplicate permission guard found for b1 in 'PermStmt4' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskthreads/tc/fulltest/PP/parallel/permissionstmt/permissionstmt.vpp) at line 63:7
+Warning 5001: Instance variable 'a1' is not initialized in 'PermStmt4' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskthreads/tc/fulltest/PP/parallel/permissionstmt/permissionstmt.vpp) at line 53:3

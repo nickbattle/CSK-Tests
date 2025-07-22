@@ -1,0 +1,21 @@
+[3327, 3239, 3327, 3328, 3328, 3027, 5008]
+--
+Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-15.vdm) at line 13:32
+Actual: nat1
+Expected: bool
+Error 3239: Incompatible types in assignment in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-15.vdm) at line 13:27
+Target: bool
+Expression: nat1
+Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-15.vdm) at line 15:8
+Actual: bool
+Expected: (seq of (char) | set of (int))
+Error 3328: Statement returns void value in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-15.vdm) at line 18:12
+Actual: (return)
+Expected: (seq of (char) | set of (int))
+Error 3328: Statement returns void value in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-15.vdm) at line 19:10
+Actual: ()
+Expected: (seq of (char) | set of (int))
+Error 3027: Operation returns unexpected type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-15.vdm) at line 8:3
+Actual: (() | bool)
+Expected: (seq of (char) | set of (int))
+Warning 5008: a at 10:9 hidden by a in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-15.vdm) at line 12:16

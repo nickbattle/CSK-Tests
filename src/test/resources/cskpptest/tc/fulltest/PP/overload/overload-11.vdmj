@@ -1,0 +1,4 @@
+[3092, 3182]
+--
+Error 3092: Inaccessible member fn(A) of class A in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/overload/overload-11.vpp) at line 28:11
+Error 3182: Name 'fn(A)' is not in scope in 'D' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/overload/overload-11.vpp) at line 38:3

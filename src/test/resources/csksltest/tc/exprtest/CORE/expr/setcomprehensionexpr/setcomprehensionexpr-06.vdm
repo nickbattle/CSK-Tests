@@ -1,0 +1,16 @@
+module SetComprehensionExpr
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = {a | a :nat & a}
+  in skip;
+
+------------------------------------------------------------------------------
+end SetComprehensionExpr

@@ -1,0 +1,22 @@
+module RecordConstructorExprTest
+exports all
+definitions
+
+types
+
+A :: n: nat
+     r : real
+     b : bool | <RED>
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = mk_B()
+  in skip;
+
+------------------------------------------------------------------------------
+end RecordConstructorExprTest

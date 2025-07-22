@@ -1,0 +1,42 @@
+module A
+exports all
+definitions
+
+
+types
+
+Graph = map nat to seq of nat 
+inv g == forall i in set dom g & elems g(i) subset dom g;
+
+functions
+
+
+mesdephf : seq of nat * Graph * seq of nat -> nat * nat
+mesdephf(l,g,vis) ==
+  mk_(card dom g - len vis,len l);
+  
+
+mesrev : seq of nat -> nat
+mesrev(l) == len l;
+
+
+revers : seq of nat -> seq of nat
+revers(l) ==
+  cases l:
+  [] -> [],
+  [h]^t -> revers(t)^[h]
+  end
+;
+
+
+depthf : seq of nat * Graph * seq of nat -> seq of nat 
+depthf(l,g,vis) ==
+  cases l:
+  [] -> revers(vis),
+  [h]^t -> if h in set elems vis 
+           then depthf(t,g,vis)
+           else depthf(g(h)^t,g,[h]^vis)
+  end
+;
+
+end A

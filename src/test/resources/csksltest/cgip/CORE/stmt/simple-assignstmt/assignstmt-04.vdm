@@ -1,0 +1,23 @@
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+module A
+exports all
+definitions
+
+
+operations
+
+
+
+
+Test : () ==> Rec
+Test () ==
+(dcl s : Rec := mk_Rec("Hi");
+ s.a := "iH";
+ return s
+);
+   
+types
+
+Rec :: a : seq of char
+-- This file has been automatically updated wrt. VDM++ Lang.Adjust, 1th iteration
+end A

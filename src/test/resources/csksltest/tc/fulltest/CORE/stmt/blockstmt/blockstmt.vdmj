@@ -1,0 +1,30 @@
+[3327, 3000, 3328, 3328, 3313, 3328, 3027, 3430, 5008, 5000, 5000, 5006, 5006, 5006]
+--
+Error 3327: Value is not of the right type in 'BlockStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/blockstmt/blockstmt.vdm) at line 42:35
+Actual: nat1
+Expected: bool
+Error 3000: Expression does not match declared type in 'BlockStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/blockstmt/blockstmt.vdm) at line 42:10
+Declared: bool
+Expression: nat1
+Error 3328: Statement returns void value in 'BlockStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/blockstmt/blockstmt.vdm) at line 65:6
+Actual: ()
+Expected: nat1
+Error 3328: Statement returns void value in 'BlockStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/blockstmt/blockstmt.vdm) at line 74:6
+Actual: (() | nat1)
+Expected: real
+Error 3313: Operation returns void value in 'BlockStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/blockstmt/blockstmt.vdm) at line 67:3
+Actual: (() | rat)
+Expected: real
+Error 3328: Statement returns void value in 'BlockStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/blockstmt/blockstmt.vdm) at line 85:5
+Actual: (return)
+Expected: seq of (nat)
+Error 3027: Operation returns unexpected type in 'BlockStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/blockstmt/blockstmt.vdm) at line 83:3
+Actual: ()
+Expected: seq of (nat)
+Error 3430: Unable to resolve type name 'Unknown' in 'BlockStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/blockstmt/blockstmt.vdm) at line 100:24
+Warning 5008: a at 20:10 hidden by a in 'BlockStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/blockstmt/blockstmt.vdm) at line 23:16
+Warning 5000: Definition 'b1' not used in 'BlockStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/blockstmt/blockstmt.vdm) at line 28:22
+Warning 5000: Definition 'a' not used in 'BlockStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/blockstmt/blockstmt.vdm) at line 45:16
+Warning 5006: Statement will not be reached in 'BlockStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/blockstmt/blockstmt.vdm) at line 64:6
+Warning 5006: Statement will not be reached in 'BlockStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/blockstmt/blockstmt.vdm) at line 65:6
+Warning 5006: Statement will not be reached in 'BlockStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/blockstmt/blockstmt.vdm) at line 86:5

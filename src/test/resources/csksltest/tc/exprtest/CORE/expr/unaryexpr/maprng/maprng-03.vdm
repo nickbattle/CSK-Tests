@@ -1,0 +1,18 @@
+module UnaryTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = rng if 9 = 8
+            then {1|->1}
+            else {}
+  in skip;
+
+------------------------------------------------------------------------------
+end UnaryTest

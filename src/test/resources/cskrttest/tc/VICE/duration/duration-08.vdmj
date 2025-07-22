@@ -1,0 +1,4 @@
+[3281]
+--
+Error 3281: Arguments to duration must be a nat in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/duration/duration-08.vpp) at line 12:13
+Actual: seq1 of (nat)

@@ -1,0 +1,17 @@
+module BinaryTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let n = 4.01,
+      - = 3 div n
+  in skip;
+
+------------------------------------------------------------------------------
+end BinaryTest

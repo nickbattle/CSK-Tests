@@ -1,0 +1,24 @@
+[3327, 3327, 3327, 3327, 3327, 3051, 5000, 5000, 5000, 5000]
+--
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-47.vdm) at line 34:10
+Actual: bool
+Expected: seq of (char)
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-47.vdm) at line 36:10
+Actual: bool
+Expected: seq of (char)
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-47.vdm) at line 38:10
+Actual: bool
+Expected: seq of (char)
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-47.vdm) at line 40:10
+Actual: bool
+Expected: seq of (char)
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-47.vdm) at line 43:10
+Actual: [?]
+Expected: seq of (char)
+Error 3051: Expression does not match declared type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-47.vdm) at line 32:14
+Declared: seq of (char)
+Expression: ([?] | bool | nat1)
+Warning 5000: Definition 'a' not used in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-47.vdm) at line 36:17
+Warning 5000: Definition 'a' not used in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-47.vdm) at line 38:17
+Warning 5000: Definition 'a' not used in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-47.vdm) at line 40:18
+Warning 5000: Definition 'a' not used in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-47.vdm) at line 42:15

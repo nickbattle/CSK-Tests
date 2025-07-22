@@ -1,0 +1,21 @@
+module DefExprTest
+exports all
+definitions
+
+types
+
+  A :: selid : nat
+       sel2 : bool
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = def mk_(a,b) = mk_(1,2,3) in b
+  in skip;
+
+------------------------------------------------------------------------------
+end DefExprTest

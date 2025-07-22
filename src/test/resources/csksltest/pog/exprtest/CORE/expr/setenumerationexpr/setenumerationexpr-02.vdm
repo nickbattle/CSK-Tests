@@ -1,0 +1,16 @@
+module SetEunumertionTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = {}
+  in skip;
+
+------------------------------------------------------------------------------
+end SetEunumertionTest

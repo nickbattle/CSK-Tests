@@ -1,0 +1,6 @@
+[3327, 3089]
+--
+Error 3327: Value is not of the right type in 'QuantExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/quantexpr/quantexpr-04.vdm) at line 12:51
+Actual: nat
+Expected: bool
+Error 3089: Predicate is not boolean in 'QuantExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/quantexpr/quantexpr-04.vdm) at line 12:51

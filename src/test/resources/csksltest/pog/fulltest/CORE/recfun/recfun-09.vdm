@@ -1,0 +1,33 @@
+module A
+exports all
+definitions
+
+
+functions 
+
+
+idhf : nat -> nat 
+idhf(n) == n;
+
+
+half : nat -> nat
+half(n) == 
+  if n = 0 then 0
+  else if n = 1 then 0
+  else 1 + half(n-2)
+;
+
+
+idlog : nat -> nat
+idlog(n) == n;
+
+
+log : nat -> nat
+log(n) == 
+  if n = 0 then 0
+  else if n = 1 then 0
+  else 1 + log(1+half(n-2))
+;
+
+
+end A

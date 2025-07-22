@@ -1,0 +1,6 @@
+[3190, 3182, 5000, 5000]
+--
+Error 3190: Import all from module with no exports clause? in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules21/modules21.vdm) at line 44:10
+Error 3182: Name 'B`g' is not in scope in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules21/modules21.vdm) at line 52:14
+Warning 5000: Definition 'g' not used in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules21/modules21.vdm) at line 35:1
+Warning 5000: Definition 'Test' not used in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules21/modules21.vdm) at line 50:1

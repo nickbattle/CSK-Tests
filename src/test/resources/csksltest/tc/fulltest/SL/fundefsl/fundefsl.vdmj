@@ -1,0 +1,4 @@
+[3302, 5000]
+--
+Error 3302: State variable 'ast' cannot be accessed from this context in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/fundefsl/fundefsl.vdm) at line 11:9
+Warning 5000: Definition 'FunDefSl01' not used in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/fundefsl/fundefsl.vdm) at line 9:3

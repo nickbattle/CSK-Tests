@@ -1,0 +1,5 @@
+[3327]
+--
+Error 3327: Value is not of the right type in 'RecordModifierExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/recordmodifierexpr/recordmodifierexpr-02.vdm) at line 21:20
+Actual: rat
+Expected: nat1

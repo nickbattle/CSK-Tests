@@ -1,0 +1,16 @@
+module MapInverseExprTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = inverse if true then {|->} else {}
+  in skip;
+
+------------------------------------------------------------------------------
+end MapInverseExprTest

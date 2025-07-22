@@ -1,0 +1,20 @@
+module UnaryTest
+exports all
+definitions
+
+types
+
+  A :: set of nat
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = dinter {{3,true,"he"},{8.6,false,"has"},{-8,7 < 6,"she"}}
+  in skip;
+
+------------------------------------------------------------------------------
+end UnaryTest

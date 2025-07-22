@@ -1,0 +1,10 @@
+Test() = 
+{ mk_TEST`ProofObligationPP(
+     "x <> {}",
+     <NonEmptySet>,
+     [  ],
+     mk_POGTP`LocContext(
+        <operations>,
+        mk_AS`Name( [ "UnaryTest" ], 41943041 ),
+        mk_AS`Name( [ "TestOP" ], 41943049 ) ) ) }
+

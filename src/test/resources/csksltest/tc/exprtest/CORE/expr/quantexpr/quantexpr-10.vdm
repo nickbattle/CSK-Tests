@@ -1,0 +1,26 @@
+module QuantExprTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let A = "ABC",
+      s = {8,9},
+     - = forall a in set
+         cases false:
+             true -> A,
+             others -> s
+         end & 
+         cases false:
+             true -> A,
+             others -> s
+         end 
+  in skip;
+
+------------------------------------------------------------------------------
+end QuantExprTest

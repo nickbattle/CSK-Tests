@@ -1,0 +1,20 @@
+module UnaryTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let A = "ABC",
+      s = {8,9},
+      - = abs if false 
+             then A
+             else s
+  in skip;
+
+------------------------------------------------------------------------------
+end UnaryTest

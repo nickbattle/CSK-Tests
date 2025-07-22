@@ -1,0 +1,132 @@
+[3205, 3311, 3066, 3327, 3327, 3327, 3206, 3311, 3365, 3205, 3311, 3365, 3140, 3311, 3328, 3327, 3327, 3027, 3311, 3327, 3311, 3327, 3137, 3327, 3311, 3327, 3311, 3219, 3311, 3327, 3311, 3328, 3327, 3327, 3327, 3327, 3327, 3311, 3327, 3182, 3213, 3327, 3213, 3213, 3327, 3239, 3327, 3328, 3328, 3027, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5006, 5006, 5000, 5000, 5000, 5006, 5000, 5000, 5008]
+--
+Error 3205: Matching expression is not a product of cardinality 2 in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 7:7
+Actual: seq1 of (nat1)
+Error 3311: Pattern cannot match in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 7:7
+Error 3066: Right hand of and is not bool in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 7:31
+Error 3327: Value is not of the right type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 7:19
+Actual: bool
+Expected: char
+Error 3327: Value is not of the right type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 8:18
+Actual: nat1
+Expected: char
+Error 3327: Value is not of the right type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 21:39
+Actual: int
+Expected: seq of (char)
+Error 3206: Matching expression is not a set type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 26:10
+Error 3311: Pattern cannot match in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 26:10
+Error 3365: Void operation cannot use 'return <exp>' in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 26:22
+Error 3205: Matching expression is not a product of cardinality 3 in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 27:7
+Actual: map (nat1) to (char)
+Error 3311: Pattern cannot match in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 27:7
+Error 3365: Void operation cannot use 'return <exp>' in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 27:22
+Error 3140: Right hand of - is not numeric in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 33:10
+Actual: bool
+Error 3311: Pattern cannot match in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 40:5
+Error 3328: Statement returns void value in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 43:8
+Actual: (return)
+Expected: nat
+Error 3327: Value is not of the right type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 45:24
+Actual: bool
+Expected: nat
+Error 3327: Value is not of the right type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 46:33
+Actual: bool
+Expected: nat
+Error 3027: Operation returns unexpected type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 37:3
+Actual: (() | bool)
+Expected: nat
+Error 3311: Pattern cannot match in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 54:5
+Error 3327: Value is not of the right type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 54:30
+Actual: nat1
+Expected: bool
+Error 3311: Pattern cannot match in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 55:5
+Error 3327: Value is not of the right type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 55:44
+Actual: nat1
+Expected: bool
+Error 3137: Not expression is not a boolean in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 63:19
+Error 3327: Value is not of the right type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 63:12
+Actual: bool
+Expected: set of (int)
+Error 3311: Pattern cannot match in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 64:5
+Error 3327: Value is not of the right type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 65:12
+Actual: seq of (bool)
+Expected: set of (int)
+Error 3311: Pattern cannot match in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 66:5
+Error 3219: For all statement does not contain a set type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 66:10
+Error 3311: Pattern cannot match in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 68:5
+Error 3327: Value is not of the right type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 69:12
+Actual: bool
+Expected: set of (int)
+Error 3311: Pattern cannot match in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 70:5
+Error 3328: Statement returns void value in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 71:12
+Actual: (return)
+Expected: set of (int)
+Error 3327: Value is not of the right type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 72:27
+Actual: nat1
+Expected: set of (int)
+Error 3327: Value is not of the right type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 79:32
+Actual: bool
+Expected: nat
+Error 3327: Value is not of the right type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 81:11
+Actual: seq1 of (nat1)
+Expected: nat
+Error 3327: Value is not of the right type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 82:11
+Actual: map (nat1) to (bool)
+Expected: nat
+Error 3327: Value is not of the right type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 84:17
+Actual: bool
+Expected: nat
+Error 3311: Pattern cannot match in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 85:8
+Error 3327: Value is not of the right type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 86:33
+Actual: [?]
+Expected: nat
+Error 3182: Name 'CasesStmtTest`n' is not in scope in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 92:11
+Error 3213: Operation Cases10(nat1) is not in scope in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 93:10
+Possible: Cases10()
+Error 3327: Value is not of the right type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 94:10
+Actual: nat
+Expected: [(bool | char)]
+Error 3213: Operation Cases12(set1 of (nat1)) is not in scope in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 95:10
+Possible: Cases12(seq of (bool))
+Error 3213: Operation Cases13(seq1 of (nat1)) is not in scope in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 96:15
+Possible: Cases13()
+Error 3327: Value is not of the right type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 104:32
+Actual: nat1
+Expected: bool
+Error 3239: Incompatible types in assignment in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 104:27
+Target: bool
+Expression: nat1
+Error 3327: Value is not of the right type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 106:8
+Actual: bool
+Expected: (seq of (char) | set of (int))
+Error 3328: Statement returns void value in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 108:12
+Actual: (return)
+Expected: (seq of (char) | set of (int))
+Error 3328: Statement returns void value in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 109:15
+Actual: ()
+Expected: (seq of (char) | set of (int))
+Error 3027: Operation returns unexpected type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 99:3
+Actual: (() | bool)
+Expected: (seq of (char) | set of (int))
+Warning 5000: Definition 'l1' not used in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 8:7
+Warning 5000: Definition 'l2' not used in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 8:12
+Warning 5000: Definition 'a' not used in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 9:7
+Warning 5000: Definition 'dummy' not used in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 4:12
+Warning 5000: Definition 'b' not used in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 14:7
+Warning 5000: Definition 'dummy' not used in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 12:12
+Warning 5000: Definition 'a' not used in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 20:7
+Warning 5000: Definition 's1' not used in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 21:7
+Warning 5000: Definition 's2' not used in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 21:16
+Warning 5000: Definition 'dummy' not used in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 18:12
+Warning 5000: Definition 's1' not used in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 26:7
+Warning 5000: Definition 's2' not used in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 26:16
+Warning 5000: Definition 'dummy' not used in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 30:27
+Warning 5006: Statement will not be reached in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 44:8
+Warning 5006: Statement will not be reached in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 45:8
+Warning 5000: Definition 'c' not used in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 42:12
+Warning 5000: Definition 'b' not used in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 41:16
+Warning 5000: Definition 'a' not used in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 40:16
+Warning 5006: Statement will not be reached in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 47:17
+Warning 5000: Definition 'a' not used in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 62:17
+Warning 5000: Definition 'a' not used in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 64:14
+Warning 5008: a at 101:9 hidden by a in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/casesstmt/casesstmt.vpp) at line 103:16

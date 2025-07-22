@@ -1,0 +1,4 @@
+[3109]
+--
+Error 3109: Argument to 'inds' is not a sequence in 'UnaryTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/unaryexpr/seqindices/seqindices-05.vdm) at line 13:11
+Actual type: (bool | set1 of (nat1))

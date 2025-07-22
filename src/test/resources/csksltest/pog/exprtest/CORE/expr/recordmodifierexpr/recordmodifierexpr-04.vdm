@@ -1,0 +1,26 @@
+module RecordModifierExprTest
+exports all
+definitions
+
+types
+
+A :: n: nat1
+     r : real
+     b : bool | <RED>;
+
+B :: n: real
+     b: [bool | map A to real]
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let nn = 5.9,
+      - = mu (mk_A(1,7.8,<RED>),n |-> nn,b |-> true)
+  in skip;
+
+------------------------------------------------------------------------------
+end RecordModifierExprTest

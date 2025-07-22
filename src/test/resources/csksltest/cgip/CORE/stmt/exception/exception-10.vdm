@@ -1,0 +1,15 @@
+module A
+exports all
+definitions
+
+
+operations
+
+Test : () ==> ()
+Test() ==
+  always skip in
+  skip;
+
+
+
+end A

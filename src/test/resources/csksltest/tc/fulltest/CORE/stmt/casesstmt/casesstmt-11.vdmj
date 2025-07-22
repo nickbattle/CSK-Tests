@@ -1,0 +1,25 @@
+[3137, 3327, 3311, 3327, 3311, 3219, 3311, 3327, 3311, 3328, 3327, 5000, 5000]
+--
+Error 3137: Not expression is not a boolean in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-11.vdm) at line 12:19
+Error 3327: Value is not of the right type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-11.vdm) at line 12:12
+Actual: bool
+Expected: set of (int)
+Error 3311: Pattern cannot match in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-11.vdm) at line 13:5
+Error 3327: Value is not of the right type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-11.vdm) at line 14:12
+Actual: seq of (bool)
+Expected: set of (int)
+Error 3311: Pattern cannot match in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-11.vdm) at line 15:5
+Error 3219: For all statement does not contain a set type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-11.vdm) at line 15:10
+Error 3311: Pattern cannot match in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-11.vdm) at line 17:5
+Error 3327: Value is not of the right type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-11.vdm) at line 18:12
+Actual: bool
+Expected: set of (int)
+Error 3311: Pattern cannot match in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-11.vdm) at line 19:5
+Error 3328: Statement returns void value in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-11.vdm) at line 20:12
+Actual: (return)
+Expected: set of (int)
+Error 3327: Value is not of the right type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-11.vdm) at line 21:28
+Actual: nat1
+Expected: set of (int)
+Warning 5000: Definition 'a' not used in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-11.vdm) at line 11:17
+Warning 5000: Definition 'a' not used in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-11.vdm) at line 13:14

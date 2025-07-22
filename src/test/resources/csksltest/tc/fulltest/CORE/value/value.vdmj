@@ -1,0 +1,4 @@
+[5007, 5007]
+--
+Warning 5007: Duplicate definition: a in 'VALUE' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/value/value.vdm) at line 6:1
+Warning 5007: Duplicate definition: a in 'VALUE' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/value/value.vdm) at line 7:1

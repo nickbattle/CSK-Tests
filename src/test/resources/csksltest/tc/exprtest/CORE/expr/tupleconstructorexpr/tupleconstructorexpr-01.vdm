@@ -1,0 +1,16 @@
+module TupleConstructorExprTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = mk_(1,true,{},[{|->}])
+  in skip;
+
+------------------------------------------------------------------------------
+end TupleConstructorExprTest

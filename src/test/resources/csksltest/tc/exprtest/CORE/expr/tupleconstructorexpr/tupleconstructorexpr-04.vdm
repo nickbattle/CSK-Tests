@@ -1,0 +1,24 @@
+module TupleConstructorExprTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = let t:bool*nat = 
+         mk_(
+           if false 
+           then "ABC"
+           else {9,8},
+           cases false:
+             true -> "ABC",
+             others -> {9,8}
+           end ) in t
+  in skip;
+
+------------------------------------------------------------------------------
+end TupleConstructorExprTest

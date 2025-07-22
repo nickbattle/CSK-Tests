@@ -1,0 +1,17 @@
+module UnaryTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let n = 8,
+      - = merge n
+  in skip;
+
+------------------------------------------------------------------------------
+end UnaryTest

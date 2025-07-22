@@ -1,0 +1,27 @@
+module A
+exports all
+definitions
+
+
+functions 
+
+
+ideven : nat -> nat 
+ideven(n) == n;
+
+
+idodd : nat -> nat 
+idodd(n) == n;
+
+
+even : nat -> bool
+even(x) == if x = 0 then true else odd(x-1)
+;
+
+
+odd : nat -> bool
+odd(x) == if x = 0 then false else even(x-1)
+;
+
+
+end A

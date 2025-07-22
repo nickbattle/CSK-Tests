@@ -1,0 +1,24 @@
+module DefExprTest
+exports all
+definitions
+
+types
+
+  A :: selid : nat
+       sel2 : bool
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = def a: bool = if n=6
+                      then true
+                      else 7
+                      in a
+  in skip;
+
+------------------------------------------------------------------------------
+end DefExprTest

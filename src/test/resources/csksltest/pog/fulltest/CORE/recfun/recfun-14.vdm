@@ -1,0 +1,22 @@
+module A
+exports all
+definitions
+
+
+functions 
+
+
+id : nat -> nat
+id(x) == x;
+
+
+foo : nat -> nat
+foo(x) == goo(x)
+;
+
+goo : nat -> nat 
+goo(x) == let foo = [1,2,3]
+          in foo(2)
+;
+
+end A

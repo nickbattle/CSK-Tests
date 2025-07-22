@@ -1,0 +1,28 @@
+module BinaryTest
+exports all
+definitions
+
+values
+
+  v1 : map T2 to nat = {mk_T('a') |-> 2, mk_T1('r') |-> 5}
+  
+types
+
+  T :: char;
+
+  T1 :: char;
+  
+  T2 = T | T1
+  
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = {3,9.8,true,{}} inter {{},'c'}
+  in skip;
+
+------------------------------------------------------------------------------
+end BinaryTest

@@ -1,0 +1,26 @@
+[3327, 3327, 3327, 3059, 3327, 3327, 3327, 3327]
+--
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-18.vdm) at line 35:11
+Actual: bool
+Expected: real
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-18.vdm) at line 41:11
+Actual: bool
+Expected: real
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-18.vdm) at line 50:11
+Actual: inmap (rat) to (nat)
+Expected: real
+Error 3059: Too many arguments in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-18.vdm) at line 53:11
+Args: 5
+Params: ()
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-18.vdm) at line 53:11
+Actual: inmap (rat) to (nat)
+Expected: real
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-18.vdm) at line 62:11
+Actual: map ((bool | rat)) to (((nat1 * [?]) | rat))
+Expected: real
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-18.vdm) at line 68:11
+Actual: (nat1 * bool * A * inmap (rat) to (nat))
+Expected: real
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-18.vdm) at line 70:20
+Actual: [?]
+Expected: real

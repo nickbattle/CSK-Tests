@@ -1,0 +1,19 @@
+module A
+exports all
+definitions
+
+
+functions
+
+
+id : nat -> nat
+id(x) == x;
+
+
+foo : nat -> nat
+foo(x) == 
+  def bla = [1,2,3];
+  in if true then foo(bla(2)) else 0
+;
+  
+end A

@@ -1,0 +1,26 @@
+new A().Test() = 
+[ mk_ERR`ErrMsg(
+     10,
+     12,
+     32,
+     "Error[34] : Unknown identifier \"goo\"",
+     <ERROR> ),
+  mk_ERR`ErrMsg(
+     10,
+     11,
+     1,
+     "Warning[417] : \"foo\" has a measure but it is not recursive",
+     <WARNING> ),
+  mk_ERR`ErrMsg(
+     10,
+     23,
+     30,
+     "Error[34] : Unknown identifier \"foo\"",
+     <ERROR> ),
+  mk_ERR`ErrMsg(
+     10,
+     22,
+     1,
+     "Warning[417] : \"goo\" has a measure but it is not recursive",
+     <WARNING> ) ]
+

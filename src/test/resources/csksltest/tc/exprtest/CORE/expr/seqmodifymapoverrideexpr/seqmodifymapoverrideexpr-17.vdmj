@@ -1,0 +1,11 @@
+[3327, 3327, 3327]
+--
+Error 3327: Value is not of the right type in 'SeqModifyMapOverrideExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/seqmodifymapoverrideexpr/seqmodifymapoverrideexpr-17.vdm) at line 32:29
+Actual: seq1 of (char)
+Expected: nat
+Error 3327: Value is not of the right type in 'SeqModifyMapOverrideExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/seqmodifymapoverrideexpr/seqmodifymapoverrideexpr-17.vdm) at line 32:37
+Actual: bool
+Expected: nat
+Error 3327: Value is not of the right type in 'SeqModifyMapOverrideExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/seqmodifymapoverrideexpr/seqmodifymapoverrideexpr-17.vdm) at line 32:27
+Actual: map (seq1 of (char)) to (bool)
+Expected: map (nat) to (nat)

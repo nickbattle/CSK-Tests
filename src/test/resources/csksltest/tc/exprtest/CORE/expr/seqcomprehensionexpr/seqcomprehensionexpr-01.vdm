@@ -1,0 +1,16 @@
+module SeqComprehensionExprTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = [i ** i | i in set {1,...,9} & i <> 6]
+  in skip;
+
+------------------------------------------------------------------------------
+end SeqComprehensionExprTest

@@ -1,0 +1,8 @@
+[5001, 5001, 5001, 5001, 5001, 5001]
+--
+Warning 5001: Instance variable 'sensorRef' is not initialized in 'MissileDetector' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/periodic/periodic-18.vpp) at line 112:1
+Warning 5001: Instance variable 'timerRef' is not initialized in 'MissileDetector' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/periodic/periodic-18.vpp) at line 113:1
+Warning 5001: Instance variable 'flareControlRef' is not initialized in 'MissileDetector' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/periodic/periodic-18.vpp) at line 114:1
+Warning 5001: Instance variable 'dataSize' is not initialized in 'MissileDetector' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/periodic/periodic-18.vpp) at line 116:1
+Warning 5001: Instance variable 'timerRef' is not initialized in 'FlareController' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/periodic/periodic-18.vpp) at line 160:3
+Warning 5001: Instance variable 'dataSize' is not initialized in 'FlareController' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/periodic/periodic-18.vpp) at line 165:3

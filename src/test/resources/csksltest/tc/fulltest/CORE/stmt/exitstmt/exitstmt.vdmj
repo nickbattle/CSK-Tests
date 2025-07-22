@@ -1,0 +1,5 @@
+[3140, 5000]
+--
+Error 3140: Right hand of + is not numeric in 'ExitStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/exitstmt/exitstmt.vdm) at line 16:12
+Actual: char
+Warning 5000: Definition 'n' not used in 'ExitStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/exitstmt/exitstmt.vdm) at line 27:9

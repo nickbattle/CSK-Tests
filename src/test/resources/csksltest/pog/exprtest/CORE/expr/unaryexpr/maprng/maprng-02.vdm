@@ -1,0 +1,16 @@
+module UnaryTest
+exports all
+definitions
+
+
+
+------------------------------ Actual Test data ------------------------------
+operations
+
+Test: () ==> ()
+Test() ==
+  let - = rng {8|-> true, nil |-> 5}
+  in skip;
+
+------------------------------------------------------------------------------
+end UnaryTest
