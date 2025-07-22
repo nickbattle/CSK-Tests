@@ -54,6 +54,17 @@
 				<plugin>
 					<artifactId>maven-jar-plugin</artifactId>
 					<version>3.0.2</version>
+					<executions>
+						<execution>
+							<id>default-jar</id>
+							<phase>none</phase>
+						</execution>
+						<execution>
+							<goals>
+								<goal>test-jar</goal>
+							</goals>
+						</execution>
+					</executions>
 				</plugin>
 				<plugin>
 					<artifactId>maven-install-plugin</artifactId>
@@ -61,22 +72,5 @@
 				</plugin>
 			</plugins>
 		</pluginManagement>
-
-		<plugins>
-			<plugin>
-				<groupId>com.outbrain.swinfra</groupId>
-				<artifactId>ci-friendly-flatten-maven-plugin</artifactId>
-				<version>1.0.17</version>
-				<executions>
-					<execution>
-						<?m2e ignore?>
-						<goals>
-							<goal>clean</goal>
-							<goal>flatten</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-		</plugins>
 	</build>
 </project>
