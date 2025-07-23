@@ -74,7 +74,7 @@ abstract public class CSKTest extends TestCase
 	{
 		super.setUp();
 		Properties.init();
-		Settings.release = Release.CLASSIC;
+		Settings.release = Release.CLASSIC;		// Several of the old CSK tests depend on this!
 	}
 
 	@Override
@@ -447,11 +447,24 @@ abstract public class CSKTest extends TestCase
 	/**
 	 * Update the expected results file passed with the actual results.
 	 */
-
 	private void update(String filename, List<VDMMessage> actual)
 	{
 		try
 		{
+			// Maven build's resources will be located in test-classes, not src/test/resources.
+			// But there's no point in updating the test-classes, because they are temporary!
+			// So we fix the name first...
+
+			int p = filename.indexOf("target/test-classes");
+
+			if (p < 0)
+			{
+				return;		// We can't edit these files, if we can't find them?
+			}
+
+			// Make the test-class filename point to the resources source.
+			filename = filename.replace("target/test-classes", "src/test/resources");
+
 			File vdmj = new File(filename);
 			FileWriter fw = new FileWriter(vdmj);
 			String prefix = "[";

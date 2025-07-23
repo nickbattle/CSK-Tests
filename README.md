@@ -5,3 +5,5 @@ This is a private repository of JUnit tests that were automatically produced fro
 The suite was created as a raw JUnit suite originally in 2008. It was subsequently converted to a Maven project in 2025.
 
 The tests pass on the latest version of VDMJ (currently 4.7.0-SNAPSHOT).
+
+The test suite can be executed with "mvn clean test" at the top level.
