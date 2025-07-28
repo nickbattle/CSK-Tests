@@ -14,8 +14,12 @@ operations
 
   WhileLoop2: bool | real ==> nat
   WhileLoop2(arg) ==
+  (
     while arg do
       return 7;
+
+	return 0
+  );
 
   WhileLoop3: () ==> ()
   WhileLoop3() ==

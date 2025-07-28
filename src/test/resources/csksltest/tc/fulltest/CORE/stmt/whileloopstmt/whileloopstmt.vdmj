@@ -1,7 +1,7 @@
 [3140, 3247, 3218, 3247]
 --
-Error 3140: Right hand of > is not ordered in 'WhileLoopTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/whileloopstmt/whileloopstmt.vdm) at line 24:13
+Error 3140: Right hand of > is not ordered in 'WhileLoopTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/whileloopstmt/whileloopstmt.vdm) at line 28:13
 Actual: bool
-Error 3247: Unknown state variable 'a' in assignment in 'WhileLoopTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/whileloopstmt/whileloopstmt.vdm) at line 30:7
-Error 3218: Expression is not boolean in 'WhileLoopTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/whileloopstmt/whileloopstmt.vdm) at line 34:11
-Error 3247: Unknown state variable 'a' in assignment in 'WhileLoopTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/whileloopstmt/whileloopstmt.vdm) at line 35:7
+Error 3247: Unknown state variable 'a' in assignment in 'WhileLoopTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/whileloopstmt/whileloopstmt.vdm) at line 34:7
+Error 3218: Expression is not boolean in 'WhileLoopTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/whileloopstmt/whileloopstmt.vdm) at line 38:11
+Error 3247: Unknown state variable 'a' in assignment in 'WhileLoopTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/whileloopstmt/whileloopstmt.vdm) at line 39:7
