@@ -164,7 +164,7 @@ abstract public class CSKTest extends TestCase
     					}
 
     					Console.out.println("]");
-    					Console.out.print("Actual: [");
+    					Console.out.print("Actually: [");
     					List<Long> actNums = new Vector<Long>();
     					sep = "";
 
@@ -346,7 +346,7 @@ abstract public class CSKTest extends TestCase
     					}
 
     					Console.out.println("]");
-    					Console.out.print("Actual: [");
+    					Console.out.print("Actually: [");
     					List<Long> actNums = new Vector<Long>();
     					sep = "";
 
