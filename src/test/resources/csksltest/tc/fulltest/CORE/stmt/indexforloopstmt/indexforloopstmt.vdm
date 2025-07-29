@@ -12,8 +12,12 @@ operations
 
   IndexForLoop2: real ==> real
   IndexForLoop2(a) ==
+  (
     for id = a to 2 * 9 do
       return id;
+
+	return 0
+  );
 
   IndexForLoop3: nat * bool ==> ()
   IndexForLoop3(a, b) ==
