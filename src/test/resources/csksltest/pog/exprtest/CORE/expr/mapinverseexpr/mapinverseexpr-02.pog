@@ -1,0 +1,8 @@
+Proof Obligation 1: (Unproved)
+Test: map sequence compatible obligation in 'MapInverseExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/mapinverseexpr/mapinverseexpr-02.vdm) at line 12:19
+forall m1, m2 in set {{1 |-> true}, {4 |-> false}} & forall d3 in set dom m1, d4 in set dom m2 & d3 = d4 => m1(d3) = m2(d4)
+
+Proof Obligation 2: (Unproved)
+Test: type invariant obligation in 'MapInverseExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/mapinverseexpr/mapinverseexpr-02.vdm) at line 12:11
+is_({1 |-> true, 4 |-> false}, inmap nat1 to bool)
+

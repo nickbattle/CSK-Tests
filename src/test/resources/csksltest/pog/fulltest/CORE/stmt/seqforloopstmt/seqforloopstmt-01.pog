@@ -1,0 +1,46 @@
+Proof Obligation 1: (Unproved)
+invariant preservation for next for-loop
+SeqForLoop1: loop invariant obligation in 'SeqForLoopTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/stmt/seqforloopstmt/seqforloopstmt-01.vdm) at line 10:5
+(-- Missing @LoopInvariant, assuming true at 10:5
+  (let $LoopInvariant : bool = true in
+    (let GHOST$ : seq of nat1 = [] in
+      $LoopInvariant)))
+
+Proof Obligation 2: (Unproved)
+check invariant before for-loop
+SeqForLoop2: loop invariant obligation in 'SeqForLoopTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/stmt/seqforloopstmt/seqforloopstmt-01.vdm) at line 15:5
+(forall arg:bool | (seq1 of ((nat) * (bool))) &
+  (-- Missing @LoopInvariant, assuming true at 15:5
+    (let $LoopInvariant : bool = true in
+      (let GHOST$ : seq of ((nat) * (bool)) = [] in
+        $LoopInvariant))))
+
+Proof Obligation 3: (Unchecked)
+PO has errors
+SeqForLoop2: loop invariant obligation in 'SeqForLoopTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/stmt/seqforloopstmt/seqforloopstmt-01.vdm) at line 16:6
+(forall arg:bool | (seq1 of ((nat) * (bool))) &
+  (-- Missing @LoopInvariant, assuming true at 15:5
+    (let $LoopInvariant : bool = true in
+      (forall a:nat, GHOST$:seq of ((nat) * (bool)) &
+        ((GHOST$ = (arg(1, ... ,(len GHOST$)))) and $LoopInvariant =>
+          (let GHOST$ : seq of ((nat) * (bool)) = (GHOST$ ^ [mk_(a, $any1)]) in
+            (-- Missing @LoopInvariant, assuming true at 16:6
+              (let $LoopInvariant : bool = true in
+                (let GHOST$ : seq of bool = [] in
+                  $LoopInvariant)))))))))
+
+Proof Obligation 4: (Unchecked)
+PO has errors
+SeqForLoop2: loop invariant obligation in 'SeqForLoopTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/stmt/seqforloopstmt/seqforloopstmt-01.vdm) at line 16:6
+(forall arg:bool | (seq1 of ((nat) * (bool))) &
+  (-- Missing @LoopInvariant, assuming true at 15:5
+    (let $LoopInvariant : bool = true in
+      (forall a:nat, GHOST$:seq of ((nat) * (bool)) &
+        ((GHOST$ = (arg(1, ... ,(len GHOST$)))) and $LoopInvariant =>
+          (let GHOST$ : seq of ((nat) * (bool)) = (GHOST$ ^ [mk_(a, $any1)]) in
+            (-- Missing @LoopInvariant, assuming true at 16:6
+              (let $LoopInvariant : bool = true in
+                (let GHOST$ : seq of bool = [true] in
+                  ($LoopInvariant =>
+                    $LoopInvariant))))))))))
+

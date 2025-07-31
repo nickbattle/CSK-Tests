@@ -1,0 +1,24 @@
+Proof Obligation 1: (Unproved)
+foo(nat); pre_foo(nat): total function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/recfun/recfun-45.vpp) at line 14:7
+(forall x:nat &
+  is_(pre_foo(x), bool))
+
+Proof Obligation 2: (Unproved)
+foo(nat): function apply obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/recfun/recfun-45.vpp) at line 13:24
+(forall x:nat & pre_foo(x) =>
+  (not (x = 1) =>
+    pre_foo((x - 1))))
+
+Proof Obligation 3: (Unproved)
+foo(nat): subtype obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/recfun/recfun-45.vpp) at line 13:29
+(forall x:nat & pre_foo(x) =>
+  (not (x = 1) =>
+    (x - 1) >= 0))
+
+Proof Obligation 4: (Unchecked)
+Obligation for missing measure function
+foo(nat): recursive function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/recfun/recfun-45.vpp) at line 13:24
+(forall x:nat & pre_foo(x) =>
+  (not (x = 1) =>
+    measure_foo(x) > measure_foo(x - 1)))
+

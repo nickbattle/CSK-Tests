@@ -1,0 +1,6 @@
+Proof Obligation 1: (Unchecked)
+Obligation requires VDM10
+Test(): let be st existence obligation in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/exprtest/PP/exprpp/samebaseclassexpr/samebaseclassexpr-02.vpp) at line 9:15
+(forall obj_B():B &
+  exists v1:(A) | (B) | int & true)
+

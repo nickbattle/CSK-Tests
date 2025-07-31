@@ -1,0 +1,40 @@
+Proof Obligation 1: (Unproved)
+D: total function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-06.vdm) at line 14:7
+(forall mk_(a, b, c):D! &
+  is_(inv_D(mk_(a, b, c)), bool))
+
+Proof Obligation 2: (Unproved)
+D: non-zero obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-06.vdm) at line 15:18
+(forall mk_(a, b, c):D! &
+  (b(true) =>
+    a <> 0))
+
+Proof Obligation 3: (Unproved)
+D: invariant satisfiability obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-06.vdm) at line 14:7
+exists mk_(a, b, c) : (nat) * ((bool -> bool)) * (token) & (b(true) and ((a / a) < 7))
+
+Proof Obligation 4: (Unproved)
+f: total function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-06.vdm) at line 19:3
+(forall a:A2 | B | C &
+  is_(f(a), bool | nat))
+
+Proof Obligation 5: (Unproved)
+f: map apply obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-06.vdm) at line 21:4
+(forall a:A2 | B | C &
+  (lambda x:bool & false) in set dom a)
+
+Proof Obligation 6: (Unproved)
+f: map apply obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-06.vdm) at line 21:33
+(forall a:A2 | B | C &
+  {} in set dom a)
+
+Proof Obligation 7: (Unproved)
+f: subtype obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-06.vdm) at line 21:4
+(forall a:A2 | B | C &
+  is_nat(a((lambda x:bool & false))))
+
+Proof Obligation 8: (Unproved)
+f: subtype obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-06.vdm) at line 21:33
+(forall a:A2 | B | C &
+  is_nat(a({})))
+

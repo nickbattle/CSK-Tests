@@ -1,0 +1,13 @@
+Proof Obligation 1: (Unchecked)
+Obligation requires VDM10
+Test1(nat): subtype obligation in 'ApplyTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/exprtest/PP/exprpp/apply/apply-05.vpp) at line 9:21
+(forall n:nat, obj_ApplyTest():ApplyTest &
+  ((n > 0) =>
+    (n - 1) >= 0))
+
+Proof Obligation 2: (Unchecked)
+Obligation requires VDM10
+Test(): let be st existence obligation in 'ApplyTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/exprtest/PP/exprpp/apply/apply-05.vpp) at line 24:15
+(forall obj_ApplyTest():ApplyTest &
+  exists a:(ApplyTest) | (X) & true)
+

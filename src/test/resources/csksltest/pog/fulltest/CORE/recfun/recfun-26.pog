@@ -1,0 +1,6 @@
+Proof Obligation 1: (Unproved)
+foo: sequence apply obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-26.vdm) at line 16:13
+(forall x:nat &
+  (let foo : seq1 of nat1 = [1, 2, 3] in
+    2 in set inds foo))
+

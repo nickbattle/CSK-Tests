@@ -1,0 +1,25 @@
+Proof Obligation 1: (Unproved)
+IsNotYetSpec3: subtype obligation in 'IsNotYetSpec' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/isnotyetspec/isnotyetspec.vdm) at line 16:3
+(forall a:nat, b:bool &
+  is_(IsNotYetSpec3(a, b), bool))
+
+Proof Obligation 2: (Unproved)
+IsNotYetSpec4: subtype obligation in 'IsNotYetSpec' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/isnotyetspec/isnotyetspec.vdm) at line 20:3
+(forall a:nat, b:nat &
+  is_(IsNotYetSpec4(a, b), bool))
+
+Proof Obligation 3: (Unproved)
+IsNotYetSpec5; post_IsNotYetSpec5: post condition obligation in 'IsNotYetSpec' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/isnotyetspec/isnotyetspec.vdm) at line 25:3
+(forall a:nat, b:nat &
+  exists RESULT : (nat * bool) & post_IsNotYetSpec5(a, b, RESULT))
+
+Proof Obligation 4: (Unproved)
+IsNotYetSpec5; post_IsNotYetSpec5: total function obligation in 'IsNotYetSpec' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/isnotyetspec/isnotyetspec.vdm) at line 27:9
+(forall a:nat, b:nat, mk_(c, d):(nat) * (bool) &
+  is_(post_IsNotYetSpec5(a, b, mk_(c, d)), bool))
+
+Proof Obligation 5: (Unproved)
+IsNotYetSpec5: subtype obligation in 'IsNotYetSpec' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/isnotyetspec/isnotyetspec.vdm) at line 25:3
+(forall a:nat, b:nat &
+  is_(IsNotYetSpec5(a, b), (nat) * (bool)))
+

@@ -1,0 +1,15 @@
+Proof Obligation 1: (Unproved)
+D: total function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-01.vdm) at line 14:7
+(forall mk_(a, b, c):D! &
+  is_(inv_D(mk_(a, b, c)), bool))
+
+Proof Obligation 2: (Unproved)
+D: non-zero obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-01.vdm) at line 15:18
+(forall mk_(a, b, c):D! &
+  (b(true) =>
+    a <> 0))
+
+Proof Obligation 3: (Unproved)
+D: invariant satisfiability obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-01.vdm) at line 14:7
+exists mk_(a, b, c) : (nat) * ((bool -> bool)) * (token) & (b(true) and ((a / a) < 7))
+

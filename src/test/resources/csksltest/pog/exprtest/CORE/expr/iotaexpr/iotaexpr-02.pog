@@ -1,0 +1,4 @@
+Proof Obligation 1: (Unproved)
+Test: unique existence binding obligation in 'IotaExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/iotaexpr/iotaexpr-02.vdm) at line 12:11
+exists1 x:nat & (x = 3)
+

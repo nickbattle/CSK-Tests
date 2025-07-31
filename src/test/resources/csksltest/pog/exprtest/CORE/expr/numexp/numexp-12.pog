@@ -1,0 +1,4 @@
+Proof Obligation 1: (Unproved)
+Test: function iteration obligation in 'NumExpTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/numexp/numexp-12.vdm) at line 22:58
+(if false then 7 else g(7)) > 1 => forall arg:nat & pre_((if true then 1.7 else (lambda x:nat & (x + 9))), arg) => pre_((if true then 1.7 else (lambda x:nat & (x + 9))), (if true then 1.7 else (lambda x:nat & (x + 9)))(arg))
+

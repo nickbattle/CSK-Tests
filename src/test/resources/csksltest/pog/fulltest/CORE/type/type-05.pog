@@ -1,0 +1,33 @@
+Proof Obligation 1: (Unproved)
+A: total function obligation in 'TYPE' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-05.vdm) at line 10:7
+(forall mk_Dummy(b):A! &
+  is_(inv_A(mk_Dummy!(b)), bool))
+
+Proof Obligation 2: (Unproved)
+A: invariant satisfiability obligation in 'TYPE' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-05.vdm) at line 10:7
+exists mk_Dummy(b) : Dummy & (b = 8)
+
+Proof Obligation 3: (Unproved)
+B: total function obligation in 'TYPE' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-05.vdm) at line 14:7
+(forall m:B! &
+  is_(inv_B(m), bool))
+
+Proof Obligation 4: (Unproved)
+B: invariant satisfiability obligation in 'TYPE' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-05.vdm) at line 14:7
+exists m : B & ((m.b) and ((m.a) > 88))
+
+Proof Obligation 5: (Unproved)
+f: total function obligation in 'TYPE' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-05.vdm) at line 20:3
+(forall n:C &
+  is_(f(n), rat))
+
+Proof Obligation 6: (Unproved)
+f: subtype obligation in 'TYPE' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-05.vdm) at line 22:4
+(forall n:C &
+  inv_B(n))
+
+Proof Obligation 7: (Unproved)
+f: subtype obligation in 'TYPE' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-05.vdm) at line 20:3
+(forall n:C &
+  is_rat((n.a)))
+

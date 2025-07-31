@@ -1,0 +1,4 @@
+Proof Obligation 1: (Unproved)
+Test: map set compatible obligation in 'UnaryTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/unaryexpr/mapdistrmerge/mapdistrmerge-01.vdm) at line 12:17
+forall m1 in set {{|->}, {7 |-> 9}, {true |-> nil}, {7 |-> 8.2}}, m2 in set {{|->}, {7 |-> 9}, {true |-> nil}, {7 |-> 8.2}} & forall d3 in set dom m1, d4 in set dom m2 & d3 = d4 => m1(d3) = m2(d4)
+

@@ -1,0 +1,12 @@
+Proof Obligation 1: (Unchecked)
+Unchecked in VDM++/RT
+inv_Super: state invariant obligation in 'Super' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/stmtpp/assignstmt/assignstmt-02.vpp) at line 8:2
+After instance variable initializers (a < 9)
+
+Proof Obligation 2: (Unchecked)
+Obligation requires VDM10
+Assign1(): state invariant obligation in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/stmtpp/assignstmt/assignstmt-02.vpp) at line 21:5
+(forall obj_AssignStmtTest(a |-> a, b |-> b):AssignStmtTest &
+  (let a : nat = 7 in
+    ))
+

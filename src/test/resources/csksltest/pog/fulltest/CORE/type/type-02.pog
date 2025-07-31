@@ -1,0 +1,41 @@
+Proof Obligation 1: (Unproved)
+D: total function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-02.vdm) at line 11:7
+(forall mk_D(a, b, c):D! &
+  is_(inv_D(mk_D!(a, b, c)), bool))
+
+Proof Obligation 2: (Unchecked)
+PO has errors
+D: sequence apply obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-02.vdm) at line 12:5
+(forall mk_D(a, b, c):D! &
+  true in set inds b)
+
+Proof Obligation 3: (Unproved)
+D: invariant satisfiability obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-02.vdm) at line 11:7
+exists mk_D(a, b, c) : D & b(true)
+
+Proof Obligation 4: (Unproved)
+E: total function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-02.vdm) at line 17:7
+(forall e:E! &
+  is_(inv_E(e), bool))
+
+Proof Obligation 5: (Unproved)
+E: invariant satisfiability obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-02.vdm) at line 17:7
+exists e : E & ((e.r) = 9)
+
+Proof Obligation 6: (Unchecked)
+PO has errors
+test: map apply obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-02.vdm) at line 23:6
+(forall arg:D | E &
+  true in set dom (arg.f))
+
+Proof Obligation 7: (Unproved)
+test: subtype obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-02.vdm) at line 23:13
+(forall arg:D | E &
+  is_real(true))
+
+Proof Obligation 8: (Unchecked)
+PO has errors
+test: sequence apply obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-02.vdm) at line 23:6
+(forall arg:D | E &
+  true in set inds (arg.f))
+

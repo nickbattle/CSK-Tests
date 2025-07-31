@@ -1,0 +1,13 @@
+Proof Obligation 1: (Unchecked)
+Obligation for missing measure function
+foo: recursive function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-44.vdm) at line 15:12
+(forall x:seq of (@A) &
+  (not (x = []) =>
+    measure_foo[@A](x) > measure_foo[@A](tl x)))
+
+Proof Obligation 2: (Unproved)
+foo: non-empty sequence obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-44.vdm) at line 15:23
+(forall x:seq of (@A) &
+  (not (x = []) =>
+    x <> []))
+

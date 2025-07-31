@@ -1,0 +1,5 @@
+Proof Obligation 1: (Unproved)
+Test: subtype obligation in 'QuantExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/quantexpr/quantexpr-06.vdm) at line 12:39
+(forall a in set {true, 5} &
+  is_(a, bool))
+

@@ -1,0 +1,71 @@
+Proof Obligation 1: (Unproved)
+Plant: total function obligation in 'alarm' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/alarm.vdm) at line 12:7
+(forall mk_Plant(schedule, alarms):Plant! &
+  is_(inv_Plant(mk_Plant!(schedule, alarms)), bool))
+
+Proof Obligation 2: (Unproved)
+Plant: map apply obligation in 'alarm' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/alarm.vdm) at line 15:25
+(forall mk_Plant(schedule, alarms):Plant! &
+  (forall a in set alarms &
+    (forall peri in set (dom schedule) &
+      peri in set dom schedule)))
+
+Proof Obligation 3: (Unproved)
+Plant: invariant satisfiability obligation in 'alarm' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/alarm.vdm) at line 12:7
+exists mk_Plant(schedule, alarms) : Plant & (forall a in set alarms & (forall peri in set (dom schedule) & QualificationOK(schedule(peri), (a.quali))))
+
+Proof Obligation 4: (Unproved)
+Schedule: total function obligation in 'alarm' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/alarm.vdm) at line 18:7
+(forall sch:Schedule! &
+  is_(inv_Schedule(sch), bool))
+
+Proof Obligation 5: (Unproved)
+Schedule: invariant satisfiability obligation in 'alarm' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/alarm.vdm) at line 18:7
+exists sch : map Period to (set of Expert) & (forall exs in set (rng sch) & ((exs <> {}) and (forall ex1, ex2 in set exs & ((ex1 <> ex2) => ((ex1.expertid) <> (ex2.expertid))))))
+
+Proof Obligation 6: (Unproved)
+Expert: total function obligation in 'alarm' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/alarm.vdm) at line 28:7
+(forall ex:Expert! &
+  is_(inv_Expert(ex), bool))
+
+Proof Obligation 7: (Unproved)
+Expert: invariant satisfiability obligation in 'alarm' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/alarm.vdm) at line 28:7
+exists ex : Expert & ((ex.quali) <> {})
+
+Proof Obligation 8: (Unproved)
+NumberOfExperts; pre_NumberOfExperts: total function obligation in 'alarm' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/alarm.vdm) at line 42:12
+(forall peri:Period, plant:Plant &
+  is_(pre_NumberOfExperts(peri, plant), bool))
+
+Proof Obligation 9: (Unproved)
+NumberOfExperts: map apply obligation in 'alarm' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/alarm.vdm) at line 41:10
+(forall peri:Period, plant:Plant & pre_NumberOfExperts(peri, plant) =>
+  peri in set dom (plant.schedule))
+
+Proof Obligation 10: (Unproved)
+ExpertIsOnDuty: map apply obligation in 'alarm' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/alarm.vdm) at line 46:45
+(forall ex:Expert, mk_Plant(sch, $any1):Plant &
+  (forall peri in set (dom sch) &
+    peri in set dom sch))
+
+Proof Obligation 11: (Unproved)
+ExpertToPage; pre_ExpertToPage: total function obligation in 'alarm' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/alarm.vdm) at line 49:38
+(forall a:Alarm, peri:Period, plant:Plant &
+  is_(pre_ExpertToPage(a, peri, plant), bool))
+
+Proof Obligation 12: (Unproved)
+ExpertToPage; post_ExpertToPage: map apply obligation in 'alarm' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/alarm.vdm) at line 51:17
+(forall a:Alarm, peri:Period, plant:Plant &
+  (pre_ExpertToPage(a, peri, plant) => forall r:Expert & 
+    peri in set dom (plant.schedule)))
+
+Proof Obligation 13: (Unproved)
+ExpertToPage; post_ExpertToPage: total function obligation in 'alarm' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/alarm.vdm) at line 51:38
+(forall a:Alarm, peri:Period, plant:Plant, r:Expert &
+  is_(post_ExpertToPage(a, peri, plant, r), bool))
+
+Proof Obligation 14: (Unproved)
+ExpertToPage: function satisfiability obligation in 'alarm' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/alarm.vdm) at line 48:3
+(forall a:Alarm, peri:Period, plant:Plant &
+  pre_ExpertToPage(a, peri, plant) => exists r:Expert & post_ExpertToPage(a, peri, plant, r))
+

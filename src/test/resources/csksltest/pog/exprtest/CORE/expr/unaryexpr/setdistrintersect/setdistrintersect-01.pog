@@ -1,0 +1,4 @@
+Proof Obligation 1: (Unproved)
+Test: non-empty set obligation in 'UnaryTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/unaryexpr/setdistrintersect/setdistrintersect-01.vdm) at line 16:18
+{{1, true}, {3, 8.9}, {nil}} <> {}
+

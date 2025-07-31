@@ -1,0 +1,5 @@
+Proof Obligation 1: (Unproved)
+ED: subtype obligation in 'Test' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/iscompatible/basic/basic-40.vdm) at line 66:8
+(forall x:E &
+  (is_rat(x)))
+

@@ -1,0 +1,15 @@
+Proof Obligation 1: (Unproved)
+g(bool): subtype obligation in 'A1' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/overload/overload-26.vpp) at line 6:8
+(forall $any1:bool &
+  is_nat(g($any1)))
+
+Proof Obligation 2: (Unproved)
+g(bool): subtype obligation in 'A2' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/overload/overload-26.vpp) at line 16:8
+(forall $any1:bool &
+  is_nat(g($any1)))
+
+Proof Obligation 3: (Unproved)
+g(nat): subtype obligation in 'A2' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/overload/overload-26.vpp) at line 19:8
+(forall $any1:nat &
+  is_nat(g($any1)))
+

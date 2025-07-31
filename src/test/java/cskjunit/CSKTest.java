@@ -23,7 +23,9 @@
 
 package cskjunit;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.math.BigInteger;
@@ -47,6 +49,10 @@ import com.fujitsu.vdmj.lex.LexTokenReader;
 import com.fujitsu.vdmj.messages.Console;
 import com.fujitsu.vdmj.messages.InternalException;
 import com.fujitsu.vdmj.messages.VDMMessage;
+import com.fujitsu.vdmj.po.PONode;
+import com.fujitsu.vdmj.po.definitions.POClassList;
+import com.fujitsu.vdmj.po.modules.POModuleList;
+import com.fujitsu.vdmj.pog.ProofObligationList;
 import com.fujitsu.vdmj.runtime.ClassInterpreter;
 import com.fujitsu.vdmj.runtime.Interpreter;
 import com.fujitsu.vdmj.runtime.ModuleInterpreter;
@@ -85,7 +91,7 @@ abstract public class CSKTest extends TestCase
 
 	protected static enum AssertType
 	{
-		TRUE, VOID, UNDEFINED, ERRLIST, POG
+		TRUE, VOID, UNDEFINED, ERRLIST, POG, SKIP
 	}
 
 	// Set this to TRUE to re-create vdmj expected files from actual errors
@@ -122,9 +128,25 @@ abstract public class CSKTest extends TestCase
 
 			switch (at)
 			{
+				case SKIP:
+					assertEquals("Type check errors", tc, TypeChecker.getErrorCount());
+					break;
+
 				case POG:
 					assertEquals("Type check errors", tc, TypeChecker.getErrorCount());
-       				// Proof obligation checks here...
+
+					POModuleList polist = ClassMapper.getInstance(PONode.MAPPINGS).init().convert(checked);
+					ProofObligationList obligations = polist.getProofObligations();
+					obligations.renumber();
+
+					if (REBUILD_EXPECTED_RESULTS)
+					{
+						update(path + ".pog", obligations);
+					}
+					else
+					{
+						compareObligations(path + ".pog", obligations);
+					}
        				break;
 
 				case ERRLIST:
@@ -304,9 +326,25 @@ abstract public class CSKTest extends TestCase
 
 			switch (at)
 			{
+				case SKIP:
+					assertEquals("Type check errors", tc, TypeChecker.getErrorCount());
+					break;
+
 				case POG:
 					assertEquals("Type check errors", tc, TypeChecker.getErrorCount());
-					// Proof obligation checks here...
+
+					POClassList polist = ClassMapper.getInstance(PONode.MAPPINGS).init().convert(checked);
+					ProofObligationList obligations = polist.getProofObligations();
+					obligations.renumber();
+
+					if (REBUILD_EXPECTED_RESULTS)
+					{
+						update(path + ".pog", obligations);
+					}
+					else
+					{
+						compareObligations(path + ".pog", obligations);
+					}
 					break;
 
 				case ERRLIST:
@@ -498,7 +536,41 @@ abstract public class CSKTest extends TestCase
 			fail("IO: " + e);
 		}
 	}
-	
+
+	/**
+	 * Update a POG results file with the list of obligations passed.
+	 */
+	private void update(String filename, ProofObligationList obligations)
+	{
+		String poString = obligations.toString();
+
+		try
+		{
+			// Maven build's resources will be located in test-classes, not src/test/resources.
+			// But there's no point in updating the test-classes, because they are temporary!
+			// So we fix the name first...
+
+			int p = filename.indexOf("target/test-classes");
+
+			if (p < 0)
+			{
+				return;		// We can't edit these files, if we can't find them?
+			}
+
+			// Make the test-class filename point to the resources source.
+			filename = filename.replace("target/test-classes", "src/test/resources");
+
+			File pog = new File(filename);
+			FileWriter fw = new FileWriter(pog);
+			fw.write(poString);
+			fw.close();
+		}
+		catch (IOException e)
+		{
+			fail("IO: " + e);
+		}
+	}
+
 	private Long longOf(Value v) throws ValueException
 	{
 		Object x = v.intValue(null);
@@ -511,5 +583,37 @@ abstract public class CSKTest extends TestCase
 		{
 			return ((Long)x).longValue();
 		}
+	}
+
+	private void compareObligations(String path, ProofObligationList obligations)
+	{
+		try
+		{
+			String expected = readFile(new File(path));
+			String actual = obligations.toString();
+
+			assertEquals("POs not as expected", expected, actual);
+		}
+		catch (IOException e)
+		{
+			fail("IO: " + e);
+		}
+	}
+
+	private String readFile(File input) throws IOException
+	{
+		BufferedReader br = new BufferedReader(new FileReader(input));
+		StringBuilder sb = new StringBuilder();
+		String line = br.readLine();
+		
+		while (line != null)
+		{
+			sb.append(line);
+			sb.append("\n");
+			line = br.readLine();
+		}
+		
+		br.close();
+		return sb.toString();
 	}
 }

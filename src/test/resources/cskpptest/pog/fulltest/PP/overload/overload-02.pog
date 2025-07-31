@@ -1,0 +1,9 @@
+Proof Obligation 1: (Unchecked)
+Obligation requires VDM10
+myop(): subtype obligation in 'D' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/overload/overload-02.vpp) at line 40:1
+(forall obj_D():D &
+  (let c : C = new C() in
+    (-- Ambiguous operation call to C`op, affects (RESULT)? at 43:6
+      (let RESULT : nat = (undefined) in
+        is_nat(RESULT)))))
+

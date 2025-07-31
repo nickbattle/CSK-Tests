@@ -1,0 +1,5 @@
+Proof Obligation 1: (Unproved)
+AB: subtype obligation in 'Test' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/iscompatible/seq/seq-02.vdm) at line 35:8
+(forall x:A &
+  (is_(x, seq1 of nat)))
+

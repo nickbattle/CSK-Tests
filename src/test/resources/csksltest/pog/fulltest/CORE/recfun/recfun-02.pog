@@ -1,0 +1,26 @@
+Proof Obligation 1: (Unproved)
+even: subtype obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-02.vdm) at line 14:22
+(forall n:nat &
+  (not (n = 0) =>
+    (n - 1) >= 0))
+
+Proof Obligation 2: (Unchecked)
+Obligation for missing measure function
+even: recursive function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-02.vdm) at line 14:17
+(forall n:nat &
+  (not (n = 0) =>
+    measure_even(n) > measure_odd(n - 1)))
+
+Proof Obligation 3: (Unproved)
+odd: subtype obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-02.vdm) at line 20:22
+(forall n:nat &
+  (not (n = 0) =>
+    (n - 1) >= 0))
+
+Proof Obligation 4: (Unchecked)
+Obligation for missing measure function
+odd: recursive function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-02.vdm) at line 20:16
+(forall n:nat &
+  (not (n = 0) =>
+    measure_odd(n) > measure_even(n - 1)))
+

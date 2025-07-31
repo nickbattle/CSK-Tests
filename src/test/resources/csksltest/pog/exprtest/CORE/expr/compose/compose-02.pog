@@ -1,0 +1,5 @@
+Proof Obligation 1: (Unproved)
+h: total function obligation in 'NumExpTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/compose/compose-02.vdm) at line 15:3
+(forall n1:nat, n2:nat &
+  is_(h(n1, n2), nat))
+

@@ -1,0 +1,28 @@
+Proof Obligation 1: (Unproved)
+foo: sequence apply obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-12.vdm) at line 17:11
+(forall n:nat &
+  (not (n = 0) =>
+    (let foo : seq of nat1 = [x | x in set {1, 2, 3}] in
+      (foo(1) - 1) in set inds foo)))
+
+Proof Obligation 2: (Unproved)
+foo: sequence apply obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-12.vdm) at line 17:15
+(forall n:nat &
+  (not (n = 0) =>
+    (let foo : seq of nat1 = [x | x in set {1, 2, 3}] in
+      1 in set inds foo)))
+
+Proof Obligation 3: (Unproved)
+goo: sequence apply obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-12.vdm) at line 24:11
+(forall n:nat &
+  (not (n = 0) =>
+    (let goo : seq of nat1 = [x | x in set {1, 2, 3}] in
+      (goo(1) - 1) in set inds goo)))
+
+Proof Obligation 4: (Unproved)
+goo: sequence apply obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-12.vdm) at line 24:15
+(forall n:nat &
+  (not (n = 0) =>
+    (let goo : seq of nat1 = [x | x in set {1, 2, 3}] in
+      1 in set inds goo)))
+

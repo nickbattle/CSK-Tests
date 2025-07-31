@@ -1,0 +1,6 @@
+Proof Obligation 1: (Unchecked)
+Obligation requires VDM10
+Test(): let be st existence obligation in 'IsOfBaseClassTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/exprtest/PP/exprpp/isofbaseclassexpr/isofbaseclassexpr-02.vpp) at line 16:15
+(forall obj_IsOfBaseClassTest():IsOfBaseClassTest &
+  exists a:A & true)
+

@@ -1,0 +1,4 @@
+Proof Obligation 1: (Unproved)
+v1: map sequence compatible obligation in 'BinaryTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/binaryexpr/setintersect/setintersect-08.vdm) at line 7:24
+forall m1, m2 in set {{mk_T('a') |-> 2}, {mk_T1('r') |-> 5}} & forall d3 in set dom m1, d4 in set dom m2 & d3 = d4 => m1(d3) = m2(d4)
+

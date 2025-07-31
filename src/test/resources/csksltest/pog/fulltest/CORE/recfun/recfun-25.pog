@@ -1,0 +1,5 @@
+Proof Obligation 1: (Unproved)
+foo: subtype obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-25.vdm) at line 13:1
+(forall x:nat &
+  let x : int = (x - 1), foo : int = x in foo >= 0)
+

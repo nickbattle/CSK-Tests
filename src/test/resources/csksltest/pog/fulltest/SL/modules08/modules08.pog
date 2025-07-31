@@ -1,0 +1,74 @@
+Proof Obligation 1: (Unproved)
+op1: let be st existence obligation in 'C' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/SL/modules08/modules08.vdm) at line 33:11
+(forall s:set of nat, mk_Sigma(s):Sigma &
+  (not (s = {}) =>
+    exists e in set s & (forall e1 in set (s \ {e}) & (e1 < e))))
+
+Proof Obligation 2: (Unproved)
+op3; pre_op3: total function obligation in 'C' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/SL/modules08/modules08.vdm) at line 43:14
+(forall oldSigma:Sigma &
+  is_(pre_op3(oldSigma), bool))
+
+Proof Obligation 3: (Unproved)
+op3; post_op3: total function obligation in 'C' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/SL/modules08/modules08.vdm) at line 44:8
+(forall RESULT:seq of nat, oldSigma:Sigma, Sigma:Sigma &
+  (pre_op3(oldSigma) =>
+    is_(post_op3(RESULT, oldSigma, Sigma), bool)))
+
+Proof Obligation 4: (Unproved)
+op3: operation post condition obligation in 'C' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/SL/modules08/modules08.vdm) at line 44:8
+(forall mk_Sigma(s):Sigma & pre_op3(mk_Sigma(s)) =>
+  (-- Ambiguous operation call to op1, affects (RESULT, s)? at 42:9
+    (let RESULT : seq of (nat) = (undefined) in
+      let l : seq of nat = RESULT in (forall i, j in set (inds l) & (if (i < j) then (l(i) > l(j)) else (l(i) < l(j)))))))
+
+Proof Obligation 5: (Unproved)
+Sigma: state init obligation in 'C' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/SL/modules08/modules08.vdm) at line 53:8
+exists s : Sigma & (s = mk_Sigma({}))
+
+Proof Obligation 6: (Unproved)
+check invariant before for-loop
+Test: loop invariant obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/SL/modules08/modules08.vdm) at line 136:3
+(forall mk_Sigma(res):Sigma &
+  (let res : seq of (bool | real | (seq of real) | (set of real) | token) = [B`a, B`b, B`tok, B`l] in
+    (-- Missing @LoopInvariant, assuming true at 136:3
+      (let $LoopInvariant : bool = true in
+        (let GHOST$ : set of nat1 = {} in
+          $LoopInvariant)))))
+
+Proof Obligation 7: (Unproved)
+invariant preservation for next for-loop
+Test: loop invariant obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/SL/modules08/modules08.vdm) at line 137:5
+(forall mk_Sigma(res):Sigma &
+  (let res : seq of (bool | real | (seq of real) | (set of real) | token) = [B`a, B`b, B`tok, B`l] in
+    (-- Missing @LoopInvariant, assuming true at 136:3
+      (let $LoopInvariant : bool = true in
+        (forall GHOST$:set of nat1, i:nat1 &
+          ((i in set ({i | i in set {50, ..., 65} & ((i mod 2) = 0)} \ GHOST$)) and $LoopInvariant =>
+            (let GHOST$ : set of nat1 = (GHOST$ union {i}) in
+              (-- Ambiguous operation call to C`op2, affects (res)? at 137:5
+                $LoopInvariant))))))))
+
+Proof Obligation 8: (Unchecked)
+Earlier statements create ambiguous state
+Test: subtype obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/SL/modules08/modules08.vdm) at line 153:16
+(forall mk_Sigma(res):Sigma &
+  (let res : seq of (bool | real | (seq of real) | (set of real) | token) = [B`a, B`b, B`tok, B`l] in
+    (-- Missing @LoopInvariant, assuming true at 136:3
+      (let $LoopInvariant : bool = true in
+        (let GHOST$ : set of nat1 = {i | i in set {50, ..., 65} & ((i mod 2) = 0)} in
+          ($LoopInvariant =>
+            (-- Ambiguous operation call to C`op3, affects (res)? at 138:11
+              (-- Ambiguous definition, affects (l)? at 138:7
+                (let l : seq of nat = C`op3() in
+                  (-- Ambiguous definition, affects (s)? at 139:9
+                    (let s : set of nat = (elems (l)) in
+                      (-- Ambiguous assignment, affects (res)? at 144:20
+                        (-- Ambiguous assignment, affects (res)? at 147:14
+                          (let c : E`C = mk_E`C({}, {}), d : E`D = mk_E`D(B`l, [mk_token(1)]) in
+                            is_((res ^ [is_(c, E`C), is_(d, E`D), (d.a), (d.b)]), seq of (bool | real | (seq of real) | (set of real) | token))))))))))))))))
+
+Proof Obligation 9: (Unproved)
+Sigma: state init obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/SL/modules08/modules08.vdm) at line 160:8
+exists s : Sigma & (s = mk_Sigma([]))
+

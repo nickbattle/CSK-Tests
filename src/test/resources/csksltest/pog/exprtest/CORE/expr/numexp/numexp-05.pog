@@ -1,0 +1,4 @@
+Proof Obligation 1: (Unproved)
+Test: map iteration obligation in 'NumExpTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/numexp/numexp-05.vdm) at line 22:17
+7 = 0 or 7 = 1 or rng({|->}) subset dom({|->})
+

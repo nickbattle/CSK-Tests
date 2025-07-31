@@ -1,0 +1,17 @@
+Proof Obligation 1: (Unproved)
+t: total function obligation in 'TupleSelectExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/tupleselectexpr/tupleselectexpr-06.vdm) at line 8:5
+(forall tt:t! &
+  is_(inv_t(tt), bool))
+
+Proof Obligation 2: (Unproved)
+t: invariant satisfiability obligation in 'TupleSelectExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/tupleselectexpr/tupleselectexpr-06.vdm) at line 8:5
+exists tt : (int) * (char) * (bool) & ((tt.#2) = 'c')
+
+Proof Obligation 3: (Unproved)
+Test: value binding obligation in 'TupleSelectExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/tupleselectexpr/tupleselectexpr-06.vdm) at line 23:15
+exists mk_(a, $any1, $any2):ut & mk_(a, $any1, $any2) = mk_(11, 22, 33)
+
+Proof Obligation 4: (Unproved)
+Test: subtype obligation in 'TupleSelectExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/tupleselectexpr/tupleselectexpr-06.vdm) at line 23:32
+(is_(mk_(11, 22, 33), t1)) or (is_(mk_(11, 22, 33), t4) and ((is_(33, bool))))
+

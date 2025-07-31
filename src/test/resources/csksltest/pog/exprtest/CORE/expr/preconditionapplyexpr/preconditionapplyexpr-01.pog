@@ -1,0 +1,10 @@
+Proof Obligation 1: (Unproved)
+FunIter; pre_FunIter: total function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/preconditionapplyexpr/preconditionapplyexpr-01.vdm) at line 11:5
+(forall fun:nat -> nat, n:nat &
+  is_(pre_FunIter(fun, n), bool))
+
+Proof Obligation 2: (Unproved)
+FunIter: function iteration obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/preconditionapplyexpr/preconditionapplyexpr-01.vdm) at line 10:7
+(forall fun:nat -> nat, n:nat & pre_FunIter(fun, n) =>
+  n > 1 => forall arg:nat & pre_(fun, arg) => pre_(fun, fun(arg)))
+

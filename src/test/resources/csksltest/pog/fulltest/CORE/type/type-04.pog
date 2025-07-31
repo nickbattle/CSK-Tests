@@ -1,0 +1,28 @@
+Proof Obligation 1: (Unproved)
+A: total function obligation in 'TYPE' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-04.vdm) at line 8:7
+(forall f:A! &
+  is_(inv_A(f), bool))
+
+Proof Obligation 2: (Unproved)
+A: invariant satisfiability obligation in 'TYPE' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-04.vdm) at line 8:7
+exists f : nat -> bool & true
+
+Proof Obligation 3: (Unproved)
+B: total function obligation in 'TYPE' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-04.vdm) at line 11:7
+(forall g:B! &
+  is_(inv_B(g), bool))
+
+Proof Obligation 4: (Unproved)
+B: invariant satisfiability obligation in 'TYPE' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-04.vdm) at line 11:7
+exists g : real -> (A | bool) & false
+
+Proof Obligation 5: (Unproved)
+f: total function obligation in 'TYPE' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-04.vdm) at line 15:3
+(forall a:A | B &
+  is_(f(a), B | bool))
+
+Proof Obligation 6: (Unproved)
+f: subtype obligation in 'TYPE' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-04.vdm) at line 15:3
+(forall a:A | B &
+  (is_(a(99), B) and inv_B(a(99))) or (is_(a(99), bool)))
+

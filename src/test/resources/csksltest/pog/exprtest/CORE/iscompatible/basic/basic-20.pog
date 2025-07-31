@@ -1,0 +1,5 @@
+Proof Obligation 1: (Unproved)
+CB: subtype obligation in 'Test' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/iscompatible/basic/basic-20.vdm) at line 66:8
+(forall x:C &
+  (x >= 0))
+

@@ -1,0 +1,5 @@
+Proof Obligation 1: (Unproved)
+Test: subtype obligation in 'SeqModifyMapOverrideExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/seqmodifymapoverrideexpr/seqmodifymapoverrideexpr-17.vdm) at line 32:20
+(let m : map nat to nat = {5 |-> 8}, abc : seq1 of char = "abc", t : bool = true in
+  is_((m ++ {abc |-> t}), map nat to nat))
+

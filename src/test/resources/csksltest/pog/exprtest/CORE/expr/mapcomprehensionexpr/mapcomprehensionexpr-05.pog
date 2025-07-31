@@ -1,0 +1,4 @@
+Proof Obligation 1: (Unproved)
+Test: finite map obligation in 'MapComprehensionExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/mapcomprehensionexpr/mapcomprehensionexpr-05.vdm) at line 12:11
+exists finmap1:map nat to (map (set of bool) to bool) & forall a:bool, b:nat & a => exists findex2 in set dom finmap1 & finmap1(findex2) = {{a} |-> a}
+

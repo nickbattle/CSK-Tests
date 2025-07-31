@@ -1,0 +1,5 @@
+Proof Obligation 1: (Unproved)
+DA: subtype obligation in 'Test' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/iscompatible/basic/basic-28.vdm) at line 66:8
+(forall x:D &
+  (is_nat1(x)))
+

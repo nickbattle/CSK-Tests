@@ -1,0 +1,13 @@
+Proof Obligation 1: (Unproved)
+T: total function obligation in 'UnaryTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/unaryexpr/mapdom/mapdom-06.vdm) at line 8:7
+(forall m:T! &
+  is_(inv_T(m), bool))
+
+Proof Obligation 2: (Unproved)
+T: invariant satisfiability obligation in 'UnaryTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/unaryexpr/mapdom/mapdom-06.vdm) at line 8:7
+exists m : map nat to nat & (m <> {|->})
+
+Proof Obligation 3: (Unproved)
+Test: subtype obligation in 'UnaryTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/unaryexpr/mapdom/mapdom-06.vdm) at line 30:14
+((inv_T({2 |-> 8})) and (inv_T({|->})))
+

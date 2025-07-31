@@ -1,0 +1,13 @@
+Proof Obligation 1: (Unproved)
+foo(nat): subtype obligation in 'AA' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/recfun/recfun-38.vpp) at line 25:42
+(forall x:nat &
+  (not (x = 0) =>
+    (x - 1) >= 0))
+
+Proof Obligation 2: (Unchecked)
+Obligation for missing measure function
+foo(nat): recursive function obligation in 'AA' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/recfun/recfun-38.vpp) at line 25:34
+(forall x:nat &
+  (not (x = 0) =>
+    measure_foo(x) > measure_foo(x - 1)))
+

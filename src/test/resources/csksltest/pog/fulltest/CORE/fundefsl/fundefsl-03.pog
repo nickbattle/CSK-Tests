@@ -1,0 +1,12 @@
+Proof Obligation 1: (Unproved)
+f: total function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/fundefsl/fundefsl-03.vdm) at line 8:1
+(forall x:nat &
+  is_(f(x), bool | nat))
+
+Proof Obligation 2: (Unchecked)
+Obligation for missing measure function
+f: recursive function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/fundefsl/fundefsl-03.vdm) at line 12:8
+(forall x:nat &
+  (not (x = 8) =>
+    measure_f(x) > measure_f(x + 9)))
+

@@ -1,0 +1,61 @@
+Proof Obligation 1: (Unproved)
+Sigma: total function obligation in 'BlockStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/SL/stmtsl/blockstmt/blockstmt.vdm) at line 7:5
+(forall mk_Sigma($any1, b):Sigma! &
+  is_(inv_Sigma(mk_Sigma!($any1, b)), bool))
+
+Proof Obligation 2: (Unproved)
+Sigma: invariant satisfiability obligation in 'BlockStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/SL/stmtsl/blockstmt/blockstmt.vdm) at line 7:5
+exists mk_Sigma(-, b) : Sigma & (b = true)
+
+Proof Obligation 3: (Unproved)
+Sigma: state init obligation in 'BlockStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/SL/stmtsl/blockstmt/blockstmt.vdm) at line 8:6
+exists s : Sigma & (s = mk_Sigma(7, true))
+
+Proof Obligation 4: (Unproved)
+BlockStmt1; pre_BlockStmt1: total function obligation in 'BlockStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/SL/stmtsl/blockstmt/blockstmt.vdm) at line 22:8
+(forall b:bool, oldSigma:Sigma &
+  is_(pre_BlockStmt1(b, oldSigma), bool))
+
+Proof Obligation 5: (Unproved)
+BlockStmt1; post_BlockStmt1: total function obligation in 'BlockStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/SL/stmtsl/blockstmt/blockstmt.vdm) at line 23:15
+(forall b:bool, RESULT:nat1, oldSigma:Sigma, Sigma:Sigma &
+  (pre_BlockStmt1(b, oldSigma) =>
+    is_(post_BlockStmt1(b, RESULT, oldSigma, Sigma), bool)))
+
+Proof Obligation 6: (Unproved)
+BlockStmt1: state invariant obligation in 'BlockStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/SL/stmtsl/blockstmt/blockstmt.vdm) at line 18:6
+(forall b:bool, mk_Sigma(ext1, ext2):Sigma & pre_BlockStmt1(b, mk_Sigma(ext1, ext2)) =>
+  (let ext1$ = ext1 in
+    (let a : nat = 0 in -- Note, default value set
+      (not b =>
+        (let a : nat = 6 in
+          let mk_Sigma(-, b) = mk_Sigma!(ext1, ext2) in (b = true))))))
+
+Proof Obligation 7: (Unproved)
+BlockStmt1: subtype obligation in 'BlockStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/SL/stmtsl/blockstmt/blockstmt.vdm) at line 19:13
+(forall b:bool, mk_Sigma(ext1, ext2):Sigma & pre_BlockStmt1(b, mk_Sigma(ext1, ext2)) =>
+  (let ext1$ = ext1 in
+    (let a : nat = 0 in -- Note, default value set
+      (not b =>
+        (let a : nat = 6 in
+          a > 0)))))
+
+Proof Obligation 8: (Unproved)
+BlockStmt1: operation post condition obligation in 'BlockStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/SL/stmtsl/blockstmt/blockstmt.vdm) at line 23:15
+(forall b:bool, mk_Sigma(ext1, ext2):Sigma & pre_BlockStmt1(b, mk_Sigma(ext1, ext2)) =>
+  (let ext1$ = ext1 in
+    (let a : nat = 0 in -- Note, default value set
+      (b =>
+        (let RESULT : nat1 = 6 in
+          (ext1$ = (ext1 + 1)))))))
+
+Proof Obligation 9: (Unproved)
+BlockStmt1: operation post condition obligation in 'BlockStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/SL/stmtsl/blockstmt/blockstmt.vdm) at line 23:15
+(forall b:bool, mk_Sigma(ext1, ext2):Sigma & pre_BlockStmt1(b, mk_Sigma(ext1, ext2)) =>
+  (let ext1$ = ext1 in
+    (let a : nat = 0 in -- Note, default value set
+      (not b =>
+        (let a : nat = 6 in
+          (let RESULT : nat1 = a in
+            (ext1$ = (ext1 + 1))))))))
+

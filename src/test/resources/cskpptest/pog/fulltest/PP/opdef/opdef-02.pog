@@ -1,0 +1,26 @@
+Proof Obligation 1: (Unproved)
+myf(nat): total function obligation in 'OpDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/opdef/opdef-02.vpp) at line 82:3
+(forall n:nat & pre_myf(n) =>
+  is_(myf(n), nat))
+
+Proof Obligation 2: (Unproved)
+myf(nat); pre_myf(nat): total function obligation in 'OpDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/opdef/opdef-02.vpp) at line 85:9
+(forall n:nat &
+  is_(pre_myf(n), bool))
+
+Proof Obligation 3: (Unproved)
+myf(nat); post_myf(nat, nat): post condition obligation in 'OpDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/opdef/opdef-02.vpp) at line 82:3
+(forall n:nat &
+  pre_myf(n) => post_myf(n, (n + 9)))
+
+Proof Obligation 4: (Unproved)
+myf(nat); post_myf(nat, nat): total function obligation in 'OpDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/opdef/opdef-02.vpp) at line 86:19
+(forall n:nat, RESULT:nat &
+  is_(post_myf(n, RESULT), bool))
+
+Proof Obligation 5: (Unchecked)
+Obligation requires VDM10
+Op15(A): cases exhaustive obligation in 'OpDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/opdef/opdef-02.vpp) at line 104:5
+(forall aa:A, obj_OpDefTest(a |-> a, b |-> b, x |-> x):OpDefTest &
+  aa = mk_A(1, true) or (exists mk_A(a, b):A & aa = mk_A(a, b)))
+

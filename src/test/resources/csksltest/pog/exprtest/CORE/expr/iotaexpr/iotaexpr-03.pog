@@ -1,0 +1,9 @@
+Proof Obligation 1: (Unproved)
+Test: unique existence binding obligation in 'IotaExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/iotaexpr/iotaexpr-03.vdm) at line 12:11
+exists1 [a, b] in set {[1, 2], [3, true]} & (a < 3)
+
+Proof Obligation 2: (Unproved)
+Test: ordered obligation in 'IotaExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/iotaexpr/iotaexpr-03.vdm) at line 12:48
+(forall [a, b] in set {[1, 2], [3, true]} &
+  is_(a, nat1))
+

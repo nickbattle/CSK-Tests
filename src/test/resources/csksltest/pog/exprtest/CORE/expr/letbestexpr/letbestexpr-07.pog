@@ -1,0 +1,4 @@
+Proof Obligation 1: (Unproved)
+Test: let be st existence obligation in 'LetBeSTExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/letbestexpr/letbestexpr-07.vdm) at line 17:16
+exists (<ONE>) in set {<ONE>, <TWO>, <SIX>} & true
+

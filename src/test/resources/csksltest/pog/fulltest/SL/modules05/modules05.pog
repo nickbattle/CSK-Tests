@@ -1,0 +1,5 @@
+Proof Obligation 1: (Unproved)
+g; pre_g: total function obligation in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/SL/modules05/modules05.vdm) at line 30:10
+(forall n:nat &
+  is_(pre_g(n), bool))
+

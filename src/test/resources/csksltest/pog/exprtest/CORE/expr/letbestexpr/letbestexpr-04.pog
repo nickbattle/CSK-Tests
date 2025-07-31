@@ -1,0 +1,14 @@
+Proof Obligation 1: (Unproved)
+Test: let be st existence obligation in 'LetBeSTExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/letbestexpr/letbestexpr-04.vdm) at line 17:15
+exists y:bool | real & (y > 7)
+
+Proof Obligation 2: (Unproved)
+Test: ordered obligation in 'LetBeSTExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/letbestexpr/letbestexpr-04.vdm) at line 17:37
+(forall y:bool | real &
+  is_(y, real))
+
+Proof Obligation 3: (Unproved)
+Test: subtype obligation in 'LetBeSTExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/letbestexpr/letbestexpr-04.vdm) at line 17:46
+(forall y:bool | real & (y > 7) =>
+  is_(y, bool))
+

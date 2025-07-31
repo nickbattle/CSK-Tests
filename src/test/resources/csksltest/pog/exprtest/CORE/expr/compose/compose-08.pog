@@ -1,0 +1,13 @@
+Proof Obligation 1: (Unproved)
+h: total function obligation in 'NumExpTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/compose/compose-08.vdm) at line 15:3
+(forall n1:nat, n2:nat &
+  is_(h(n1, n2), nat))
+
+Proof Obligation 2: (Unproved)
+Test: function compose obligation in 'NumExpTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/compose/compose-08.vdm) at line 30:44
+forall arg:nat & pre_((if (8 <> 5) then f else {9 |-> 4}), arg) => pre_((if (5 = 9) then {8 |-> 9} else g), (if (8 <> 5) then f else {9 |-> 4})(arg))
+
+Proof Obligation 3: (Unproved)
+Test: map compose obligation in 'NumExpTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/compose/compose-08.vdm) at line 30:44
+rng((if (8 <> 5) then f else {9 |-> 4})) subset dom((if (5 = 9) then {8 |-> 9} else g))
+

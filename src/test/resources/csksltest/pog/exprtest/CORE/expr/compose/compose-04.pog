@@ -1,0 +1,19 @@
+Proof Obligation 1: (Unproved)
+f: subtype obligation in 'NumExpTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/compose/compose-04.vdm) at line 9:5
+(forall n:bool | nat | (seq of char) &
+  is_nat(n))
+
+Proof Obligation 2: (Unproved)
+h: total function obligation in 'NumExpTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/compose/compose-04.vdm) at line 15:3
+(forall n1:nat, n2:nat &
+  is_(h(n1, n2), nat))
+
+Proof Obligation 3: (Unproved)
+Test: function compose obligation in 'NumExpTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/compose/compose-04.vdm) at line 32:21
+forall arg:nat | (seq of char) & pre_((if false then {false |-> "test"} else g), arg) => pre_((if true then {6 |-> true} else f), (if false then {false |-> "test"} else g)(arg))
+
+Proof Obligation 4: (Unchecked)
+PO has errors
+Test: map compose obligation in 'NumExpTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/compose/compose-04.vdm) at line 32:21
+rng((if false then {false |-> "test"} else g)) subset dom((if true then {6 |-> true} else f))
+

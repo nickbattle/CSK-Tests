@@ -1,0 +1,47 @@
+Proof Obligation 1: (Unchecked)
+Unchecked in VDM++/RT
+inv_AssignStmtTest: state invariant obligation in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/stmtpp/assignstmt/assignstmt-01.vpp) at line 26:3
+After instance variable initializers (a < b)
+
+Proof Obligation 2: (Unchecked)
+Obligation requires VDM10
+Assign1(): state invariant obligation in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/stmtpp/assignstmt/assignstmt-01.vpp) at line 31:5
+(forall obj_AssignStmtTest(a |-> a, b |-> b, c |-> c, d |-> d, e |-> e, f |-> f):AssignStmtTest &
+  (let a : nat = 7 in
+    (a < b)))
+
+Proof Obligation 3: (Unchecked)
+Obligation requires VDM10
+Assign2(): state invariant obligation in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/stmtpp/assignstmt/assignstmt-01.vpp) at line 34:4
+(forall obj_AssignStmtTest(a |-> a, b |-> b, c |-> c, d |-> d, e |-> e, f |-> f):AssignStmtTest &
+  (let d : map nat to bool = (d ++ {5 |-> true}) in
+    (a < b)))
+
+Proof Obligation 4: (Unchecked)
+Obligation requires VDM10
+Assign4(real, real): subtype obligation in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/stmtpp/assignstmt/assignstmt-01.vpp) at line 37:17
+(forall a1:real, a2:real, obj_AssignStmtTest(a |-> a, b |-> b, c |-> c, d |-> d, e |-> e, f |-> f):AssignStmtTest &
+  is_nat(a1))
+
+Proof Obligation 5: (Unchecked)
+Obligation requires VDM10
+Assign4(real, real): state invariant obligation in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/stmtpp/assignstmt/assignstmt-01.vpp) at line 37:6
+(forall a1:real, a2:real, obj_AssignStmtTest(a |-> a, b |-> b, c |-> c, d |-> d, e |-> e, f |-> f):AssignStmtTest &
+  (let a : nat = a1 in
+    (a < b)))
+
+Proof Obligation 6: (Unchecked)
+Obligation requires VDM10
+Assign4(real, real): subtype obligation in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/stmtpp/assignstmt/assignstmt-01.vpp) at line 38:11
+(forall a1:real, a2:real, obj_AssignStmtTest(a |-> a, b |-> b, c |-> c, d |-> d, e |-> e, f |-> f):AssignStmtTest &
+  (let a : nat = a1 in
+    is_nat(a2)))
+
+Proof Obligation 7: (Unchecked)
+Obligation requires VDM10
+Assign4(real, real): state invariant obligation in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/stmtpp/assignstmt/assignstmt-01.vpp) at line 38:6
+(forall a1:real, a2:real, obj_AssignStmtTest(a |-> a, b |-> b, c |-> c, d |-> d, e |-> e, f |-> f):AssignStmtTest &
+  (let a : nat = a1 in
+    (let b : nat = a2 in
+      (a < b))))
+

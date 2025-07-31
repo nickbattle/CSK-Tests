@@ -1,0 +1,10 @@
+Proof Obligation 1: (Unproved)
+Test: map apply obligation in 'MapInverseExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/mapinverseexpr/mapinverseexpr-03.vdm) at line 14:12
+(forall t:T &
+  {true} in set dom (inverse t))
+
+Proof Obligation 2: (Unproved)
+Test: type invariant obligation in 'MapInverseExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/mapinverseexpr/mapinverseexpr-03.vdm) at line 14:12
+(forall t:T &
+  is_(t, inmap nat to set of bool))
+

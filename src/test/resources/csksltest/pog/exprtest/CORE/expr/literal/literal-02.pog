@@ -1,0 +1,14 @@
+Proof Obligation 1: (Unproved)
+T: total function obligation in 'LiteralTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/literal/literal-02.vdm) at line 9:7
+(forall t:T! &
+  is_(inv_T(t), bool))
+
+Proof Obligation 2: (Unproved)
+T: invariant satisfiability obligation in 'LiteralTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/literal/literal-02.vdm) at line 9:7
+exists t : nat & (t > 6)
+
+Proof Obligation 3: (Unproved)
+Test: subtype obligation in 'LiteralTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/literal/literal-02.vdm) at line 16:13
+(let - : seq of char = "" in
+  inv_T(8))
+

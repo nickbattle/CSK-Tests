@@ -1,0 +1,9 @@
+Proof Obligation 1: (Unproved)
+B: total function obligation in 'LetExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/letexpr/letexpr-24.vdm) at line 11:7
+(forall b:B! &
+  is_(inv_B(b), bool))
+
+Proof Obligation 2: (Unproved)
+B: invariant satisfiability obligation in 'LetExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/letexpr/letexpr-24.vdm) at line 11:7
+exists b : B & ((b.sel1) < 6)
+

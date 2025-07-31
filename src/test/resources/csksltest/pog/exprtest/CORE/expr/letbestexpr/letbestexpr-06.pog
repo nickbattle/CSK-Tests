@@ -1,0 +1,4 @@
+Proof Obligation 1: (Unproved)
+Test: let be st existence obligation in 'LetBeSTExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/letbestexpr/letbestexpr-06.vdm) at line 17:15
+exists a:rat & true
+

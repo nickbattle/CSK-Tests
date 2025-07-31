@@ -1,0 +1,33 @@
+Proof Obligation 1: (Unchecked)
+Obligation patterns contain hidden variables: x
+id: recursive function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-34.vdm) at line 19:19
+(forall mk_Tree(x):Tree &
+  (exists mk_(x, y):((Tree) * (Tree)) | nat & mk_(x, y) = x => let mk_(x, y) = x in
+    measure_id(mk_Tree(x)) > measure_id(x)))
+
+Proof Obligation 2: (Unchecked)
+Obligation patterns contain hidden variables: x
+id: recursive function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-34.vdm) at line 19:27
+(forall mk_Tree(x):Tree &
+  (exists mk_(x, y):((Tree) * (Tree)) | nat & mk_(x, y) = x => let mk_(x, y) = x in
+    measure_id(mk_Tree(x)) > measure_id(y)))
+
+Proof Obligation 3: (Unchecked)
+Obligation patterns contain hidden variables: x
+foo: recursive function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-34.vdm) at line 27:15
+(forall mk_Tree(x):Tree &
+  (exists mk_(x, y):((Tree) * (Tree)) | nat & mk_(x, y) = x => let mk_(x, y) = x in
+    measure_foo(mk_Tree(x)) > measure_foo(x)))
+
+Proof Obligation 4: (Unchecked)
+Obligation patterns contain hidden variables: x
+foo: recursive function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-34.vdm) at line 27:24
+(forall mk_Tree(x):Tree &
+  (exists mk_(x, y):((Tree) * (Tree)) | nat & mk_(x, y) = x => let mk_(x, y) = x in
+    measure_foo(mk_Tree(x)) > measure_foo(y)))
+
+Proof Obligation 5: (Unproved)
+foo: subtype obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-34.vdm) at line 24:1
+(forall mk_Tree(x):Tree &
+  is_nat((cases x : mk_(x, y) -> (foo(x) + foo(y)), others -> x end)))
+

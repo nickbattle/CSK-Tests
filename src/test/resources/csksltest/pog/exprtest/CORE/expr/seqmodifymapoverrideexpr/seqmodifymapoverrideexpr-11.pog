@@ -1,0 +1,4 @@
+Proof Obligation 1: (Unproved)
+Test: sequence modification obligation in 'SeqModifyMapOverrideExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/seqmodifymapoverrideexpr/seqmodifymapoverrideexpr-11.vdm) at line 29:28
+dom {1 |-> 2} subset inds (if true then [1, 8, 6] else [true, false])
+

@@ -1,0 +1,174 @@
+Proof Obligation 1: (Unproved)
+Tracker: total function obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 11:7
+(forall mk_Tracker(containers, phases):Tracker! &
+  is_(inv_Tracker(mk_Tracker!(containers, phases)), bool))
+
+Proof Obligation 2: (Unproved)
+Tracker: invariant satisfiability obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 11:7
+exists mk_Tracker(containers, phases) : Tracker & (Consistent(containers, phases) and (PhasesDistinguished(phases) and MaterialSafe(containers, phases)))
+
+Proof Obligation 3: (Unproved)
+Phase: total function obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 26:7
+(forall p:Phase! &
+  is_(inv_Phase(p), bool))
+
+Proof Obligation 4: (Unproved)
+Phase: invariant satisfiability obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 26:7
+exists p : Phase & (((card (p.contents)) <= (p.capacity)) and ((p.expected_materials) <> {}))
+
+Proof Obligation 5: (Unproved)
+Introduce; pre_Introduce: total function obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 44:11
+(forall trk:Tracker, cid:ContainerId, quan:real, mat:Material &
+  is_(pre_Introduce(trk, cid, quan, mat), bool))
+
+Proof Obligation 6: (Unproved)
+Introduce: map compatible obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 41:17
+(forall trk:Tracker, cid:ContainerId, quan:real, mat:Material & pre_Introduce(trk, cid, quan, mat) =>
+  forall ldom1 in set dom (trk.containers), rdom2 in set dom {cid |-> mk_Container(quan, mat)} & ldom1 = rdom2 => (trk.containers)(ldom1) = {cid |-> mk_Container(quan, mat)}(rdom2))
+
+Proof Obligation 7: (Unproved)
+Introduce: subtype obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 41:6
+(forall trk:Tracker, cid:ContainerId, quan:real, mat:Material & pre_Introduce(trk, cid, quan, mat) =>
+  inv_Tracker(mk_Tracker(((trk.containers) munion {cid |-> mk_Container(quan, mat)}), (trk.phases))))
+
+Proof Obligation 8: (Unproved)
+Permission: map apply obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 52:10
+(forall mk_Tracker(containers, phases):Tracker, cid:ContainerId, dest:PhaseId &
+  ((cid in set (dom containers)) =>
+    ((dest in set (dom phases)) =>
+      dest in set dom phases)))
+
+Proof Obligation 9: (Unproved)
+Permission: map apply obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 52:34
+(forall mk_Tracker(containers, phases):Tracker, cid:ContainerId, dest:PhaseId &
+  ((cid in set (dom containers)) =>
+    ((dest in set (dom phases)) =>
+      dest in set dom phases)))
+
+Proof Obligation 10: (Unproved)
+Permission: map apply obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 53:5
+(forall mk_Tracker(containers, phases):Tracker, cid:ContainerId, dest:PhaseId &
+  ((cid in set (dom containers)) =>
+    ((dest in set (dom phases)) =>
+      (((card (phases(dest).contents)) < (phases(dest).capacity)) =>
+        cid in set dom containers))))
+
+Proof Obligation 11: (Unproved)
+Permission: map apply obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 53:37
+(forall mk_Tracker(containers, phases):Tracker, cid:ContainerId, dest:PhaseId &
+  ((cid in set (dom containers)) =>
+    ((dest in set (dom phases)) =>
+      (((card (phases(dest).contents)) < (phases(dest).capacity)) =>
+        dest in set dom phases))))
+
+Proof Obligation 12: (Unproved)
+Move; pre_Move: total function obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 65:35
+(forall trk:Tracker, cid:ContainerId, ptoid:PhaseId, pfromid:PhaseId &
+  is_(pre_Move(trk, cid, ptoid, pfromid), bool))
+
+Proof Obligation 13: (Unproved)
+Move: map apply obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 59:24
+(forall trk:Tracker, cid:ContainerId, ptoid:PhaseId, pfromid:PhaseId & pre_Move(trk, cid, ptoid, pfromid) =>
+  ptoid in set dom (trk.phases))
+
+Proof Obligation 14: (Unproved)
+Move: map apply obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 60:23
+(forall trk:Tracker, cid:ContainerId, ptoid:PhaseId, pfromid:PhaseId & pre_Move(trk, cid, ptoid, pfromid) =>
+  ptoid in set dom (trk.phases))
+
+Proof Obligation 15: (Unproved)
+Move: map apply obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 61:23
+(forall trk:Tracker, cid:ContainerId, ptoid:PhaseId, pfromid:PhaseId & pre_Move(trk, cid, ptoid, pfromid) =>
+  ptoid in set dom (trk.phases))
+
+Proof Obligation 16: (Unproved)
+Move: subtype obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 59:15
+(forall trk:Tracker, cid:ContainerId, ptoid:PhaseId, pfromid:PhaseId & pre_Move(trk, cid, ptoid, pfromid) =>
+  inv_Phase(mk_Phase((((trk.phases)(ptoid).contents) union {cid}), ((trk.phases)(ptoid).expected_materials), ((trk.phases)(ptoid).capacity))))
+
+Proof Obligation 17: (Unproved)
+Move: function apply obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 64:14
+(forall trk:Tracker, cid:ContainerId, ptoid:PhaseId, pfromid:PhaseId & pre_Move(trk, cid, ptoid, pfromid) =>
+  (let pha : Phase = mk_Phase((((trk.phases)(ptoid).contents) union {cid}), ((trk.phases)(ptoid).expected_materials), ((trk.phases)(ptoid).capacity)) in
+    pre_Remove(trk, cid, pfromid)))
+
+Proof Obligation 18: (Unproved)
+Move: subtype obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 63:7
+(forall trk:Tracker, cid:ContainerId, ptoid:PhaseId, pfromid:PhaseId & pre_Move(trk, cid, ptoid, pfromid) =>
+  (let pha : Phase = mk_Phase((((trk.phases)(ptoid).contents) union {cid}), ((trk.phases)(ptoid).expected_materials), ((trk.phases)(ptoid).capacity)) in
+    inv_Tracker(mk_Tracker((trk.containers), ((Remove(trk, cid, pfromid).phases) ++ {ptoid |-> pha})))))
+
+Proof Obligation 19: (Unproved)
+Remove; pre_Remove: total function obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 76:32
+(forall mk_Tracker(containers, phases):Tracker, cid:ContainerId, source:PhaseId &
+  is_(pre_Remove(mk_Tracker(containers, phases), cid, source), bool))
+
+Proof Obligation 20: (Unproved)
+Remove; pre_Remove: map apply obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 77:16
+(forall mk_Tracker(containers, phases):Tracker, cid:ContainerId, source:PhaseId &
+  ((source in set (dom phases)) =>
+    source in set dom phases))
+
+Proof Obligation 21: (Unproved)
+Remove: map apply obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 71:24
+(forall mk_Tracker(containers, phases):Tracker, cid:ContainerId, source:PhaseId & pre_Remove(mk_Tracker(containers, phases), cid, source) =>
+  source in set dom phases)
+
+Proof Obligation 22: (Unproved)
+Remove: map apply obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 72:22
+(forall mk_Tracker(containers, phases):Tracker, cid:ContainerId, source:PhaseId & pre_Remove(mk_Tracker(containers, phases), cid, source) =>
+  source in set dom phases)
+
+Proof Obligation 23: (Unproved)
+Remove: map apply obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 73:22
+(forall mk_Tracker(containers, phases):Tracker, cid:ContainerId, source:PhaseId & pre_Remove(mk_Tracker(containers, phases), cid, source) =>
+  source in set dom phases)
+
+Proof Obligation 24: (Unproved)
+Remove: subtype obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 71:15
+(forall mk_Tracker(containers, phases):Tracker, cid:ContainerId, source:PhaseId & pre_Remove(mk_Tracker(containers, phases), cid, source) =>
+  inv_Phase(mk_Phase(((phases(source).contents) \ {cid}), (phases(source).expected_materials), (phases(source).capacity))))
+
+Proof Obligation 25: (Unproved)
+Remove: subtype obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 75:7
+(forall mk_Tracker(containers, phases):Tracker, cid:ContainerId, source:PhaseId & pre_Remove(mk_Tracker(containers, phases), cid, source) =>
+  (let pha : Phase = mk_Phase(((phases(source).contents) \ {cid}), (phases(source).expected_materials), (phases(source).capacity)) in
+    inv_Tracker(mk_Tracker(containers, (phases ++ {source |-> pha})))))
+
+Proof Obligation 26: (Unproved)
+Delete; pre_Delete: total function obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 85:7
+(forall tkr:Tracker, cid:ContainerId, source:PhaseId &
+  is_(pre_Delete(tkr, cid, source), bool))
+
+Proof Obligation 27: (Unproved)
+Delete: function apply obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 84:16
+(forall tkr:Tracker, cid:ContainerId, source:PhaseId & pre_Delete(tkr, cid, source) =>
+  pre_Remove(tkr, cid, source))
+
+Proof Obligation 28: (Unproved)
+Delete: subtype obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 83:5
+(forall tkr:Tracker, cid:ContainerId, source:PhaseId & pre_Delete(tkr, cid, source) =>
+  inv_Tracker(mk_Tracker(({cid} <-: (tkr.containers)), (Remove(tkr, cid, source).phases))))
+
+Proof Obligation 29: (Unproved)
+PhasesDistinguished: map apply obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 98:7
+(forall phases:PhaseInfo &
+  (forall p1, p2 in set (dom phases) &
+    ((p1 <> p2) =>
+      p1 in set dom phases)))
+
+Proof Obligation 30: (Unproved)
+PhasesDistinguished: map apply obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 98:33
+(forall phases:PhaseInfo &
+  (forall p1, p2 in set (dom phases) &
+    ((p1 <> p2) =>
+      p2 in set dom phases)))
+
+Proof Obligation 31: (Unproved)
+MaterialSafe: map apply obligation in 'TRACKER' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/tracker.vdm) at line 105:12
+(forall containers:ContainerInfo, phases:PhaseInfo &
+  (forall ph in set (rng phases) &
+    (forall cid in set (ph.contents) &
+      ((cid in set (dom containers)) =>
+        cid in set dom containers))))
+

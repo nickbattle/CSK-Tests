@@ -1,0 +1,15 @@
+Proof Obligation 1: (Unproved)
+Test: map sequence compatible obligation in 'SeqModifyMapOverrideExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/seqmodifymapoverrideexpr/seqmodifymapoverrideexpr-18.vdm) at line 35:24
+(let m : (map nat to nat) | (seq of nat) = (if true then {5 |-> 8} else [4, 2, 9]), abc : nat1 = 9, t : bool = true in
+  forall m1, m2 in set {{abc |-> t}, {6 |-> 88.7}} & forall d3 in set dom m1, d4 in set dom m2 & d3 = d4 => m1(d3) = m2(d4))
+
+Proof Obligation 2: (Unproved)
+Test: sequence modification obligation in 'SeqModifyMapOverrideExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/seqmodifymapoverrideexpr/seqmodifymapoverrideexpr-18.vdm) at line 35:20
+(let m : (map nat to nat) | (seq of nat) = (if true then {5 |-> 8} else [4, 2, 9]), abc : nat1 = 9, t : bool = true in
+  dom {abc |-> t, 6 |-> 88.7} subset inds m)
+
+Proof Obligation 3: (Unproved)
+Test: subtype obligation in 'SeqModifyMapOverrideExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/seqmodifymapoverrideexpr/seqmodifymapoverrideexpr-18.vdm) at line 35:20
+(let m : (map nat to nat) | (seq of nat) = (if true then {5 |-> 8} else [4, 2, 9]), abc : nat1 = 9, t : bool = true in
+  (is_((m ++ {abc |-> t, 6 |-> 88.7}), map nat to nat)) or (is_((m ++ {abc |-> t, 6 |-> 88.7}), seq of nat)))
+

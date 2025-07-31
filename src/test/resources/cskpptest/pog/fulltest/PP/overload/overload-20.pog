@@ -1,0 +1,6 @@
+Proof Obligation 1: (Unchecked)
+Obligation requires VDM10
+Op(nat): subtype obligation in 'C' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/overload/overload-20.vpp) at line 42:12
+(forall r:nat, obj_C():C &
+  (r div 5) >= 0)
+

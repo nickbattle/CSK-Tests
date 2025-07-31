@@ -1,0 +1,8 @@
+Proof Obligation 1: (Unproved)
+Test: function iteration obligation in 'NumExpTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/numexp/numexp-06.vdm) at line 22:70
+8 > 1 => forall arg:nat1 & pre_((if (6 = 9) then 7 elseif (true = false) then {3 |-> 3} else f), arg) => pre_((if (6 = 9) then 7 elseif (true = false) then {3 |-> 3} else f), (if (6 = 9) then 7 elseif (true = false) then {3 |-> 3} else f)(arg))
+
+Proof Obligation 2: (Unproved)
+Test: map iteration obligation in 'NumExpTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/numexp/numexp-06.vdm) at line 22:70
+8 = 0 or 8 = 1 or rng((if (6 = 9) then 7 elseif (true = false) then {3 |-> 3} else f)) subset dom((if (6 = 9) then 7 elseif (true = false) then {3 |-> 3} else f))
+

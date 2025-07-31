@@ -1,0 +1,13 @@
+Proof Obligation 1: (Unchecked)
+Obligation for missing measure function
+foo: recursive function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-36.vdm) at line 24:13
+(forall mk_Bla(b):Bla &
+  (not 0 = b =>
+    measure_foo(mk_Bla(b)) > measure_foo(mk_Bla((b - 1)))))
+
+Proof Obligation 2: (Unproved)
+foo: subtype obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-36.vdm) at line 24:25
+(forall mk_Bla(b):Bla &
+  (not 0 = b =>
+    (b - 1) >= 0))
+

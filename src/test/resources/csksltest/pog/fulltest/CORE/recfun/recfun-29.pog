@@ -1,0 +1,15 @@
+Proof Obligation 1: (Unchecked)
+Obligation for missing measure function
+foo: recursive function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-29.vdm) at line 16:19
+(forall x:nat &
+  (let bla = [1, 2, 3] in
+    (true =>
+      measure_foo(x) > measure_foo(bla(2)))))
+
+Proof Obligation 2: (Unproved)
+foo: sequence apply obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-29.vdm) at line 16:23
+(forall x:nat &
+  (let bla = [1, 2, 3] in
+    (true =>
+      2 in set inds bla)))
+

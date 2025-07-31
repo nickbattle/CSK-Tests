@@ -1,0 +1,21 @@
+Proof Obligation 1: (Unproved)
+Test: subtype obligation in 'MapComprehensionExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/mapcomprehensionexpr/mapcomprehensionexpr-02.vdm) at line 13:21
+(forall mk_(a, b):((bool | real)) * (nat) & a =>
+  (a =>
+    is_real(a)))
+
+Proof Obligation 2: (Unproved)
+Test: subtype obligation in 'MapComprehensionExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/mapcomprehensionexpr/mapcomprehensionexpr-02.vdm) at line 14:21
+(forall mk_(a, b):((bool | real)) * (nat) & a =>
+  (not a =>
+    is_(a, bool)))
+
+Proof Obligation 3: (Unproved)
+Test: finite map obligation in 'MapComprehensionExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/mapcomprehensionexpr/mapcomprehensionexpr-02.vdm) at line 12:11
+exists finmap1:map nat to (map (bool | real) to (bool | real)) & forall mk_(a, b):((bool | real)) * (nat) & a => exists findex2 in set dom finmap1 & finmap1(findex2) = {a |-> (if a then (a * 4) else (a and true))}
+
+Proof Obligation 4: (Unproved)
+Test: subtype obligation in 'MapComprehensionExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/mapcomprehensionexpr/mapcomprehensionexpr-02.vdm) at line 14:69
+(forall mk_(a, b):((bool | real)) * (nat) &
+  is_(a, bool))
+

@@ -1,0 +1,4 @@
+Proof Obligation 1: (Unproved)
+Test: let be st existence obligation in 'LetBeSTExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/letbestexpr/letbestexpr-12.vdm) at line 17:15
+exists a in set (cases false : true -> "ABC", others -> {9, 8} end) & true
+

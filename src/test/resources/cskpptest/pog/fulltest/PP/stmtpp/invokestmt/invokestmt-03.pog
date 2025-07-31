@@ -1,0 +1,5 @@
+Proof Obligation 1: (Unproved)
+f(nat); pre_f(nat): total function obligation in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/stmtpp/invokestmt/invokestmt-03.vpp) at line 35:7
+(forall n:nat &
+  is_(pre_f(n), bool))
+

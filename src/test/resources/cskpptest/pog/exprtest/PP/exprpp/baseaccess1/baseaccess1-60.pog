@@ -1,0 +1,20 @@
+Proof Obligation 1: (Unproved)
+pub_f(int): total function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/exprtest/PP/exprpp/baseaccess1/baseaccess1-60.vpp) at line 27:5
+(forall a:int &
+  is_(pub_f(a), int))
+
+Proof Obligation 2: (Unproved)
+pro_f(int): total function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/exprtest/PP/exprpp/baseaccess1/baseaccess1-60.vpp) at line 31:5
+(forall a:int &
+  is_(pro_f(a), int))
+
+Proof Obligation 3: (Unproved)
+priv_f(int): total function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/exprtest/PP/exprpp/baseaccess1/baseaccess1-60.vpp) at line 35:5
+(forall a:int &
+  is_(priv_f(a), int))
+
+Proof Obligation 4: (Unproved)
+def_f(int): total function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/exprtest/PP/exprpp/baseaccess1/baseaccess1-60.vpp) at line 39:5
+(forall a:int &
+  is_(def_f(a), int))
+

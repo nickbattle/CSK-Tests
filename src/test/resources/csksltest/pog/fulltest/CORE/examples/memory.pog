@@ -1,0 +1,180 @@
+Proof Obligation 1: (Unproved)
+State: total function obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 19:5
+(forall mk_State(mem, access, used):State! &
+  is_(inv_State(mk_State!(mem, access, used)), bool))
+
+Proof Obligation 2: (Unproved)
+State: invariant satisfiability obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 19:5
+exists mk_State(mem, access, used) : State & (used = (dom mem))
+
+Proof Obligation 3: (Unproved)
+Alloc; pre_Alloc: total function obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 33:10
+(forall addr:ADDR, mk_State(mem, access, used):State &
+  is_(pre_Alloc(addr, mk_State(mem, access, used)), bool))
+
+Proof Obligation 4: (Unproved)
+Alloc: let be st existence obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 30:36
+(forall addr:ADDR, mk_State(mem, access, used):State & pre_Alloc(addr, mk_State(mem, access, used)) =>
+  (let used' : set of ADDR = (used union {addr}) in
+    exists c:CON & true))
+
+Proof Obligation 5: (Unproved)
+Alloc: subtype obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 32:7
+(forall addr:ADDR, mk_State(mem, access, used):State & pre_Alloc(addr, mk_State(mem, access, used)) =>
+  (let used' : set of ADDR = (used union {addr}), mem' : map ADDR to CON = (mem ++ {addr |-> let c:CON in c}) in
+    inv_State(mk_State(mem', access, used'))))
+
+Proof Obligation 6: (Unproved)
+Alloc2; pre_Alloc2: total function obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 42:26
+(forall addr:ADDR, mk_State(mem, access, used):State &
+  is_(pre_Alloc2(addr, mk_State(mem, access, used)), bool))
+
+Proof Obligation 7: (Unproved)
+Alloc2: let be st existence obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 39:40
+(forall addr:ADDR, mk_State(mem, access, used):State & pre_Alloc2(addr, mk_State(mem, access, used)) =>
+  (let used' : set of ADDR = (used union {addr}) in
+    exists c:CON & true))
+
+Proof Obligation 8: (Unproved)
+Alloc2: map compatible obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 39:15
+(forall addr:ADDR, mk_State(mem, access, used):State & pre_Alloc2(addr, mk_State(mem, access, used)) =>
+  (let used' : set of ADDR = (used union {addr}) in
+    forall ldom1 in set dom mem, rdom2 in set dom {addr |-> let c:CON in c} & ldom1 = rdom2 => mem(ldom1) = {addr |-> let c:CON in c}(rdom2)))
+
+Proof Obligation 9: (Unproved)
+Alloc2: subtype obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 41:7
+(forall addr:ADDR, mk_State(mem, access, used):State & pre_Alloc2(addr, mk_State(mem, access, used)) =>
+  (let used' : set of ADDR = (used union {addr}), mem' : map ADDR to CON = (mem munion {addr |-> let c:CON in c}) in
+    inv_State(mk_State(mem', access, used'))))
+
+Proof Obligation 10: (Unproved)
+Alloc20; pre_Alloc20: total function obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 51:26
+(forall addr:ADDR, mk_State(mem, access, used):State &
+  is_(pre_Alloc20(addr, mk_State(mem, access, used)), bool))
+
+Proof Obligation 11: (Unproved)
+Alloc20: subtype obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 50:7
+(forall addr:ADDR, mk_State(mem, access, used):State & pre_Alloc20(addr, mk_State(mem, access, used)) =>
+  (let used' : set of ADDR = (used union {addr}), mem' : map ADDR to ((<c0>) | CON) = (mem ++ {addr |-> <c0>}) in
+    inv_State(mk_State(mem', access, used'))))
+
+Proof Obligation 12: (Unproved)
+Alloc21; pre_Alloc21: total function obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 61:26
+(forall addr:ADDR, mk_State(mem, access, used):State &
+  is_(pre_Alloc21(addr, mk_State(mem, access, used)), bool))
+
+Proof Obligation 13: (Unproved)
+Alloc21: let be st existence obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 58:29
+(forall addr:ADDR, mk_State(mem, access, used):State & pre_Alloc21(addr, mk_State(mem, access, used)) =>
+  (let used' : set of ADDR = (used union {addr}) in
+    exists c:CON & true))
+
+Proof Obligation 14: (Unproved)
+Alloc21: subtype obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 60:7
+(forall addr:ADDR, mk_State(mem, access, used):State & pre_Alloc21(addr, mk_State(mem, access, used)) =>
+  (let used' : set of ADDR = (used union {addr}), mem' : map ADDR to CON = {addr |-> let c:CON in c} in
+    inv_State(mk_State(mem', access, used'))))
+
+Proof Obligation 15: (Unproved)
+Alloc3; pre_Alloc3: total function obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 72:26
+(forall addr:ADDR, mk_State(mem, access, used):State, mem2:map ADDR to CON &
+  is_(pre_Alloc3(addr, mk_State(mem, access, used), mem2), bool))
+
+Proof Obligation 16: (Unproved)
+Alloc3; post_Alloc3: post condition obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 65:1
+(forall addr:ADDR, mk_State(mem, access, used):State, mem2:map ADDR to CON &
+  pre_Alloc3(addr, mk_State(mem, access, used), mem2) => post_Alloc3(addr, mk_State(mem, access, used), mem2, let used' : set of ADDR = (used union {addr}), mem' : map ADDR to CON = (mem munion {addr |-> let c:CON in c}) in mk_State(mem', access, used')))
+
+Proof Obligation 17: (Unproved)
+Alloc3; post_Alloc3: let be st existence obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 74:39
+(forall addr:ADDR, mk_State(mem, access, used):State, mem2:map ADDR to CON &
+  (pre_Alloc3(addr, mk_State(mem, access, used), mem2) => let RESULT:State = let used' : set of ADDR = (used union {addr}), mem' : map ADDR to CON = (mem munion {addr |-> let c:CON in c}) in mk_State(mem', access, used') in 
+    exists c:CON & true))
+
+Proof Obligation 18: (Unproved)
+Alloc3; post_Alloc3: map compatible obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 74:14
+(forall addr:ADDR, mk_State(mem, access, used):State, mem2:map ADDR to CON &
+  (pre_Alloc3(addr, mk_State(mem, access, used), mem2) => let RESULT:State = let used' : set of ADDR = (used union {addr}), mem' : map ADDR to CON = (mem munion {addr |-> let c:CON in c}) in mk_State(mem', access, used') in 
+    forall ldom1 in set dom mem, rdom2 in set dom {addr |-> let c:CON in c} & ldom1 = rdom2 => mem(ldom1) = {addr |-> let c:CON in c}(rdom2)))
+
+Proof Obligation 19: (Unproved)
+Alloc3; post_Alloc3: total function obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 74:11
+(forall addr:ADDR, mk_State(mem, access, used):State, mem2:map ADDR to CON, RESULT:State &
+  is_(post_Alloc3(addr, mk_State(mem, access, used), mem2, RESULT), bool))
+
+Proof Obligation 20: (Unproved)
+Alloc3: let be st existence obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 69:40
+(forall addr:ADDR, mk_State(mem, access, used):State, mem2:map ADDR to CON & pre_Alloc3(addr, mk_State(mem, access, used), mem2) =>
+  (let used' : set of ADDR = (used union {addr}) in
+    exists c:CON & true))
+
+Proof Obligation 21: (Unproved)
+Alloc3: map compatible obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 69:15
+(forall addr:ADDR, mk_State(mem, access, used):State, mem2:map ADDR to CON & pre_Alloc3(addr, mk_State(mem, access, used), mem2) =>
+  (let used' : set of ADDR = (used union {addr}) in
+    forall ldom1 in set dom mem, rdom2 in set dom {addr |-> let c:CON in c} & ldom1 = rdom2 => mem(ldom1) = {addr |-> let c:CON in c}(rdom2)))
+
+Proof Obligation 22: (Unproved)
+Alloc3: subtype obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 71:7
+(forall addr:ADDR, mk_State(mem, access, used):State, mem2:map ADDR to CON & pre_Alloc3(addr, mk_State(mem, access, used), mem2) =>
+  (let used' : set of ADDR = (used union {addr}), mem' : map ADDR to CON = (mem munion {addr |-> let c:CON in c}) in
+    inv_State(mk_State(mem', access, used'))))
+
+Proof Obligation 23: (Unproved)
+AllocSafe; post_AllocSafe: post condition obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 78:1
+(forall addr:ADDR, sta:State &
+  post_AllocSafe(addr, sta, (Safe(sta) => Safe(Alloc(addr, sta)))))
+
+Proof Obligation 24: (Unproved)
+AllocSafe; post_AllocSafe: total function obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 81:13
+(forall addr:ADDR, sta:State, RESULT:bool &
+  is_(post_AllocSafe(addr, sta, RESULT), bool))
+
+Proof Obligation 25: (Unproved)
+AllocSafe: function apply obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 80:24
+(forall addr:ADDR, sta:State &
+  (Safe(sta) =>
+    pre_Alloc(addr, sta)))
+
+Proof Obligation 26: (Unproved)
+AllocSafe0; pre_AllocSafe0: total function obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 86:10
+(forall addr:ADDR, sta:State &
+  is_(pre_AllocSafe0(addr, sta), bool))
+
+Proof Obligation 27: (Unproved)
+AllocSafe0; post_AllocSafe0: post condition obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 83:1
+(forall addr:ADDR, sta:State &
+  pre_AllocSafe0(addr, sta) => post_AllocSafe0(addr, sta, (Safe(sta) => Safe(Alloc(addr, sta)))))
+
+Proof Obligation 28: (Unproved)
+AllocSafe0; post_AllocSafe0: total function obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 87:13
+(forall addr:ADDR, sta:State, RESULT:bool &
+  is_(post_AllocSafe0(addr, sta, RESULT), bool))
+
+Proof Obligation 29: (Unproved)
+AllocSafe0: function apply obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 85:24
+(forall addr:ADDR, sta:State & pre_AllocSafe0(addr, sta) =>
+  (Safe(sta) =>
+    pre_Alloc(addr, sta)))
+
+Proof Obligation 30: (Unproved)
+AllocSafe2; pre_AllocSafe2: total function obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 92:30
+(forall addr:ADDR, sta:State &
+  is_(pre_AllocSafe2(addr, sta), bool))
+
+Proof Obligation 31: (Unproved)
+AllocSafe2; post_AllocSafe2: post condition obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 89:1
+(forall addr:ADDR, sta:State &
+  pre_AllocSafe2(addr, sta) => post_AllocSafe2(addr, sta, (Safe(sta) => Safe(Alloc(addr, sta)))))
+
+Proof Obligation 32: (Unproved)
+AllocSafe2; post_AllocSafe2: total function obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 94:13
+(forall addr:ADDR, sta:State, RESULT:bool &
+  is_(post_AllocSafe2(addr, sta, RESULT), bool))
+
+Proof Obligation 33: (Unproved)
+AllocSafe2: function apply obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 91:24
+(forall addr:ADDR, sta:State & pre_AllocSafe2(addr, sta) =>
+  (Safe(sta) =>
+    pre_Alloc(addr, sta)))
+

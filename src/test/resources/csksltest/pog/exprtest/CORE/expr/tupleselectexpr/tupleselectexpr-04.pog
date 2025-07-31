@@ -1,0 +1,13 @@
+Proof Obligation 1: (Unproved)
+t: total function obligation in 'TupleSelectExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/tupleselectexpr/tupleselectexpr-04.vdm) at line 8:5
+(forall tt:t! &
+  is_(inv_t(tt), bool))
+
+Proof Obligation 2: (Unproved)
+t: invariant satisfiability obligation in 'TupleSelectExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/tupleselectexpr/tupleselectexpr-04.vdm) at line 8:5
+exists tt : (int) * (char) * (bool) & ((tt.#2) = 'c')
+
+Proof Obligation 3: (Unproved)
+Test: subtype obligation in 'TupleSelectExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/tupleselectexpr/tupleselectexpr-04.vdm) at line 23:23
+inv_t(mk_(22, 'c', false))
+

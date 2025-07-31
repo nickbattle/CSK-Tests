@@ -1,0 +1,9 @@
+Proof Obligation 1: (Unproved)
+C: total function obligation in 'Test' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/iscompatible/subtype/subtype-002.vdm) at line 14:7
+(forall c:C! &
+  is_(inv_C(c), bool))
+
+Proof Obligation 2: (Unproved)
+C: invariant satisfiability obligation in 'Test' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/iscompatible/subtype/subtype-002.vdm) at line 14:7
+exists c : real & (c < 7)
+

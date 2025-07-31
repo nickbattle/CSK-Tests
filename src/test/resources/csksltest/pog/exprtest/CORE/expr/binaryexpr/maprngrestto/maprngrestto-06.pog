@@ -1,0 +1,4 @@
+Proof Obligation 1: (Unproved)
+Test: let be st existence obligation in 'BinaryTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/binaryexpr/maprngrestto/maprngrestto-06.vdm) at line 15:15
+exists t:T & true
+

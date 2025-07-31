@@ -1,0 +1,12 @@
+Proof Obligation 1: (Unproved)
+f; pre_f: total function obligation in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/casesexpr/casesexpr-03.vdm) at line 10:7
+is_(pre_f(), bool)
+
+Proof Obligation 2: (Unproved)
+f: subtype obligation in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/casesexpr/casesexpr-03.vdm) at line 7:3
+is_({2 |-> 5}, inmap rat to nat)
+
+Proof Obligation 3: (Unproved)
+Test: cases exhaustive obligation in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/casesexpr/casesexpr-03.vdm) at line 30:11
+(exists a:set of (?) & {} = a) or (exists s1 union s2:set of (?) & {} = s1 union s2)
+

@@ -1,0 +1,298 @@
+Proof Obligation 1: (Unproved)
+ControlCycle; post_ControlCycle: post condition obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 15:3
+(forall mk_SwitchPositions(mode, aah):SwitchPositions, raw_grip:HandGripPosition, aah_cmd:RotCommand, saferstate:SAFER, aahstate:AAH &
+  post_ControlCycle(mk_SwitchPositions(mode, aah), raw_grip, aah_cmd, saferstate, aahstate, let mk_SAFER(clock) : SAFER = saferstate, grip_cmd : SixDofCommand = GripCommand(raw_grip, mode), thrusters : ThrusterSet = SelectedThrusters(grip_cmd, aah_cmd, (aahstate.active_axes), (aahstate.ignore_hcm)), aahstate' : AAH = Transition(aah, grip_cmd, clock, aahstate), saferstate' : SAFER = mu(saferstate, clock |-> (clock + 1)) in mk_(thrusters, saferstate', aahstate')))
+
+Proof Obligation 2: (Unproved)
+ControlCycle; post_ControlCycle: total function obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 27:8
+(forall mk_SwitchPositions(mode, aah):SwitchPositions, raw_grip:HandGripPosition, aah_cmd:RotCommand, saferstate:SAFER, aahstate:AAH, RESULT:(ThrusterSet) * (SAFER) * (AAH) &
+  is_(post_ControlCycle(mk_SwitchPositions(mode, aah), raw_grip, aah_cmd, saferstate, aahstate, RESULT), bool))
+
+Proof Obligation 3: (Unproved)
+ThrusterConsistency: total function obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 33:3
+(forall thrusters:set of ThrusterName &
+  is_(ThrusterConsistency(thrusters), bool))
+
+Proof Obligation 4: (Unproved)
+null_tran_command: subtype obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 59:37
+inv_TranCommand({a |-> <Zero> | a in set tran_axis_set})
+
+Proof Obligation 5: (Unproved)
+null_rot_command: subtype obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 61:35
+inv_RotCommand({a |-> <Zero> | a in set rot_axis_set})
+
+Proof Obligation 6: (Unproved)
+TranCommand: total function obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 75:7
+(forall cmd:TranCommand! &
+  is_(inv_TranCommand(cmd), bool))
+
+Proof Obligation 7: (Unproved)
+TranCommand: invariant satisfiability obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 75:7
+exists cmd : map TranAxis to AxisCommand & ((dom cmd) = tran_axis_set)
+
+Proof Obligation 8: (Unproved)
+RotCommand: total function obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 78:7
+(forall cmd:RotCommand! &
+  is_(inv_RotCommand(cmd), bool))
+
+Proof Obligation 9: (Unproved)
+RotCommand: invariant satisfiability obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 78:7
+exists cmd : map RotAxis to AxisCommand & ((dom cmd) = rot_axis_set)
+
+Proof Obligation 10: (Unproved)
+Transition: map apply obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 118:13
+(forall button_pos:ControlButton, hcm_cmd:SixDofCommand, clock:nat, aahstate:AAH &
+  (let mk_AAH(active_axes, ignore_hcm, toggle, timeout) : AAH = aahstate in
+    (let engage : EngageState = ButtonTransition(toggle, button_pos, active_axes, clock, timeout) in
+      (let starting : bool = ((toggle = <AAH_off>) and (engage = <AAH_started>)) in
+        (forall a in set rot_axis_set &
+          (not starting =>
+            ((engage <> <AAH_off>) =>
+              ((a in set active_axes) =>
+                a in set dom (hcm_cmd.rot)))))))))
+
+Proof Obligation 11: (Unproved)
+Transition: map apply obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 121:26
+(forall button_pos:ControlButton, hcm_cmd:SixDofCommand, clock:nat, aahstate:AAH &
+  (let mk_AAH(active_axes, ignore_hcm, toggle, timeout) : AAH = aahstate in
+    (let engage : EngageState = ButtonTransition(toggle, button_pos, active_axes, clock, timeout) in
+      (let starting : bool = ((toggle = <AAH_off>) and (engage = <AAH_started>)) in
+        (forall a in set rot_axis_set &
+          (starting =>
+            a in set dom (hcm_cmd.rot)))))))
+
+Proof Obligation 12: (Unproved)
+AllAxesOff: total function obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 132:3
+(forall active:set of RotAxis &
+  is_(AllAxesOff(active), bool))
+
+Proof Obligation 13: (Unproved)
+ButtonTransition: total function obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 135:3
+(forall estate:EngageState, button:ControlButton, active:set of RotAxis, clock:nat, timeout:nat &
+  is_(ButtonTransition(estate, button, active, clock, timeout), EngageState))
+
+Proof Obligation 14: (Unproved)
+ButtonTransition: cases exhaustive obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 138:5
+(forall estate:EngageState, button:ControlButton, active:set of RotAxis, clock:nat, timeout:nat &
+  mk_(estate, button) = mk_(<AAH_off>, <Up>) or mk_(estate, button) = mk_(<AAH_off>, <Down>) or mk_(estate, button) = mk_(<AAH_started>, <Up>) or mk_(estate, button) = mk_(<AAH_started>, <Down>) or mk_(estate, button) = mk_(<AAH_on>, <Up>) or mk_(estate, button) = mk_(<AAH_on>, <Down>) or mk_(estate, button) = mk_(<pressed_once>, <Up>) or mk_(estate, button) = mk_(<pressed_once>, <Down>) or mk_(estate, button) = mk_(<AAH_closing>, <Up>) or mk_(estate, button) = mk_(<AAH_closing>, <Down>) or mk_(estate, button) = mk_(<pressed_twice>, <Up>) or mk_(estate, button) = mk_(<pressed_twice>, <Down>))
+
+Proof Obligation 15: (Unproved)
+GripCommand: total function obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 182:3
+(forall mk_HandGripPosition(vert, horiz, trans, twist):HandGripPosition, mode:ControlModeSwitch &
+  is_(GripCommand(mk_HandGripPosition(vert, horiz, trans, twist), mode), SixDofCommand))
+
+Proof Obligation 16: (Unproved)
+GripCommand: map sequence compatible obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 184:16
+(forall mk_HandGripPosition(vert, horiz, trans, twist):HandGripPosition, mode:ControlModeSwitch &
+  forall m1, m2 in set {{<X> |-> horiz}, {<Y> |-> (if (mode = <Tran>) then trans else <Zero>)}, {<Z> |-> (if (mode = <Tran>) then vert else <Zero>)}} & forall d3 in set dom m1, d4 in set dom m2 & d3 = d4 => m1(d3) = m2(d4))
+
+Proof Obligation 17: (Unproved)
+GripCommand: map sequence compatible obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 187:16
+(forall mk_HandGripPosition(vert, horiz, trans, twist):HandGripPosition, mode:ControlModeSwitch &
+  (let tran : map ((<X>) | (<Y>) | (<Z>)) to ((<Zero>) | AxisCommand) = {<X> |-> horiz, <Y> |-> (if (mode = <Tran>) then trans else <Zero>), <Z> |-> (if (mode = <Tran>) then vert else <Zero>)} in
+    forall m1, m2 in set {{<Roll> |-> (if (mode = <Rot>) then vert else <Zero>)}, {<Pitch> |-> twist}, {<Yaw> |-> (if (mode = <Rot>) then twist else <Zero>)}} & forall d3 in set dom m1, d4 in set dom m2 & d3 = d4 => m1(d3) = m2(d4)))
+
+Proof Obligation 18: (Unproved)
+GripCommand: subtype obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 191:24
+(forall mk_HandGripPosition(vert, horiz, trans, twist):HandGripPosition, mode:ControlModeSwitch &
+  (let tran : map ((<X>) | (<Y>) | (<Z>)) to ((<Zero>) | AxisCommand) = {<X> |-> horiz, <Y> |-> (if (mode = <Tran>) then trans else <Zero>), <Z> |-> (if (mode = <Tran>) then vert else <Zero>)}, rot : map ((<Pitch>) | (<Roll>) | (<Yaw>)) to ((<Zero>) | AxisCommand) = {<Roll> |-> (if (mode = <Rot>) then vert else <Zero>), <Pitch> |-> twist, <Yaw> |-> (if (mode = <Rot>) then twist else <Zero>)} in
+    inv_TranCommand(tran)))
+
+Proof Obligation 19: (Unproved)
+GripCommand: subtype obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 191:29
+(forall mk_HandGripPosition(vert, horiz, trans, twist):HandGripPosition, mode:ControlModeSwitch &
+  (let tran : map ((<X>) | (<Y>) | (<Z>)) to ((<Zero>) | AxisCommand) = {<X> |-> horiz, <Y> |-> (if (mode = <Tran>) then trans else <Zero>), <Z> |-> (if (mode = <Tran>) then vert else <Zero>)}, rot : map ((<Pitch>) | (<Roll>) | (<Yaw>)) to ((<Zero>) | AxisCommand) = {<Roll> |-> (if (mode = <Rot>) then vert else <Zero>), <Pitch> |-> twist, <Yaw> |-> (if (mode = <Rot>) then twist else <Zero>)} in
+    inv_RotCommand(rot)))
+
+Proof Obligation 20: (Unproved)
+RotCmdsPresent: total function obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 207:3
+(forall cmd:RotCommand &
+  is_(RotCmdsPresent(cmd), bool))
+
+Proof Obligation 21: (Unproved)
+RotCmdsPresent: map apply obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 209:31
+(forall cmd:RotCommand &
+  (forall a in set (dom cmd) &
+    a in set dom cmd))
+
+Proof Obligation 22: (Unproved)
+PrioritizedTranCmd: total function obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 211:3
+(forall tran:TranCommand &
+  is_(PrioritizedTranCmd(tran), TranCommand))
+
+Proof Obligation 23: (Unproved)
+PrioritizedTranCmd: map apply obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 213:8
+(forall tran:TranCommand &
+  <X> in set dom tran)
+
+Proof Obligation 24: (Unproved)
+PrioritizedTranCmd: map apply obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 214:40
+(forall tran:TranCommand &
+  ((tran(<X>) <> <Zero>) =>
+    <X> in set dom tran))
+
+Proof Obligation 25: (Unproved)
+PrioritizedTranCmd: map apply obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 215:12
+(forall tran:TranCommand &
+  (not (tran(<X>) <> <Zero>) =>
+    <Y> in set dom tran))
+
+Proof Obligation 26: (Unproved)
+PrioritizedTranCmd: map apply obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 216:40
+(forall tran:TranCommand &
+  (not (tran(<X>) <> <Zero>) =>
+    ((tran(<Y>) <> <Zero>) =>
+      <Y> in set dom tran)))
+
+Proof Obligation 27: (Unproved)
+PrioritizedTranCmd: map apply obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 217:12
+(forall tran:TranCommand &
+  (not (tran(<X>) <> <Zero>) =>
+    (not (tran(<Y>) <> <Zero>) =>
+      <Z> in set dom tran)))
+
+Proof Obligation 28: (Unproved)
+PrioritizedTranCmd: map apply obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 218:40
+(forall tran:TranCommand &
+  (not (tran(<X>) <> <Zero>) =>
+    (not (tran(<Y>) <> <Zero>) =>
+      ((tran(<Z>) <> <Zero>) =>
+        <Z> in set dom tran))))
+
+Proof Obligation 29: (Unproved)
+PrioritizedTranCmd: subtype obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 211:3
+(forall tran:TranCommand &
+  inv_TranCommand((if (tran(<X>) <> <Zero>) then (null_tran_command ++ {<X> |-> tran(<X>)}) elseif (tran(<Y>) <> <Zero>) then (null_tran_command ++ {<Y> |-> tran(<Y>)}) elseif (tran(<Z>) <> <Zero>) then (null_tran_command ++ {<Z> |-> tran(<Z>)}) else null_tran_command)))
+
+Proof Obligation 30: (Unproved)
+CombinedRotCmds: total function obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 221:3
+(forall hcm_rot:RotCommand, aah:RotCommand, ignore_hcm:set of RotAxis &
+  is_(CombinedRotCmds(hcm_rot, aah, ignore_hcm), RotCommand))
+
+Proof Obligation 31: (Unproved)
+CombinedRotCmds: map apply obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 224:49
+(forall hcm_rot:RotCommand, aah:RotCommand, ignore_hcm:set of RotAxis &
+  (forall a in set rot_axis_set &
+    a in set dom hcm_rot))
+
+Proof Obligation 32: (Unproved)
+CombinedRotCmds: map apply obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 225:15
+(forall hcm_rot:RotCommand, aah:RotCommand, ignore_hcm:set of RotAxis &
+  (let aah_axes : set of RotAxis = (ignore_hcm union {a | a in set rot_axis_set & (hcm_rot(a) = <Zero>)}) in
+    (forall a in set aah_axes &
+      a in set dom aah)))
+
+Proof Obligation 33: (Unproved)
+CombinedRotCmds: map apply obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 226:15
+(forall hcm_rot:RotCommand, aah:RotCommand, ignore_hcm:set of RotAxis &
+  (let aah_axes : set of RotAxis = (ignore_hcm union {a | a in set rot_axis_set & (hcm_rot(a) = <Zero>)}) in
+    (forall a in set (rot_axis_set \ aah_axes) &
+      a in set dom hcm_rot)))
+
+Proof Obligation 34: (Unproved)
+CombinedRotCmds: map compatible obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 225:8
+(forall hcm_rot:RotCommand, aah:RotCommand, ignore_hcm:set of RotAxis &
+  (let aah_axes : set of RotAxis = (ignore_hcm union {a | a in set rot_axis_set & (hcm_rot(a) = <Zero>)}) in
+    forall ldom1 in set dom {a |-> aah(a) | a in set aah_axes}, rdom2 in set dom {a |-> hcm_rot(a) | a in set (rot_axis_set \ aah_axes)} & ldom1 = rdom2 => {a |-> aah(a) | a in set aah_axes}(ldom1) = {a |-> hcm_rot(a) | a in set (rot_axis_set \ aah_axes)}(rdom2)))
+
+Proof Obligation 35: (Unproved)
+CombinedRotCmds: subtype obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 221:3
+(forall hcm_rot:RotCommand, aah:RotCommand, ignore_hcm:set of RotAxis &
+  inv_RotCommand(let aah_axes : set of RotAxis = (ignore_hcm union {a | a in set rot_axis_set & (hcm_rot(a) = <Zero>)}) in ({a |-> aah(a) | a in set aah_axes} munion {a |-> hcm_rot(a) | a in set (rot_axis_set \ aah_axes)})))
+
+Proof Obligation 36: (Unproved)
+IntegratedCommands: total function obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 228:3
+(forall mk_SixDofCommand(tran, rot):SixDofCommand, aah:RotCommand, active_axes:set of RotAxis, ignore_hcm:set of RotAxis &
+  is_(IntegratedCommands(mk_SixDofCommand(tran, rot), aah, active_axes, ignore_hcm), SixDofCommand))
+
+Proof Obligation 37: (Unproved)
+BFThrusters: total function obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 239:3
+(forall A:AxisCommand, B:AxisCommand, C:AxisCommand &
+  is_(BFThrusters(A, B, C), (ThrusterSet) * (ThrusterSet)))
+
+Proof Obligation 38: (Unproved)
+BFThrusters: cases exhaustive obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 242:5
+(forall A:AxisCommand, B:AxisCommand, C:AxisCommand &
+  mk_(A, B, C) = mk_(<Neg>, <Neg>, <Neg>) or mk_(A, B, C) = mk_(<Neg>, <Neg>, <Zero>) or mk_(A, B, C) = mk_(<Neg>, <Neg>, <Pos>) or mk_(A, B, C) = mk_(<Neg>, <Zero>, <Neg>) or mk_(A, B, C) = mk_(<Neg>, <Zero>, <Zero>) or mk_(A, B, C) = mk_(<Neg>, <Zero>, <Pos>) or mk_(A, B, C) = mk_(<Neg>, <Pos>, <Neg>) or mk_(A, B, C) = mk_(<Neg>, <Pos>, <Zero>) or mk_(A, B, C) = mk_(<Neg>, <Pos>, <Pos>) or mk_(A, B, C) = mk_(<Zero>, <Neg>, <Neg>) or mk_(A, B, C) = mk_(<Zero>, <Neg>, <Zero>) or mk_(A, B, C) = mk_(<Zero>, <Neg>, <Pos>) or mk_(A, B, C) = mk_(<Zero>, <Zero>, <Neg>) or mk_(A, B, C) = mk_(<Zero>, <Zero>, <Zero>) or mk_(A, B, C) = mk_(<Zero>, <Zero>, <Pos>) or mk_(A, B, C) = mk_(<Zero>, <Pos>, <Neg>) or mk_(A, B, C) = mk_(<Zero>, <Pos>, <Zero>) or mk_(A, B, C) = mk_(<Zero>, <Pos>, <Pos>) or mk_(A, B, C) = mk_(<Pos>, <Neg>, <Neg>) or mk_(A, B, C) = mk_(<Pos>, <Neg>, <Zero>) or mk_(A, B, C) = mk_(<Pos>, <Neg>, <Pos>) or mk_(A, B, C) = mk_(<Pos>, <Zero>, <Neg>) or mk_(A, B, C) = mk_(<Pos>, <Zero>, <Zero>) or mk_(A, B, C) = mk_(<Pos>, <Zero>, <Pos>) or mk_(A, B, C) = mk_(<Pos>, <Pos>, <Neg>) or mk_(A, B, C) = mk_(<Pos>, <Pos>, <Zero>) or mk_(A, B, C) = mk_(<Pos>, <Pos>, <Pos>))
+
+Proof Obligation 39: (Unproved)
+LRUDThrusters: total function obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 280:3
+(forall A:AxisCommand, B:AxisCommand, C:AxisCommand &
+  is_(LRUDThrusters(A, B, C), (ThrusterSet) * (ThrusterSet)))
+
+Proof Obligation 40: (Unproved)
+LRUDThrusters: cases exhaustive obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 283:5
+(forall A:AxisCommand, B:AxisCommand, C:AxisCommand &
+  mk_(A, B, C) = mk_(<Neg>, <Neg>, <Neg>) or mk_(A, B, C) = mk_(<Neg>, <Neg>, <Zero>) or mk_(A, B, C) = mk_(<Neg>, <Neg>, <Pos>) or mk_(A, B, C) = mk_(<Neg>, <Zero>, <Neg>) or mk_(A, B, C) = mk_(<Neg>, <Zero>, <Zero>) or mk_(A, B, C) = mk_(<Neg>, <Zero>, <Pos>) or mk_(A, B, C) = mk_(<Neg>, <Pos>, <Neg>) or mk_(A, B, C) = mk_(<Neg>, <Pos>, <Zero>) or mk_(A, B, C) = mk_(<Neg>, <Pos>, <Pos>) or mk_(A, B, C) = mk_(<Zero>, <Neg>, <Neg>) or mk_(A, B, C) = mk_(<Zero>, <Neg>, <Zero>) or mk_(A, B, C) = mk_(<Zero>, <Neg>, <Pos>) or mk_(A, B, C) = mk_(<Zero>, <Zero>, <Neg>) or mk_(A, B, C) = mk_(<Zero>, <Zero>, <Zero>) or mk_(A, B, C) = mk_(<Zero>, <Zero>, <Pos>) or mk_(A, B, C) = mk_(<Zero>, <Pos>, <Neg>) or mk_(A, B, C) = mk_(<Zero>, <Pos>, <Zero>) or mk_(A, B, C) = mk_(<Zero>, <Pos>, <Pos>) or mk_(A, B, C) = mk_(<Pos>, <Neg>, <Neg>) or mk_(A, B, C) = mk_(<Pos>, <Neg>, <Zero>) or mk_(A, B, C) = mk_(<Pos>, <Neg>, <Pos>) or mk_(A, B, C) = mk_(<Pos>, <Zero>, <Neg>) or mk_(A, B, C) = mk_(<Pos>, <Zero>, <Zero>) or mk_(A, B, C) = mk_(<Pos>, <Zero>, <Pos>) or mk_(A, B, C) = mk_(<Pos>, <Pos>, <Neg>) or mk_(A, B, C) = mk_(<Pos>, <Pos>, <Zero>) or mk_(A, B, C) = mk_(<Pos>, <Pos>, <Pos>))
+
+Proof Obligation 41: (Unproved)
+SelectedThrusters: total function obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 321:3
+(forall hcm:SixDofCommand, aah:RotCommand, active_axes:set of RotAxis, ignore_hcm:set of RotAxis &
+  is_(SelectedThrusters(hcm, aah, active_axes, ignore_hcm), ThrusterSet))
+
+Proof Obligation 42: (Unproved)
+SelectedThrusters: map apply obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 325:28
+(forall hcm:SixDofCommand, aah:RotCommand, active_axes:set of RotAxis, ignore_hcm:set of RotAxis &
+  (let mk_SixDofCommand(tran, rot) : SixDofCommand = IntegratedCommands(hcm, aah, active_axes, ignore_hcm) in
+    <X> in set dom tran))
+
+Proof Obligation 43: (Unproved)
+SelectedThrusters: map apply obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 325:38
+(forall hcm:SixDofCommand, aah:RotCommand, active_axes:set of RotAxis, ignore_hcm:set of RotAxis &
+  (let mk_SixDofCommand(tran, rot) : SixDofCommand = IntegratedCommands(hcm, aah, active_axes, ignore_hcm) in
+    <Pitch> in set dom rot))
+
+Proof Obligation 44: (Unproved)
+SelectedThrusters: map apply obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 325:51
+(forall hcm:SixDofCommand, aah:RotCommand, active_axes:set of RotAxis, ignore_hcm:set of RotAxis &
+  (let mk_SixDofCommand(tran, rot) : SixDofCommand = IntegratedCommands(hcm, aah, active_axes, ignore_hcm) in
+    <Yaw> in set dom rot))
+
+Proof Obligation 45: (Unproved)
+SelectedThrusters: map apply obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 327:30
+(forall hcm:SixDofCommand, aah:RotCommand, active_axes:set of RotAxis, ignore_hcm:set of RotAxis &
+  (let mk_SixDofCommand(tran, rot) : SixDofCommand = IntegratedCommands(hcm, aah, active_axes, ignore_hcm) in
+    (let mk_(bf_mandatory, bf_optional) : (ThrusterSet) * (ThrusterSet) = BFThrusters(tran(<X>), rot(<Pitch>), rot(<Yaw>)) in
+      <Y> in set dom tran)))
+
+Proof Obligation 46: (Unproved)
+SelectedThrusters: map apply obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 327:40
+(forall hcm:SixDofCommand, aah:RotCommand, active_axes:set of RotAxis, ignore_hcm:set of RotAxis &
+  (let mk_SixDofCommand(tran, rot) : SixDofCommand = IntegratedCommands(hcm, aah, active_axes, ignore_hcm) in
+    (let mk_(bf_mandatory, bf_optional) : (ThrusterSet) * (ThrusterSet) = BFThrusters(tran(<X>), rot(<Pitch>), rot(<Yaw>)) in
+      <Z> in set dom tran)))
+
+Proof Obligation 47: (Unproved)
+SelectedThrusters: map apply obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 327:50
+(forall hcm:SixDofCommand, aah:RotCommand, active_axes:set of RotAxis, ignore_hcm:set of RotAxis &
+  (let mk_SixDofCommand(tran, rot) : SixDofCommand = IntegratedCommands(hcm, aah, active_axes, ignore_hcm) in
+    (let mk_(bf_mandatory, bf_optional) : (ThrusterSet) * (ThrusterSet) = BFThrusters(tran(<X>), rot(<Pitch>), rot(<Yaw>)) in
+      <Roll> in set dom rot)))
+
+Proof Obligation 48: (Unproved)
+SelectedThrusters: map apply obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 328:21
+(forall hcm:SixDofCommand, aah:RotCommand, active_axes:set of RotAxis, ignore_hcm:set of RotAxis &
+  (let mk_SixDofCommand(tran, rot) : SixDofCommand = IntegratedCommands(hcm, aah, active_axes, ignore_hcm) in
+    (let mk_(bf_mandatory, bf_optional) : (ThrusterSet) * (ThrusterSet) = BFThrusters(tran(<X>), rot(<Pitch>), rot(<Yaw>)) in
+      (let mk_(lrud_mandatory, lrud_optional) : (ThrusterSet) * (ThrusterSet) = LRUDThrusters(tran(<Y>), tran(<Z>), rot(<Roll>)) in
+        <Roll> in set dom rot))))
+
+Proof Obligation 49: (Unproved)
+SelectedThrusters: map apply obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 331:23
+(forall hcm:SixDofCommand, aah:RotCommand, active_axes:set of RotAxis, ignore_hcm:set of RotAxis &
+  (let mk_SixDofCommand(tran, rot) : SixDofCommand = IntegratedCommands(hcm, aah, active_axes, ignore_hcm) in
+    (let mk_(bf_mandatory, bf_optional) : (ThrusterSet) * (ThrusterSet) = BFThrusters(tran(<X>), rot(<Pitch>), rot(<Yaw>)) in
+      (let mk_(lrud_mandatory, lrud_optional) : (ThrusterSet) * (ThrusterSet) = LRUDThrusters(tran(<Y>), tran(<Z>), rot(<Roll>)) in
+        (let bf_thr : ThrusterSet | (set of ThrusterName) = (if (rot(<Roll>) = <Zero>) then (bf_optional union bf_mandatory) else bf_mandatory) in
+          <Pitch> in set dom rot)))))
+
+Proof Obligation 50: (Unproved)
+SelectedThrusters: map apply obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 331:49
+(forall hcm:SixDofCommand, aah:RotCommand, active_axes:set of RotAxis, ignore_hcm:set of RotAxis &
+  (let mk_SixDofCommand(tran, rot) : SixDofCommand = IntegratedCommands(hcm, aah, active_axes, ignore_hcm) in
+    (let mk_(bf_mandatory, bf_optional) : (ThrusterSet) * (ThrusterSet) = BFThrusters(tran(<X>), rot(<Pitch>), rot(<Yaw>)) in
+      (let mk_(lrud_mandatory, lrud_optional) : (ThrusterSet) * (ThrusterSet) = LRUDThrusters(tran(<Y>), tran(<Z>), rot(<Roll>)) in
+        (let bf_thr : ThrusterSet | (set of ThrusterName) = (if (rot(<Roll>) = <Zero>) then (bf_optional union bf_mandatory) else bf_mandatory) in
+          ((rot(<Pitch>) = <Zero>) =>
+            <Yaw> in set dom rot))))))
+

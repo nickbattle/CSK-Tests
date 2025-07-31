@@ -1,0 +1,4 @@
+Proof Obligation 1: (Unproved)
+Test: finite set obligation in 'SetComprehensionExpr' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/setcomprehensionexpr/setcomprehensionexpr-02.vdm) at line 12:11
+exists finmap1:map nat to (bool) & forall b:bool & exists findex2 in set dom finmap1 & finmap1(findex2) = b
+

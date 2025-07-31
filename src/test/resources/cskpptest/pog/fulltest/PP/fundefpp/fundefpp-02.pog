@@ -1,0 +1,26 @@
+Proof Obligation 1: (Unproved)
+FunDefSl4((bool | seq of (nat)), set of ((bool | real))): subtype obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/fundefpp/fundefpp-02.vpp) at line 12:5
+(forall l:bool | (seq of nat), s:set of (bool | real) &
+  is_(l, bool))
+
+Proof Obligation 2: (Unchecked)
+PO has errors
+FunDefSl5(nat, @A, (@A -> @B)): subtype obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/fundefpp/fundefpp-02.vpp) at line 14:3
+(forall n:nat, a:@A, f:(@A) -> (@B) &
+  is_(FunDefSl5(n, a, f), @B))
+
+Proof Obligation 3: (Unproved)
+FunDefSl7(@A, @A, seq of (nat)); pre_FunDefSl7(@A, @A, seq of (nat)): total function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/fundefpp/fundefpp-02.vpp) at line 22:9
+(forall a1:@A, a2:@A, l1 ^ l2:seq of nat &
+  is_(pre_FunDefSl7[@A](a1, a2, l1 ^ l2), bool))
+
+Proof Obligation 4: (Unproved)
+FunDefSl7(@A, @A, seq of (nat)); post_FunDefSl7(@A, @A, seq of (nat), (@A * bool)): post condition obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/fundefpp/fundefpp-02.vpp) at line 20:3
+(forall a1:@A, a2:@A, l1 ^ l2:seq of nat &
+  pre_FunDefSl7[@A](a1, a2, (l1 ^ l2)) => post_FunDefSl7[@A](a1, a2, (l1 ^ l2), mk_(a1, (a1 = a2))))
+
+Proof Obligation 5: (Unproved)
+FunDefSl7(@A, @A, seq of (nat)); post_FunDefSl7(@A, @A, seq of (nat), (@A * bool)): total function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/fundefpp/fundefpp-02.vpp) at line 25:10
+(forall a1:@A, a2:@A, l1 ^ l2:seq of nat, mk_(r, s):((@A)) * (bool) &
+  is_(post_FunDefSl7[@A](a1, a2, l1 ^ l2, mk_(r, s)), bool))
+

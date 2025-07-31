@@ -1,0 +1,4 @@
+Proof Obligation 1: (Unproved)
+TestF: total function obligation in 'QuantExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/quantexpr/quantexpr-01.vdm) at line 10:1
+is_(TestF(), bool)
+

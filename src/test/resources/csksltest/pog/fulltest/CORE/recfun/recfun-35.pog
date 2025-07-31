@@ -1,0 +1,26 @@
+Proof Obligation 1: (Unproved)
+id: subtype obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-35.vdm) at line 20:33
+(forall mk_List(h, t):List &
+  (not (t = nil) =>
+    is_(t, List)))
+
+Proof Obligation 2: (Unchecked)
+Obligation for missing measure function
+id: recursive function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-35.vdm) at line 20:30
+(forall mk_List(h, t):List &
+  (not (t = nil) =>
+    measure_id(mk_List(h, t)) > measure_id(t)))
+
+Proof Obligation 3: (Unproved)
+foo: subtype obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-35.vdm) at line 26:36
+(forall mk_List(h, t):List &
+  (not (t = nil) =>
+    is_(t, List)))
+
+Proof Obligation 4: (Unchecked)
+Obligation for missing measure function
+foo: recursive function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-35.vdm) at line 26:32
+(forall mk_List(h, t):List &
+  (not (t = nil) =>
+    measure_foo(mk_List(h, t)) > measure_foo(t)))
+

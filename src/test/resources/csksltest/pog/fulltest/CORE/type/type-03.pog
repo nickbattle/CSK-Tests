@@ -1,0 +1,9 @@
+Proof Obligation 1: (Unproved)
+D: total function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-03.vdm) at line 10:10
+(forall s1 union s2:D! &
+  is_(inv_D(s1 union s2), bool))
+
+Proof Obligation 2: (Unproved)
+D: invariant satisfiability obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/type/type-03.vdm) at line 10:10
+exists s1 union s2 : set of token & ((card s1) >= (card s2))
+

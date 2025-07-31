@@ -1,0 +1,31 @@
+Proof Obligation 1: (Unproved)
+LetBeST1: let be st existence obligation in 'LetBeSTStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/stmt/letbestmt/letbestmt-01.vdm) at line 15:7
+exists a in set {3, true, nil} & true
+
+Proof Obligation 2: (Unproved)
+LetBeST2: let be st existence obligation in 'LetBeSTStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/stmt/letbestmt/letbestmt-01.vdm) at line 19:9
+exists x:nat & true
+
+Proof Obligation 3: (Unproved)
+LetBeST3: let be st existence obligation in 'LetBeSTStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/stmt/letbestmt/letbestmt-01.vdm) at line 23:8
+exists x in set (if (7 = 6) then {x | x in set {1, 2} & false} else {8, 9, 7}) & true
+
+Proof Obligation 4: (Unproved)
+LetBeST4: let be st existence obligation in 'LetBeSTStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/stmt/letbestmt/letbestmt-01.vdm) at line 29:9
+exists y:bool | real & (y > 7)
+
+Proof Obligation 5: (Unproved)
+LetBeST4: ordered obligation in 'LetBeSTStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/stmt/letbestmt/letbestmt-01.vdm) at line 29:31
+(forall y:bool | real &
+  is_(y, real))
+
+Proof Obligation 6: (Unproved)
+LetBeST4: subtype obligation in 'LetBeSTStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/stmt/letbestmt/letbestmt-01.vdm) at line 29:47
+(forall y:bool | real & (y > 7) =>
+  is_(y, bool))
+
+Proof Obligation 7: (Unproved)
+LetBeST5: let be st existence obligation in 'LetBeSTStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/stmt/letbestmt/letbestmt-01.vdm) at line 33:9
+(forall arg1:A, arg2:nat &
+  exists b:bool & (b => false))
+

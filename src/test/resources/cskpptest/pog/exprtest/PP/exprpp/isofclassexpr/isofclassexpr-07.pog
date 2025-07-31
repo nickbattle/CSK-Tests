@@ -1,0 +1,6 @@
+Proof Obligation 1: (Unchecked)
+Obligation requires VDM10
+Test(): let be st existence obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/exprtest/PP/exprpp/isofclassexpr/isofclassexpr-07.vpp) at line 9:15
+(forall obj_A():A &
+  exists c:C & true)
+

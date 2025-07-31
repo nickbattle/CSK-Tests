@@ -1,0 +1,5 @@
+Proof Obligation 1: (Unproved)
+CD: subtype obligation in 'Test' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/iscompatible/seq/seq-12.vdm) at line 35:8
+(forall x:C &
+  (is_(x, seq1 of (seq of bool))))
+

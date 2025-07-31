@@ -1,0 +1,12 @@
+Proof Obligation 1: (Unchecked)
+Unchecked in VDM++/RT
+inv_A: state invariant obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/instvar/instvar-01.vpp) at line 9:1
+After instance variable initializers (i1 = i2)
+
+Proof Obligation 2: (Unchecked)
+Obligation requires VDM10
+Op(nat): state invariant obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/instvar/instvar-01.vpp) at line 15:4
+(forall n:nat, obj_A(i1 |-> i1, i2 |-> i2, i3 |-> i3, i4 |-> i4):A &
+  (let i3 : nat = i1 in
+    (i1 = i2)))
+

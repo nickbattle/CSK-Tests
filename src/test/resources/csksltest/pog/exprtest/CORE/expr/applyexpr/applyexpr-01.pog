@@ -1,0 +1,53 @@
+Proof Obligation 1: (Unproved)
+T: total function obligation in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/applyexpr/applyexpr-01.vdm) at line 8:7
+(forall n:T! &
+  is_(inv_T(n), bool))
+
+Proof Obligation 2: (Unproved)
+T: invariant satisfiability obligation in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/applyexpr/applyexpr-01.vdm) at line 8:7
+exists n : nat & (n < 6)
+
+Proof Obligation 3: (Unproved)
+T2: total function obligation in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/applyexpr/applyexpr-01.vdm) at line 11:7
+(forall n:T2! &
+  is_(inv_T2(n), bool))
+
+Proof Obligation 4: (Unproved)
+T2: invariant satisfiability obligation in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/applyexpr/applyexpr-01.vdm) at line 11:7
+exists n : bool | (seq of nat) & true
+
+Proof Obligation 5: (Unproved)
+f; pre_f: total function obligation in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/applyexpr/applyexpr-01.vdm) at line 27:9
+(forall a:nat &
+  is_(pre_f(a), bool))
+
+Proof Obligation 6: (Unproved)
+f; post_f: total function obligation in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/applyexpr/applyexpr-01.vdm) at line 28:10
+(forall a:nat, r:nat &
+  is_(post_f(a, r), bool))
+
+Proof Obligation 7: (Unproved)
+f: function satisfiability obligation in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/applyexpr/applyexpr-01.vdm) at line 26:3
+(forall a:nat &
+  pre_f(a) => exists r:nat & post_f(a, r))
+
+Proof Obligation 8: (Unproved)
+g: subtype obligation in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/applyexpr/applyexpr-01.vdm) at line 30:3
+(is_([7, 9], T2) and inv_T2([7, 9]))
+
+Proof Obligation 9: (Unproved)
+h: total function obligation in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/applyexpr/applyexpr-01.vdm) at line 34:3
+(forall v:T3 &
+  is_(h(v), T3))
+
+Proof Obligation 10: (Unchecked)
+Obligation for missing measure function
+h: recursive function obligation in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/applyexpr/applyexpr-01.vdm) at line 37:10
+(forall v:T3 &
+  ((v = <RED>) =>
+    measure_h(v) > measure_h(<GREEN>)))
+
+Proof Obligation 11: (Unproved)
+Test: sequence apply obligation in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/applyexpr/applyexpr-01.vdm) at line 47:11
+9 in set inds [1, 8, 9, true]
+
