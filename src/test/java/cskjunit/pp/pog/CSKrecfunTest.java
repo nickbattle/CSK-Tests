@@ -46,7 +46,7 @@ public class CSKrecfunTest extends cskjunit.CSKTest
 
 	public void test_recfun_43() throws Exception
 	{
-		// processPP("pog/fulltest/PP/recfun/recfun-43", 0, 0, false, AssertType.POG);
+		processPP("pog/fulltest/PP/recfun/recfun-43", 0, 0, false, AssertType.POG);
 	}
 
 	public void test_recfun_45() throws Exception
