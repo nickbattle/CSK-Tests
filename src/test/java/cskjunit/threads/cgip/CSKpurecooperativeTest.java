@@ -16,7 +16,7 @@ public class CSKpurecooperativeTest extends cskjunit.CSKTest
 
 	public void test_purecooperative_03() throws Exception
 	{
-		processTH("cgip/PP/concur/purecooperative/purecooperative-03", 0, 0, false, AssertType.SKIP);
+		processTH("cgip/PP/concur/purecooperative/purecooperative-03", 0, 0, false, AssertType.TRUE);
 	}
 
 }

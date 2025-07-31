@@ -6,7 +6,7 @@ public class CSKpermis_and_exceptionTest extends cskjunit.CSKTest
 {
 	public void test_permis_01() throws Exception
 	{
-		processTH("cgip/PP/concur/permis-and-exception/permis-01", 0, 0, false, AssertType.SKIP);
+		processTH("cgip/PP/concur/permis-and-exception/permis-01", 0, 0, false, AssertType.TRUE);
 	}
 
 }

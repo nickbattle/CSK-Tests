@@ -6,7 +6,7 @@ public class CSKpriorityTest extends cskjunit.CSKTest
 {
 	public void test_priority_01() throws Exception
 	{
-		processTH("cgip/PP/concur/priority/priority-01", 0, 0, false, AssertType.SKIP);
+		processTH("cgip/PP/concur/priority/priority-01", 0, 0, false, AssertType.TRUE);
 	}
 
 	public void test_priority_02() throws Exception
