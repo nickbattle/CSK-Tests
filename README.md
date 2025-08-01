@@ -1,10 +1,10 @@
 # CSK-Tests
 
-This is a private repository of JUnit tests that were automatically produced from an original set of tests for VDMTools, created by CSK Corp in Japan.
+This is a private repository of JUnit tests that were automatically produced from an original set of tests for [VDMTools](https://github.com/vdmtools/vdmtools), created by CSK Corp in Japan.
 
-The CSK tests were converted to apply to the VDMJ tool in 2008 using JUnit3. The suite was subsequently converted to a Maven project in 2025. The tests pass on the latest version of VDMJ (currently 4.7.0-SNAPSHOT). The test suite can be executed with "mvn clean test" at the top level.
+The CSK tests were converted to apply to the VDMJ tool in 2008 using JUnit 3. The suite was subsequently converted to a Maven project in 2025. The tests pass on the latest version of VDMJ (currently 4.7.0-SNAPSHOT). The test suite can be executed with "mvn clean test" at the top level.
 
-The main test class is called `CSKTest`, which has `processXX` methods to run tests in the XX dialect. These methods load a VDM source file from the Java resources, and call a common `process` method to parse/check/execute the source, checking the result against the processXX arguments and expected result resource files.
+The main test class is called `CSKTest`, which has `processXX` methods to run tests in the XX dialect. These methods load a VDM source file from Java resources and call a common `process` method to parse/check/execute the source, checking the result against the processXX arguments and expected result resource files.
 
 There are up to four resource files related to each test:
 
@@ -28,11 +28,11 @@ The resources and corresponding tests fall into four main groups: csksltest, csk
 
 Within each group, there are up to three subgroups:
 
-- "cgip" tests relate to the code generator and interpreter. So the assert files here define how to invoke the test and what to expect as a result.
+- "cgip" tests relate to the code generator and interpreter. So the `*.assert` files here define how to invoke the test and what to expect as a result.
 
-- "pog" tests relate to the proof obligation generator. The assert files here contain the POs in an internal form defined by VDMTools. The corresponding JUnit tests do not perform POG checks because the VDMJ POG did not exist at this point.
+- "pog" tests relate to the proof obligation generator. The `*.assert` files here contain the POs in an internal form defined by VDMTools. The corresponding JUnit tests generate VDMJ POs and compare the result with `*.pog` files.
 
-- "tc" tests relate to the type checker. The assert files contain a list of expected error numbers and the *.vdmj files contain the VDMJ equivalents, along with expanded error messages and locations.
+- "tc" tests relate to the type checker. The `*.assert` files contain a list of expected VDMTools error numbers and the `*.vdmj` files contain the VDMJ equivalents, along with expanded error messages and locations.
 
 Each subgroup has sub-structure folders within it, like src/test/resources/csksltest/cgip/SL/expr/recordexpr/recordexpr-01.assert.
 
@@ -40,26 +40,26 @@ Each JUnit call to `processXX` passes an `AssertType` to define how to perform t
 
 - `TRUE`
 
-    The spec should be error free and the evaluation in *.assert should be true (eg. Test() = 123)
+    The spec should be error free and the evaluation in `*.assert` should be true (eg. Test() = 123)
 
 - `VOID`
 
-    The spec should be error free and the evaluation in *.assert should return no value (eg. Test())
+    The spec should be error free and the evaluation in `*.assert` should return no value (eg. Test())
 
 - `UNDEFINED`
 
-    The spec should be error free and the evaluation in *.assert should return an `undefined` value.
+    The spec should be error free and the evaluation in `*.assert` should return an `undefined` value.
 
 - `ERRLIST`
 
-    The spec should have syntax or TC errors, which should match the *.vdmj file.
+    The spec should have syntax or TC errors, which should match the `*.vdmj` file.
 
 - `POG`
 
-    The spec should be error free and the POG should generate POs that match the *.pog file.
+    The spec should be error free and the POG should generate POs that match the `*.pog` file.
 
 - `SKIP`
 
-    The test should be skipped. This is used for cases where tests are very specific to the behaviour of VDMTools (eg. regarding thread scheduling policies, that are not identical in VDMJ).
+    The test should be skipped. This is used for the few cases where tests are very specific to the behaviour of VDMTools (eg. regarding thread scheduling policies, that are not identical in VDMJ).
 
 A boolean constant in `CSKTest` called `REBUILD_EXPECTED_RESULTS` will overwrite any `<name>.vdmj` or `<name>.pog` file with the result of running a test under VDMJ. This can be useful when VDMJ is changed, to keep the expected results up to date. If you forget to set the constant back to `false`, a test at the top level called `test_rebuild_flag` will fail.
