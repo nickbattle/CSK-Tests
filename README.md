@@ -1,8 +1,8 @@
 # CSK-Tests
 
-This is a private repository of JUnit tests that were automatically produced from an original set of tests for [VDMTools](https://github.com/vdmtools/vdmtools), created by CSK Corp in Japan.
+This is a repository of JUnit tests that were automatically produced from an original set of tests for [VDMTools](https://github.com/vdmtools/vdmtools), created by CSK Corp in Japan.
 
-The CSK tests were converted to apply to the VDMJ tool in 2008 using JUnit 3. The suite was subsequently converted to a Maven project in 2025. The tests pass on the latest version of VDMJ (currently 4.7.0-SNAPSHOT). The test suite can be executed with "mvn clean test" at the top level.
+The CSK tests were originally converted to apply to the VDMJ tool in 2008 using JUnit 3. The suite was subsequently converted to a Maven project in 2025. The tests pass on the latest version of VDMJ (currently 4.7.0-SNAPSHOT). The test suite can be executed with "mvn clean test" at the top level.
 
 The main test class is called `CSKTest`, which has `processXX` methods to run tests in the XX dialect. These methods load a VDM source file from Java resources and call a common `process` method to parse/check/execute the source, checking the result against the processXX arguments and expected result resource files.
 
