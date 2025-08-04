@@ -135,17 +135,21 @@ abstract public class CSKTest extends TestCase
 				case POG:
 					assertEquals("Type check errors", tc, TypeChecker.getErrorCount());
 
-					POModuleList polist = ClassMapper.getInstance(PONode.MAPPINGS).init().convert(checked);
-					ProofObligationList obligations = polist.getProofObligations();
-					obligations.renumber();
+					if (tc == 0)
+					{
+						POModuleList polist = ClassMapper.getInstance(PONode.MAPPINGS).init().convert(checked);
+						checked = null;
+						ProofObligationList obligations = polist.getProofObligations();
+						obligations.renumber();
 
-					if (REBUILD_EXPECTED_RESULTS)
-					{
-						update(path + ".pog", obligations);
-					}
-					else
-					{
-						compareObligations(path + ".pog", obligations);
+						if (REBUILD_EXPECTED_RESULTS)
+						{
+							update(path + ".pog", obligations);
+						}
+						else
+						{
+							compareObligations(path + ".pog", obligations);
+						}
 					}
        				break;
 

@@ -1,3 +1,4 @@
-[3228]
+[3228, 3049]
 --
-Error 3228: wrongop() is not in scope in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/periodic/periodic-22.vpp) at line 23:25
+Error 3228: wrongop() is not in scope in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/tc/VICE/periodic/periodic-22.vpp) at line 23:25
+Error 3049: Thread statement/operation must not return a value in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/tc/VICE/periodic/periodic-22.vpp) at line 23:25
