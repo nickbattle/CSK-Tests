@@ -8,6 +8,5 @@ is_nat((1 / i1))
 
 Proof Obligation 3: (Unproved)
 i4: subtype obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/instvar/instvar-04.vpp) at line 8:12
-(not true =>
-  is_nat((if true then 1 else Op(9))))
+is_nat((if true then 1 else Op(9)))
 
