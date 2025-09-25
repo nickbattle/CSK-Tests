@@ -1,12 +1,12 @@
 Proof Obligation 1: (Unchecked)
 Obligation requires VDM10
-b(nat, bool): operation pre condition obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/static/static-07.vpp) at line 5:15
+b(nat, bool): operation pre condition obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/static/static-07.vpp) at line 14:3
 (forall x:nat, $any4:bool, obj_A():A &
   pre_(a, x))
 
 Proof Obligation 2: (Unchecked)
 Obligation requires VDM10
-d(nat, bool): operation pre condition obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/static/static-07.vpp) at line 5:15
+d(nat, bool): operation pre condition obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/static/static-07.vpp) at line 22:3
 (forall x:nat, $any7:bool, obj_A():A &
   pre_(a, x))
 

@@ -30,7 +30,7 @@ InvokeStmt11(): operation pre condition obligation in 'InvokeStmtTest' (/home/ni
 
 Proof Obligation 6: (Unchecked)
 Obligation requires VDM10
-InvokeStmt12(B): operation pre condition obligation in 'InvokeStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/stmtpp/invokestmt/invokestmt-02.vpp) at line 90:3
+InvokeStmt12(B): operation pre condition obligation in 'InvokeStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/stmtpp/invokestmt/invokestmt-02.vpp) at line 91:5
 (forall b2:B, obj_InvokeStmtTest(a |-> a, b |-> b, c |-> c, c2 |-> c2):InvokeStmtTest &
   pre_(InvokeStmt12, c2))
 

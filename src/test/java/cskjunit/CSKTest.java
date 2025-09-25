@@ -596,6 +596,12 @@ abstract public class CSKTest extends TestCase
 			String expected = readFile(new File(path));
 			String actual = obligations.toString();
 
+			if (!expected.equals(actual))
+			{
+				System.err.println("Actual POG list:");
+				System.err.println(actual);
+			}
+
 			assertEquals("POs not as expected", expected, actual);
 		}
 		catch (IOException e)
