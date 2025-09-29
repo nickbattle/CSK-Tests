@@ -2,6 +2,7 @@ Proof Obligation 1: (Unchecked)
 Obligation requires VDM10
 myop(): operation pre condition obligation in 'D' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/overload/overload-01.vpp) at line 37:6
 (forall obj_D():D &
-  (let c : C = new C() in
-    pre_((c.op), {3})))
+  (-- Ambiguous call to new C() with no state updates? at 36:11
+    (let c : C = new C() in
+      pre_((c.op), {3}))))
 
