@@ -1,21 +1,21 @@
 [3328, 3327, 3327, 3213, 3027, 5006, 5006, 5000, 5000, 5000, 5006]
 --
-Error 3328: Statement returns void value in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-10.vdm) at line 14:8
+Error 3328: Statement returns void value in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-10.vdm) at line 14:8
 Actual: (return)
 Expected: nat
-Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-10.vdm) at line 16:24
+Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-10.vdm) at line 16:24
 Actual: bool
 Expected: nat
-Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-10.vdm) at line 17:28
+Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-10.vdm) at line 17:28
 Actual: bool
 Expected: nat
-Error 3213: Operation SeqModify is not in scope in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-10.vdm) at line 18:12
-Error 3027: Operation returns unexpected type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-10.vdm) at line 8:3
+Error 3213: Operation SeqModify is not in scope in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-10.vdm) at line 18:12
+Error 3027: Operation returns unexpected type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-10.vdm) at line 8:3
 Actual: (() | bool)
 Expected: nat
-Warning 5006: Statement will not be reached in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-10.vdm) at line 15:8
-Warning 5006: Statement will not be reached in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-10.vdm) at line 16:7
-Warning 5000: Definition 'c' not used in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-10.vdm) at line 13:12
-Warning 5000: Definition 'b' not used in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-10.vdm) at line 12:16
-Warning 5000: Definition 'a' not used in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-10.vdm) at line 11:16
-Warning 5006: Statement will not be reached in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-10.vdm) at line 18:12
+Warning 5006: Statement will not be reached in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-10.vdm) at line 15:8
+Warning 5006: Statement will not be reached in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-10.vdm) at line 16:7
+Warning 5000: Definition 'c' not used in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-10.vdm) at line 13:12
+Warning 5000: Definition 'b' not used in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-10.vdm) at line 12:16
+Warning 5000: Definition 'a' not used in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-10.vdm) at line 11:16
+Warning 5006: Statement will not be reached in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-10.vdm) at line 18:12

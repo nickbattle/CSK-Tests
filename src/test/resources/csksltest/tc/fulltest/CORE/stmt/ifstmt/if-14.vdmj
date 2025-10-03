@@ -1,76 +1,76 @@
 [3328, 3327, 3327, 3213, 3027, 3137, 3327, 3327, 3219, 3327, 3328, 3327, 3327, 3327, 3327, 3327, 3311, 3327, 3182, 3216, 3327, 3182, 3327, 3182, 3217, 3327, 3216, 3327, 5006, 5006, 5000, 5000, 5000, 5006, 5000, 5000]
 --
-Error 3328: Statement returns void value in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 14:8
+Error 3328: Statement returns void value in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 14:8
 Actual: (return)
 Expected: nat
-Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 16:24
+Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 16:24
 Actual: bool
 Expected: nat
-Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 17:28
+Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 17:28
 Actual: bool
 Expected: nat
-Error 3213: Operation SeqModify is not in scope in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 18:12
-Error 3027: Operation returns unexpected type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 8:3
+Error 3213: Operation SeqModify is not in scope in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 18:12
+Error 3027: Operation returns unexpected type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 8:3
 Actual: (() | bool)
 Expected: nat
-Error 3137: Not expression is not a boolean in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 24:19
-Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 24:12
+Error 3137: Not expression is not a boolean in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 24:19
+Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 24:12
 Actual: bool
 Expected: set of (int)
-Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 27:12
+Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 27:12
 Actual: seq of (bool)
 Expected: set of (int)
-Error 3219: For all statement does not contain a set type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 29:10
-Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 33:12
+Error 3219: For all statement does not contain a set type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 29:10
+Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 33:12
 Actual: bool
 Expected: set of (int)
-Error 3328: Statement returns void value in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 36:12
+Error 3328: Statement returns void value in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 36:12
 Actual: (return)
 Expected: set of (int)
-Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 37:23
+Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 37:23
 Actual: nat1
 Expected: set of (int)
-Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 43:32
+Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 43:32
 Actual: bool
 Expected: nat
-Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 45:11
+Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 45:11
 Actual: seq1 of (nat1)
 Expected: nat
-Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 46:11
+Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 46:11
 Actual: map (nat1) to (bool)
 Expected: nat
-Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 48:17
+Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 48:17
 Actual: bool
 Expected: nat
-Error 3311: Pattern cannot match in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 49:8
-Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 50:33
+Error 3311: Pattern cannot match in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 49:8
+Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 50:33
 Actual: [?]
 Expected: nat
-Error 3182: Name 'n' is not in scope in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 56:8
-Error 3216: Expecting 0 arguments in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 57:10
-Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 57:10
+Error 3182: Name 'n' is not in scope in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 56:8
+Error 3216: Expecting 0 arguments in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 57:10
+Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 57:10
 Actual: nat
 Expected: [(bool | char)]
-Error 3182: Name 'n' is not in scope in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 58:12
-Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 59:10
+Error 3182: Name 'n' is not in scope in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 58:12
+Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 59:10
 Actual: nat
 Expected: [(bool | char)]
-Error 3182: Name 'n' is not in scope in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 60:12
-Error 3217: Unexpected type for argument 1 in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 61:10
+Error 3182: Name 'n' is not in scope in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 60:12
+Error 3217: Unexpected type for argument 1 in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 61:10
 Expected: seq of (bool)
-Actual: set1 of (nat1)
-Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 61:10
+Actual: set of (nat1)
+Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 61:10
 Actual: set of (int)
 Expected: [(bool | char)]
-Error 3216: Expecting 0 arguments in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 62:10
-Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 62:10
+Error 3216: Expecting 0 arguments in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 62:10
+Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 62:10
 Actual: nat
 Expected: [(bool | char)]
-Warning 5006: Statement will not be reached in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 15:8
-Warning 5006: Statement will not be reached in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 16:8
-Warning 5000: Definition 'c' not used in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 13:12
-Warning 5000: Definition 'b' not used in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 12:16
-Warning 5000: Definition 'a' not used in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 11:16
-Warning 5006: Statement will not be reached in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 18:12
-Warning 5000: Definition 'a' not used in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 23:14
-Warning 5000: Definition 'a' not used in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 26:14
+Warning 5006: Statement will not be reached in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 15:8
+Warning 5006: Statement will not be reached in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 16:8
+Warning 5000: Definition 'c' not used in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 13:12
+Warning 5000: Definition 'b' not used in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 12:16
+Warning 5000: Definition 'a' not used in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 11:16
+Warning 5006: Statement will not be reached in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 18:12
+Warning 5000: Definition 'a' not used in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 23:14
+Warning 5000: Definition 'a' not used in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-14.vdm) at line 26:14

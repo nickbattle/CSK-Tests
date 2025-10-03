@@ -1,10 +1,10 @@
 [3311, 3327, 3311, 3327]
 --
-Error 3311: Pattern cannot match in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-10.vdm) at line 12:5
-Error 3327: Value is not of the right type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-10.vdm) at line 12:30
+Error 3311: Pattern cannot match in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-10.vdm) at line 12:5
+Error 3327: Value is not of the right type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-10.vdm) at line 12:30
 Actual: nat1
 Expected: bool
-Error 3311: Pattern cannot match in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-10.vdm) at line 13:5
-Error 3327: Value is not of the right type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-10.vdm) at line 13:44
+Error 3311: Pattern cannot match in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-10.vdm) at line 13:5
+Error 3327: Value is not of the right type in 'CasesStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/casesstmt/casesstmt-10.vdm) at line 13:44
 Actual: nat1
 Expected: bool

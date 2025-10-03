@@ -1,21 +1,21 @@
 [3137, 3327, 3327, 3219, 3327, 3328, 3327, 5000, 5000]
 --
-Error 3137: Not expression is not a boolean in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-12.vdm) at line 12:19
-Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-12.vdm) at line 12:12
+Error 3137: Not expression is not a boolean in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-12.vdm) at line 12:19
+Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-12.vdm) at line 12:12
 Actual: bool
 Expected: set of (int)
-Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-12.vdm) at line 15:12
+Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-12.vdm) at line 15:12
 Actual: seq of (bool)
 Expected: set of (int)
-Error 3219: For all statement does not contain a set type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-12.vdm) at line 17:10
-Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-12.vdm) at line 21:12
+Error 3219: For all statement does not contain a set type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-12.vdm) at line 17:10
+Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-12.vdm) at line 21:12
 Actual: bool
 Expected: set of (int)
-Error 3328: Statement returns void value in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-12.vdm) at line 24:12
+Error 3328: Statement returns void value in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-12.vdm) at line 24:12
 Actual: (return)
 Expected: set of (int)
-Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-12.vdm) at line 25:23
+Error 3327: Value is not of the right type in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-12.vdm) at line 25:23
 Actual: nat1
 Expected: set of (int)
-Warning 5000: Definition 'a' not used in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-12.vdm) at line 11:14
-Warning 5000: Definition 'a' not used in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-12.vdm) at line 14:14
+Warning 5000: Definition 'a' not used in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-12.vdm) at line 11:14
+Warning 5000: Definition 'a' not used in 'IfStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/ifstmt/if-12.vdm) at line 14:14
