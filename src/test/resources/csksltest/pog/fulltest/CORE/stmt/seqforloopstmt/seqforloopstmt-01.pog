@@ -22,7 +22,7 @@ SeqForLoop2: loop invariant obligation in 'SeqForLoopTest' (/home/nick/eclipse.v
   (-- Missing @LoopInvariant, assuming true at 15:5
     (let $LoopInvariant : bool = true in
       (forall a:nat, DONE_15$:seq of ((nat) * (bool)) &
-        ((mk_(a, $any1) in set ((elems (arg)) \ (elems (DONE_15$)))) and $LoopInvariant =>
+        (((DONE_15$ = (arg(1, ..., (len DONE_15$)))) and (mk_(a, $any1) in set ((elems (arg)) \ (elems (DONE_15$))))) and $LoopInvariant =>
           (let DONE_15$ : seq of ((nat) * (bool)) = (DONE_15$ ^ [mk_(a, $any2)]) in
             (-- Missing @LoopInvariant, assuming true at 16:6
               (let $LoopInvariant : bool = true in
@@ -36,7 +36,7 @@ SeqForLoop2: loop invariant obligation in 'SeqForLoopTest' (/home/nick/eclipse.v
   (-- Missing @LoopInvariant, assuming true at 15:5
     (let $LoopInvariant : bool = true in
       (forall a:nat, DONE_15$:seq of ((nat) * (bool)) &
-        ((mk_(a, $any1) in set ((elems (arg)) \ (elems (DONE_15$)))) and $LoopInvariant =>
+        (((DONE_15$ = (arg(1, ..., (len DONE_15$)))) and (mk_(a, $any1) in set ((elems (arg)) \ (elems (DONE_15$))))) and $LoopInvariant =>
           (let DONE_15$ : seq of ((nat) * (bool)) = (DONE_15$ ^ [mk_(a, $any2)]) in
             (-- Missing @LoopInvariant, assuming true at 16:6
               (let $LoopInvariant : bool = true in

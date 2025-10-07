@@ -2,7 +2,7 @@ Proof Obligation 1: (Unproved)
 foo: subtype obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-41.vdm) at line 19:12
 (forall x:nat &
   (not (x = 0) =>
-    (let seqe : seq1 of nat1 = [1, 2, 3, 4, 5], l : seq of nat1 = (seqe(2, ... ,4)) in
+    (let seqe : seq1 of nat1 = [1, 2, 3, 4, 5], l : seq of nat1 = (seqe(2, ..., 4)) in
       (x - 1) >= 0)))
 
 Proof Obligation 2: (Unchecked)
@@ -10,6 +10,6 @@ Obligation for missing measure function
 foo: recursive function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-41.vdm) at line 19:7
 (forall x:nat &
   (not (x = 0) =>
-    (let seqe : seq1 of nat1 = [1, 2, 3, 4, 5], l : seq of nat1 = (seqe(2, ... ,4)) in
+    (let seqe : seq1 of nat1 = [1, 2, 3, 4, 5], l : seq of nat1 = (seqe(2, ..., 4)) in
       measure_foo(x) > measure_foo(x - 1))))
 
