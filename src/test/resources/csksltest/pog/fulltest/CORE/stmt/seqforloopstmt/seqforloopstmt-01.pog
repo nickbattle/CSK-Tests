@@ -1,5 +1,5 @@
 Proof Obligation 1: (Unproved)
-invariant preservation for next for-loop
+check invariant before for-loop
 SeqForLoop1: loop invariant obligation in 'SeqForLoopTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/stmt/seqforloopstmt/seqforloopstmt-01.vdm) at line 10:5
 (-- Missing @LoopInvariant, assuming true at 10:5
   (let $LoopInvariant : bool = true in
@@ -7,6 +7,15 @@ SeqForLoop1: loop invariant obligation in 'SeqForLoopTest' (/home/nick/eclipse.v
       $LoopInvariant)))
 
 Proof Obligation 2: (Unproved)
+invariant preservation for next for-loop
+SeqForLoop1: loop invariant obligation in 'SeqForLoopTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/stmt/seqforloopstmt/seqforloopstmt-01.vdm) at line 10:5
+(-- Missing @LoopInvariant, assuming true at 10:5
+  (let $LoopInvariant : bool = true in
+    (let a : nat1 = (hd [1, 4, 9]) in
+      (let DONE_10$ : seq of nat1 = [a] in
+        $LoopInvariant))))
+
+Proof Obligation 3: (Unproved)
 check invariant before for-loop
 SeqForLoop2: loop invariant obligation in 'SeqForLoopTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/stmt/seqforloopstmt/seqforloopstmt-01.vdm) at line 15:5
 (forall arg:bool | (seq1 of ((nat) * (bool))) &
@@ -15,7 +24,17 @@ SeqForLoop2: loop invariant obligation in 'SeqForLoopTest' (/home/nick/eclipse.v
       (let DONE_15$ : seq of ((nat) * (bool)) = [] in
         $LoopInvariant))))
 
-Proof Obligation 3: (Unchecked)
+Proof Obligation 4: (Unchecked)
+PO has errors
+SeqForLoop2: loop invariant obligation in 'SeqForLoopTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/stmt/seqforloopstmt/seqforloopstmt-01.vdm) at line 15:5
+(forall arg:bool | (seq1 of ((nat) * (bool))) &
+  (-- Missing @LoopInvariant, assuming true at 15:5
+    (let $LoopInvariant : bool = true in
+      (let mk_(a, -) : (nat) * (bool) = (hd arg) in
+        (let DONE_15$ : seq of ((nat) * (bool)) = [mk_(a, $any1)] in
+          $LoopInvariant)))))
+
+Proof Obligation 5: (Unchecked)
 PO has errors
 SeqForLoop2: loop invariant obligation in 'SeqForLoopTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/stmt/seqforloopstmt/seqforloopstmt-01.vdm) at line 16:6
 (forall arg:bool | (seq1 of ((nat) * (bool))) &
@@ -29,7 +48,22 @@ SeqForLoop2: loop invariant obligation in 'SeqForLoopTest' (/home/nick/eclipse.v
                 (let DONE_16$ : seq of bool = [] in
                   $LoopInvariant)))))))))
 
-Proof Obligation 4: (Unchecked)
+Proof Obligation 6: (Unchecked)
+PO has errors
+SeqForLoop2: loop invariant obligation in 'SeqForLoopTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/stmt/seqforloopstmt/seqforloopstmt-01.vdm) at line 16:6
+(forall arg:bool | (seq1 of ((nat) * (bool))) &
+  (-- Missing @LoopInvariant, assuming true at 15:5
+    (let $LoopInvariant : bool = true in
+      (forall a:nat, DONE_15$:seq of ((nat) * (bool)) &
+        (((DONE_15$ = (arg(1, ..., (len DONE_15$)))) and (mk_(a, $any1) in set (elems ((arg(((len DONE_15$) + 1), ..., (len arg))))))) and $LoopInvariant =>
+          (let DONE_15$ : seq of ((nat) * (bool)) = (DONE_15$ ^ [mk_(a, $any2)]) in
+            (-- Missing @LoopInvariant, assuming true at 16:6
+              (let $LoopInvariant : bool = true in
+                (let b : bool = (hd [true]) in
+                  (let DONE_16$ : seq of bool = [b] in
+                    $LoopInvariant))))))))))
+
+Proof Obligation 7: (Unchecked)
 PO has errors
 SeqForLoop2: loop invariant obligation in 'SeqForLoopTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/stmt/seqforloopstmt/seqforloopstmt-01.vdm) at line 16:6
 (forall arg:bool | (seq1 of ((nat) * (bool))) &

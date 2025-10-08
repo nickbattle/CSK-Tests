@@ -4,10 +4,18 @@ IndexForLoop1(): loop invariant obligation in 'IndexForLoopTest' (/home/nick/ecl
 (forall obj_IndexForLoopTest(i |-> i):IndexForLoopTest &
   (-- Missing @LoopInvariant, assuming true at 11:5
     (let $LoopInvariant : bool = true in
+      $LoopInvariant)))
+
+Proof Obligation 2: (Unchecked)
+Obligation requires VDM10
+IndexForLoop1(): loop invariant obligation in 'IndexForLoopTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/stmtpp/indexforloopstmt/indexforloopstmt-02.vpp) at line 11:5
+(forall obj_IndexForLoopTest(i |-> i):IndexForLoopTest &
+  (-- Missing @LoopInvariant, assuming true at 11:5
+    (let $LoopInvariant : bool = true in
       (let i : nat1 = 1 in
         $LoopInvariant))))
 
-Proof Obligation 2: (Unchecked)
+Proof Obligation 3: (Unchecked)
 Obligation requires VDM10
 IndexForLoop1(): loop invariant obligation in 'IndexForLoopTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/stmtpp/indexforloopstmt/indexforloopstmt-02.vpp) at line 12:7
 (forall obj_IndexForLoopTest(i |-> i):IndexForLoopTest &

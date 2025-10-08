@@ -1,12 +1,19 @@
 Proof Obligation 1: (Unproved)
-check invariant at first for-loop
+check invariant before for-loop
+IndexForLoop1: loop invariant obligation in 'IndexForLoopTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/stmt/indexforloopstmt/indexforloopstmt-02.vdm) at line 10:5
+(-- Missing @LoopInvariant, assuming true at 10:5
+  (let $LoopInvariant : bool = true in
+    $LoopInvariant))
+
+Proof Obligation 2: (Unproved)
+check invariant for first for-loop
 IndexForLoop1: loop invariant obligation in 'IndexForLoopTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/stmt/indexforloopstmt/indexforloopstmt-02.vdm) at line 10:5
 (-- Missing @LoopInvariant, assuming true at 10:5
   (let $LoopInvariant : bool = true in
     (let i : nat1 = 1 in
       $LoopInvariant)))
 
-Proof Obligation 2: (Unproved)
+Proof Obligation 3: (Unproved)
 invariant preservation for next for-loop
 IndexForLoop1: loop invariant obligation in 'IndexForLoopTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/stmt/indexforloopstmt/indexforloopstmt-02.vdm) at line 11:7
 (-- Missing @LoopInvariant, assuming true at 10:5
