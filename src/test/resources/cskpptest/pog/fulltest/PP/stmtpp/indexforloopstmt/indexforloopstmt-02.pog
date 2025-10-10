@@ -4,8 +4,7 @@ IndexForLoop1(): loop invariant obligation in 'IndexForLoopTest' (/home/nick/ecl
 (forall obj_IndexForLoopTest(i |-> i):IndexForLoopTest &
   (-- Missing @LoopInvariant, assuming true at 11:5
     (let $LoopInvariant : bool = true in
-      ((1 <= 10) =>
-        $LoopInvariant))))
+      $LoopInvariant)))
 
 Proof Obligation 2: (Unchecked)
 Obligation requires VDM10
