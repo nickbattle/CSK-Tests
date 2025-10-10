@@ -1,17 +1,17 @@
 [3313, 3182, 3220, 3327, 3027, 5008, 5008, 5000, 5000]
 --
-Error 3313: Operation returns void value in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar-05.vpp) at line 12:1
+Error 3313: Operation returns void value in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/instvar/instvar-05.vpp) at line 12:1
 Actual: (() | nat)
 Expected: nat
-Error 3182: Name 'A`i' is not in scope in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar-05.vpp) at line 20:12
-Error 3220: From type is not numeric in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar-05.vpp) at line 24:3
-Error 3327: Value is not of the right type in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar-05.vpp) at line 25:5
+Error 3182: Name 'A`i' is not in scope in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/instvar/instvar-05.vpp) at line 20:12
+Error 3220: From type is not numeric in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/instvar/instvar-05.vpp) at line 24:3
+Error 3327: Value is not of the right type in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/instvar/instvar-05.vpp) at line 25:5
 Actual: bool
 Expected: nat
-Error 3027: Operation returns unexpected type in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar-05.vpp) at line 22:1
-Actual: bool
+Error 3027: Operation returns unexpected type in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/instvar/instvar-05.vpp) at line 22:1
+Actual: (() | bool)
 Expected: nat
-Warning 5008: i1 at 5:8 hidden by i1 in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar-05.vpp) at line 14:11
-Warning 5008: i1 at 5:8 hidden by i1 in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar-05.vpp) at line 19:7
-Warning 5000: Definition 'i1' not used in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar-05.vpp) at line 19:7
-Warning 5000: Definition 'n' not used in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar-05.vpp) at line 23:5
+Warning 5008: i1 at 5:8 hidden by i1 in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/instvar/instvar-05.vpp) at line 14:11
+Warning 5008: i1 at 5:8 hidden by i1 in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/instvar/instvar-05.vpp) at line 19:7
+Warning 5000: Definition 'i1' not used in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/instvar/instvar-05.vpp) at line 19:7
+Warning 5000: Definition 'n' not used in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/instvar/instvar-05.vpp) at line 23:5

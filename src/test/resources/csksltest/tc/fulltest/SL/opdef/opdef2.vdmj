@@ -1,6 +1,6 @@
 [3302, 3301, 5008, 5000]
 --
-Error 3302: Variable 'S1' cannot be accessed from this context in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/opdef/opdef2.vdm) at line 16:5
-Error 3301: Variable 'S1' in scope is not updatable in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/opdef/opdef2.vdm) at line 16:5
-Warning 5008: S1 at 6:7 hidden by S1 in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/opdef/opdef2.vdm) at line 15:11
-Warning 5000: Definition 'x' not used in 'OpDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/opdef/opdef2.vdm) at line 8:7
+Error 3302: Variable 'S1' cannot be accessed from this context in 'OpDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/opdef/opdef2.vdm) at line 16:5
+Error 3301: Variable 'S1' in scope is not updatable in 'OpDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/opdef/opdef2.vdm) at line 16:5
+Warning 5008: S1 at 6:7 hidden by S1 in 'OpDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/opdef/opdef2.vdm) at line 15:11
+Warning 5000: Definition 'x' not used in 'OpDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/opdef/opdef2.vdm) at line 8:7

@@ -4,7 +4,8 @@ IndexForLoop1(): loop invariant obligation in 'IndexForLoopTest' (/home/nick/ecl
 (forall obj_IndexForLoopTest(i |-> i):IndexForLoopTest &
   (-- Missing @LoopInvariant, assuming true at 11:5
     (let $LoopInvariant : bool = true in
-      $LoopInvariant)))
+      ((1 <= 10) =>
+        $LoopInvariant))))
 
 Proof Obligation 2: (Unchecked)
 Obligation requires VDM10
@@ -12,8 +13,9 @@ IndexForLoop1(): loop invariant obligation in 'IndexForLoopTest' (/home/nick/ecl
 (forall obj_IndexForLoopTest(i |-> i):IndexForLoopTest &
   (-- Missing @LoopInvariant, assuming true at 11:5
     (let $LoopInvariant : bool = true in
-      (let i : nat1 = 1 in
-        $LoopInvariant))))
+      ((1 <= 10) =>
+        (let i : nat1 = 1 in
+          $LoopInvariant)))))
 
 Proof Obligation 3: (Unchecked)
 Obligation requires VDM10
@@ -21,8 +23,9 @@ IndexForLoop1(): loop invariant obligation in 'IndexForLoopTest' (/home/nick/ecl
 (forall obj_IndexForLoopTest(i |-> i):IndexForLoopTest &
   (-- Missing @LoopInvariant, assuming true at 11:5
     (let $LoopInvariant : bool = true in
-      (forall i:nat1 &
-        (((((i - 1) rem 2) = 0) and ((i >= 1) and (i <= 10))) and $LoopInvariant =>
-          (let i : nat1 = (i + 2) in
-            $LoopInvariant))))))
+      ((1 <= 10) =>
+        (forall i:nat1 &
+          (((((i - 1) rem 2) = 0) and ((i >= 1) and (i <= 10))) and $LoopInvariant =>
+            (let i : nat1 = (i + 2) in
+              $LoopInvariant)))))))
 

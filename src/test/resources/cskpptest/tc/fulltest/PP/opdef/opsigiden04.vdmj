@@ -1,26 +1,26 @@
 [3005, 3005, 3006, 3006, 3005, 3005, 3006, 3006]
 --
-Error 3005: Overriding a superclass member of a different kind: op1(int) in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opsigiden04.vpp) at line 31:1
+Error 3005: Overriding a superclass member of a different kind: op1(int) in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/opdef/opsigiden04.vpp) at line 31:1
 This: implicit operation
 Super: explicit operation
-Error 3005: Overriding a superclass member of a different kind: op2(int, int) in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opsigiden04.vpp) at line 34:1
+Error 3005: Overriding a superclass member of a different kind: op2(int, int) in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/opdef/opsigiden04.vpp) at line 34:1
 This: implicit operation
 Super: explicit operation
-Error 3006: Overriding definition reduces visibility in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opsigiden04.vpp) at line 38:1
+Error 3006: Overriding definition reduces visibility in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/opdef/opsigiden04.vpp) at line 38:1
 This: op3(int)
 Super: op3(int)
-Error 3006: Overriding definition reduces visibility in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opsigiden04.vpp) at line 40:8
+Error 3006: Overriding definition reduces visibility in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/opdef/opsigiden04.vpp) at line 40:8
 This: post_op3(int, int, map (seq of (char)) to (?), B)
 Super: post_op3(int, int, map (seq of (char)) to (?), A)
-Error 3005: Overriding a superclass member of a different kind: op4(int, int) in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opsigiden04.vpp) at line 42:1
+Error 3005: Overriding a superclass member of a different kind: op4(int, int) in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/opdef/opsigiden04.vpp) at line 42:1
 This: explicit operation
 Super: implicit operation
-Error 3005: Overriding a superclass member of a different kind: op5(int) in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opsigiden04.vpp) at line 46:1
+Error 3005: Overriding a superclass member of a different kind: op5(int) in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/opdef/opsigiden04.vpp) at line 46:1
 This: explicit operation
 Super: implicit operation
-Error 3006: Overriding definition reduces visibility in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opsigiden04.vpp) at line 50:1
+Error 3006: Overriding definition reduces visibility in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/opdef/opsigiden04.vpp) at line 50:1
 This: op6(int, int)
 Super: op6(int, int)
-Error 3006: Overriding definition reduces visibility in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opsigiden04.vpp) at line 51:8
+Error 3006: Overriding definition reduces visibility in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/opdef/opsigiden04.vpp) at line 51:8
 This: post_op6(int, int, bool, map (seq of (char)) to (?), B)
 Super: post_op6(int, int, bool, map (seq of (char)) to (?), A)

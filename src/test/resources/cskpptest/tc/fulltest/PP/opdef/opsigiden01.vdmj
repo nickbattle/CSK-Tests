@@ -1,8 +1,8 @@
 [3006, 3006]
 --
-Error 3006: Overriding definition reduces visibility in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opsigiden01.vpp) at line 21:1
+Error 3006: Overriding definition reduces visibility in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/opdef/opsigiden01.vpp) at line 21:1
 This: op1(int)
 Super: op1(int)
-Error 3006: Overriding definition reduces visibility in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/opdef/opsigiden01.vpp) at line 29:1
+Error 3006: Overriding definition reduces visibility in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/opdef/opsigiden01.vpp) at line 29:1
 This: op3(int)
 Super: op3(int)

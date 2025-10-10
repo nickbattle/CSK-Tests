@@ -1,39 +1,39 @@
-[3327, 3000, 3327, 3000, 3327, 3000, 3327, 3154, 3136, 3066, 3136, 5000, 5001, 5001, 5001, 5001, 5001, 5001, 5001]
+[3327, 3000, 3327, 3000, 3327, 3000, 3327, 3154, 3066, 5000, 3136, 3136, 5001, 5001, 5001, 5001, 5001, 5001, 5001]
 --
-Error 3327: Value is not of the right type in 'InstVarTest2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 27:16
+Error 3327: Value is not of the right type in 'InstVarTest2' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 27:16
 Actual: A
 Expected: nat
-Error 3000: Expression does not match declared type in 'InstVarTest2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 27:5
+Error 3000: Expression does not match declared type in 'InstVarTest2' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 27:5
 Declared: nat
 Expression: A
-Error 3327: Value is not of the right type in 'InstVarTest3' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 38:16
+Error 3327: Value is not of the right type in 'InstVarTest3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 38:16
 Actual: A
 Expected: nat
-Error 3000: Expression does not match declared type in 'InstVarTest3' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 38:5
+Error 3000: Expression does not match declared type in 'InstVarTest3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 38:5
 Declared: nat
 Expression: A
-Error 3327: Value is not of the right type in 'InstVarTest3' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 39:30
+Error 3327: Value is not of the right type in 'InstVarTest3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 39:30
 Actual: bool
 Expected: A
-Error 3000: Expression does not match declared type in 'InstVarTest3' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 39:5
+Error 3000: Expression does not match declared type in 'InstVarTest3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 39:5
 Declared: A
 Expression: bool
-Error 3327: Value is not of the right type in 'InstVarTest4' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 50:53
+Error 3327: Value is not of the right type in 'InstVarTest4' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 50:53
 Actual: nat1
 Expected: A
-Error 3154: self not in scope in 'InstVarTest6' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 73:18
-Error 3136: Left and right of '<>' different types in 'InstVarTest2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 31:11
+Error 3154: self not in scope in 'InstVarTest6' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 73:18
+Error 3066: Right hand of and is not bool in 'InstVarTest3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 41:35
+Warning 5000: Definition 'one' not used in 'InstVarTest2' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 28:18
+Warning 3136: Left and right of '<>' different types in 'InstVarTest2' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 31:11
 Left: A
 Right: bool
-Error 3066: Right hand of and is not bool in 'InstVarTest3' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 41:35
-Error 3136: Left and right of '<>' different types in 'InstVarTest3' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 42:11
+Warning 3136: Left and right of '<>' different types in 'InstVarTest3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 42:11
 Left: A
 Right: bool
-Warning 5000: Definition 'one' not used in 'InstVarTest2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 28:18
-Warning 5001: Instance variable 'ba' is not initialized in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 7:5
-Warning 5001: Instance variable 'bb' is not initialized in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 8:5
-Warning 5001: Instance variable 'c' is not initialized in 'InstVarTest1' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 17:5
-Warning 5001: Instance variable 'c' is not initialized in 'InstVarTest2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 29:5
-Warning 5001: Instance variable 'c' is not initialized in 'InstVarTest3' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 40:5
-Warning 5001: Instance variable 'a' is not initialized in 'InstVarTest4' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 49:5
-Warning 5001: Instance variable 'c' is not initialized in 'InstVarTest4' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 51:5
+Warning 5001: Instance variable 'ba' is not initialized in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 7:5
+Warning 5001: Instance variable 'bb' is not initialized in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 8:5
+Warning 5001: Instance variable 'c' is not initialized in 'InstVarTest1' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 17:5
+Warning 5001: Instance variable 'c' is not initialized in 'InstVarTest2' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 29:5
+Warning 5001: Instance variable 'c' is not initialized in 'InstVarTest3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 40:5
+Warning 5001: Instance variable 'a' is not initialized in 'InstVarTest4' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 49:5
+Warning 5001: Instance variable 'c' is not initialized in 'InstVarTest4' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/instvar/instvar.vpp) at line 51:5
