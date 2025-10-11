@@ -42,7 +42,7 @@ SeqForLoop2: loop invariant obligation in 'SeqForLoopTest' (/home/nick/eclipse.v
     (let $LoopInvariant : bool = true in
       ((arg <> []) =>
         (forall a:nat, DONE_15$:seq of ((nat) * (bool)), $any1:bool &
-          (((DONE_15$ ^ [(hd arg)]) = (arg(1, ..., ((len DONE_15$) + 1)))) and $LoopInvariant =>
+          (((DONE_15$ ^ [mk_(a, $any1)]) = (arg(1, ..., ((len DONE_15$) + 1)))) and $LoopInvariant =>
             (let DONE_15$ : seq of ((nat) * (bool)) = (DONE_15$ ^ [mk_(a, $any1)]) in
               (-- Missing @LoopInvariant, assuming true at 16:6
                 (let $LoopInvariant : bool = true in
@@ -57,7 +57,7 @@ SeqForLoop2: loop invariant obligation in 'SeqForLoopTest' (/home/nick/eclipse.v
     (let $LoopInvariant : bool = true in
       ((arg <> []) =>
         (forall a:nat, DONE_15$:seq of ((nat) * (bool)), $any1:bool &
-          (((DONE_15$ ^ [(hd arg)]) = (arg(1, ..., ((len DONE_15$) + 1)))) and $LoopInvariant =>
+          (((DONE_15$ ^ [mk_(a, $any1)]) = (arg(1, ..., ((len DONE_15$) + 1)))) and $LoopInvariant =>
             (let DONE_15$ : seq of ((nat) * (bool)) = (DONE_15$ ^ [mk_(a, $any1)]) in
               (-- Missing @LoopInvariant, assuming true at 16:6
                 (let $LoopInvariant : bool = true in
@@ -72,7 +72,7 @@ SeqForLoop2: loop invariant obligation in 'SeqForLoopTest' (/home/nick/eclipse.v
     (let $LoopInvariant : bool = true in
       ((arg <> []) =>
         (forall a:nat, DONE_15$:seq of ((nat) * (bool)), $any1:bool &
-          (((DONE_15$ ^ [(hd arg)]) = (arg(1, ..., ((len DONE_15$) + 1)))) and $LoopInvariant =>
+          (((DONE_15$ ^ [mk_(a, $any1)]) = (arg(1, ..., ((len DONE_15$) + 1)))) and $LoopInvariant =>
             (let DONE_15$ : seq of ((nat) * (bool)) = (DONE_15$ ^ [mk_(a, $any1)]) in
               (-- Missing @LoopInvariant, assuming true at 16:6
                 (let $LoopInvariant : bool = true in
@@ -89,7 +89,7 @@ SeqForLoop2: loop invariant obligation in 'SeqForLoopTest' (/home/nick/eclipse.v
     (let $LoopInvariant : bool = true in
       ((arg <> []) =>
         (forall a:nat, DONE_15$:seq of ((nat) * (bool)), $any1:bool &
-          (((DONE_15$ ^ [(hd arg)]) = (arg(1, ..., ((len DONE_15$) + 1)))) and $LoopInvariant =>
+          (((DONE_15$ ^ [mk_(a, $any1)]) = (arg(1, ..., ((len DONE_15$) + 1)))) and $LoopInvariant =>
             (let DONE_15$ : seq of ((nat) * (bool)) = (DONE_15$ ^ [mk_(a, $any1)]) in
               (-- Missing @LoopInvariant, assuming true at 16:6
                 (let $LoopInvariant : bool = true in
