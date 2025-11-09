@@ -1,4 +1,4 @@
 [3139]
 --
-Error 3139: Left hand of < is not ordered in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-05.vdm) at line 11:14
-Actual: B
+Error 3139: Left hand of < is not ordered in 'LetExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-05.vdm) at line 11:14
+Actual: B!

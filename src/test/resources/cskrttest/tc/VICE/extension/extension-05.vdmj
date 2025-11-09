@@ -1,4 +1,4 @@
 [5000, 5000]
 --
-Warning 5000: Definition 'argc' not used in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/extension/extension-05.vpp) at line 50:10
-Warning 5000: Definition 'b' not used in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/extension/extension-05.vpp) at line 50:16
+Warning 5000: Definition 'argc' not used in 'C' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/tc/VICE/extension/extension-05.vpp) at line 50:10
+Warning 5000: Definition 'b' not used in 'C' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/tc/VICE/extension/extension-05.vpp) at line 50:16

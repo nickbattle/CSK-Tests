@@ -1,4 +1,4 @@
 [5000, 5003]
 --
-Warning 5000: Definition 'arg2' not used in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/extension/extension-15.vpp) at line 37:14
-Warning 5003: Permission guard of overloaded operation in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/extension/extension-15.vpp) at line 54:5
+Warning 5000: Definition 'arg2' not used in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/tc/VICE/extension/extension-15.vpp) at line 37:14
+Warning 5003: Permission guard of overloaded operation in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/tc/VICE/extension/extension-15.vpp) at line 54:5

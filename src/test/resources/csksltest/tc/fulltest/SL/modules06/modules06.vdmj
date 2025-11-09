@@ -1,47 +1,47 @@
 [3020, 3139, 3327, 3018, 3327, 3018, 3327, 3182, 3319, 3188, 5041, 5041, 5000, 5000, 5000, 5000, 5000, 5008, 5000, 5007, 5007, 5000, 5000, 5012, 5000, 5000, 5000, 5000, 5000, 5000]
 --
-Error 3020: Too many parameter patterns in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 13:3
+Error 3020: Too many parameter patterns in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 13:3
 Pattern(s): a, b
 Type(s): (bool)
-Error 3139: Left hand of < is not ordered in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 35:9
+Error 3139: Left hand of < is not ordered in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 35:9
 Actual: char
-Error 3327: Value is not of the right type in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 46:8
+Error 3327: Value is not of the right type in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 46:8
 Actual: nat
 Expected: bool
-Error 3018: Postcondition returns unexpected type in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 45:3
+Error 3018: Postcondition returns unexpected type in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 45:3
 Actual: nat
 Expected: bool
-Error 3327: Value is not of the right type in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 52:8
+Error 3327: Value is not of the right type in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 52:8
 Actual: nat
 Expected: bool
-Error 3018: Postcondition returns unexpected type in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 51:3
+Error 3018: Postcondition returns unexpected type in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 51:3
 Actual: nat
 Expected: bool
-Error 3327: Value is not of the right type in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 55:21
+Error 3327: Value is not of the right type in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 55:21
 Actual: nat
 Expected: bool
-Error 3182: Name 'inst' is not in scope in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 60:5
-Error 3319: 'in set' expression is always false in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 77:7
+Error 3182: Name 'inst' is not in scope in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 60:5
+Error 3319: 'in set' expression is always false in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 77:7
 Element: nat
 Set: set of (bool)
-Error 3188: Exported value b not defined in module in 'D' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 195:3
-Warning 5041: Add explicit type 'mk_(a, b) : nat1 * nat1' here in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 176:3
-Warning 5041: Add explicit type 'a : bool' here in 'D' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 201:3
-Warning 5000: Definition 'a' not used in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 14:11
-Warning 5000: Definition 'b' not used in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 14:13
-Warning 5000: Definition 'i' not used in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 34:9
-Warning 5000: Definition 'a' not used in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 45:11
-Warning 5000: Definition 'b' not used in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 45:13
-Warning 5008: r at 48:12 hidden by r in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 48:20
-Warning 5000: Definition 'r' not used in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 48:20
-Warning 5007: Duplicate definition: n in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 76:13
-Warning 5007: Duplicate definition: n in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 76:18
-Warning 5000: Definition 'n' not used in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 76:18
-Warning 5000: Definition 'n' not used in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 107:14
-Warning 5012: Recursive function has no measure in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 83:3
-Warning 5000: Definition 'FunDefSl7' not used in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 158:5
-Warning 5000: Definition 'myfun' not used in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 159:62
-Warning 5000: Definition 'Op4' not used in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 163:5
-Warning 5000: Definition 'Op1' not used in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 164:5
-Warning 5000: Definition 'f' not used in 'D' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 205:3
-Warning 5000: Definition 'Op3' not used in 'F' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 261:3
+Error 3188: Exported value b not defined in module in 'D' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 195:3
+Warning 5041: Add explicit type 'mk_(a, b) : nat1 * nat1' here in 'C' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 176:3
+Warning 5041: Add explicit type 'a : bool' here in 'D' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 201:3
+Warning 5000: Definition 'a' not used in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 14:11
+Warning 5000: Definition 'b' not used in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 14:13
+Warning 5000: Definition 'i' not used in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 34:9
+Warning 5000: Definition 'a' not used in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 45:11
+Warning 5000: Definition 'b' not used in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 45:13
+Warning 5008: r at 48:12 hidden by r in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 48:20
+Warning 5000: Definition 'r' not used in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 48:20
+Warning 5007: Duplicate definition: n in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 76:13
+Warning 5007: Duplicate definition: n in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 76:18
+Warning 5000: Definition 'n' not used in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 76:18
+Warning 5000: Definition 'n' not used in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 107:14
+Warning 5012: Recursive function has no measure in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 83:3
+Warning 5000: Definition 'FunDefSl7' not used in 'C' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 158:5
+Warning 5000: Definition 'myfun' not used in 'C' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 159:62
+Warning 5000: Definition 'Op4' not used in 'C' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 163:5
+Warning 5000: Definition 'Op1' not used in 'C' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 164:5
+Warning 5000: Definition 'f' not used in 'D' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 205:3
+Warning 5000: Definition 'Op3' not used in 'F' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules06/modules06.vdm) at line 261:3

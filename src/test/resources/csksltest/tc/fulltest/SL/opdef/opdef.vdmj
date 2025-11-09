@@ -1,10 +1,11 @@
-[3302, 3302, 3182, 3139, 3018, 3032, 3327, 3307, 3327, 3027, 5007, 5008, 5007, 3136, 5008, 5008, 5008, 5000, 5008, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000]
+[3302, 3302, 3182, 3139, 3031, 3018, 3032, 3327, 3307, 3327, 3027, 5007, 5008, 5007, 3136, 5008, 5008, 5008, 5000, 5008, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000]
 --
 Error 3302: Variable 'a~' cannot be accessed from this context in 'OpDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/opdef/opdef.vdm) at line 38:8
 Error 3302: Variable 'b~' cannot be accessed from this context in 'OpDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/opdef/opdef.vdm) at line 50:18
 Error 3182: Name 'r' is not in scope in 'OpDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/opdef/opdef.vdm) at line 51:14
 Error 3139: Left hand of + is not numeric in 'OpDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/opdef/opdef.vdm) at line 56:15
 Actual: char
+Error 3031: Repeated ext state variable a in 'OpDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/opdef/opdef.vdm) at line 59:13
 Error 3018: Postcondition returns unexpected type in 'OpDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/opdef/opdef.vdm) at line 62:3
 Actual: nat
 Expected: bool

@@ -1,10 +1,10 @@
 [3139, 3327, 3129]
 --
-Error 3139: Left hand of < is not ordered in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-03.vdm) at line 11:14
-Actual: B
-Error 3327: Value is not of the right type in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-03.vdm) at line 20:34
+Error 3139: Left hand of < is not ordered in 'LetExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-03.vdm) at line 11:14
+Actual: B!
+Error 3327: Value is not of the right type in 'LetExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-03.vdm) at line 20:34
 Actual: nat1
 Expected: bool
-Error 3129: Constructor field 2 is of wrong type in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-03.vdm) at line 20:34
+Error 3129: Constructor field 2 is of wrong type in 'LetExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-03.vdm) at line 20:34
 Expected: bool
 Actual: nat1

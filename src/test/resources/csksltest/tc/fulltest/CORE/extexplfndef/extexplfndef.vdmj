@@ -1,34 +1,34 @@
 [3022, 3139, 3140, 3061, 3054, 3327, 3018, 3327, 3327, 3061, 3029, 5031, 5000, 5000, 5000, 5012]
 --
-Error 3022: Too many curried parameters in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 46:3
-Error 3139: Left hand of + is not numeric in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 48:6
+Error 3022: Too many curried parameters in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 46:3
+Error 3139: Left hand of + is not numeric in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 48:6
 Actual: @Fun
-Error 3140: Right hand of + is not numeric in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 48:6
+Error 3140: Right hand of + is not numeric in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 48:6
 Actual: @Fun
-Error 3061: Inappropriate type for argument 1 in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 51:28
+Error 3061: Inappropriate type for argument 1 in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 51:28
 Expect: (nat -> nat)
 Actual: nat1
-Error 3054: Type int cannot be applied in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 51:5
-Error 3327: Value is not of the right type in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 56:20
+Error 3054: Type int cannot be applied in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 51:5
+Error 3327: Value is not of the right type in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 56:20
 Actual: nat1
 Expected: bool
-Error 3018: Precondition returns unexpected type in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 53:3
+Error 3018: Precondition returns unexpected type in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 53:3
 Actual: nat1
 Expected: bool
-Error 3327: Value is not of the right type in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 60:27
+Error 3327: Value is not of the right type in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 60:27
 Actual: bool
 Expected: nat
-Error 3327: Value is not of the right type in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 60:26
-Actual: set1 of (bool)
+Error 3327: Value is not of the right type in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 60:26
+Actual: set of (bool)
 Expected: set of (nat)
-Error 3061: Inappropriate type for argument 1 in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 75:10
+Error 3061: Inappropriate type for argument 1 in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 75:10
 Expect: FunType
 Actual: (nat +> ((nat * nat) -> bool))
-Error 3029: Function returns unexpected type in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 83:3
+Error 3029: Function returns unexpected type in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 83:3
 Actual: ((Vector * Vector) -> map (nat) to (nat))
 Expected: (Vector * Vector -> Vector)
-Warning 5031: Type @A must be a union in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 29:55
-Warning 5000: Definition 's' not used in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 29:58
-Warning 5000: Definition 'n' not used in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 39:14
-Warning 5000: Definition 'n3' not used in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 72:27
-Warning 5012: Recursive function has no measure in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 21:3
+Warning 5031: Type @A must be a union in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 29:14
+Warning 5000: Definition 's' not used in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 29:58
+Warning 5000: Definition 'n' not used in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 39:14
+Warning 5000: Definition 'n3' not used in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 72:27
+Warning 5012: Recursive function has no measure in 'FunDefSlTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/extexplfndef/extexplfndef.vdm) at line 21:3

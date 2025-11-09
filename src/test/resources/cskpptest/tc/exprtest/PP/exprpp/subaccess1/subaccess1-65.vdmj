@@ -1,5 +1,5 @@
 [3052, 3019, 3182]
 --
-Error 3052: Value type visibility less than value definition in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/exprtest/PP/exprpp/subaccess1/subaccess1-65.vpp) at line 73:10
-Error 3019: Function parameter visibility less than function definition in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/exprtest/PP/exprpp/subaccess1/subaccess1-65.vpp) at line 43:5
-Error 3182: Name 'priv_f(nat1)' is not in scope in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/exprtest/PP/exprpp/subaccess1/subaccess1-65.vpp) at line 84:11
+Error 3052: Value type visibility less than value definition in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/exprtest/PP/exprpp/subaccess1/subaccess1-65.vpp) at line 73:10
+Error 3019: Function parameter visibility less than function definition in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/exprtest/PP/exprpp/subaccess1/subaccess1-65.vpp) at line 43:5
+Error 3182: Name 'priv_f(nat1)' is not in scope in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/exprtest/PP/exprpp/subaccess1/subaccess1-65.vpp) at line 84:11

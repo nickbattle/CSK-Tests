@@ -1,5 +1,5 @@
 [3294, 5000, 5003]
 --
-Error 3294: Only one system class permitted in 'SimpleEnv' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/extension/extension-16.vpp) at line 25:8
-Warning 5000: Definition 'arg2' not used in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/extension/extension-16.vpp) at line 59:14
-Warning 5003: Permission guard of overloaded operation in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/extension/extension-16.vpp) at line 76:5
+Error 3294: Only one system class permitted in 'SimpleEnv' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/tc/VICE/extension/extension-16.vpp) at line 25:8
+Warning 5000: Definition 'arg2' not used in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/tc/VICE/extension/extension-16.vpp) at line 59:14
+Warning 5003: Permission guard of overloaded operation in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/tc/VICE/extension/extension-16.vpp) at line 76:5

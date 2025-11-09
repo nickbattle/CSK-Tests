@@ -1,7 +1,7 @@
 [3139, 3128, 3202, 3182]
 --
-Error 3139: Left hand of < is not ordered in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-09.vdm) at line 11:14
-Actual: B
-Error 3128: Record and constructor do not have same number of fields in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-09.vdm) at line 20:27
-Error 3202: Record pattern argument/field count mismatch in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-09.vdm) at line 20:15
-Error 3182: Name 'a' is not in scope in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-09.vdm) at line 20:40
+Error 3139: Left hand of < is not ordered in 'LetExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-09.vdm) at line 11:14
+Actual: B!
+Error 3128: Record and constructor do not have same number of fields in 'LetExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-09.vdm) at line 20:27
+Error 3202: Record pattern argument/field count mismatch in 'LetExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-09.vdm) at line 20:15
+Error 3182: Name 'a' is not in scope in 'LetExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-09.vdm) at line 20:40

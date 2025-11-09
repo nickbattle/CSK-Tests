@@ -1,145 +1,145 @@
 [3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3153, 3327, 3327, 3327, 3327, 3327, 3150, 3327, 3327, 3327, 3327, 3327, 3327]
 --
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 38:11
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 38:11
 Actual: bool
 Expected: map (char) to (int)
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 41:12
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 41:12
 Actual: nat1
 Expected: char
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 41:20
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 41:20
 Actual: seq1 of (char)
 Expected: int
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 41:25
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 41:25
 Actual: nat1
 Expected: char
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 41:33
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 41:33
 Actual: (nat1 * bool)
 Expected: int
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 41:11
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 41:11
 Actual: map (nat1) to (((nat1 * bool) | seq1 of (char)))
 Expected: map (char) to (int)
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 44:12
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 44:12
 Actual: nat1
 Expected: char
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 44:20
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 44:20
 Actual: seq1 of (char)
 Expected: int
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 44:25
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 44:25
 Actual: nat1
 Expected: char
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 44:33
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 44:33
 Actual: (nat1 * bool)
 Expected: int
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 44:11
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 44:11
 Actual: map (nat1) to (((nat1 * bool) | seq1 of (char)))
 Expected: map (char) to (int)
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 44:54
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 44:54
 Actual: nat1
 Expected: char
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 44:53
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 44:53
 Actual: map (nat1) to (nat1)
 Expected: map (char) to (int)
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 47:12
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 47:12
 Actual: nat1
 Expected: char
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 47:25
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 47:25
 Actual: nat1
 Expected: char
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 47:11
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 47:11
 Actual: map (nat1) to (((nat1 * bool) | seq1 of (char)))
 Expected: map (char) to (?)
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 47:50
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 47:50
 Actual: nat1
 Expected: char
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 47:49
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 47:49
 Actual: map (nat1) to (nat1)
 Expected: map (char) to (int)
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 50:12
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 50:12
 Actual: nat1
 Expected: char
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 50:16
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 50:16
 Actual: nat1
 Expected: char
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 50:11
-Actual: set1 of (nat1)
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 50:11
+Actual: set of (nat1)
 Expected: set of (char)
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 50:25
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 50:25
 Actual: nat1
 Expected: char
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 50:33
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 50:33
 Actual: seq1 of (char)
 Expected: int
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 50:38
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 50:38
 Actual: nat1
 Expected: char
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 50:46
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 50:46
 Actual: (nat1 * bool)
 Expected: int
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 50:24
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 50:24
 Actual: map (nat1) to (((nat1 * bool) | seq1 of (char)))
 Expected: map (char) to (int)
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 53:22
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 53:22
 Actual: nat1
 Expected: char
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 53:30
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 53:30
 Actual: seq1 of (char)
 Expected: int
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 53:35
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 53:35
 Actual: nat1
 Expected: char
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 53:43
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 53:43
 Actual: (nat1 * bool)
 Expected: int
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 53:21
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 53:21
 Actual: map (nat1) to (((nat1 * bool) | seq1 of (char)))
 Expected: map (char) to (int)
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 56:12
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 56:12
 Actual: nat1
 Expected: char
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 56:20
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 56:20
 Actual: seq1 of (char)
 Expected: int
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 56:25
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 56:25
 Actual: nat1
 Expected: char
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 56:33
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 56:33
 Actual: (nat1 * bool)
 Expected: int
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 56:11
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 56:11
 Actual: map (nat1) to (((nat1 * bool) | seq1 of (char)))
 Expected: map (char) to (int)
-Error 3153: Restriction of map should be set of ((nat1 * bool) | seq1 of (char)) in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 56:46
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 59:12
+Error 3153: Restriction of map should be set of ((nat1 * bool) | seq1 of (char)) in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 56:46
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 59:12
 Actual: nat1
 Expected: char
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 59:20
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 59:20
 Actual: seq1 of (char)
 Expected: int
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 59:25
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 59:25
 Actual: nat1
 Expected: char
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 59:33
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 59:33
 Actual: (nat1 * bool)
 Expected: int
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 59:11
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 59:11
 Actual: map (nat1) to (((nat1 * bool) | seq1 of (char)))
 Expected: map (char) to (int)
-Error 3150: Restriction of map should be set of ((nat1 * bool) | seq1 of (char)) in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 59:46
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 62:12
+Error 3150: Restriction of map should be set of ((nat1 * bool) | seq1 of (char)) in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 59:46
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 62:12
 Actual: nat1
 Expected: char
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 62:20
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 62:20
 Actual: (nat1 * [?])
 Expected: int
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 62:32
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 62:32
 Actual: bool
 Expected: char
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 62:43
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 62:43
 Actual: nat1
 Expected: char
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 62:11
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 62:11
 Actual: map ((bool | nat1)) to (((nat1 * [?]) | nat1))
 Expected: map (char) to (int)
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 64:20
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-66.vdm) at line 64:20
 Actual: [?]
 Expected: map (char) to (int)

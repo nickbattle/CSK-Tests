@@ -1,5 +1,5 @@
 [3136]
 --
-Error 3136: Left and right of '<>' different types in 'BinaryTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/binaryexpr/ne/ne-04.vdm) at line 12:13
+Warning 3136: Left and right of '<>' different types in 'BinaryTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/binaryexpr/ne/ne-04.vdm) at line 12:13
 Left: nat1
 Right: char

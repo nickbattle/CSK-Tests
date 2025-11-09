@@ -1,4 +1,4 @@
 [3083]
 --
-Error 3083: Right of '<:' is not a map in 'BinaryTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/binaryexpr/mapdomrestto/mapdomrestto-03.vdm) at line 11:19
-Actual: set1 of (bool)
+Error 3083: Right of '<:' is not a map in 'BinaryTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/binaryexpr/mapdomrestto/mapdomrestto-03.vdm) at line 11:19
+Actual: set of (bool)

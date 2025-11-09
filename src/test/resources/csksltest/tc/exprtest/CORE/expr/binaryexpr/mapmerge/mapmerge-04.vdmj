@@ -1,4 +1,4 @@
 [3124]
 --
-Error 3124: Right hand of 'munion' is not a map in 'BinaryTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/binaryexpr/mapmerge/mapmerge-04.vdm) at line 14:13
+Error 3124: Right hand of 'munion' is not a map in 'BinaryTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/binaryexpr/mapmerge/mapmerge-04.vdm) at line 14:13
 Type: seq1 of (char)

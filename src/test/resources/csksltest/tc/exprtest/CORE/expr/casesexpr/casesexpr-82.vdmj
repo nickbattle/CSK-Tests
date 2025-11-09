@@ -1,21 +1,21 @@
 [3327, 3182, 3327, 3327, 3327, 3327, 3051]
 --
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-82.vdm) at line 35:11
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-82.vdm) at line 35:11
 Actual: bool
 Expected: A
-Error 3182: Name 'k' is not in scope in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-82.vdm) at line 38:19
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-82.vdm) at line 38:15
+Error 3182: Name 'k' is not in scope in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-82.vdm) at line 38:19
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-82.vdm) at line 38:15
 Actual: bool
 Expected: A
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-82.vdm) at line 41:16
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-82.vdm) at line 41:16
 Actual: nat1
 Expected: A
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-82.vdm) at line 44:15
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-82.vdm) at line 44:15
 Actual: int
 Expected: A
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-82.vdm) at line 52:20
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-82.vdm) at line 52:20
 Actual: [?]
 Expected: A
-Error 3051: Expression does not match declared type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-82.vdm) at line 32:15
+Error 3051: Expression does not match declared type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-82.vdm) at line 32:15
 Declared: A
 Expression: ([?] | bool | int)

@@ -1,4 +1,4 @@
 [5000, 5000]
 --
-Warning 5000: Definition 'OpB' not used in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules18/modules18.vdm) at line 36:3
-Warning 5000: Definition 'OpB' not used in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules18/modules18.vdm) at line 50:3
+Warning 5000: Definition 'OpB' not used in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules18/modules18.vdm) at line 36:3
+Warning 5000: Definition 'OpB' not used in 'C' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules18/modules18.vdm) at line 50:3

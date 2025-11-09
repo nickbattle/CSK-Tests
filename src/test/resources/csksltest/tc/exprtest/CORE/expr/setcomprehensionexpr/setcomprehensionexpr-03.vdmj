@@ -1,5 +1,5 @@
 [3264]
 --
-Error 3264: At least one bind cannot match set in 'SetComprehensionExpr' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/setcomprehensionexpr/setcomprehensionexpr-03.vdm) at line 12:33
+Error 3264: At least one bind cannot match set in 'SetComprehensionExpr' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/setcomprehensionexpr/setcomprehensionexpr-03.vdm) at line 12:33
 Binds: seq of (?)
-Set of: set1 of (nat1)
+Set of: set of (nat1)

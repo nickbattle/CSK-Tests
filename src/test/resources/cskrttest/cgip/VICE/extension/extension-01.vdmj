@@ -1,15 +1,15 @@
 [3182, 3290, 3209, 3209, 3209, 3134, 3134, 3134, 3134]
 --
-Error 3182: Name 'Radio`DecodeTMC' is not in scope in 'RadNavSys' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/cgip/VICE/extension/extension-01.vpp) at line 32:24
-Error 3290: Argument to setPriority must be an operation in 'RadNavSys' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/cgip/VICE/extension/extension-01.vpp) at line 32:24
-Error 3209: Member HandleEvent(nat) is not in scope in 'MMI' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/cgip/VICE/extension/extension-01.vpp) at line 60:43
-Error 3209: Member HandleEvent(nat) is not in scope in 'MMI' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/cgip/VICE/extension/extension-01.vpp) at line 61:46
-Error 3209: Member HandleEvent(nat) is not in scope in 'MMI' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/cgip/VICE/extension/extension-01.vpp) at line 62:44
-Error 3134: Class has no constructor with these parameter types in 'World' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/cgip/VICE/extension/extension-01.vpp) at line 262:40
+Error 3182: Name 'Radio`DecodeTMC' is not in scope in 'RadNavSys' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/cgip/VICE/extension/extension-01.vpp) at line 32:24
+Error 3290: Argument to setPriority must be an operation in 'RadNavSys' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/cgip/VICE/extension/extension-01.vpp) at line 32:24
+Error 3209: Member HandleEvent(nat) is not in scope in 'MMI' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/cgip/VICE/extension/extension-01.vpp) at line 60:43
+Error 3209: Member HandleEvent(nat) is not in scope in 'MMI' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/cgip/VICE/extension/extension-01.vpp) at line 61:46
+Error 3209: Member HandleEvent(nat) is not in scope in 'MMI' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/cgip/VICE/extension/extension-01.vpp) at line 62:44
+Error 3134: Class has no constructor with these parameter types in 'World' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/cgip/VICE/extension/extension-01.vpp) at line 262:40
 Called: VolumeKnob(nat1)
-Error 3134: Class has no constructor with these parameter types in 'World' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/cgip/VICE/extension/extension-01.vpp) at line 263:41
+Error 3134: Class has no constructor with these parameter types in 'World' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/cgip/VICE/extension/extension-01.vpp) at line 263:41
 Called: TransmitTMC(nat1)
-Error 3134: Class has no constructor with these parameter types in 'World' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/cgip/VICE/extension/extension-01.vpp) at line 269:43
+Error 3134: Class has no constructor with these parameter types in 'World' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/cgip/VICE/extension/extension-01.vpp) at line 269:43
 Called: InsertAddress(nat1)
-Error 3134: Class has no constructor with these parameter types in 'World' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/cgip/VICE/extension/extension-01.vpp) at line 270:41
+Error 3134: Class has no constructor with these parameter types in 'World' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/cgip/VICE/extension/extension-01.vpp) at line 270:41
 Called: TransmitTMC(nat1)

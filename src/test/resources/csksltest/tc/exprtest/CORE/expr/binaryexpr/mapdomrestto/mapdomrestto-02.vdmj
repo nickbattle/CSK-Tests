@@ -1,4 +1,4 @@
 [3082]
 --
-Error 3082: Left of '<:' is not a set in 'BinaryTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/binaryexpr/mapdomrestto/mapdomrestto-02.vdm) at line 11:24
+Error 3082: Left of '<:' is not a set in 'BinaryTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/binaryexpr/mapdomrestto/mapdomrestto-02.vdm) at line 11:24
 Actual: map (nat1) to (nat1)

@@ -1,8 +1,8 @@
 [3296, 3296, 5000, 5001, 5001, 5001]
 --
-Error 3296: Cannot use 'CPU' outside system class in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/sysinherit/sysinherit-02.vpp) at line 33:9
-Error 3296: Cannot use 'BUS' outside system class in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/sysinherit/sysinherit-02.vpp) at line 46:9
-Warning 5000: Definition 'i' not used in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/sysinherit/sysinherit-02.vpp) at line 66:10
-Warning 5001: Instance variable 'cpu' is not initialized in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/sysinherit/sysinherit-02.vpp) at line 33:3
-Warning 5001: Instance variable 'bus' is not initialized in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/sysinherit/sysinherit-02.vpp) at line 46:3
-Warning 5001: Instance variable 'a' is not initialized in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/sysinherit/sysinherit-02.vpp) at line 61:3
+Error 3296: Cannot use 'CPU' outside system class in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/tc/VICE/sysinherit/sysinherit-02.vpp) at line 33:9
+Error 3296: Cannot use 'BUS' outside system class in 'C' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/tc/VICE/sysinherit/sysinherit-02.vpp) at line 46:9
+Warning 5000: Definition 'i' not used in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/tc/VICE/sysinherit/sysinherit-02.vpp) at line 66:10
+Warning 5001: Instance variable 'cpu' is not initialized in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/tc/VICE/sysinherit/sysinherit-02.vpp) at line 33:3
+Warning 5001: Instance variable 'bus' is not initialized in 'C' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/tc/VICE/sysinherit/sysinherit-02.vpp) at line 46:3
+Warning 5001: Instance variable 'a' is not initialized in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/tc/VICE/sysinherit/sysinherit-02.vpp) at line 61:3

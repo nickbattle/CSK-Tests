@@ -1,14 +1,14 @@
 [3006, 3006, 3017, 3017]
 --
-Error 3006: Overriding definition reduces visibility in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/overload/overload-15.vpp) at line 13:11
+Error 3006: Overriding definition reduces visibility in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/overload/overload-15.vpp) at line 13:11
 This: v
 Super: v
-Error 3006: Overriding definition reduces visibility in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/overload/overload-15.vpp) at line 21:9
+Error 3006: Overriding definition reduces visibility in 'C' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/overload/overload-15.vpp) at line 21:9
 This: v
 Super: v
-Error 3017: Duplicate definitions for v in 'D' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/overload/overload-15.vpp) at line 29:8
-v: in 'D' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/overload/overload-15.vpp) at line 29:8
-v: in 'D' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/overload/overload-15.vpp) at line 30:8
-Error 3017: Duplicate definitions for v in 'E' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/overload/overload-15.vpp) at line 38:8
-v: in 'E' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/overload/overload-15.vpp) at line 38:8
-v: in 'E' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/overload/overload-15.vpp) at line 42:8
+Error 3017: Duplicate definitions for v in 'D' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/overload/overload-15.vpp) at line 29:8
+v: in 'D' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/overload/overload-15.vpp) at line 29:8
+v: in 'D' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/overload/overload-15.vpp) at line 30:8
+Error 3017: Duplicate definitions for v in 'E' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/overload/overload-15.vpp) at line 38:8
+v: in 'E' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/overload/overload-15.vpp) at line 38:8
+v: in 'E' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/overload/overload-15.vpp) at line 42:8

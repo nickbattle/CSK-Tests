@@ -1,6 +1,6 @@
 [3020, 5012]
 --
-Error 3020: Too many parameter patterns in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/recfun/recfun-23.vdm) at line 9:1
+Error 3020: Too many parameter patterns in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/recfun/recfun-23.vdm) at line 9:1
 Pattern(s): -, -
 Type(s): (nat)
-Warning 5012: Recursive function has no measure in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/recfun/recfun-23.vdm) at line 13:1
+Warning 5012: Recursive function has no measure in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/recfun/recfun-23.vdm) at line 13:1

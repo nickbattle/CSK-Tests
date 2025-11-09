@@ -1,5 +1,5 @@
 [5009, 5000, 5000]
 --
-Warning 5009: Empty set used in bind in 'LetBeSTStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/letbestmt/letbestmt.vdm) at line 19:18
-Warning 5000: Definition 'arg1' not used in 'LetBeSTStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/letbestmt/letbestmt.vdm) at line 32:12
-Warning 5000: Definition 'arg2' not used in 'LetBeSTStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/letbestmt/letbestmt.vdm) at line 32:18
+Warning 5009: Empty set used in bind in 'LetBeSTStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/letbestmt/letbestmt.vdm) at line 19:18
+Warning 5000: Definition 'arg1' not used in 'LetBeSTStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/letbestmt/letbestmt.vdm) at line 32:12
+Warning 5000: Definition 'arg2' not used in 'LetBeSTStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/letbestmt/letbestmt.vdm) at line 32:18

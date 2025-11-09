@@ -1,20 +1,20 @@
 [3327, 3327, 3327, 3327, 3327, 3051]
 --
-Error 3327: Value is not of the right type in 'MapEnumerationExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/mapenumerationexpr/mapenumerationexpr-04.vdm) at line 16:17
+Error 3327: Value is not of the right type in 'MapEnumerationExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/mapenumerationexpr/mapenumerationexpr-04.vdm) at line 16:17
 Actual: seq1 of (char)
 Expected: int
-Error 3327: Value is not of the right type in 'MapEnumerationExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/mapenumerationexpr/mapenumerationexpr-04.vdm) at line 17:17
-Actual: set1 of (nat1)
+Error 3327: Value is not of the right type in 'MapEnumerationExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/mapenumerationexpr/mapenumerationexpr-04.vdm) at line 17:17
+Actual: set of (nat1)
 Expected: int
-Error 3327: Value is not of the right type in 'MapEnumerationExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/mapenumerationexpr/mapenumerationexpr-04.vdm) at line 19:17
+Error 3327: Value is not of the right type in 'MapEnumerationExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/mapenumerationexpr/mapenumerationexpr-04.vdm) at line 19:17
 Actual: seq1 of (char)
 Expected: int
-Error 3327: Value is not of the right type in 'MapEnumerationExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/mapenumerationexpr/mapenumerationexpr-04.vdm) at line 20:17
-Actual: set1 of (nat1)
+Error 3327: Value is not of the right type in 'MapEnumerationExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/mapenumerationexpr/mapenumerationexpr-04.vdm) at line 20:17
+Actual: set of (nat1)
 Expected: int
-Error 3327: Value is not of the right type in 'MapEnumerationExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/mapenumerationexpr/mapenumerationexpr-04.vdm) at line 15:10
-Actual: map ((seq1 of (char) | set1 of (nat1))) to ((seq1 of (char) | set1 of (nat1)))
+Error 3327: Value is not of the right type in 'MapEnumerationExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/mapenumerationexpr/mapenumerationexpr-04.vdm) at line 15:10
+Actual: map ((seq1 of (char) | set of (nat1))) to ((seq1 of (char) | set of (nat1)))
 Expected: map (int) to (int)
-Error 3051: Expression does not match declared type in 'MapEnumerationExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/mapenumerationexpr/mapenumerationexpr-04.vdm) at line 14:14
+Error 3051: Expression does not match declared type in 'MapEnumerationExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/mapenumerationexpr/mapenumerationexpr-04.vdm) at line 14:14
 Declared: map (int) to (int)
-Expression: map ((seq1 of (char) | set1 of (nat1))) to ((seq1 of (char) | set1 of (nat1)))
+Expression: map ((seq1 of (char) | set of (nat1))) to ((seq1 of (char) | set of (nat1)))

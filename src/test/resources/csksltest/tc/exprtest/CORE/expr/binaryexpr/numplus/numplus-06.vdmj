@@ -1,4 +1,4 @@
 [3140]
 --
-Error 3140: Right hand of + is not numeric in 'BinaryTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/binaryexpr/numplus/numplus-06.vdm) at line 18:13
+Error 3140: Right hand of + is not numeric in 'BinaryTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/binaryexpr/numplus/numplus-06.vdm) at line 18:13
 Actual: bool

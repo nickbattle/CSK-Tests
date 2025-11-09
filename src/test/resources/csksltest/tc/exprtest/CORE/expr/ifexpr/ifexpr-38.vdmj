@@ -1,38 +1,38 @@
 [3327, 3327, 3327, 3327, 3327, 3327, 3059, 3327, 3327, 3327, 3327, 3051]
 --
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-38.vdm) at line 34:10
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-38.vdm) at line 34:10
 Actual: bool
 Expected: char
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-38.vdm) at line 36:10
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-38.vdm) at line 36:10
 Actual: int
 Expected: char
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-38.vdm) at line 38:10
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-38.vdm) at line 38:10
 Actual: bool
 Expected: char
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-38.vdm) at line 40:10
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-38.vdm) at line 40:10
 Actual: (bool | nat1)
 Expected: char
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-38.vdm) at line 42:10
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-38.vdm) at line 42:10
 Actual: ((nat1 * [?]) | rat)
 Expected: char
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-38.vdm) at line 44:10
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-38.vdm) at line 44:10
 Actual: inmap (rat) to (nat)
 Expected: char
-Error 3059: Too many arguments in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-38.vdm) at line 46:10
+Error 3059: Too many arguments in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-38.vdm) at line 46:10
 Args: 5
 Params: ()
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-38.vdm) at line 46:10
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-38.vdm) at line 46:10
 Actual: inmap (rat) to (nat)
 Expected: char
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-38.vdm) at line 52:10
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-38.vdm) at line 52:10
 Actual: map ((bool | rat)) to (((nat1 * [?]) | rat))
 Expected: char
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-38.vdm) at line 56:10
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-38.vdm) at line 56:10
 Actual: (nat1 * bool * A * inmap (rat) to (nat))
 Expected: char
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-38.vdm) at line 57:10
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-38.vdm) at line 57:10
 Actual: [?]
 Expected: char
-Error 3051: Expression does not match declared type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-38.vdm) at line 32:14
+Error 3051: Expression does not match declared type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-38.vdm) at line 32:14
 Declared: char
 Expression: ((nat1 * [?]) | (nat1 * bool * A * inmap (rat) to (nat)) | [?] | bool | inmap (rat) to (nat) | map ((bool | rat)) to (((nat1 * [?]) | rat)) | map (nat) to (nat) | map (nat1) to ((bool | nat1)) | rat | seq of ((bool | rat | seq1 of (char))))

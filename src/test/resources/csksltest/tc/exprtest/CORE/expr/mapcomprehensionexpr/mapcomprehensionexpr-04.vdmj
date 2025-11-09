@@ -1,4 +1,4 @@
 [3139]
 --
-Error 3139: Left hand of > is not ordered in 'MapComprehensionExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/mapcomprehensionexpr/mapcomprehensionexpr-04.vdm) at line 12:57
+Error 3139: Left hand of > is not ordered in 'MapComprehensionExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/mapcomprehensionexpr/mapcomprehensionexpr-04.vdm) at line 12:57
 Actual: (<GREEN> | <RED>)

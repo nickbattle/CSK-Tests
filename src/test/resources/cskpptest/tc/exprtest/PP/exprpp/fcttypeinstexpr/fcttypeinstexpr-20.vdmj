@@ -1,9 +1,9 @@
 [3006, 3061, 3100]
 --
-Error 3006: Overriding definition reduces visibility in 'FctTypeInstExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/exprtest/PP/exprpp/fcttypeinstexpr/fcttypeinstexpr-20.vpp) at line 50:1
+Error 3006: Overriding definition reduces visibility in 'FctTypeInstExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/exprtest/PP/exprpp/fcttypeinstexpr/fcttypeinstexpr-20.vpp) at line 50:1
 This: f2(@p, @q)
 Super: f2(@p, int)
-Error 3061: Inappropriate type for argument 1 in 'FctTypeInstExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/exprtest/PP/exprpp/fcttypeinstexpr/fcttypeinstexpr-20.vpp) at line 63:61
+Error 3061: Inappropriate type for argument 1 in 'FctTypeInstExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/exprtest/PP/exprpp/fcttypeinstexpr/fcttypeinstexpr-20.vpp) at line 63:61
 Expect: char
 Actual: nat1
-Warning 3100: Function has no type parameters in 'FctTypeInstExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/exprtest/PP/exprpp/fcttypeinstexpr/fcttypeinstexpr-20.vpp) at line 63:50
+Warning 3100: Function has no type parameters in 'FctTypeInstExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/exprtest/PP/exprpp/fcttypeinstexpr/fcttypeinstexpr-20.vpp) at line 63:50

@@ -1,6 +1,6 @@
 [3181, 3181, 3214, 5001]
 --
-Error 3181: Cannot access B`x from a static context in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/static/static-02.vpp) at line 14:9
-Error 3181: Cannot access f() from a static context in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/static/static-02.vpp) at line 18:9
-Error 3214: Cannot call op() from static context in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/static/static-02.vpp) at line 22:2
-Warning 5001: Instance variable 'x' is not initialized in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/static/static-02.vpp) at line 5:1
+Error 3181: Cannot access B`x from a static context in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/static/static-02.vpp) at line 14:9
+Error 3181: Cannot access f() from a static context in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/static/static-02.vpp) at line 18:9
+Error 3214: Cannot call op() from static context in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/static/static-02.vpp) at line 22:2
+Warning 5001: Instance variable 'x' is not initialized in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/static/static-02.vpp) at line 5:1

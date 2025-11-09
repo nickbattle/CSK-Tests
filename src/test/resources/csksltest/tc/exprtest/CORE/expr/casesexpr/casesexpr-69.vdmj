@@ -1,15 +1,15 @@
 [3327, 3327, 3327, 3182, 3327]
 --
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-69.vdm) at line 36:11
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-69.vdm) at line 36:11
 Actual: bool
 Expected: map (char) to (int)
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-69.vdm) at line 39:11
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-69.vdm) at line 39:11
 Actual: seq1 of (char)
 Expected: map (char) to (int)
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-69.vdm) at line 45:11
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-69.vdm) at line 45:11
 Actual: A
 Expected: map (char) to (int)
-Error 3182: Name 'func' is not in scope in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-69.vdm) at line 51:11
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-69.vdm) at line 56:20
+Error 3182: Name 'func' is not in scope in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-69.vdm) at line 51:11
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-69.vdm) at line 56:20
 Actual: [?]
 Expected: map (char) to (int)

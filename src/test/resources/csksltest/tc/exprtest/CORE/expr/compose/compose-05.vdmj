@@ -1,4 +1,4 @@
 [3070]
 --
-Error 3070: Right hand of function 'comp' is not a function in 'NumExpTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/compose/compose-05.vdm) at line 31:36
+Error 3070: Right hand of function 'comp' is not a function in 'NumExpTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/compose/compose-05.vdm) at line 31:36
 Type: map (nat1) to (bool)

@@ -1,35 +1,35 @@
 [3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327, 3327]
 --
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-93.vdm) at line 38:14
-Actual: nat1
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-93.vdm) at line 38:14
+Actual: nat
 Expected: (bool | char)
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-93.vdm) at line 40:23
-Actual: set1 of (nat1)
-Expected: (bool | char)
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-93.vdm) at line 40:33
-Actual: set1 of (nat1)
-Expected: (bool | char)
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-93.vdm) at line 40:21
-Actual: set1 of (set1 of (nat1))
-Expected: set of ((bool | char))
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-93.vdm) at line 44:14
-Actual: nat1
-Expected: (bool | char)
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-93.vdm) at line 46:21
-Actual: seq1 of ((nat | seq1 of (char)))
-Expected: (bool | char)
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-93.vdm) at line 46:32
-Actual: seq1 of (((nat1 * bool) | bool))
-Expected: (bool | char)
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-93.vdm) at line 46:19
-Actual: seq1 of ((seq1 of (((nat1 * bool) | bool)) | seq1 of ((nat | seq1 of (char)))))
-Expected: seq of ((bool | char))
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-93.vdm) at line 50:14
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-93.vdm) at line 40:23
 Actual: set of (nat1)
 Expected: (bool | char)
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-93.vdm) at line 60:22
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-93.vdm) at line 40:33
+Actual: set of (nat1)
+Expected: (bool | char)
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-93.vdm) at line 40:21
+Actual: set of (set of (nat1))
+Expected: set of ((bool | char))
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-93.vdm) at line 44:14
+Actual: nat1
+Expected: (bool | char)
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-93.vdm) at line 46:21
+Actual: seq1 of ((nat | seq1 of (char)))
+Expected: (bool | char)
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-93.vdm) at line 46:32
+Actual: seq1 of (((nat1 * bool) | bool))
+Expected: (bool | char)
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-93.vdm) at line 46:19
+Actual: seq1 of ((seq1 of (((nat1 * bool) | bool)) | seq1 of ((nat | seq1 of (char)))))
+Expected: seq of ((bool | char))
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-93.vdm) at line 50:14
+Actual: set of (nat1)
+Expected: (bool | char)
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-93.vdm) at line 60:22
 Actual: map (nat1) to (((nat1 * bool) | seq1 of (char)))
 Expected: (bool | char)
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-93.vdm) at line 60:20
-Actual: set1 of ((map (?) to (?) | map (nat1) to (((nat1 * bool) | seq1 of (char)))))
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-93.vdm) at line 60:20
+Actual: set of ((map (?) to (?) | map (nat1) to (((nat1 * bool) | seq1 of (char)))))
 Expected: set of ((bool | char))

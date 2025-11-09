@@ -1,5 +1,5 @@
 [3005]
 --
-Error 3005: Overriding a superclass member of a different kind: f(nat) in 'A3' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/overload/overload-22.vpp) at line 19:8
+Error 3005: Overriding a superclass member of a different kind: f(nat) in 'A3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/overload/overload-22.vpp) at line 19:8
 This: explicit operation
 Super: explicit function

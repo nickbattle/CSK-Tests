@@ -1,7 +1,7 @@
 [3051, 5000, 5012]
 --
-Error 3051: Expression does not match declared type in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/applyexpr/applyexpr-23.vdm) at line 47:15
+Error 3051: Expression does not match declared type in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/applyexpr/applyexpr-23.vdm) at line 47:15
 Declared: seq of (char)
 Expression: bool
-Warning 5000: Definition 'n' not used in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/applyexpr/applyexpr-23.vdm) at line 11:7
-Warning 5012: Recursive function has no measure in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/applyexpr/applyexpr-23.vdm) at line 34:3
+Warning 5000: Definition 'n' not used in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/applyexpr/applyexpr-23.vdm) at line 11:7
+Warning 5012: Recursive function has no measure in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/applyexpr/applyexpr-23.vdm) at line 34:3

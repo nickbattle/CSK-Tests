@@ -1,4 +1,4 @@
 [3139]
 --
-Error 3139: Left hand of + is not numeric in 'LambdaExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/lambdaexpr/lambdaexpr-05.vdm) at line 18:42
+Error 3139: Left hand of + is not numeric in 'LambdaExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/lambdaexpr/lambdaexpr-05.vdm) at line 18:42
 Actual: map (nat) to (bool)

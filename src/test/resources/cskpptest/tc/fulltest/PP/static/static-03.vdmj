@@ -1,4 +1,4 @@
 [3214, 3181]
 --
-Error 3214: Cannot call op() from static context in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/static/static-03.vpp) at line 11:3
-Error 3181: Cannot access f2() from a static context in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/static/static-03.vpp) at line 15:10
+Error 3214: Cannot call op() from static context in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/static/static-03.vpp) at line 11:3
+Error 3181: Cannot access f2() from a static context in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/static/static-03.vpp) at line 15:10

@@ -1,4 +1,4 @@
 [3140]
 --
-Error 3140: Right hand of * is not numeric in 'MapEnumerationExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/mapenumerationexpr/mapenumerationexpr-03.vdm) at line 13:35
+Error 3140: Right hand of * is not numeric in 'MapEnumerationExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/mapenumerationexpr/mapenumerationexpr-03.vdm) at line 13:35
 Actual: bool

@@ -1,3 +1,3 @@
 [5000]
 --
-Warning 5000: Definition 'i' not used in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/extension/extension-03.vpp) at line 58:9
+Warning 5000: Definition 'i' not used in 'C' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/tc/VICE/extension/extension-03.vpp) at line 58:9

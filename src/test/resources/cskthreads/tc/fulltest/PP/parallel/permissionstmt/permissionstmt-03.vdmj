@@ -1,4 +1,4 @@
 [3043, 5001]
 --
-Error 3043: Op2 is not in scope in 'T' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskthreads/tc/fulltest/PP/parallel/permissionstmt/permissionstmt-03.vpp) at line 18:5
-Warning 5001: Instance variable 'a' is not initialized in 'T' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskthreads/tc/fulltest/PP/parallel/permissionstmt/permissionstmt-03.vpp) at line 5:1
+Error 3043: Op2 is not in scope in 'T' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskthreads/tc/fulltest/PP/parallel/permissionstmt/permissionstmt-03.vpp) at line 18:5
+Warning 5001: Instance variable 'a' is not initialized in 'T' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskthreads/tc/fulltest/PP/parallel/permissionstmt/permissionstmt-03.vpp) at line 5:1

@@ -1,37 +1,37 @@
 [3327, 3327, 3327, 3327, 3327, 3327, 3327, 3153, 3327, 3150, 3327, 3327, 3051]
 --
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-36.vdm) at line 34:10
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-36.vdm) at line 34:10
 Actual: bool
 Expected: char
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-36.vdm) at line 36:10
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-36.vdm) at line 36:10
 Actual: map (nat1) to (((nat1 * bool) | seq1 of (char)))
 Expected: char
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-36.vdm) at line 38:10
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-36.vdm) at line 38:10
 Actual: map (nat1) to (((nat1 * bool) | seq1 of (char)))
 Expected: char
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-36.vdm) at line 38:50
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-36.vdm) at line 38:50
 Actual: map (nat1) to (nat1)
 Expected: char
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-36.vdm) at line 42:19
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-36.vdm) at line 42:19
 Actual: map (nat1) to (((nat1 * bool) | seq1 of (char)))
 Expected: char
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-36.vdm) at line 44:20
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-36.vdm) at line 44:20
 Actual: map (nat1) to (((nat1 * bool) | seq1 of (char)))
 Expected: char
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-36.vdm) at line 46:10
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-36.vdm) at line 46:10
 Actual: map (nat1) to (((nat1 * bool) | seq1 of (char)))
 Expected: char
-Error 3153: Restriction of map should be set of ((nat1 * bool) | seq1 of (char)) in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-36.vdm) at line 46:43
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-36.vdm) at line 48:10
+Error 3153: Restriction of map should be set of ((nat1 * bool) | seq1 of (char)) in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-36.vdm) at line 46:43
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-36.vdm) at line 48:10
 Actual: map (nat1) to (((nat1 * bool) | seq1 of (char)))
 Expected: char
-Error 3150: Restriction of map should be set of ((nat1 * bool) | seq1 of (char)) in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-36.vdm) at line 48:43
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-36.vdm) at line 50:10
+Error 3150: Restriction of map should be set of ((nat1 * bool) | seq1 of (char)) in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-36.vdm) at line 48:43
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-36.vdm) at line 50:10
 Actual: map ((bool | rat)) to (((nat1 * [?]) | rat))
 Expected: char
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-36.vdm) at line 51:10
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-36.vdm) at line 51:10
 Actual: [?]
 Expected: char
-Error 3051: Expression does not match declared type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-36.vdm) at line 32:14
+Error 3051: Expression does not match declared type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-36.vdm) at line 32:14
 Declared: char
 Expression: ([?] | bool | map ((? | nat1)) to (((nat1 * bool) | ? | seq1 of (char))) | map ((bool | rat)) to (((nat1 * [?]) | rat)) | map (nat1) to (((nat1 * bool) | nat1 | seq1 of (char))) | map (nat1) to (((nat1 * bool) | seq1 of (char))))

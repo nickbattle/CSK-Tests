@@ -1,4 +1,4 @@
 [3154, 5000]
 --
-Error 3154: self not in scope in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/static/static-01.vpp) at line 15:11
-Warning 5000: Definition 'n' not used in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/static/static-01.vpp) at line 14:5
+Error 3154: self not in scope in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/static/static-01.vpp) at line 15:11
+Warning 5000: Definition 'n' not used in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/static/static-01.vpp) at line 14:5

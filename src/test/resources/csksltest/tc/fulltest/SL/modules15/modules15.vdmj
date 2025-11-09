@@ -1,4 +1,4 @@
 [5042, 5000]
 --
-Warning 5042: Missing type import for A`NA in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules15/modules15.vdm) at line 29:12
-Warning 5000: Definition 'v' not used in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules15/modules15.vdm) at line 29:8
+Warning 5042: Missing type import for A`NA in 'C' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules15/modules15.vdm) at line 29:12
+Warning 5000: Definition 'v' not used in 'C' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules15/modules15.vdm) at line 29:8

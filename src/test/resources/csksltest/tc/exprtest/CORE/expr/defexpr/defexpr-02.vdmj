@@ -1,5 +1,5 @@
 [3205, 3182]
 --
-Error 3205: Matching expression is not a product of cardinality 2 in 'DefExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/defexpr/defexpr-02.vdm) at line 17:15
+Error 3205: Matching expression is not a product of cardinality 2 in 'DefExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/defexpr/defexpr-02.vdm) at line 17:15
 Actual: (nat1 * nat1 * nat1)
-Error 3182: Name 'b' is not in scope in 'DefExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/defexpr/defexpr-02.vdm) at line 17:40
+Error 3182: Name 'b' is not in scope in 'DefExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/defexpr/defexpr-02.vdm) at line 17:40

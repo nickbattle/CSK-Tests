@@ -1,8 +1,8 @@
 [3430, 5031, 5000, 5000, 5000, 5000]
 --
-Error 3430: Unable to resolve type name 'integer' in 'CALC' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules17/modules17.vdm) at line 188:9
-Warning 5031: Type @A must be a union in 'Support_module' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules17/modules17.vdm) at line 23:56
-Warning 5000: Definition 's' not used in 'Support_module' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules17/modules17.vdm) at line 23:59
-Warning 5000: Definition 'Dummy_fun' not used in 'Main_module' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules17/modules17.vdm) at line 34:10
-Warning 5000: Definition 'FunDefSl7' not used in 'ImpExpl' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules17/modules17.vdm) at line 48:7
-Warning 5000: Definition 'FunDefSl71' not used in 'ImpExpl' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules17/modules17.vdm) at line 49:7
+Error 3430: Unable to resolve type name 'integer' in 'CALC' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules17/modules17.vdm) at line 188:9
+Warning 5031: Type @A must be a union in 'Support_module' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules17/modules17.vdm) at line 23:15
+Warning 5000: Definition 's' not used in 'Support_module' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules17/modules17.vdm) at line 23:59
+Warning 5000: Definition 'Dummy_fun' not used in 'Main_module' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules17/modules17.vdm) at line 34:10
+Warning 5000: Definition 'FunDefSl7' not used in 'ImpExpl' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules17/modules17.vdm) at line 48:7
+Warning 5000: Definition 'FunDefSl71' not used in 'ImpExpl' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules17/modules17.vdm) at line 49:7

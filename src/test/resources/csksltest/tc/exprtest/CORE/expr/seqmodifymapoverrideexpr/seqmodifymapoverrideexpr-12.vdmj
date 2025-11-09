@@ -1,4 +1,4 @@
 [3141]
 --
-Error 3141: Right hand of '++' is not a map in 'SeqModifyMapOverrideExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/seqmodifymapoverrideexpr/seqmodifymapoverrideexpr-12.vdm) at line 27:21
+Error 3141: Right hand of '++' is not a map in 'SeqModifyMapOverrideExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/seqmodifymapoverrideexpr/seqmodifymapoverrideexpr-12.vdm) at line 27:21
 Type: nat1

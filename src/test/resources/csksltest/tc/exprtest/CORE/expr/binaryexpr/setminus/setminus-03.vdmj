@@ -1,3 +1,3 @@
 [3160]
 --
-Error 3160: Left hand of '\' is not a set in 'BinaryTest' (/home/nick/eclipse.vdmj/CSKTests/target/test-classes/csksltest/tc/exprtest/CORE/expr/binaryexpr/setminus/setminus-03.vdm) at line 13:13
+Error 3160: Left hand of '\' is not a set in 'BinaryTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/binaryexpr/setminus/setminus-03.vdm) at line 13:13

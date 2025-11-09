@@ -1,29 +1,29 @@
 [3427, 3427, 3321, 3028, 3028, 3036, 3036, 3036, 3036, 3019, 3019, 3030, 3030, 3030, 3030, 3019, 3092, 3182, 3182, 3126, 3126, 3427, 5000, 5000, 5000, 5000, 3091]
 --
-Error 3427: Unable to resolve type name 'B`tb' in 'AccTest1' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 29:26
-Error 3427: Unable to resolve type name 'unAB' in 'AccTest17' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 206:16
-Error 3321: Type component visibility less than type's definition in 'AccTest2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 38:11
-Error 3028: Operation parameter visibility less than operation definition in 'AccTest3' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 49:10
-Error 3028: Operation parameter visibility less than operation definition in 'AccTest3' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 52:10
-Error 3036: Operation parameter visibility less than operation definition in 'AccTest4' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 61:10
-Error 3036: Operation parameter visibility less than operation definition in 'AccTest4' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 64:10
-Error 3036: Operation parameter visibility less than operation definition in 'AccTest8' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 97:10
-Error 3036: Operation parameter visibility less than operation definition in 'AccTest8' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 101:10
-Error 3019: Function parameter visibility less than function definition in 'AccTest9' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 110:10
-Error 3019: Function parameter visibility less than function definition in 'AccTest9' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 113:10
-Error 3030: Function parameter visibility less than function definition in 'AccTest9' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 116:10
-Error 3030: Function parameter visibility less than function definition in 'AccTest9' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 119:10
-Error 3030: Function parameter visibility less than function definition in 'AccTest9' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 122:10
-Error 3030: Function parameter visibility less than function definition in 'AccTest9' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 124:10
-Error 3019: Function parameter visibility less than function definition in 'AccTest10' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 135:10
-Error 3092: Inaccessible member f1(nat1) of class AccTest10 in 'AccTest11' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 144:12
-Error 3182: Name 'pre_f(nat1)' is not in scope in 'AccTest13' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 173:13
-Error 3182: Name 'inv_priv_t(nat1)' is not in scope in 'AccTest13' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 179:13
-Error 3126: Unknown type 'recA' in constructor in 'AccTest17' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 207:35
-Error 3126: Unknown type 'B`recB' in constructor in 'AccTest17' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 208:27
-Error 3427: Unknown type: (unresolved AccTest17`unAB) in 'AccTest17' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 206:16
-Warning 5000: Definition 'a' not used in 'AccTest4' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 61:14
-Warning 5000: Definition 'b' not used in 'AccTest4' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 61:16
-Warning 5000: Definition 'r' not used in 'AccTest8' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 97:20
-Warning 5000: Definition 'r' not used in 'AccTest8' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 101:15
-Warning 3091: Unknown member f() of class *union_A_C in 'AccTest16' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 201:11
+Error 3427: Unable to resolve type name 'B`tb' in 'AccTest1' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 29:26
+Error 3427: Unable to resolve type name 'unAB' in 'AccTest17' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 206:16
+Error 3321: Type component visibility less than type's definition in 'AccTest2' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 38:11
+Error 3028: Operation parameter visibility less than operation definition in 'AccTest3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 49:10
+Error 3028: Operation parameter visibility less than operation definition in 'AccTest3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 52:10
+Error 3036: Operation parameter visibility less than operation definition in 'AccTest4' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 61:10
+Error 3036: Operation parameter visibility less than operation definition in 'AccTest4' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 64:10
+Error 3036: Operation parameter visibility less than operation definition in 'AccTest8' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 97:10
+Error 3036: Operation parameter visibility less than operation definition in 'AccTest8' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 101:10
+Error 3019: Function parameter visibility less than function definition in 'AccTest9' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 110:10
+Error 3019: Function parameter visibility less than function definition in 'AccTest9' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 113:10
+Error 3030: Function parameter visibility less than function definition in 'AccTest9' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 116:10
+Error 3030: Function parameter visibility less than function definition in 'AccTest9' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 119:10
+Error 3030: Function parameter visibility less than function definition in 'AccTest9' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 122:10
+Error 3030: Function parameter visibility less than function definition in 'AccTest9' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 124:10
+Error 3019: Function parameter visibility less than function definition in 'AccTest10' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 135:10
+Error 3092: Inaccessible member f1(nat1) of class AccTest10 in 'AccTest11' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 144:12
+Error 3182: Name 'pre_f(nat1)' is not in scope in 'AccTest13' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 173:13
+Error 3182: Name 'inv_priv_t(nat1)' is not in scope in 'AccTest13' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 179:13
+Error 3126: Unknown type 'recA' in constructor in 'AccTest17' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 207:35
+Error 3126: Unknown type 'B`recB' in constructor in 'AccTest17' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 208:27
+Error 3427: Unknown type: (unresolved AccTest17`unAB) in 'AccTest17' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 206:16
+Warning 5000: Definition 'a' not used in 'AccTest4' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 61:14
+Warning 5000: Definition 'b' not used in 'AccTest4' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 61:16
+Warning 5000: Definition 'r' not used in 'AccTest8' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 97:20
+Warning 5000: Definition 'r' not used in 'AccTest8' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 101:15
+Warning 3091: Unknown member f() of class *union_A_C in 'AccTest16' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/access-types/access-types.vpp) at line 201:11

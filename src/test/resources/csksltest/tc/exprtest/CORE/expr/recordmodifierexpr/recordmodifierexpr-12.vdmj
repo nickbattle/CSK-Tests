@@ -1,4 +1,4 @@
 [3126, 3126]
 --
-Error 3126: Unknown type 'C' in constructor in 'RecordModifierExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/recordmodifierexpr/recordmodifierexpr-12.vdm) at line 21:27
-Error 3126: Unknown type 'D' in constructor in 'RecordModifierExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/recordmodifierexpr/recordmodifierexpr-12.vdm) at line 21:41
+Error 3126: Unknown type 'C' in constructor in 'RecordModifierExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/recordmodifierexpr/recordmodifierexpr-12.vdm) at line 21:27
+Error 3126: Unknown type 'D' in constructor in 'RecordModifierExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/recordmodifierexpr/recordmodifierexpr-12.vdm) at line 21:41

@@ -1,4 +1,4 @@
 [3197]
 --
-Error 3197: Expression matching set bind is not a set in 'MapComprehensionExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/mapcomprehensionexpr/mapcomprehensionexpr-03.vdm) at line 12:33
+Error 3197: Expression matching set bind is not a set in 'MapComprehensionExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/mapcomprehensionexpr/mapcomprehensionexpr-03.vdm) at line 12:33
 Actual type: nat1

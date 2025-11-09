@@ -1,6 +1,6 @@
 [3298, 3299, 3278, 5000]
 --
-Error 3298: Cannot inherit from CPU in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/sysinherit/sysinherit-01.vpp) at line 30:7
-Error 3299: Cannot inherit from BUS in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/sysinherit/sysinherit-01.vpp) at line 39:7
-Error 3278: Cannot inherit from system class Simple in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/sysinherit/sysinherit-01.vpp) at line 50:7
-Warning 5000: Definition 'i' not used in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/sysinherit/sysinherit-01.vpp) at line 55:10
+Error 3298: Cannot inherit from CPU in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/tc/VICE/sysinherit/sysinherit-01.vpp) at line 30:7
+Error 3299: Cannot inherit from BUS in 'C' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/tc/VICE/sysinherit/sysinherit-01.vpp) at line 39:7
+Error 3278: Cannot inherit from system class Simple in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/tc/VICE/sysinherit/sysinherit-01.vpp) at line 50:7
+Warning 5000: Definition 'i' not used in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/tc/VICE/sysinherit/sysinherit-01.vpp) at line 55:10

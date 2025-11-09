@@ -1,7 +1,7 @@
 [3206, 3265, 5000]
 --
-Error 3206: Matching expression is not a set type in 'LambdaExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/lambdaexpr/lambdaexpr-03.vdm) at line 18:21
-Error 3265: At least one bind cannot match this type in 'LambdaExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/lambdaexpr/lambdaexpr-03.vdm) at line 18:32
+Error 3206: Matching expression is not a set type in 'LambdaExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/lambdaexpr/lambdaexpr-03.vdm) at line 18:21
+Error 3265: At least one bind cannot match this type in 'LambdaExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/lambdaexpr/lambdaexpr-03.vdm) at line 18:32
 Binds: set of (?)
 Type: seq of (nat)
-Warning 5000: Definition 's2' not used in 'LambdaExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/lambdaexpr/lambdaexpr-03.vdm) at line 18:27
+Warning 5000: Definition 's2' not used in 'LambdaExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/lambdaexpr/lambdaexpr-03.vdm) at line 18:27

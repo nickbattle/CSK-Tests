@@ -1,4 +1,4 @@
 [5009, 5000]
 --
-Warning 5009: Empty set used in bind in 'QuantExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/quantexpr/quantexpr-03.vdm) at line 12:28
-Warning 5000: Definition 'x' not used in 'QuantExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/quantexpr/quantexpr-03.vdm) at line 12:19
+Warning 5009: Empty set used in bind in 'QuantExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/quantexpr/quantexpr-03.vdm) at line 12:28
+Warning 5000: Definition 'x' not used in 'QuantExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/quantexpr/quantexpr-03.vdm) at line 12:19

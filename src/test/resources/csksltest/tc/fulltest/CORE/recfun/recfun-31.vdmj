@@ -1,9 +1,9 @@
 [3205, 3311, 3182, 5008, 5012, 5012]
 --
-Error 3205: Matching expression is not a product of cardinality 2 in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/recfun/recfun-31.vdm) at line 19:3
+Error 3205: Matching expression is not a product of cardinality 2 in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/recfun/recfun-31.vdm) at line 19:3
 Actual: Tree
-Error 3311: Pattern cannot match in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/recfun/recfun-31.vdm) at line 19:3
-Error 3182: Name 'y' is not in scope in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/recfun/recfun-31.vdm) at line 19:30
-Warning 5008: x at 25:13 hidden by x in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/recfun/recfun-31.vdm) at line 27:7
-Warning 5012: Recursive function has no measure in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/recfun/recfun-31.vdm) at line 24:1
-Warning 5012: Recursive function has no measure in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/recfun/recfun-31.vdm) at line 16:1
+Error 3311: Pattern cannot match in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/recfun/recfun-31.vdm) at line 19:3
+Error 3182: Name 'y' is not in scope in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/recfun/recfun-31.vdm) at line 19:30
+Warning 5008: x at 25:13 hidden by x in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/recfun/recfun-31.vdm) at line 27:7
+Warning 5012: Recursive function has no measure in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/recfun/recfun-31.vdm) at line 24:1
+Warning 5012: Recursive function has no measure in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/recfun/recfun-31.vdm) at line 16:1

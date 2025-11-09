@@ -1,47 +1,47 @@
 [3327, 3327, 3327, 3327, 3327, 3319, 3327, 3320, 3327, 3327, 3327, 3327, 3327, 3327, 3051]
 --
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-15.vdm) at line 34:10
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-15.vdm) at line 34:10
 Actual: bool
 Expected: real
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-15.vdm) at line 36:10
-Actual: set1 of (nat1)
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-15.vdm) at line 36:10
+Actual: set of (nat1)
 Expected: real
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-15.vdm) at line 36:24
-Actual: set1 of (nat1)
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-15.vdm) at line 36:24
+Actual: set of (nat1)
 Expected: real
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-15.vdm) at line 42:18
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-15.vdm) at line 42:18
 Actual: bool
 Expected: real
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-15.vdm) at line 44:18
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-15.vdm) at line 44:18
 Actual: bool
 Expected: real
-Error 3319: 'in set' expression is always false in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-15.vdm) at line 46:15
+Error 3319: 'in set' expression is always false in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-15.vdm) at line 46:15
 Element: bool
-Set: set1 of (nat1)
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-15.vdm) at line 46:15
+Set: set of (nat1)
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-15.vdm) at line 46:15
 Actual: bool
 Expected: real
-Error 3320: 'not in set' expression is always true in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-15.vdm) at line 48:15
+Error 3320: 'not in set' expression is always true in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-15.vdm) at line 48:15
 Element: bool
-Set: set1 of (nat1)
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-15.vdm) at line 48:15
+Set: set of (nat1)
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-15.vdm) at line 48:15
 Actual: bool
 Expected: real
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-15.vdm) at line 50:10
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-15.vdm) at line 50:10
 Actual: seq1 of ((nat | seq1 of (char)))
 Expected: real
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-15.vdm) at line 50:22
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-15.vdm) at line 50:22
 Actual: seq1 of (((nat1 * bool) | bool))
 Expected: real
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-15.vdm) at line 52:10
-Actual: set1 of (((nat1 * bool) | nat1 | seq1 of (nat1)))
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-15.vdm) at line 52:10
+Actual: set of (((nat1 * bool) | nat1 | seq1 of (nat1)))
 Expected: real
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-15.vdm) at line 56:10
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-15.vdm) at line 56:10
 Actual: seq1 of (((nat1 * bool) | nat1 | seq1 of (nat1)))
 Expected: real
-Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-15.vdm) at line 59:10
+Error 3327: Value is not of the right type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-15.vdm) at line 59:10
 Actual: [?]
 Expected: real
-Error 3051: Expression does not match declared type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-15.vdm) at line 32:14
+Error 3051: Expression does not match declared type in 'IfExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/ifexpr/ifexpr-15.vdm) at line 32:14
 Declared: real
-Expression: ([?] | bool | seq of (nat1) | seq1 of (((nat1 * bool) | bool | nat | seq1 of (char))) | seq1 of (((nat1 * bool) | nat1 | seq1 of (nat1))) | set of (nat1) | set1 of (((nat1 * bool) | nat1 | seq1 of (nat1))))
+Expression: ([?] | bool | seq of (nat1) | seq1 of (((nat1 * bool) | bool | nat | seq1 of (char))) | seq1 of (((nat1 * bool) | nat1 | seq1 of (nat1))) | set of (((nat1 * bool) | nat1 | seq1 of (nat1))) | set of (nat1))

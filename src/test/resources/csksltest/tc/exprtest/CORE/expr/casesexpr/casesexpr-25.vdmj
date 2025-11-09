@@ -1,47 +1,47 @@
 [3327, 3327, 3327, 3327, 3327, 3319, 3327, 3320, 3327, 3327, 3327, 3327, 3327, 3327, 3051]
 --
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-25.vdm) at line 35:11
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-25.vdm) at line 35:11
 Actual: bool
 Expected: <QUOTE>
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-25.vdm) at line 38:11
-Actual: set1 of (nat1)
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-25.vdm) at line 38:11
+Actual: set of (nat1)
 Expected: <QUOTE>
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-25.vdm) at line 38:25
-Actual: set1 of (nat1)
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-25.vdm) at line 38:25
+Actual: set of (nat1)
 Expected: <QUOTE>
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-25.vdm) at line 47:19
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-25.vdm) at line 47:19
 Actual: bool
 Expected: <QUOTE>
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-25.vdm) at line 50:19
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-25.vdm) at line 50:19
 Actual: bool
 Expected: <QUOTE>
-Error 3319: 'in set' expression is always false in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-25.vdm) at line 53:16
+Error 3319: 'in set' expression is always false in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-25.vdm) at line 53:16
 Element: bool
-Set: set1 of (nat1)
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-25.vdm) at line 53:16
+Set: set of (nat1)
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-25.vdm) at line 53:16
 Actual: bool
 Expected: <QUOTE>
-Error 3320: 'not in set' expression is always true in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-25.vdm) at line 56:16
+Error 3320: 'not in set' expression is always true in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-25.vdm) at line 56:16
 Element: bool
-Set: set1 of (nat1)
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-25.vdm) at line 56:16
+Set: set of (nat1)
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-25.vdm) at line 56:16
 Actual: bool
 Expected: <QUOTE>
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-25.vdm) at line 59:11
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-25.vdm) at line 59:11
 Actual: seq1 of ((nat | seq1 of (char)))
 Expected: <QUOTE>
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-25.vdm) at line 59:23
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-25.vdm) at line 59:23
 Actual: seq1 of (((nat1 * bool) | bool))
 Expected: <QUOTE>
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-25.vdm) at line 62:11
-Actual: set1 of (((nat1 * bool) | nat1 | seq1 of (nat1)))
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-25.vdm) at line 62:11
+Actual: set of (((nat1 * bool) | nat1 | seq1 of (nat1)))
 Expected: <QUOTE>
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-25.vdm) at line 68:11
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-25.vdm) at line 68:11
 Actual: seq1 of (((nat1 * bool) | nat1 | seq1 of (nat1)))
 Expected: <QUOTE>
-Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-25.vdm) at line 73:20
+Error 3327: Value is not of the right type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-25.vdm) at line 73:20
 Actual: [?]
 Expected: <QUOTE>
-Error 3051: Expression does not match declared type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-25.vdm) at line 32:15
+Error 3051: Expression does not match declared type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-25.vdm) at line 32:15
 Declared: <QUOTE>
-Expression: ([?] | bool | seq of (nat1) | seq1 of (((nat1 * bool) | bool | nat | seq1 of (char))) | seq1 of (((nat1 * bool) | nat1 | seq1 of (nat1))) | set of (nat1) | set1 of (((nat1 * bool) | nat1 | seq1 of (nat1))))
+Expression: ([?] | bool | seq of (nat1) | seq1 of (((nat1 * bool) | bool | nat | seq1 of (char))) | seq1 of (((nat1 * bool) | nat1 | seq1 of (nat1))) | set of (((nat1 * bool) | nat1 | seq1 of (nat1))) | set of (nat1))

@@ -1,4 +1,4 @@
 [5012, 5012]
 --
-Warning 5012: Recursive function has no measure in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/recfun/recfun-13.vdm) at line 23:1
-Warning 5012: Recursive function has no measure in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/recfun/recfun-13.vdm) at line 32:1
+Warning 5012: Recursive function has no measure in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/recfun/recfun-13.vdm) at line 23:1
+Warning 5012: Recursive function has no measure in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/recfun/recfun-13.vdm) at line 32:1

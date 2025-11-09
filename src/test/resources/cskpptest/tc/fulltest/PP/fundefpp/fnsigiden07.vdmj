@@ -1,8 +1,8 @@
 [3006, 3006]
 --
-Error 3006: Overriding definition reduces visibility in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/fundefpp/fnsigiden07.vpp) at line 25:1
+Error 3006: Overriding definition reduces visibility in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/fundefpp/fnsigiden07.vpp) at line 25:1
 This: fn1((int -> int))
 Super: fn1((int -> int))
-Error 3006: Overriding definition reduces visibility in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/fundefpp/fnsigiden07.vpp) at line 37:1
+Error 3006: Overriding definition reduces visibility in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/fundefpp/fnsigiden07.vpp) at line 37:1
 This: fn4((char -> int))
 Super: fn4((char -> int))

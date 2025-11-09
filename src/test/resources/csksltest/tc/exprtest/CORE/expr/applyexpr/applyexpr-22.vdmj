@@ -1,5 +1,5 @@
 [3182, 5000, 5012]
 --
-Error 3182: Name 'fxx' is not in scope in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/applyexpr/applyexpr-22.vdm) at line 47:29
-Warning 5000: Definition 'n' not used in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/applyexpr/applyexpr-22.vdm) at line 11:7
-Warning 5012: Recursive function has no measure in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/applyexpr/applyexpr-22.vdm) at line 34:3
+Error 3182: Name 'fxx' is not in scope in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/applyexpr/applyexpr-22.vdm) at line 47:29
+Warning 5000: Definition 'n' not used in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/applyexpr/applyexpr-22.vdm) at line 11:7
+Warning 5012: Recursive function has no measure in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/applyexpr/applyexpr-22.vdm) at line 34:3

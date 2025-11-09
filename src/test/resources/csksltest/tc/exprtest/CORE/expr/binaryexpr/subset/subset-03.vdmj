@@ -1,4 +1,4 @@
 [3177]
 --
-Error 3177: Left hand of subset is not a set in 'BinaryTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/binaryexpr/subset/subset-03.vdm) at line 13:13
+Error 3177: Left hand of subset is not a set in 'BinaryTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/binaryexpr/subset/subset-03.vdm) at line 13:13
 Type: nat1

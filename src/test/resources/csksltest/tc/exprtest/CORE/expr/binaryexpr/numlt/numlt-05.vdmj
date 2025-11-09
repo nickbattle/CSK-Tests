@@ -1,4 +1,4 @@
 [3139]
 --
-Error 3139: Left hand of < is not ordered in 'BinaryTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/binaryexpr/numlt/numlt-05.vdm) at line 13:12
+Error 3139: Left hand of < is not ordered in 'BinaryTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/binaryexpr/numlt/numlt-05.vdm) at line 13:12
 Actual: bool

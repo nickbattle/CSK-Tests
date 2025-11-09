@@ -1,5 +1,5 @@
 [3162]
 --
-Error 3162: Left and right of '\' are different types in 'BinaryTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/binaryexpr/setminus/setminus-07.vdm) at line 14:18
-Left: set1 of (bool)
-Right: (seq1 of (char) | set1 of (nat1))
+Error 3162: Left and right of '\' are different types in 'BinaryTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/binaryexpr/setminus/setminus-07.vdm) at line 14:18
+Left: set of (bool)
+Right: (seq1 of (char) | set of (nat1))

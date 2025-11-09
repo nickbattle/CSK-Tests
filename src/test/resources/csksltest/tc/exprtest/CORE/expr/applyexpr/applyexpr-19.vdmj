@@ -1,4 +1,4 @@
 [5000, 5012]
 --
-Warning 5000: Definition 'n' not used in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/applyexpr/applyexpr-19.vdm) at line 11:7
-Warning 5012: Recursive function has no measure in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/applyexpr/applyexpr-19.vdm) at line 34:3
+Warning 5000: Definition 'n' not used in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/applyexpr/applyexpr-19.vdm) at line 11:7
+Warning 5012: Recursive function has no measure in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/applyexpr/applyexpr-19.vdm) at line 34:3

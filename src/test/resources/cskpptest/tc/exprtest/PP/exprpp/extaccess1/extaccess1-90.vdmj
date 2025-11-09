@@ -1,5 +1,5 @@
 [3052, 3019, 3092]
 --
-Error 3052: Value type visibility less than value definition in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/exprtest/PP/exprpp/extaccess1/extaccess1-90.vpp) at line 73:10
-Error 3019: Function parameter visibility less than function definition in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/exprtest/PP/exprpp/extaccess1/extaccess1-90.vpp) at line 43:5
-Error 3092: Inaccessible member def_iv of class A in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/exprtest/PP/exprpp/extaccess1/extaccess1-90.vpp) at line 86:34
+Error 3052: Value type visibility less than value definition in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/exprtest/PP/exprpp/extaccess1/extaccess1-90.vpp) at line 73:10
+Error 3019: Function parameter visibility less than function definition in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/exprtest/PP/exprpp/extaccess1/extaccess1-90.vpp) at line 43:5
+Error 3092: Inaccessible member def_iv of class A in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/exprtest/PP/exprpp/extaccess1/extaccess1-90.vpp) at line 86:34

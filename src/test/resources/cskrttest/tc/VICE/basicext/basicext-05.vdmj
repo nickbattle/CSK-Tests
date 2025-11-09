@@ -1,4 +1,4 @@
 [3293, 5000]
 --
-Error 3293: Asynchronous operation 'DOITC(map (nat) to (nat), nat)' cannot return a value in 'C' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/basicext/basicext-05.vpp) at line 49:16
-Warning 5000: Definition 'i' not used in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/basicext/basicext-05.vpp) at line 61:10
+Error 3293: Asynchronous operation 'DOITC(map (nat) to (nat), nat)' cannot return a value in 'C' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/tc/VICE/basicext/basicext-05.vpp) at line 49:16
+Warning 5000: Definition 'i' not used in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/tc/VICE/basicext/basicext-05.vpp) at line 61:10

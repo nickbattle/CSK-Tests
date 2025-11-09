@@ -1,18 +1,18 @@
 [3327, 3129, 3182, 3182, 3182, 5000, 5000, 5008, 5008, 5008, 5008, 5000]
 --
-Error 3327: Value is not of the right type in 'LetStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/letstmt/letstmt.vdm) at line 27:26
+Error 3327: Value is not of the right type in 'LetStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/letstmt/letstmt.vdm) at line 27:26
 Actual: nat1
 Expected: bool
-Error 3129: Constructor field 2 is of wrong type in 'LetStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/letstmt/letstmt.vdm) at line 27:26
+Error 3129: Constructor field 2 is of wrong type in 'LetStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/letstmt/letstmt.vdm) at line 27:26
 Expected: bool
 Actual: nat1
-Error 3182: Name 'b' is not in scope in 'LetStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/letstmt/letstmt.vdm) at line 57:13
-Error 3182: Name 'b' is not in scope in 'LetStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/letstmt/letstmt.vdm) at line 68:13
-Error 3182: Name 'b' is not in scope in 'LetStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/letstmt/letstmt.vdm) at line 79:13
-Warning 5000: Definition 'b' not used in 'LetStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/letstmt/letstmt.vdm) at line 35:13
-Warning 5000: Definition 'arg2' not used in 'LetStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/letstmt/letstmt.vdm) at line 38:14
-Warning 5008: a at 78:8 hidden by a in 'LetStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/letstmt/letstmt.vdm) at line 79:9
-Warning 5008: a at 79:9 hidden by a in 'LetStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/letstmt/letstmt.vdm) at line 81:13
-Warning 5008: a at 79:9 hidden by a in 'LetStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/letstmt/letstmt.vdm) at line 82:18
-Warning 5008: a at 79:9 hidden by a in 'LetStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/letstmt/letstmt.vdm) at line 85:13
-Warning 5000: Definition 'a' not used in 'LetStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/stmt/letstmt/letstmt.vdm) at line 85:13
+Error 3182: Name 'b' is not in scope in 'LetStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/letstmt/letstmt.vdm) at line 57:13
+Error 3182: Name 'b' is not in scope in 'LetStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/letstmt/letstmt.vdm) at line 68:13
+Error 3182: Name 'b' is not in scope in 'LetStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/letstmt/letstmt.vdm) at line 79:13
+Warning 5000: Definition 'b' not used in 'LetStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/letstmt/letstmt.vdm) at line 35:13
+Warning 5000: Definition 'arg2' not used in 'LetStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/letstmt/letstmt.vdm) at line 38:14
+Warning 5008: a at 78:8 hidden by a in 'LetStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/letstmt/letstmt.vdm) at line 79:9
+Warning 5008: a at 79:9 hidden by a in 'LetStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/letstmt/letstmt.vdm) at line 81:13
+Warning 5008: a at 79:9 hidden by a in 'LetStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/letstmt/letstmt.vdm) at line 82:18
+Warning 5008: a at 79:9 hidden by a in 'LetStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/letstmt/letstmt.vdm) at line 85:13
+Warning 5000: Definition 'a' not used in 'LetStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/letstmt/letstmt.vdm) at line 85:13

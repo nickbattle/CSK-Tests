@@ -1,13 +1,13 @@
 [3206, 3311, 3139, 3140, 3205, 3311, 3182, 3182]
 --
-Error 3206: Matching expression is not a set type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-04.vdm) at line 31:13
-Error 3311: Pattern cannot match in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-04.vdm) at line 31:13
-Error 3139: Left hand of / is not numeric in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-04.vdm) at line 31:28
+Error 3206: Matching expression is not a set type in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-04.vdm) at line 31:13
+Error 3311: Pattern cannot match in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-04.vdm) at line 31:13
+Error 3139: Left hand of / is not numeric in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-04.vdm) at line 31:28
 Actual: map (nat1) to (char)
-Error 3140: Right hand of / is not numeric in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-04.vdm) at line 31:28
+Error 3140: Right hand of / is not numeric in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-04.vdm) at line 31:28
 Actual: map (nat1) to (char)
-Error 3205: Matching expression is not a product of cardinality 3 in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-04.vdm) at line 32:10
+Error 3205: Matching expression is not a product of cardinality 3 in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-04.vdm) at line 32:10
 Actual: map (nat1) to (char)
-Error 3311: Pattern cannot match in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-04.vdm) at line 32:10
-Error 3182: Name 'a' is not in scope in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-04.vdm) at line 32:24
-Error 3182: Name 'b' is not in scope in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-04.vdm) at line 32:28
+Error 3311: Pattern cannot match in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-04.vdm) at line 32:10
+Error 3182: Name 'a' is not in scope in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-04.vdm) at line 32:24
+Error 3182: Name 'b' is not in scope in 'CasesExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/casesexpr/casesexpr-04.vdm) at line 32:28

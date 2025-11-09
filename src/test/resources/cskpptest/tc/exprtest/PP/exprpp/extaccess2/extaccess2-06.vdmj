@@ -1,6 +1,6 @@
 [3052, 3019, 3091]
 --
-Error 3052: Value type visibility less than value definition in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/exprtest/PP/exprpp/extaccess2/extaccess2-06.vpp) at line 73:10
-Error 3019: Function parameter visibility less than function definition in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/exprtest/PP/exprpp/extaccess2/extaccess2-06.vpp) at line 43:5
-Error 3091: Unknown member A`def_op(nat1) of class B in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/exprtest/PP/exprpp/extaccess2/extaccess2-06.vpp) at line 86:16
-Possible: def_op(int)
+Error 3052: Value type visibility less than value definition in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/exprtest/PP/exprpp/extaccess2/extaccess2-06.vpp) at line 73:10
+Error 3019: Function parameter visibility less than function definition in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/exprtest/PP/exprpp/extaccess2/extaccess2-06.vpp) at line 43:5
+Error 3091: Unknown member A`def_op(nat1) of class B in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/exprtest/PP/exprpp/extaccess2/extaccess2-06.vpp) at line 86:16
+Possible (but private): def_op(int)

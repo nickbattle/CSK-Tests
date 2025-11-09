@@ -1,6 +1,6 @@
 [3139, 3182, 5000]
 --
-Error 3139: Left hand of < is not ordered in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-10.vdm) at line 11:14
-Actual: B
-Error 3182: Name 'b' is not in scope in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-10.vdm) at line 20:19
-Warning 5000: Definition 'b' not used in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-10.vdm) at line 20:22
+Error 3139: Left hand of < is not ordered in 'LetExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-10.vdm) at line 11:14
+Actual: B!
+Error 3182: Name 'b' is not in scope in 'LetExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-10.vdm) at line 20:19
+Warning 5000: Definition 'b' not used in 'LetExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-10.vdm) at line 20:22

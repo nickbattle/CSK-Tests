@@ -1,4 +1,4 @@
 [3134]
 --
-Error 3134: Class has no constructor with these parameter types in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/constructor/constructor-01.vpp) at line 25:10
+Error 3134: Class has no constructor with these parameter types in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/constructor/constructor-01.vpp) at line 25:10
 Called: A(seq1 of (nat1))

@@ -1,4 +1,4 @@
 [3071]
 --
-Error 3071: Left hand function must have a single parameter in 'NumExpTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/compose/compose-09.vdm) at line 30:13
+Error 3071: Left hand function must have a single parameter in 'NumExpTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/compose/compose-09.vdm) at line 30:13
 Type: (nat * nat +> nat)

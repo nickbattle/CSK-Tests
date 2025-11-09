@@ -1,5 +1,5 @@
 [3008]
 --
-Error 3008: Overloaded members indistinguishable: op in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/overload/overload-01.vpp) at line 8:1
+Error 3008: Overloaded members indistinguishable: op in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/overload/overload-01.vpp) at line 8:1
 op: (real ==> ())
 op: (nat ==> ())

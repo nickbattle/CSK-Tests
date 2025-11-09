@@ -1,6 +1,6 @@
 [3006, 3101]
 --
-Error 3006: Overriding definition reduces visibility in 'FctTypeInstExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/exprtest/PP/exprpp/fcttypeinstexpr/fcttypeinstexpr-12.vpp) at line 50:1
+Error 3006: Overriding definition reduces visibility in 'FctTypeInstExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/exprtest/PP/exprpp/fcttypeinstexpr/fcttypeinstexpr-12.vpp) at line 50:1
 This: f2(@p, @q)
 Super: f2(@p, int)
-Error 3101: Expecting 1 type parameters in 'FctTypeInstExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/exprtest/PP/exprpp/fcttypeinstexpr/fcttypeinstexpr-12.vpp) at line 63:11
+Error 3101: Expecting 1 type parameters in 'FctTypeInstExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/exprtest/PP/exprpp/fcttypeinstexpr/fcttypeinstexpr-12.vpp) at line 63:11

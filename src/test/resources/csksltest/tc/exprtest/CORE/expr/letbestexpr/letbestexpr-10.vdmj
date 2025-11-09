@@ -1,4 +1,4 @@
 [3197]
 --
-Error 3197: Expression matching set bind is not a set in 'LetBeSTExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letbestexpr/letbestexpr-10.vdm) at line 17:24
+Error 3197: Expression matching set bind is not a set in 'LetBeSTExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/letbestexpr/letbestexpr-10.vdm) at line 17:24
 Actual type: nat1

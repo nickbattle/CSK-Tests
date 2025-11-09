@@ -1,5 +1,5 @@
 [3267, 5000, 5012]
 --
-Error 3267: Empty map cannot be applied in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/applyexpr/applyexpr-04.vdm) at line 47:11
-Warning 5000: Definition 'n' not used in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/applyexpr/applyexpr-04.vdm) at line 11:7
-Warning 5012: Recursive function has no measure in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/applyexpr/applyexpr-04.vdm) at line 34:3
+Error 3267: Empty map cannot be applied in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/applyexpr/applyexpr-04.vdm) at line 47:11
+Warning 5000: Definition 'n' not used in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/applyexpr/applyexpr-04.vdm) at line 11:7
+Warning 5012: Recursive function has no measure in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/applyexpr/applyexpr-04.vdm) at line 34:3

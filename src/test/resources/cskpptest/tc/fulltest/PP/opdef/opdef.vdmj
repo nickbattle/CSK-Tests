@@ -1,10 +1,11 @@
-[3182, 3182, 3182, 3139, 3018, 3032, 3327, 3307, 3327, 3027, 3328, 3035, 3139, 5000, 5007, 5008, 5007, 3136, 5008, 5008, 5008, 5000, 5008, 5008, 3136, 5000]
+[3182, 3182, 3182, 3139, 3031, 3018, 3032, 3327, 3307, 3327, 3027, 3328, 3035, 3139, 5000, 5007, 5008, 5007, 3136, 5008, 5008, 5008, 5000, 5008, 5008, 3136, 5000]
 --
 Error 3182: Name 'OpDefTest`a~' is not in scope in 'OpDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 34:8
 Error 3182: Name 'OpDefTest`b~' is not in scope in 'OpDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 46:18
 Error 3182: Name 'OpDefTest`r' is not in scope in 'OpDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 47:14
 Error 3139: Left hand of + is not numeric in 'OpDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 52:15
 Actual: char
+Error 3031: Repeated ext state variable a in 'OpDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 55:13
 Error 3018: Postcondition returns unexpected type in 'OpDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/opdef/opdef.vpp) at line 58:3
 Actual: nat
 Expected: bool

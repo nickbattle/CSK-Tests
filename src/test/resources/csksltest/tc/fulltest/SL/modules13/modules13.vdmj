@@ -1,3 +1,3 @@
 [5000]
 --
-Warning 5000: Definition 'fA' not used in 'A' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules13/modules13.vdm) at line 19:3
+Warning 5000: Definition 'fA' not used in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules13/modules13.vdm) at line 19:3

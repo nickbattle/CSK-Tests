@@ -1,4 +1,4 @@
 [3183, 5000]
 --
-Error 3183: Exported function g not defined in module in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules14/modules14.vdm) at line 18:21
-Warning 5000: Definition 'g' not used in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules14/modules14.vdm) at line 16:42
+Error 3183: Exported function g not defined in module in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules14/modules14.vdm) at line 18:21
+Warning 5000: Definition 'g' not used in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules14/modules14.vdm) at line 16:42

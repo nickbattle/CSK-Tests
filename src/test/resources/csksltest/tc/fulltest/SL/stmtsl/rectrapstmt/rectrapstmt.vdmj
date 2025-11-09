@@ -1,42 +1,42 @@
 [3328, 3327, 3129, 3027, 3328, 3365, 5000, 5008, 5008, 5008, 5000, 5000, 5008, 5000, 5008, 5000, 5000, 5000, 5000, 5008, 5000, 5008, 5000, 5008, 5000, 5000, 5000, 5000, 5000, 5000]
 --
-Error 3328: Statement returns void value in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 40:5
+Error 3328: Statement returns void value in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 40:5
 Actual: ()
 Expected: (bool | nat)
-Error 3327: Value is not of the right type in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 33:33
+Error 3327: Value is not of the right type in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 33:33
 Actual: nat1
 Expected: bool
-Error 3129: Constructor field 2 is of wrong type in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 33:33
+Error 3129: Constructor field 2 is of wrong type in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 33:33
 Expected: bool
 Actual: nat1
-Error 3027: Operation returns unexpected type in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 30:3
+Error 3027: Operation returns unexpected type in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 30:3
 Actual: ()
 Expected: (bool | nat)
-Error 3328: Statement returns void value in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 54:18
+Error 3328: Statement returns void value in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 54:18
 Actual: ()
 Expected: (bool | nat)
-Error 3365: Void operation cannot use 'return <exp>' in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 69:19
-Warning 5000: Definition 'b' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 18:9
-Warning 5008: a at 10:3 hidden by a in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 19:9
-Warning 5008: a at 19:9 hidden by a in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 19:19
-Warning 5008: a at 10:3 hidden by a in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 24:9
-Warning 5000: Definition 'a' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 24:9
-Warning 5000: Definition 'b' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 24:13
-Warning 5008: stid at 11:3 hidden by stid in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 25:9
-Warning 5000: Definition 's' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 25:20
-Warning 5008: a at 10:3 hidden by a in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 32:13
-Warning 5000: Definition 'a' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 32:13
-Warning 5000: Definition 'yyy' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 38:14
-Warning 5000: Definition 'b' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 44:9
-Warning 5000: Definition 'c' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 44:17
-Warning 5008: a at 10:3 hidden by a in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 45:9
-Warning 5000: Definition 't' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 53:14
-Warning 5008: a at 10:3 hidden by a in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 56:5
-Warning 5000: Definition 'a' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 56:5
-Warning 5008: a at 10:3 hidden by a in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 66:9
-Warning 5000: Definition 'a' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 66:9
-Warning 5000: Definition 't' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 69:9
-Warning 5000: Definition 'u' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 69:13
-Warning 5000: Definition 'RecTrap1' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 16:3
-Warning 5000: Definition 'RecTrap5' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 51:3
-Warning 5000: Definition 'RecTrap6' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 64:3
+Error 3365: Void operation cannot use 'return <exp>' in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 69:19
+Warning 5000: Definition 'b' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 18:9
+Warning 5008: a at 10:3 hidden by a in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 19:9
+Warning 5008: a at 19:9 hidden by a in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 19:19
+Warning 5008: a at 10:3 hidden by a in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 24:9
+Warning 5000: Definition 'a' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 24:9
+Warning 5000: Definition 'b' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 24:13
+Warning 5008: stid at 11:3 hidden by stid in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 25:9
+Warning 5000: Definition 's' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 25:20
+Warning 5008: a at 10:3 hidden by a in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 32:13
+Warning 5000: Definition 'a' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 32:13
+Warning 5000: Definition 'yyy' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 38:14
+Warning 5000: Definition 'b' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 44:9
+Warning 5000: Definition 'c' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 44:17
+Warning 5008: a at 10:3 hidden by a in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 45:9
+Warning 5000: Definition 't' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 53:14
+Warning 5008: a at 10:3 hidden by a in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 56:5
+Warning 5000: Definition 'a' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 56:5
+Warning 5008: a at 10:3 hidden by a in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 66:9
+Warning 5000: Definition 'a' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 66:9
+Warning 5000: Definition 't' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 69:9
+Warning 5000: Definition 'u' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 69:13
+Warning 5000: Definition 'RecTrap1' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 16:3
+Warning 5000: Definition 'RecTrap5' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 51:3
+Warning 5000: Definition 'RecTrap6' not used in 'RecTrapStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/rectrapstmt/rectrapstmt.vdm) at line 64:3

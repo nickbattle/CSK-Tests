@@ -1,6 +1,6 @@
 [3049, 3237, 3236, 3238]
 --
-Error 3049: Thread statement/operation must not return a value in 'Thread2' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskthreads/tc/fulltest/PP/parallel/startstmt/startstmt.vpp) at line 14:3
-Error 3237: Class does not define a thread in 'StartStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskthreads/tc/fulltest/PP/parallel/startstmt/startstmt.vpp) at line 46:11
-Error 3236: Class does not define a thread in 'StartStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskthreads/tc/fulltest/PP/parallel/startstmt/startstmt.vpp) at line 66:15
-Error 3238: Expression is not an object reference or set of object references in 'StartStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskthreads/tc/fulltest/PP/parallel/startstmt/startstmt.vpp) at line 70:11
+Error 3049: Thread statement/operation must not return a value in 'Thread2' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskthreads/tc/fulltest/PP/parallel/startstmt/startstmt.vpp) at line 14:3
+Error 3237: Class does not define a thread in 'StartStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskthreads/tc/fulltest/PP/parallel/startstmt/startstmt.vpp) at line 46:11
+Error 3236: Class does not define a thread in 'StartStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskthreads/tc/fulltest/PP/parallel/startstmt/startstmt.vpp) at line 66:15
+Error 3238: Expression is not an object reference or set of object references in 'StartStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskthreads/tc/fulltest/PP/parallel/startstmt/startstmt.vpp) at line 70:11

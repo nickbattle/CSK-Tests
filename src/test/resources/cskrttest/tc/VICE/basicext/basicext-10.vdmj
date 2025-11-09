@@ -1,4 +1,4 @@
 [3426, 3426]
 --
-Error 3426: Class CPU duplicates CPU in 'CPU' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/basicext/basicext-10.vpp) at line 1:7
+Error 3426: Class CPU duplicates CPU in 'CPU' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/tc/VICE/basicext/basicext-10.vpp) at line 1:7
 Error 3426: Class CPU duplicates CPU 

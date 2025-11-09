@@ -1,32 +1,32 @@
 [3020, 3139, 3327, 3018, 3327, 3018, 3327, 3302, 3066, 5000, 5000, 5000, 5000, 5000, 5008, 5000, 5001]
 --
-Error 3020: Too many parameter patterns in 'FunDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 12:3
+Error 3020: Too many parameter patterns in 'FunDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 12:3
 Pattern(s): a, b
 Type(s): (bool)
-Error 3139: Left hand of < is not ordered in 'FunDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 34:9
+Error 3139: Left hand of < is not ordered in 'FunDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 34:9
 Actual: char
-Error 3327: Value is not of the right type in 'FunDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 45:8
+Error 3327: Value is not of the right type in 'FunDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 45:8
 Actual: nat
 Expected: bool
-Error 3018: Postcondition returns unexpected type in 'FunDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 44:3
+Error 3018: Postcondition returns unexpected type in 'FunDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 44:3
 Actual: nat
 Expected: bool
-Error 3327: Value is not of the right type in 'FunDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 51:8
+Error 3327: Value is not of the right type in 'FunDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 51:8
 Actual: nat
 Expected: bool
-Error 3018: Postcondition returns unexpected type in 'FunDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 50:3
+Error 3018: Postcondition returns unexpected type in 'FunDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 50:3
 Actual: nat
 Expected: bool
-Error 3327: Value is not of the right type in 'FunDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 54:21
+Error 3327: Value is not of the right type in 'FunDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 54:21
 Actual: nat
 Expected: bool
-Error 3302: State variable 'FunDefTest`inst' cannot be accessed from this context in 'FunDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 59:5
-Error 3066: Right hand of and is not bool in 'FunDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 68:31
-Warning 5000: Definition 'a' not used in 'FunDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 13:11
-Warning 5000: Definition 'b' not used in 'FunDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 13:13
-Warning 5000: Definition 'i' not used in 'FunDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 33:9
-Warning 5000: Definition 'a' not used in 'FunDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 44:11
-Warning 5000: Definition 'b' not used in 'FunDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 44:13
-Warning 5008: r at 47:12 hidden by r in 'FunDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 47:20
-Warning 5000: Definition 'r' not used in 'FunDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 47:20
-Warning 5001: Instance variable 'inst' is not initialized in 'FunDefTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 4:3
+Error 3302: State variable 'FunDefTest`inst' cannot be accessed from this context in 'FunDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 59:5
+Error 3066: Right hand of and is not bool in 'FunDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 68:31
+Warning 5000: Definition 'a' not used in 'FunDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 13:11
+Warning 5000: Definition 'b' not used in 'FunDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 13:13
+Warning 5000: Definition 'i' not used in 'FunDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 33:9
+Warning 5000: Definition 'a' not used in 'FunDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 44:11
+Warning 5000: Definition 'b' not used in 'FunDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 44:13
+Warning 5008: r at 47:12 hidden by r in 'FunDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 47:20
+Warning 5000: Definition 'r' not used in 'FunDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 47:20
+Warning 5001: Instance variable 'inst' is not initialized in 'FunDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/fundefpp/fundefpp.vpp) at line 4:3

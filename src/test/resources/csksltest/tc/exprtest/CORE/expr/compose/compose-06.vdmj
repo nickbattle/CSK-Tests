@@ -1,4 +1,4 @@
 [3074]
 --
-Error 3074: Left hand of 'comp' is neither a map nor a function in 'NumExpTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/compose/compose-06.vdm) at line 31:13
+Error 3074: Left hand of 'comp' is neither a map nor a function in 'NumExpTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/compose/compose-06.vdm) at line 31:13
 Type: nat1

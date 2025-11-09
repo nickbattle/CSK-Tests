@@ -1,4 +1,4 @@
 [3138]
 --
-Error 3138: Argument of 'not in set' is not a set in 'BinaryTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/binaryexpr/notinset/notinset-05.vdm) at line 13:14
+Error 3138: Argument of 'not in set' is not a set in 'BinaryTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/binaryexpr/notinset/notinset-05.vdm) at line 13:14
 Actual: char

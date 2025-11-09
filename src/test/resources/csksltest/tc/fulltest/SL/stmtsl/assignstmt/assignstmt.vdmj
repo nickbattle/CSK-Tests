@@ -1,13 +1,13 @@
 [3247, 5008, 5000, 5008, 5000, 5000, 5000, 5000, 5000, 5000, 5000]
 --
-Error 3247: Unknown state variable 'c' in assignment in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/assignstmt/assignstmt.vdm) at line 27:5
-Warning 5008: a at 5:3 hidden by a in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/assignstmt/assignstmt.vdm) at line 36:9
-Warning 5000: Definition 'c' not used in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/assignstmt/assignstmt.vdm) at line 42:10
-Warning 5008: b at 6:3 hidden by b in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/assignstmt/assignstmt.vdm) at line 46:13
-Warning 5000: Definition 'Assign1' not used in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/assignstmt/assignstmt.vdm) at line 17:3
-Warning 5000: Definition 'Assign2' not used in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/assignstmt/assignstmt.vdm) at line 21:3
-Warning 5000: Definition 'Assign3' not used in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/assignstmt/assignstmt.vdm) at line 25:3
-Warning 5000: Definition 'Assign4' not used in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/assignstmt/assignstmt.vdm) at line 29:3
-Warning 5000: Definition 'Assign5' not used in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/assignstmt/assignstmt.vdm) at line 34:3
-Warning 5000: Definition 'Assign6' not used in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/assignstmt/assignstmt.vdm) at line 40:3
-Warning 5000: Definition 'Assign7' not used in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/assignstmt/assignstmt.vdm) at line 45:3
+Error 3247: Unknown state variable 'c' in assignment in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/assignstmt/assignstmt.vdm) at line 27:5
+Warning 5008: a at 5:3 hidden by a in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/assignstmt/assignstmt.vdm) at line 36:9
+Warning 5000: Definition 'c' not used in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/assignstmt/assignstmt.vdm) at line 42:10
+Warning 5008: b at 6:3 hidden by b in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/assignstmt/assignstmt.vdm) at line 46:13
+Warning 5000: Definition 'Assign1' not used in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/assignstmt/assignstmt.vdm) at line 17:3
+Warning 5000: Definition 'Assign2' not used in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/assignstmt/assignstmt.vdm) at line 21:3
+Warning 5000: Definition 'Assign3' not used in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/assignstmt/assignstmt.vdm) at line 25:3
+Warning 5000: Definition 'Assign4' not used in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/assignstmt/assignstmt.vdm) at line 29:3
+Warning 5000: Definition 'Assign5' not used in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/assignstmt/assignstmt.vdm) at line 34:3
+Warning 5000: Definition 'Assign6' not used in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/assignstmt/assignstmt.vdm) at line 40:3
+Warning 5000: Definition 'Assign7' not used in 'AssignStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/assignstmt/assignstmt.vdm) at line 45:3

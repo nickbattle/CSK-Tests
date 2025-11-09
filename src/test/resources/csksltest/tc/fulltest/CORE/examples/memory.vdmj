@@ -1,4 +1,4 @@
 [5000, 5000]
 --
-Warning 5000: Definition 'access' not used in 'Example3' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/examples/memory.vdm) at line 19:18
-Warning 5000: Definition 'mem' not used in 'Example3' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/CORE/examples/memory.vdm) at line 55:24
+Warning 5000: Definition 'access' not used in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/examples/memory.vdm) at line 19:18
+Warning 5000: Definition 'mem' not used in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/examples/memory.vdm) at line 55:24

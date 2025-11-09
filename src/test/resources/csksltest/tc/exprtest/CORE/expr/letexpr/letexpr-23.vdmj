@@ -1,9 +1,9 @@
 [3139, 5000, 5000, 5000, 5000, 5000]
 --
-Error 3139: Left hand of < is not ordered in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-23.vdm) at line 11:14
-Actual: B
-Warning 5000: Definition 'c' not used in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-23.vdm) at line 24:26
-Warning 5000: Definition 'ini_i' not used in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-23.vdm) at line 32:13
-Warning 5000: Definition 'po_h' not used in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-23.vdm) at line 28:13
-Warning 5000: Definition 'pr_g' not used in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-23.vdm) at line 24:13
-Warning 5000: Definition 'iv_f' not used in 'LetExprTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-23.vdm) at line 20:15
+Error 3139: Left hand of < is not ordered in 'LetExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-23.vdm) at line 11:14
+Actual: B!
+Warning 5000: Definition 'c' not used in 'LetExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-23.vdm) at line 24:26
+Warning 5000: Definition 'ini_i' not used in 'LetExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-23.vdm) at line 32:13
+Warning 5000: Definition 'po_h' not used in 'LetExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-23.vdm) at line 28:13
+Warning 5000: Definition 'pr_g' not used in 'LetExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-23.vdm) at line 24:13
+Warning 5000: Definition 'iv_f' not used in 'LetExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/exprtest/CORE/expr/letexpr/letexpr-23.vdm) at line 20:15

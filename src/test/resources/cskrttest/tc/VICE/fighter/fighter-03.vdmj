@@ -1,9 +1,9 @@
 [3285, 5041, 5041, 5041, 5000, 5000, 5000]
 --
-Error 3285: System class can only define a default constructor in 'FighterAircraft' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/fighter/fighter-03.vpp) at line 56:10
-Warning 5041: Add explicit type 'SENSOR_APERATURE : nat1' here in 'GLOBAL' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/fighter/fighter-03.vpp) at line 368:10
-Warning 5041: Add explicit type 'FLARE_APERATURE : nat1' here in 'GLOBAL' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/fighter/fighter-03.vpp) at line 369:10
-Warning 5041: Add explicit type 'DISPENSER_APERATURE : nat1' here in 'GLOBAL' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/fighter/fighter-03.vpp) at line 370:10
-Warning 5000: Definition 'env' not used in 'FighterAircraft' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/fighter/fighter-03.vpp) at line 57:20
-Warning 5000: Definition 'controller' not used in 'World' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/fighter/fighter-03.vpp) at line 116:11
-Warning 5000: Definition 'fname' not used in 'Environment' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskrttest/tc/VICE/fighter/fighter-03.vpp) at line 427:16
+Error 3285: System class can only define a default constructor in 'FighterAircraft' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/tc/VICE/fighter/fighter-03.vpp) at line 56:10
+Warning 5041: Add explicit type 'SENSOR_APERATURE : nat1' here in 'GLOBAL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/tc/VICE/fighter/fighter-03.vpp) at line 368:10
+Warning 5041: Add explicit type 'FLARE_APERATURE : nat1' here in 'GLOBAL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/tc/VICE/fighter/fighter-03.vpp) at line 369:10
+Warning 5041: Add explicit type 'DISPENSER_APERATURE : nat1' here in 'GLOBAL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/tc/VICE/fighter/fighter-03.vpp) at line 370:10
+Warning 5000: Definition 'env' not used in 'FighterAircraft' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/tc/VICE/fighter/fighter-03.vpp) at line 57:20
+Warning 5000: Definition 'controller' not used in 'World' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/tc/VICE/fighter/fighter-03.vpp) at line 116:11
+Warning 5000: Definition 'fname' not used in 'Environment' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskrttest/tc/VICE/fighter/fighter-03.vpp) at line 427:16

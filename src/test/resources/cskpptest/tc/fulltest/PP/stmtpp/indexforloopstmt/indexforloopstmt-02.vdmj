@@ -1,4 +1,4 @@
 [5008, 5000]
 --
-Warning 5008: i at 5:3 hidden by i in 'IndexForLoopTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/indexforloopstmt/indexforloopstmt-02.vpp) at line 11:9
-Warning 5000: Definition 'i' not used in 'IndexForLoopTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/cskpptest/tc/fulltest/PP/stmtpp/indexforloopstmt/indexforloopstmt-02.vpp) at line 11:9
+Warning 5008: i at 5:3 hidden by i in 'IndexForLoopTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/stmtpp/indexforloopstmt/indexforloopstmt-02.vpp) at line 11:9
+Warning 5000: Definition 'i' not used in 'IndexForLoopTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/fulltest/PP/stmtpp/indexforloopstmt/indexforloopstmt-02.vpp) at line 11:9

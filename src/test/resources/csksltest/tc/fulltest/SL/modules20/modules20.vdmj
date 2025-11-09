@@ -1,6 +1,6 @@
 [5007, 5007, 5000, 5000]
 --
-Warning 5007: Duplicate definition: g in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules20/modules20.vdm) at line 17:25
-Warning 5007: Duplicate definition: g in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules20/modules20.vdm) at line 21:1
-Warning 5000: Definition 'g' not used in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules20/modules20.vdm) at line 17:25
-Warning 5000: Definition 'g' not used in 'B' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/modules20/modules20.vdm) at line 21:1
+Warning 5007: Duplicate definition: g in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules20/modules20.vdm) at line 17:25
+Warning 5007: Duplicate definition: g in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules20/modules20.vdm) at line 21:1
+Warning 5000: Definition 'g' not used in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules20/modules20.vdm) at line 17:25
+Warning 5000: Definition 'g' not used in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules20/modules20.vdm) at line 21:1
