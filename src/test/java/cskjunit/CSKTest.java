@@ -95,7 +95,7 @@ abstract public class CSKTest extends TestCase
 	}
 
 	// Set this to TRUE to re-create vdmj expected files from actual errors
-	protected final static boolean REBUILD_EXPECTED_RESULTS = true;
+	protected final static boolean REBUILD_EXPECTED_RESULTS = false;
 
 
 	protected void processSL(String rpath, int syn, int tc, boolean rt, AssertType at)

@@ -1,7 +1,13 @@
 Proof Obligation 1: (Unchecked)
 Obligation requires VDM10
-SpecificationStmt1(nat, nat): operation satisfiability obligation in 'SpecificationStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/stmtpp/specificationstmt/specificationstmt-01.vpp) at line 11:4
+SpecificationStmt1(nat, nat): statement satisfiability obligation in 'SpecificationStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/stmtpp/specificationstmt/specificationstmt-01.vpp) at line 11:4
 (forall arg1:nat, arg2:nat, obj_SpecificationStmtTest(inst1 |-> inst1, inst2 |-> inst2):SpecificationStmtTest &
   (let inst2$ = inst2 in
     inst1 => exists inst1:bool, inst2:nat & ((inst2 = (inst2$ + arg1)) and (res = (arg2 * 8.7)))))
+
+Proof Obligation 2: (Unchecked)
+Obligation requires VDM10
+SpecificationStmt1(nat, nat): specification precondition obligation in 'SpecificationStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/stmtpp/specificationstmt/specificationstmt-01.vpp) at line 11:4
+(forall arg1:nat, arg2:nat, obj_SpecificationStmtTest(inst1 |-> inst1, inst2 |-> inst2):SpecificationStmtTest &
+  inst1)
 
