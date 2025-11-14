@@ -1,5 +1,5 @@
 Proof Obligation 1: (Unproved)
-invariant preservation for next for-loop
+check invariant before for-loop
 SeqForLoop1: loop invariant obligation in 'SeqForLoopTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/stmt/seqforloopstmt/seqforloopstmt-01.vdm) at line 10:5
 (-- Missing @LoopInvariant, assuming true at 10:5
   (let $LoopInvariant : bool = true in
@@ -16,7 +16,7 @@ SeqForLoop2: loop invariant obligation in 'SeqForLoopTest' (/home/nick/eclipse.v
         $LoopInvariant))))
 
 Proof Obligation 3: (Unproved)
-invariant preservation for next for-loop
+check invariant before for-loop
 SeqForLoop2: loop invariant obligation in 'SeqForLoopTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/stmt/seqforloopstmt/seqforloopstmt-01.vdm) at line 16:6
 (forall arg:bool | (seq1 of ((nat) * (bool))) &
   (-- Missing @LoopInvariant, assuming true at 15:5
@@ -30,6 +30,7 @@ SeqForLoop2: loop invariant obligation in 'SeqForLoopTest' (/home/nick/eclipse.v
                   $LoopInvariant)))))))))
 
 Proof Obligation 4: (Unproved)
+invariant preservation for next for-loop
 SeqForLoop2: loop invariant obligation in 'SeqForLoopTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/stmt/seqforloopstmt/seqforloopstmt-01.vdm) at line 16:6
 (forall arg:bool | (seq1 of ((nat) * (bool))) &
   (-- Missing @LoopInvariant, assuming true at 15:5
