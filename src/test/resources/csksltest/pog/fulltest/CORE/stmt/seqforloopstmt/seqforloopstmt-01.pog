@@ -46,21 +46,3 @@ SeqForLoop2: loop invariant obligation in 'SeqForLoopTest' (/home/nick/eclipse.v
                       (let DONE_15$ : seq of ((nat) * (bool)) = (DONE_15$ ^ [mk_(a, $any1)]) in
                         $LoopInvariant))))))))))))
 
-Proof Obligation 5: (Unproved)
-invariant preservation for next for-loop
-SeqForLoop2: loop invariant obligation in 'SeqForLoopTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/stmt/seqforloopstmt/seqforloopstmt-01.vdm) at line 16:6
-(forall arg:bool | (seq1 of ((nat) * (bool))) &
-  (-- Missing @LoopInvariant, assuming true at 15:5
-    (let $LoopInvariant : bool = true in
-      ((arg <> []) =>
-        (forall a:nat, DONE_15$:seq of ((nat) * (bool)), $any1:bool &
-          (((DONE_15$ ^ [mk_(a, $any1)]) = (arg(1, ..., ((len DONE_15$) + 1)))) and $LoopInvariant =>
-            (-- Missing @LoopInvariant, assuming true at 16:6
-              (let $LoopInvariant : bool = true in
-                (([true] = []) =>
-                  (-- Did not enter loop at 16:6
-                    (let DONE_16$ : seq of bool = [] in
-                      ($LoopInvariant =>
-                        (let DONE_15$ : seq of ((nat) * (bool)) = (DONE_15$ ^ [mk_(a, $any1)]) in
-                          $LoopInvariant)))))))))))))
-
