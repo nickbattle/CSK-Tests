@@ -1,6 +1,0 @@
-Proof Obligation 1: (Unchecked)
-Obligation requires VDM10
-Test1(): operation pre condition obligation in 'X' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/apply/apply.vpp) at line 26:9
-(forall obj_X():X &
-  pre_((new A().bop)))
-
