@@ -1,17 +1,17 @@
-Proof Obligation 1: (Unproved)
-foo(nat): subtype obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/recfun/recfun-08.vpp) at line 10:23
-(forall n:nat &
-  (not (n = 0) =>
-    (let foo : seq of nat1 = [x | x in set {1, 2, 3}] in
-      (foo(1) - 1) >= 0)))
-
-Proof Obligation 2: (Unchecked)
+Proof Obligation 1: (Unchecked)
 Obligation for missing measure function
 foo(nat): recursive function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/recfun/recfun-08.vpp) at line 10:11
 (forall n:nat &
   (not (n = 0) =>
     (let foo : seq of nat1 = [x | x in set {1, 2, 3}] in
       measure_foo(n) > measure_foo(foo(1) - 1))))
+
+Proof Obligation 2: (Unproved)
+foo(nat): subtype obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/recfun/recfun-08.vpp) at line 10:23
+(forall n:nat &
+  (not (n = 0) =>
+    (let foo : seq of nat1 = [x | x in set {1, 2, 3}] in
+      (foo(1) - 1) >= 0)))
 
 Proof Obligation 3: (Unchecked)
 Obligation for missing measure function
@@ -21,20 +21,20 @@ foo(nat): recursive function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Test
     (let foo : seq of nat1 = [x | x in set {1, 2, 3}] in
       measure_foo(n) > measure_foo(1))))
 
-Proof Obligation 4: (Unproved)
-goo(nat): subtype obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/recfun/recfun-08.vpp) at line 16:21
-(forall n:nat &
-  (not (n = 0) =>
-    (let goo : seq of nat1 = [x | x in set {1, 2, 3}] in
-      (goo(1) - 1) >= 0)))
-
-Proof Obligation 5: (Unchecked)
+Proof Obligation 4: (Unchecked)
 Obligation for missing measure function
 goo(nat): recursive function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/recfun/recfun-08.vpp) at line 16:11
 (forall n:nat &
   (not (n = 0) =>
     (let goo : seq of nat1 = [x | x in set {1, 2, 3}] in
       measure_goo(n) > measure_goo(goo(1) - 1))))
+
+Proof Obligation 5: (Unproved)
+goo(nat): subtype obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/recfun/recfun-08.vpp) at line 16:21
+(forall n:nat &
+  (not (n = 0) =>
+    (let goo : seq of nat1 = [x | x in set {1, 2, 3}] in
+      (goo(1) - 1) >= 0)))
 
 Proof Obligation 6: (Unchecked)
 Obligation for missing measure function

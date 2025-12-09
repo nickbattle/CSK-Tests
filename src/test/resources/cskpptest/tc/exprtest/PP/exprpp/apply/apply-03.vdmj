@@ -1,3 +1,4 @@
-[5000]
+[5000, 5012]
 --
 Warning 5000: Definition 'n' not used in 'X' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/exprtest/PP/exprpp/apply/apply-03.vpp) at line 36:9
+Warning 5012: Recursive operation has no measure in 'ApplyTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/tc/exprtest/PP/exprpp/apply/apply-03.vpp) at line 6:3

@@ -3,3 +3,9 @@ f(nat); pre_f(nat): total function obligation in 'B' (/home/nick/eclipse.vdmj/CS
 (forall n:nat &
   is_(pre_f(n), bool))
 
+Proof Obligation 2: (Unchecked)
+Obligation requires VDM10
+InvokeStmt12(B): recursive operation obligation in 'InvokeStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/stmtpp/invokestmt/invokestmt-03.vpp) at line 90:5
+(forall b2:B, obj_InvokeStmtTest(a |-> a, b |-> b, c |-> c, c2 |-> c2):InvokeStmtTest &
+  measure_InvokeStmt12(b2, new InvokeStmtTest(a, b, c, c2)) > measure_InvokeStmt12(c2, new InvokeStmtTest(a, b, c, c2)))
+

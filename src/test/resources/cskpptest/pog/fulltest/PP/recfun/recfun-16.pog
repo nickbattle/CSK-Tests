@@ -1,52 +1,52 @@
-Proof Obligation 1: (Unproved)
+Proof Obligation 1: (Unchecked)
+Obligation for missing measure function
+foo(nat): recursive function obligation in 'F' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/recfun/recfun-16.vpp) at line 9:8
+(forall n:nat &
+  (not (n = 0) =>
+    measure_foo(n) > measure_G`goo(n - 1)))
+
+Proof Obligation 2: (Unproved)
 foo(nat): subtype obligation in 'F' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/recfun/recfun-16.vpp) at line 9:15
 (forall n:nat &
   (not (n = 0) =>
     (n - 1) >= 0))
 
-Proof Obligation 2: (Unchecked)
+Proof Obligation 3: (Unchecked)
 Obligation for missing measure function
-foo(nat): recursive function obligation in 'F' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/recfun/recfun-16.vpp) at line 9:8
+goo(nat): recursive function obligation in 'G' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/recfun/recfun-16.vpp) at line 24:8
 (forall n:nat &
   (not (n = 0) =>
-    measure_foo(n) > measure_goo(n - 1)))
+    measure_goo(n) > measure_H`hoo(n - 1)))
 
-Proof Obligation 3: (Unproved)
+Proof Obligation 4: (Unproved)
 goo(nat): subtype obligation in 'G' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/recfun/recfun-16.vpp) at line 24:15
 (forall n:nat &
   (not (n = 0) =>
     (n - 1) >= 0))
 
-Proof Obligation 4: (Unchecked)
+Proof Obligation 5: (Unchecked)
 Obligation for missing measure function
-goo(nat): recursive function obligation in 'G' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/recfun/recfun-16.vpp) at line 24:8
+hoo(nat): recursive function obligation in 'H' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/recfun/recfun-16.vpp) at line 40:8
 (forall n:nat &
   (not (n = 0) =>
-    measure_goo(n) > measure_hoo(n - 1)))
+    measure_hoo(n) > measure_F`foo(n - 1)))
 
-Proof Obligation 5: (Unproved)
+Proof Obligation 6: (Unproved)
 hoo(nat): subtype obligation in 'H' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/recfun/recfun-16.vpp) at line 40:15
 (forall n:nat &
   (not (n = 0) =>
     (n - 1) >= 0))
 
-Proof Obligation 6: (Unchecked)
-Obligation for missing measure function
-hoo(nat): recursive function obligation in 'H' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/recfun/recfun-16.vpp) at line 40:8
-(forall n:nat &
-  (not (n = 0) =>
-    measure_hoo(n) > measure_foo(n - 1)))
-
-Proof Obligation 7: (Unproved)
-ioo(nat): subtype obligation in 'I' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/recfun/recfun-16.vpp) at line 51:24
-(forall n:nat &
-  (not (n = 0) =>
-    (n - 1) >= 0))
-
-Proof Obligation 8: (Unchecked)
+Proof Obligation 7: (Unchecked)
 Obligation for missing measure function
 ioo(nat): recursive function obligation in 'I' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/recfun/recfun-16.vpp) at line 51:19
 (forall n:nat &
   (not (n = 0) =>
     measure_ioo(n) > measure_ioo(n - 1)))
+
+Proof Obligation 8: (Unproved)
+ioo(nat): subtype obligation in 'I' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/recfun/recfun-16.vpp) at line 51:24
+(forall n:nat &
+  (not (n = 0) =>
+    (n - 1) >= 0))
 

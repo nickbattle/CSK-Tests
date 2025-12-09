@@ -1,39 +1,39 @@
-Proof Obligation 1: (Unproved)
-f: subtype obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-04.vdm) at line 14:20
-(forall n:nat &
-  (not (n = 0) =>
-    (n - 1) >= 0))
-
-Proof Obligation 2: (Unchecked)
+Proof Obligation 1: (Unchecked)
 Obligation for missing measure function
 f: recursive function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-04.vdm) at line 14:17
 (forall n:nat &
   (not (n = 0) =>
     measure_f(n) > measure_h(n - 1)))
 
-Proof Obligation 3: (Unproved)
-h: subtype obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-04.vdm) at line 19:20
+Proof Obligation 2: (Unproved)
+f: subtype obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-04.vdm) at line 14:20
 (forall n:nat &
   (not (n = 0) =>
     (n - 1) >= 0))
 
-Proof Obligation 4: (Unchecked)
+Proof Obligation 3: (Unchecked)
 Obligation for missing measure function
 h: recursive function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-04.vdm) at line 19:17
 (forall n:nat &
   (not (n = 0) =>
     measure_h(n) > measure_g(n - 1)))
 
-Proof Obligation 5: (Unproved)
-g: subtype obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-04.vdm) at line 24:20
+Proof Obligation 4: (Unproved)
+h: subtype obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-04.vdm) at line 19:20
 (forall n:nat &
   (not (n = 0) =>
     (n - 1) >= 0))
 
-Proof Obligation 6: (Unchecked)
+Proof Obligation 5: (Unchecked)
 Obligation for missing measure function
 g: recursive function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-04.vdm) at line 24:17
 (forall n:nat &
   (not (n = 0) =>
     measure_g(n) > measure_f(n - 1)))
+
+Proof Obligation 6: (Unproved)
+g: subtype obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-04.vdm) at line 24:20
+(forall n:nat &
+  (not (n = 0) =>
+    (n - 1) >= 0))
 

@@ -1,11 +1,18 @@
 Proof Obligation 1: (Unchecked)
 Obligation requires VDM10
+Test1(nat): recursive operation obligation in 'ApplyTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/exprtest/PP/exprpp/apply/apply-02.vpp) at line 9:14
+(forall n:nat, obj_ApplyTest():ApplyTest &
+  ((n > 0) =>
+    measure_Test1(n, new ApplyTest()) > measure_Test1(n - 1, new ApplyTest())))
+
+Proof Obligation 2: (Unchecked)
+Obligation requires VDM10
 Test1(nat): subtype obligation in 'ApplyTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/exprtest/PP/exprpp/apply/apply-02.vpp) at line 9:21
 (forall n:nat, obj_ApplyTest():ApplyTest &
   ((n > 0) =>
     (n - 1) >= 0))
 
-Proof Obligation 2: (Unchecked)
+Proof Obligation 3: (Unchecked)
 Obligation requires VDM10
 Test(): let be st existence obligation in 'ApplyTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/exprtest/PP/exprpp/apply/apply-02.vpp) at line 24:15
 (forall obj_ApplyTest():ApplyTest &

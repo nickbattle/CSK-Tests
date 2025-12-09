@@ -1,4 +1,4 @@
-[3327, 3129, 3140, 5000, 5000, 5000, 5000, 5000, 5000]
+[3327, 3129, 3140, 5000, 5000, 5000, 5000, 5000, 5000, 5012]
 --
 Error 3327: Value is not of the right type in 'DefStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/defstmt/defstmt.vdm) at line 28:26
 Actual: nat1
@@ -14,3 +14,4 @@ Warning 5000: Definition 'a' not used in 'DefStmtTest' (/home/nick/eclipse.vdmj/
 Warning 5000: Definition 'n' not used in 'DefStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/defstmt/defstmt.vdm) at line 47:8
 Warning 5000: Definition 'a' not used in 'DefStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/defstmt/defstmt.vdm) at line 54:13
 Warning 5000: Definition 'n' not used in 'DefStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/defstmt/defstmt.vdm) at line 53:8
+Warning 5012: Recursive operation has no measure in 'DefStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/defstmt/defstmt.vdm) at line 46:3

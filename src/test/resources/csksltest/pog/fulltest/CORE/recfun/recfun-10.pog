@@ -5,16 +5,16 @@ nest: recursive function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/ta
   (not (n = 0) =>
     measure_nest(n) > measure_nest(nest((n - 1)))))
 
-Proof Obligation 2: (Unproved)
-nest: subtype obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-10.vdm) at line 16:19
-(forall n:nat &
-  (not (n = 0) =>
-    (n - 1) >= 0))
-
-Proof Obligation 3: (Unchecked)
+Proof Obligation 2: (Unchecked)
 Obligation for missing measure function
 nest: recursive function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-10.vdm) at line 16:13
 (forall n:nat &
   (not (n = 0) =>
     measure_nest(n) > measure_nest(n - 1)))
+
+Proof Obligation 3: (Unproved)
+nest: subtype obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-10.vdm) at line 16:19
+(forall n:nat &
+  (not (n = 0) =>
+    (n - 1) >= 0))
 

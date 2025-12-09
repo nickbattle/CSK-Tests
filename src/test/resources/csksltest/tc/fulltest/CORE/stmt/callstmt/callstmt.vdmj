@@ -1,4 +1,4 @@
-[3217, 3213, 3216, 5000]
+[3217, 3213, 3216, 5000, 5012, 5012, 5012]
 --
 Error 3217: Unexpected type for argument 1 in 'CallStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/callstmt/callstmt.vdm) at line 27:10
 Expected: bool
@@ -6,3 +6,6 @@ Actual: nat1
 Error 3213: Operation DummyCall is not in scope in 'CallStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/callstmt/callstmt.vdm) at line 31:5
 Error 3216: Expecting 0 arguments in 'CallStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/callstmt/callstmt.vdm) at line 35:5
 Warning 5000: Definition 'n' not used in 'CallStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/callstmt/callstmt.vdm) at line 9:9
+Warning 5012: Recursive operation has no measure in 'CallStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/callstmt/callstmt.vdm) at line 14:3
+Warning 5012: Recursive operation has no measure in 'CallStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/callstmt/callstmt.vdm) at line 24:3
+Warning 5012: Recursive operation has no measure in 'CallStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/CORE/stmt/callstmt/callstmt.vdm) at line 8:3

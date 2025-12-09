@@ -1,8 +1,11 @@
-[3217, 5000, 5008, 5000]
+[3217, 5000, 5008, 5012, 5012, 5012, 5000]
 --
-Error 3217: Unexpected type for argument 1 in 'CallStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/callstmt/callstmt.vdm) at line 30:10
+Error 3217: Unexpected type for argument 1 in 'CallStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/callstmt/callstmt.vdm) at line 30:10
 Expected: bool
 Actual: nat1
-Warning 5000: Definition 'n' not used in 'CallStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/callstmt/callstmt.vdm) at line 12:9
-Warning 5008: b at 6:3 hidden by b in 'CallStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/callstmt/callstmt.vdm) at line 28:9
-Warning 5000: Definition 'Call3' not used in 'CallStmtTest' (/home/nick/eclipse.vdmj/CSKTests_V4/cskjunit/csksltest/tc/fulltest/SL/stmtsl/callstmt/callstmt.vdm) at line 22:3
+Warning 5000: Definition 'n' not used in 'CallStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/callstmt/callstmt.vdm) at line 12:9
+Warning 5008: b at 6:3 hidden by b in 'CallStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/callstmt/callstmt.vdm) at line 28:9
+Warning 5012: Recursive operation has no measure in 'CallStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/callstmt/callstmt.vdm) at line 17:3
+Warning 5012: Recursive operation has no measure in 'CallStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/callstmt/callstmt.vdm) at line 27:3
+Warning 5012: Recursive operation has no measure in 'CallStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/callstmt/callstmt.vdm) at line 11:3
+Warning 5000: Definition 'Call3' not used in 'CallStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/stmtsl/callstmt/callstmt.vdm) at line 22:3

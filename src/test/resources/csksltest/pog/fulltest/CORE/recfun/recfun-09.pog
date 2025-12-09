@@ -1,17 +1,17 @@
-Proof Obligation 1: (Unproved)
-half: subtype obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-09.vdm) at line 17:18
-(forall n:nat &
-  (not (n = 0) =>
-    (not (n = 1) =>
-      (n - 2) >= 0)))
-
-Proof Obligation 2: (Unchecked)
+Proof Obligation 1: (Unchecked)
 Obligation for missing measure function
 half: recursive function obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-09.vdm) at line 17:12
 (forall n:nat &
   (not (n = 0) =>
     (not (n = 1) =>
       measure_half(n) > measure_half(n - 2))))
+
+Proof Obligation 2: (Unproved)
+half: subtype obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/recfun/recfun-09.vdm) at line 17:18
+(forall n:nat &
+  (not (n = 0) =>
+    (not (n = 1) =>
+      (n - 2) >= 0)))
 
 Proof Obligation 3: (Unchecked)
 Obligation for missing measure function

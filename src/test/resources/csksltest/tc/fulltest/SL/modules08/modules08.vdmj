@@ -1,4 +1,4 @@
-[3327, 5041, 5041, 5008, 5000, 5000, 5000]
+[3327, 5041, 5041, 5008, 5000, 5012, 5000, 5000]
 --
 Error 3327: Value is not of the right type in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules08/modules08.vdm) at line 153:46
 Actual: seq of (token)
@@ -7,5 +7,6 @@ Warning 5041: Add explicit type 'tok : token' here in 'B' (/home/nick/eclipse.vd
 Warning 5041: Add explicit type 'l : seq of (nat1)' here in 'B' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules08/modules08.vdm) at line 14:3
 Warning 5008: s at 52:3 hidden by s in 'C' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules08/modules08.vdm) at line 29:7
 Warning 5000: Definition 's' not used in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules08/modules08.vdm) at line 139:9
+Warning 5012: Recursive operation has no measure in 'C' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules08/modules08.vdm) at line 28:3
 Warning 5000: Definition 'A' not used in 'E' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules08/modules08.vdm) at line 91:3
 Warning 5000: Definition 'B' not used in 'E' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/tc/fulltest/SL/modules08/modules08.vdm) at line 92:3
