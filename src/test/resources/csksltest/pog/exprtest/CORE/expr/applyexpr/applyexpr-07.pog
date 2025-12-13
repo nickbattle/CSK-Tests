@@ -47,7 +47,3 @@ h: recursive function obligation in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSK
   ((v = <RED>) =>
     measure_h(v) > measure_h(<GREEN>)))
 
-Proof Obligation 11: (Unproved)
-Test: subtype obligation in 'ApplyExprTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/expr/applyexpr/applyexpr-07.vdm) at line 47:17
-is_(5, T!)
-
