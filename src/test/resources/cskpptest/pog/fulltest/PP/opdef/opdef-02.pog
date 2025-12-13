@@ -9,7 +9,7 @@ myf(nat); pre_myf(nat): total function obligation in 'OpDefTest' (/home/nick/ecl
   is_(pre_myf(n), bool))
 
 Proof Obligation 3: (Unproved)
-myf(nat); post_myf(nat, nat): post condition obligation in 'OpDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/opdef/opdef-02.vpp) at line 82:3
+myf(nat); post_myf(nat, nat): postcondition obligation in 'OpDefTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/opdef/opdef-02.vpp) at line 82:3
 (forall n:nat &
   pre_myf(n) => post_myf(n, (n + 9)))
 

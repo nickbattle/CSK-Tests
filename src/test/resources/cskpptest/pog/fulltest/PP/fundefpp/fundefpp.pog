@@ -16,7 +16,7 @@ FunDefSl7(@A, @A, seq of (nat)); pre_FunDefSl7(@A, @A, seq of (nat)): total func
   is_(pre_FunDefSl7[@A](a1, a2, l1 ^ l2), bool))
 
 Proof Obligation 4: (Unproved)
-FunDefSl7(@A, @A, seq of (nat)); post_FunDefSl7(@A, @A, seq of (nat), (@A * bool)): post condition obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/fundefpp/fundefpp.vpp) at line 14:3
+FunDefSl7(@A, @A, seq of (nat)); post_FunDefSl7(@A, @A, seq of (nat), (@A * bool)): postcondition obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/fundefpp/fundefpp.vpp) at line 14:3
 (forall a1:@A, a2:@A, l1 ^ l2:seq of nat &
   pre_FunDefSl7[@A](a1, a2, (l1 ^ l2)) => post_FunDefSl7[@A](a1, a2, (l1 ^ l2), mk_(a1, (a1 = a2))))
 

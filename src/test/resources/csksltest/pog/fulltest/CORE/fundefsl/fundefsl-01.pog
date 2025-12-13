@@ -9,7 +9,7 @@ FunDefSl7; pre_FunDefSl7: total function obligation in 'A' (/home/nick/eclipse.v
   is_(pre_FunDefSl7[@A](a1, a2, l1 ^ l2), bool))
 
 Proof Obligation 3: (Unproved)
-FunDefSl7; post_FunDefSl7: post condition obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/fundefsl/fundefsl-01.vdm) at line 23:3
+FunDefSl7; post_FunDefSl7: postcondition obligation in 'A' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/fundefsl/fundefsl-01.vdm) at line 23:3
 (forall a1:@A, a2:@A, l1 ^ l2:seq of nat &
   pre_FunDefSl7[@A](a1, a2, (l1 ^ l2)) => post_FunDefSl7[@A](a1, a2, (l1 ^ l2), mk_(a1, (a1 = a2))))
 

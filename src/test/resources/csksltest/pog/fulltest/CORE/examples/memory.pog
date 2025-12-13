@@ -81,7 +81,7 @@ Alloc3; pre_Alloc3: total function obligation in 'Example3' (/home/nick/eclipse.
   is_(pre_Alloc3(addr, mk_State(mem, access, used), mem2), bool))
 
 Proof Obligation 16: (Unproved)
-Alloc3; post_Alloc3: post condition obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 65:1
+Alloc3; post_Alloc3: postcondition obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 65:1
 (forall addr:ADDR, mk_State(mem, access, used):State, mem2:map ADDR to CON &
   pre_Alloc3(addr, mk_State(mem, access, used), mem2) => post_Alloc3(addr, mk_State(mem, access, used), mem2, let used' : set of ADDR = (used union {addr}), mem' : map ADDR to CON = (mem munion {addr |-> let c:CON in c}) in mk_State(mem', access, used')))
 
@@ -121,7 +121,7 @@ Alloc3: subtype obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/targ
     inv_State(mk_State(mem', access, used'))))
 
 Proof Obligation 23: (Unproved)
-AllocSafe; post_AllocSafe: post condition obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 78:1
+AllocSafe; post_AllocSafe: postcondition obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 78:1
 (forall addr:ADDR, sta:State &
   post_AllocSafe(addr, sta, (Safe(sta) => Safe(Alloc(addr, sta)))))
 
@@ -142,7 +142,7 @@ AllocSafe0; pre_AllocSafe0: total function obligation in 'Example3' (/home/nick/
   is_(pre_AllocSafe0(addr, sta), bool))
 
 Proof Obligation 27: (Unproved)
-AllocSafe0; post_AllocSafe0: post condition obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 83:1
+AllocSafe0; post_AllocSafe0: postcondition obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 83:1
 (forall addr:ADDR, sta:State &
   pre_AllocSafe0(addr, sta) => post_AllocSafe0(addr, sta, (Safe(sta) => Safe(Alloc(addr, sta)))))
 
@@ -163,7 +163,7 @@ AllocSafe2; pre_AllocSafe2: total function obligation in 'Example3' (/home/nick/
   is_(pre_AllocSafe2(addr, sta), bool))
 
 Proof Obligation 31: (Unproved)
-AllocSafe2; post_AllocSafe2: post condition obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 89:1
+AllocSafe2; post_AllocSafe2: postcondition obligation in 'Example3' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/memory.vdm) at line 89:1
 (forall addr:ADDR, sta:State &
   pre_AllocSafe2(addr, sta) => post_AllocSafe2(addr, sta, (Safe(sta) => Safe(Alloc(addr, sta)))))
 

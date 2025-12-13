@@ -1,5 +1,5 @@
 Proof Obligation 1: (Unproved)
-ControlCycle; post_ControlCycle: post condition obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 15:3
+ControlCycle; post_ControlCycle: postcondition obligation in 'SAFERCL' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/safer.vdm) at line 15:3
 (forall mk_SwitchPositions(mode, aah):SwitchPositions, raw_grip:HandGripPosition, aah_cmd:RotCommand, saferstate:SAFER, aahstate:AAH &
   post_ControlCycle(mk_SwitchPositions(mode, aah), raw_grip, aah_cmd, saferstate, aahstate, let mk_SAFER(clock) : SAFER = saferstate, grip_cmd : SixDofCommand = GripCommand(raw_grip, mode), thrusters : ThrusterSet = SelectedThrusters(grip_cmd, aah_cmd, (aahstate.active_axes), (aahstate.ignore_hcm)), aahstate' : AAH = Transition(aah, grip_cmd, clock, aahstate), saferstate' : SAFER = mu(saferstate, clock |-> (clock + 1)) in mk_(thrusters, saferstate', aahstate')))
 

@@ -1,6 +1,6 @@
 Proof Obligation 1: (Unchecked)
 Obligation requires VDM10
-InvokeStmt7(): operation pre condition obligation in 'InvokeStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/stmtpp/invokestmt/invokestmt-04.vpp) at line 53:5
+InvokeStmt7(): operation precondition obligation in 'InvokeStmtTest' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/cskpptest/pog/fulltest/PP/stmtpp/invokestmt/invokestmt-04.vpp) at line 53:5
 (forall obj_InvokeStmtTest(a |-> a, b |-> b, c |-> c, c2 |-> c2):InvokeStmtTest &
   pre_((c.MetPars1), 1, 4, 9))
 

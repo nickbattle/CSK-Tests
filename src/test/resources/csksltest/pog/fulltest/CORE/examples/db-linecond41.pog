@@ -586,7 +586,7 @@ Add_TrackC; pre_Add_TrackC: map apply obligation in 'Interlock' (/home/nick/ecli
           tcid1 in set dom (ar.trackcs))))))
 
 Proof Obligation 86: (Unproved)
-Add_TrackC; post_Add_TrackC: post condition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 293:1
+Add_TrackC; post_Add_TrackC: postcondition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 293:1
 (forall ar:Area, tcid:TrackC_id, tc:TrackC &
   pre_Add_TrackC(ar, tcid, tc) => post_Add_TrackC(ar, tcid, tc, mu(ar, trackcs |-> ((ar.trackcs) ++ {tcid |-> tc}))))
 
@@ -614,7 +614,7 @@ Del_TrackC; pre_Del_TrackC: total function obligation in 'Interlock' (/home/nick
   is_(pre_Del_TrackC(ar, tcid), bool))
 
 Proof Obligation 91: (Unproved)
-Del_TrackC; post_Del_TrackC: post condition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 307:1
+Del_TrackC; post_Del_TrackC: postcondition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 307:1
 (forall ar:Area, tcid:TrackC_id &
   pre_Del_TrackC(ar, tcid) => post_Del_TrackC(ar, tcid, mu(ar, trackcs |-> ({tcid} <-: (ar.trackcs)))))
 
@@ -656,7 +656,7 @@ Add_Joint; pre_Add_Joint: map apply obligation in 'Interlock' (/home/nick/eclips
                 tid1 in set dom (ar.trackcs)))))))))
 
 Proof Obligation 97: (Unproved)
-Add_Joint; post_Add_Joint: post condition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 318:1
+Add_Joint; post_Add_Joint: postcondition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 318:1
 (forall ar:Area, tid:TrackC_id, jid:Joint_id, joint:Joint &
   pre_Add_Joint(ar, tid, jid, joint) => post_Add_Joint(ar, tid, jid, joint, let tc : TrackC = (ar.trackcs)(tid) in mu(ar, trackcs |-> ((ar.trackcs) ++ {tid |-> mu(tc, joints |-> ((tc.joints) ++ {jid |-> joint}))}))))
 
@@ -832,7 +832,7 @@ Del_Joint; pre_Del_Joint: map apply obligation in 'Interlock' (/home/nick/eclips
       tcid in set dom (ar.trackcs))))
 
 Proof Obligation 116: (Unproved)
-Del_Joint; post_Del_Joint: post condition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 346:1
+Del_Joint; post_Del_Joint: postcondition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 346:1
 (forall ar:Area, tcid:TrackC_id, jid:Joint_id &
   pre_Del_Joint(ar, tcid, jid) => post_Del_Joint(ar, tcid, jid, let tc : TrackC = (ar.trackcs)(tcid) in mu(ar, trackcs |-> ((ar.trackcs) ++ {tcid |-> mu(tc, joints |-> ({jid} <-: (tc.joints)))}))))
 
@@ -1004,7 +1004,7 @@ Add_Path; pre_Add_Path: function apply obligation in 'Interlock' (/home/nick/ecl
       pre_Direction_Correct((ar.trackcs), path))))
 
 Proof Obligation 134: (Unproved)
-Add_Path; post_Add_Path: post condition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 371:1
+Add_Path; post_Add_Path: postcondition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 371:1
 (forall ar:Area, pid:Path_id, path:Path &
   pre_Add_Path(ar, pid, path) => post_Add_Path(ar, pid, path, mu(ar, paths |-> ((ar.paths) ++ {pid |-> path}))))
 
@@ -1032,7 +1032,7 @@ Del_Path; pre_Del_Path: total function obligation in 'Interlock' (/home/nick/ecl
   is_(pre_Del_Path(ar, pid), bool))
 
 Proof Obligation 139: (Unproved)
-Del_Path; post_Del_Path: post condition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 386:1
+Del_Path; post_Del_Path: postcondition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 386:1
 (forall ar:Area, pid:Path_id &
   pre_Del_Path(ar, pid) => post_Del_Path(ar, pid, mu(ar, paths |-> ({pid} <-: (ar.paths)))))
 
@@ -1071,7 +1071,7 @@ Add_Route; pre_Add_Route: function apply obligation in 'Interlock' (/home/nick/e
           pre_Path_Connected((ar.paths), (r.paths), (r.dr)))))))
 
 Proof Obligation 145: (Unproved)
-Add_Route; post_Add_Route: post condition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 396:1
+Add_Route; post_Add_Route: postcondition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 396:1
 (forall ar:Area, rid:Route_id, r:Route &
   pre_Add_Route(ar, rid, r) => post_Add_Route(ar, rid, r, mu(ar, routes |-> ((ar.routes) ++ {rid |-> r}))))
 
@@ -1094,7 +1094,7 @@ Del_Route; pre_Del_Route: total function obligation in 'Interlock' (/home/nick/e
   is_(pre_Del_Route(ar, rid), bool))
 
 Proof Obligation 149: (Unproved)
-Del_Route; post_Del_Route: post condition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 410:1
+Del_Route; post_Del_Route: postcondition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 410:1
 (forall ar:Area, rid:Route_id &
   pre_Del_Route(ar, rid) => post_Del_Route(ar, rid, mu(ar, routes |-> ({rid} <-: (ar.routes)))))
 
@@ -1145,7 +1145,7 @@ Add_Condition; pre_Add_Condition: map apply obligation in 'Interlock' (/home/nic
         (p.tc) in set dom (ar.trackcs)))))
 
 Proof Obligation 157: (Unproved)
-Add_Condition; post_Add_Condition: post condition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 419:1
+Add_Condition; post_Add_Condition: postcondition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 419:1
 (forall ar:Area, pid:Path_id, con:Condition &
   pre_Add_Condition(ar, pid, con) => post_Add_Condition(ar, pid, con, let p : Path = mu((ar.paths)(pid), condition |-> (((ar.paths)(pid).condition) union {con})) in mu(ar, paths |-> ((ar.paths) ++ {pid |-> p}))))
 
@@ -1329,7 +1329,7 @@ Del_Condition; pre_Del_Condition: map apply obligation in 'Interlock' (/home/nic
     pid in set dom (ar.paths)))
 
 Proof Obligation 177: (Unproved)
-Del_Condition; post_Del_Condition: post condition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 444:1
+Del_Condition; post_Del_Condition: postcondition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 444:1
 (forall ar:Area, pid:Path_id, kind:Cond_Kind, startr:nat, endp:nat &
   pre_Del_Condition(ar, pid, kind, startr, endp) => post_Del_Condition(ar, pid, kind, startr, endp, let p : Path = mu((ar.paths)(pid), condition |-> {l | l in set ((ar.paths)(pid).condition) & (not (((l.kind) = kind) and (((l.startr) = startr) and ((l.endp) = endp))))}) in mu(ar, paths |-> ((ar.paths) ++ {pid |-> p}))))
 
@@ -1695,7 +1695,7 @@ Add_Area; pre_Add_Area: total function obligation in 'Interlock' (/home/nick/ecl
   is_(pre_Add_Area(ln, aid, kind, max), bool))
 
 Proof Obligation 220: (Unproved)
-Add_Area; post_Add_Area: post condition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 553:1
+Add_Area; post_Add_Area: postcondition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 553:1
 (forall ln:Line, aid:Area_id, kind:Area_Kind, max:MaxSpeed &
   pre_Add_Area(ln, aid, kind, max) => post_Add_Area(ln, aid, kind, max, mu(ln, areas |-> ((ln.areas) ++ {aid |-> mk_Area({|->}, {|->}, {|->}, kind, max)}))))
 
@@ -1731,7 +1731,7 @@ Change_Area; pre_Change_Area: subtype obligation in 'Interlock' (/home/nick/ecli
     inv_Line(mk_Line(((ln.areas) ++ {aid |-> area}), (ln.connect)))))
 
 Proof Obligation 227: (Unproved)
-Change_Area; post_Change_Area: post condition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 560:1
+Change_Area; post_Change_Area: postcondition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 560:1
 (forall ln:Line, aid:Area_id, area:Area &
   pre_Change_Area(ln, aid, area) => post_Change_Area(ln, aid, area, mu(ln, areas |-> ((ln.areas) ++ {aid |-> area}))))
 
@@ -1752,7 +1752,7 @@ Del_Area; pre_Del_Area: total function obligation in 'Interlock' (/home/nick/ecl
   is_(pre_Del_Area(ln, aid), bool))
 
 Proof Obligation 231: (Unproved)
-Del_Area; post_Del_Area: post condition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 569:1
+Del_Area; post_Del_Area: postcondition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 569:1
 (forall ln:Line, aid:Area_id &
   pre_Del_Area(ln, aid) => post_Del_Area(ln, aid, mu(ln, areas |-> ({aid} <-: (ln.areas)))))
 
@@ -1849,7 +1849,7 @@ Add_Connect; pre_Add_Connect: map apply obligation in 'Interlock' (/home/nick/ec
               (n2.no) in set dom (tc2.joints))))))))
 
 Proof Obligation 242: (Unproved)
-Add_Connect; post_Add_Connect: post condition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 579:1
+Add_Connect; post_Add_Connect: postcondition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 579:1
 (forall ln:Line, con:Connect, r:Remark_Connect &
   pre_Add_Connect(ln, con, r) => post_Add_Connect(ln, con, r, mu(ln, connect |-> ((ln.connect) ++ {con |-> r}))))
 
@@ -1877,7 +1877,7 @@ Del_Connect; pre_Del_Connect: total function obligation in 'Interlock' (/home/ni
   is_(pre_Del_Connect(ln, n), bool))
 
 Proof Obligation 247: (Unproved)
-Del_Connect; post_Del_Connect: post condition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 599:1
+Del_Connect; post_Del_Connect: postcondition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 599:1
 (forall ln:Line, n:Area_Joint &
   pre_Del_Connect(ln, n) => post_Del_Connect(ln, n, mu(ln, connect |-> {c |-> (ln.connect)(c) | c in set (dom (ln.connect)) & (n not in set c)})))
 
@@ -1909,7 +1909,7 @@ Line_Add_TrackC; pre_Line_Add_TrackC: map apply obligation in 'Interlock' (/home
     aid in set dom (ln.areas)))
 
 Proof Obligation 253: (Unproved)
-Line_Add_TrackC; post_Line_Add_TrackC: post condition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 608:1
+Line_Add_TrackC; post_Line_Add_TrackC: postcondition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 608:1
 (forall ln:Line, aid:Area_id, tcid:TrackC_id, tc:TrackC &
   pre_Line_Add_TrackC(ln, aid, tcid, tc) => post_Line_Add_TrackC(ln, aid, tcid, tc, mu(ln, areas |-> ((ln.areas) ++ {aid |-> Add_TrackC((ln.areas)(aid), tcid, tc)}))))
 
@@ -1991,7 +1991,7 @@ Line_Del_TrackC; pre_Line_Del_TrackC: map apply obligation in 'Interlock' (/home
     aid in set dom (ln.areas)))
 
 Proof Obligation 264: (Unproved)
-Line_Del_TrackC; post_Line_Del_TrackC: post condition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 627:1
+Line_Del_TrackC; post_Line_Del_TrackC: postcondition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 627:1
 (forall ln:Line, aid:Area_id, tcid:TrackC_id &
   pre_Line_Del_TrackC(ln, aid, tcid) => post_Line_Del_TrackC(ln, aid, tcid, mu(ln, areas |-> ((ln.areas) ++ {aid |-> Del_TrackC((ln.areas)(aid), tcid)}))))
 
@@ -2050,7 +2050,7 @@ Line_Add_Joint; pre_Line_Add_Joint: map apply obligation in 'Interlock' (/home/n
     aid in set dom (ln.areas)))
 
 Proof Obligation 273: (Unproved)
-Line_Add_Joint; post_Line_Add_Joint: post condition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 642:1
+Line_Add_Joint; post_Line_Add_Joint: postcondition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 642:1
 (forall ln:Line, aid:Area_id, tcid:TrackC_id, jid:Joint_id, j:Joint &
   pre_Line_Add_Joint(ln, aid, tcid, jid, j) => post_Line_Add_Joint(ln, aid, tcid, jid, j, mu(ln, areas |-> ((ln.areas) ++ {aid |-> Add_Joint((ln.areas)(aid), tcid, jid, j)}))))
 
@@ -2244,7 +2244,7 @@ Line_Del_Joint; pre_Line_Del_Joint: map apply obligation in 'Interlock' (/home/n
     aid in set dom (ln.areas)))
 
 Proof Obligation 293: (Unproved)
-Line_Del_Joint; post_Line_Del_Joint: post condition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 663:1
+Line_Del_Joint; post_Line_Del_Joint: postcondition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 663:1
 (forall ln:Line, aid:Area_id, tcid:TrackC_id, jid:Joint_id &
   pre_Line_Del_Joint(ln, aid, tcid, jid) => post_Line_Del_Joint(ln, aid, tcid, jid, mu(ln, areas |-> ((ln.areas) ++ {aid |-> Del_Joint((ln.areas)(aid), tcid, jid)}))))
 
@@ -2426,7 +2426,7 @@ Line_Add_Path; pre_Line_Add_Path: map apply obligation in 'Interlock' (/home/nic
             c in set dom (ln.connect)))))))
 
 Proof Obligation 313: (Unproved)
-Line_Add_Path; post_Line_Add_Path: post condition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 684:1
+Line_Add_Path; post_Line_Add_Path: postcondition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 684:1
 (forall ln:Line, aid:Area_id, pid:Path_id, p:Path &
   pre_Line_Add_Path(ln, aid, pid, p) => post_Line_Add_Path(ln, aid, pid, p, mu(ln, areas |-> ((ln.areas) ++ {aid |-> Add_Path((ln.areas)(aid), pid, p)}))))
 
@@ -2506,7 +2506,7 @@ Line_Del_Path; pre_Line_Del_Path: map apply obligation in 'Interlock' (/home/nic
     aid in set dom (ln.areas)))
 
 Proof Obligation 324: (Unproved)
-Line_Del_Path; post_Line_Del_Path: post condition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 703:1
+Line_Del_Path; post_Line_Del_Path: postcondition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 703:1
 (forall ln:Line, aid:Area_id, pid:Path_id &
   pre_Line_Del_Path(ln, aid, pid) => post_Line_Del_Path(ln, aid, pid, mu(ln, areas |-> ((ln.areas) ++ {aid |-> Del_Path((ln.areas)(aid), pid)}))))
 
@@ -2564,7 +2564,7 @@ Line_Add_Route; pre_Line_Add_Route: map apply obligation in 'Interlock' (/home/n
     aid in set dom (ln.areas)))
 
 Proof Obligation 333: (Unproved)
-Line_Add_Route; post_Line_Add_Route: post condition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 716:1
+Line_Add_Route; post_Line_Add_Route: postcondition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 716:1
 (forall ln:Line, aid:Area_id, rid:Route_id, r:Route &
   pre_Line_Add_Route(ln, aid, rid, r) => post_Line_Add_Route(ln, aid, rid, r, mu(ln, areas |-> ((ln.areas) ++ {aid |-> Add_Route((ln.areas)(aid), rid, r)}))))
 
@@ -2644,7 +2644,7 @@ Line_Del_Route; pre_Line_Del_Route: map apply obligation in 'Interlock' (/home/n
     aid in set dom (ln.areas)))
 
 Proof Obligation 344: (Unproved)
-Line_Del_Route; post_Line_Del_Route: post condition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 729:1
+Line_Del_Route; post_Line_Del_Route: postcondition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 729:1
 (forall ln:Line, aid:Area_id, rid:Route_id &
   pre_Line_Del_Route(ln, aid, rid) => post_Line_Del_Route(ln, aid, rid, mu(ln, areas |-> ((ln.areas) ++ {aid |-> Del_Route((ln.areas)(aid), rid)}))))
 
@@ -3037,7 +3037,7 @@ Path_Exists_after_End: map apply obligation in 'Interlock' (/home/nick/eclipse.v
                       dr in set dom (p1.used))))))))))))
 
 Proof Obligation 392: (Unproved)
-StartJoint; post_StartJoint: post condition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 851:1
+StartJoint; post_StartJoint: postcondition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 851:1
 (forall path:Path, dr:Direction &
   post_StartJoint(path, dr, (if (dr = <ADIR>) then (path.startr) else (path.endp))))
 
@@ -3047,7 +3047,7 @@ StartJoint; post_StartJoint: total function obligation in 'Interlock' (/home/nic
   is_(post_StartJoint(path, dr, RESULT), bool))
 
 Proof Obligation 394: (Unproved)
-EndJoint; post_EndJoint: post condition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 857:1
+EndJoint; post_EndJoint: postcondition obligation in 'Interlock' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/fulltest/CORE/examples/db-linecond41.vdm) at line 857:1
 (forall path:Path, dr:Direction &
   post_EndJoint(path, dr, (if (dr = <ADIR>) then (path.endp) else (path.startr))))
 
