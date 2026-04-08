@@ -7,8 +7,3 @@ Proof Obligation 2: (Unproved)
 C: invariant satisfiability obligation in 'Test' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/iscompatible/subtype/subtype-034.vdm) at line 14:7
 exists c : real & (c < 7)
 
-Proof Obligation 3: (Unproved)
-CJ: subtype obligation in 'Test' (/home/nick/eclipse.vdmj/CSK-Tests/target/test-classes/csksltest/pog/exprtest/CORE/iscompatible/subtype/subtype-034.vdm) at line 84:8
-(forall x:C &
-  is_(x, J))
-
